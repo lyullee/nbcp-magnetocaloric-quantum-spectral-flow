@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-11T16:48:05.368422+00:00",
+  "created_utc": "2026-10-11T21:27:21.756391+00:00",
   "runtime": {
     "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
     "platform": "Windows-11-10.0.26200-SP0",
@@ -9,8 +9,8 @@
   },
   "files": {
     "make_bulk_manifest.py": {
-      "sha256": "fe854d49467c8c01e01f8bcbf2efc71a9132f477b7ca16b4cb73a5a72dbd2d9b",
-      "bytes": 10267
+      "sha256": "7de4fd096424c1500991773aa4d5daed3aa150cb86b2dc24b68b745c82af6579",
+      "bytes": 11447
     },
     ".gitignore": {
       "sha256": "b398818272df96c2981fbbb59773b4a48f87b1b401ded8de62d6463365ff92c3",
@@ -21,12 +21,12 @@
       "bytes": 1347
     },
     "README.md": {
-      "sha256": "a1dc47c6cf449011da203fe4319916a92c447781834d17d5bd6894dbd42b9491",
-      "bytes": 4536
+      "sha256": "3dfdc231f30e43f3444fd0a7a7d5472181c05793c01f0e8df6ede33e36876ab3",
+      "bytes": 5079
     },
     "REPRODUCE.md": {
-      "sha256": "d39fce44f7002a39b5717fa1b4ba36092fa268e29c07c7f85f26dd30075cd0fc",
-      "bytes": 3609
+      "sha256": "ab93eb28261bb2b0b18e5d41444d945c40675f19580d37c68cd88f1dc224982f",
+      "bytes": 4266
     },
     "RELEASE_NOTES_v0.1.0.md": {
       "sha256": "7a0d72ed918f9391b0223eb5557d2a1534038c491ac9e3d6a7bb14096a1bf23a",
@@ -53,8 +53,8 @@
       "bytes": 5202
     },
     "bulk_polarized_stability.py": {
-      "sha256": "e766804306c5ceb867801ec5d1a89e537742329514058111d15e7daddbd801c9",
-      "bytes": 8579
+      "sha256": "d3bf15b50bcb37f640056ea2f44d224a9840d01c28fe7f4b77d052ad8d3a3f53",
+      "bytes": 9749
     },
     "validate_bulk_stability_convergence.py": {
       "sha256": "66bd51c94f2e54df53db20e6381afd6efb041cab15ab874f11995e8b390da3b9",
@@ -308,6 +308,30 @@
       "sha256": "7e8e16f8f5899cfa2f94c5a94293bc2cb6457d7ab6a73fd7290faf6d843a12ed",
       "bytes": 14216
     },
+    "screen_interlayer_parameter_ensemble.py": {
+      "sha256": "8ad8803a11c3317b919518eb965e72d20bacb2dec8aafc29415967df223a56db",
+      "bytes": 15578
+    },
+    "stress_test_thermodynamic_shape.py": {
+      "sha256": "587bb9cd705a2ea1030bf42965eb9f3c569574475e28cc072f9583d9dafc73f3",
+      "bytes": 14967
+    },
+    "design_peak_measurement_target.py": {
+      "sha256": "5782d14fc12602620ccee7a221fd5ac0f1b3f0623c9793329d04386be007329d",
+      "bytes": 6665
+    },
+    "compile_refrigerator_design_chart.py": {
+      "sha256": "a7c0e28be20feb243313bf612505315718e7820d670240d0b2a4f09111d85e67",
+      "bytes": 7301
+    },
+    "test_bulk_polarized_stability.py": {
+      "sha256": "85ca3b8f9617dfaf866f507209e0d3bf21b0a16f6ed250ed7274bc87367bdfb9",
+      "bytes": 2465
+    },
+    "test_interlayer_robustness.py": {
+      "sha256": "cb4b771a49babc33ffc524ce981fb49e22062cb7adcd0fae37e1276839d2335d",
+      "bytes": 2101
+    },
     "verify_engineering_decision.py": {
       "sha256": "eac048d395867ad849002d699359c9c591fd08ef9890c5671ea1bd01f8c2f94b",
       "bytes": 3085
@@ -317,8 +341,8 @@
       "bytes": 7286
     },
     "verify_manuscript_claims.py": {
-      "sha256": "48d1c76f6a15359e2660f6741f21dde88767fb28ebbfd35532c71eeb17bfa9d8",
-      "bytes": 4322
+      "sha256": "0dbffa261e2ab83f8fe08100e1fdc4ff80a1e31667a3acec54f8825c50162c88",
+      "bytes": 5805
     },
     "Octave_QMagen_\uac80\uc99d\uacb0\uacfc_20261011.md": {
       "sha256": "316a76d6e5af30060029f9dbf16684b247549decfbf261db9fa6dd83cda28c77",
@@ -349,16 +373,20 @@
       "bytes": 9615
     },
     "\uacf5\ud559\uc758\uc0ac\uacb0\uc815_P0_P2_\uacb0\uacfc_20261012.md": {
-      "sha256": "0760851b817a958e0bcbeb30f8a1400b732c703e7addbc04a6b5107026fb44b3",
-      "bytes": 7450
+      "sha256": "17136857f57eb728e839419f75d061401c86342ddd72dd6a3f6bbd3d878811cd",
+      "bytes": 7968
     },
     "\uc138\uc158\ubaa9\ud45c_\ubc0f_\uc9c4\ud589\uc0c1\ud0dc_20261011.md": {
-      "sha256": "ed8bb32808bfb058aea3c021adc50d29cecf820aa9fcf8193f0d76989f804dd3",
-      "bytes": 19367
+      "sha256": "31c07d338bb799fdcce0916f7a802be6ff023aad3a517b91005eee4e378efdf4",
+      "bytes": 21008
     },
     "\uc5f0\uad6c\ubaa9\ud45c_\uc644\ub8cc\uac10\uc0ac_20261012.md": {
-      "sha256": "8e079361b96a0bc4f1fddd25799239c0623fab4a1d96c8b597cf8f0958da6352",
-      "bytes": 5898
+      "sha256": "96565c95b4c89bb4c6f90cbf822d14b73c60de7c8c25824cb0c6fb118e3fdc1f",
+      "bytes": 6347
+    },
+    "\uc6b0\uc120\uc21c\uc704_\ubcf4\uc644\uacb0\uacfc_20261012.md": {
+      "sha256": "0af3124df7695ec32d92240383243287908021cbd58fb479ee4e7c82779f2545",
+      "bytes": 5332
     },
     "\uc5f0\uad6c\uc2e4\ud589_\uccb4\ud06c\ub9ac\uc2a4\ud2b8_20261011.csv": {
       "sha256": "3fc0695a809a4d7c96863d76f1ad7a1c933f06ae75a854063392f523722efd4e",
@@ -377,16 +405,16 @@
       "bytes": 99
     },
     "manuscript/Manuscript_draft_20261012.md": {
-      "sha256": "ff348dff205d013e778a0bc16d0ce1fc84f8447dfa3c4f3b291694c139644c0f",
-      "bytes": 32474
+      "sha256": "ab6811fa67dce8c4eb262518db17019f38bb516dc41a35eafba3f172fd0ebede",
+      "bytes": 42457
     },
     "manuscript/Supplementary_Information_draft_20261012.md": {
-      "sha256": "29b44548eba237b11dd517fcf88babe4a2f5540d6c1275661e3572eb35da002b",
-      "bytes": 14200
+      "sha256": "8ffc6a21354456ab843aea719987ec808eef9fc552c28439dbe10df56c45827c",
+      "bytes": 20721
     },
     "manuscript/references.bib": {
-      "sha256": "55d283625719fdfa211635b28e7bd87849cf39d7cfe7f34220194522dffbe552",
-      "bytes": 3645
+      "sha256": "46684e7279c48c481d7843f4b7448b6c9c9a111b330d706af67e1e9187cc1e1f",
+      "bytes": 6088
     },
     "manuscript/author_metadata.json": {
       "sha256": "55a272bbd9f4ad6347d5038056999157c7da51d28fe56d5f75cce6186e54da75",
@@ -708,6 +736,62 @@
       "sha256": "62d678dc48918a1ec0af0435c394639cd919940dafbeb36d55a3503aa62add8a",
       "bytes": 7492
     },
+    "results/interlayer_parameter_ensemble.csv": {
+      "sha256": "81ecce0939f51a59c06c41335e65ed9892c2953ea88faa99bd3b9eec6a878489",
+      "bytes": 77496
+    },
+    "results/interlayer_parameter_ensemble_retained.csv": {
+      "sha256": "8b35e00861f5165fbab95386bcaa32b7eeb32f1625b961da66914799545cff46",
+      "bytes": 1664
+    },
+    "results/interlayer_parameter_ensemble_engineering.csv": {
+      "sha256": "71b324b9d166295a56ab04bb6f5092d83ba28ca6786e61c0d74e3c9fd93a593f",
+      "bytes": 18269
+    },
+    "results/interlayer_parameter_ensemble_summary.json": {
+      "sha256": "d9062ba24596cadfc88d2dcdd99a0cb59334fd32f2d9d41d42514d7c6df18e34",
+      "bytes": 5716
+    },
+    "results/thermodynamic_shape_gate_stress.csv": {
+      "sha256": "89edce7f3265d0dbc5774f47fcd326b54d229645bf9a64f6c7e89d9d44ed7cff",
+      "bytes": 1586380
+    },
+    "results/thermodynamic_shape_90mK_curves.csv": {
+      "sha256": "27e5c109388a15731777395388e3a4022d631f26c91ceb189b1b36e308c4cbce",
+      "bytes": 284630
+    },
+    "results/thermodynamic_shape_robust_decisions.csv": {
+      "sha256": "a06aad26f6b6fb1e2e167271468712d47054ded67866130982ef4a0b7c07e334",
+      "bytes": 563
+    },
+    "results/thermodynamic_shape_stress_summary.json": {
+      "sha256": "92b29dc0ba0634b92bd0fe4f13cf1d4b1c7da159e8110af661b9b2763c24148a",
+      "bytes": 6208
+    },
+    "results/peak_location_uncertainty_scan.csv": {
+      "sha256": "77f1c357a7878a4bc030e950ea207032edbeced3908188004d0512295ed7f0b1",
+      "bytes": 4341
+    },
+    "results/recommended_90mK_field_sweep.csv": {
+      "sha256": "190a058ea83696d4ec1724c511409b50b81562bcaa047aefe83359fc2a9c1882",
+      "bytes": 610
+    },
+    "results/peak_measurement_target_summary.json": {
+      "sha256": "8bd9ce67f9a3a9893147542dc9c1491f86d1acb228e6344bea4cb25350bf131e",
+      "bytes": 1507
+    },
+    "results/refrigerator_design_chart.csv": {
+      "sha256": "8122ea8408702e781d6aa78cc451e154a963eda7e626e730847fc2852c1d9c34",
+      "bytes": 3043
+    },
+    "results/public_sample_conditional_hold_chart.csv": {
+      "sha256": "6b53f17953b165eff276cb857fce51599c331e0dea416e7c7dc25d37ecdd990d",
+      "bytes": 890
+    },
+    "results/refrigerator_design_chart_summary.json": {
+      "sha256": "17b8e8d9cf503a169be1d45fe95ead56635dd699f2d6850627a04087a7e64b66",
+      "bytes": 1313
+    },
     "results/robust_conditional_design_map.csv": {
       "sha256": "fad3d606befec6797ebf12c033920e8fd2d8881d611fa9fbf246c01d4abe6284",
       "bytes": 2813
@@ -737,8 +821,8 @@
       "bytes": 1359
     },
     "results/manuscript_claim_verification.json": {
-      "sha256": "ed12fbe42f700016dce4e8c9fcc66b71f5968b1ebee47db1cffc1d7d2e60bdaa",
-      "bytes": 970
+      "sha256": "05463781c2a4d3538d5f7dab70f18b5667c37a2a5eb5e8ac962b75b27e1a54f1",
+      "bytes": 1267
     },
     "figures/bulk_bridge_engineering_screen.png": {
       "sha256": "247354d51d9f1d56ff162b2b1a486161d22fa74eaac1c510de391c45b4095242",
@@ -783,6 +867,18 @@
     "figures/interlayer_engineering_scenarios.png": {
       "sha256": "c07b7bbce7a2c0c4dcb656139d9233ab298182b752cdd1d44df47732feb9ee7a",
       "bytes": 172914
+    },
+    "figures/interlayer_parameter_ensemble.png": {
+      "sha256": "77a277042bca36106bb7d3c44fad2e3b7f98f48642a9daa150d0a559d0ca5061",
+      "bytes": 232169
+    },
+    "figures/thermodynamic_shape_stress.png": {
+      "sha256": "b338df1866a783760b4898404b1105688a54f0b89cb5e75bc91c45289575a070",
+      "bytes": 232873
+    },
+    "figures/refrigerator_design_chart.png": {
+      "sha256": "cf843163400a206e362e0992ef1541501f9e24a40d3cd5d2b5976f8eadc276ad",
+      "bytes": 223155
     },
     "figures/spectral_flow_stateprep_N9_field_scan.png": {
       "sha256": "858b1d06e795b749254f7c1fd13672add5d6d898a3a66a7c0b69b1a8bb5b669e",

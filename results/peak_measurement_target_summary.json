@@ -1,0 +1,42 @@
+{
+  "status": "deterministic measurement-design target; not a statistical power calculation",
+  "temperature_K": 0.09,
+  "remaining_scenario_coordinates": {
+    "experimental_Hc_T": [
+      1.65,
+      1.7
+    ],
+    "mapping_method": [
+      "reduced_field",
+      "critical_offset"
+    ],
+    "left_width_scale": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "right_width_scale": [
+      0.8,
+      1.0,
+      1.2
+    ]
+  },
+  "largest_symmetric_peak_uncertainty_with_common_W95_T": 0.002,
+  "worst_case_peak_support_under_original_envelope_T": [
+    1.376404818509378,
+    1.4741554555552576
+  ],
+  "recommended_no_fit_sweep": {
+    "start_T": 1.3760000000000001,
+    "stop_T": 1.4760000000000002,
+    "step_T": 0.004,
+    "point_count": 26,
+    "maximum_grid_localization_error_T": 0.002
+  },
+  "interpretation": "At 90 mK, localizing the heat-profile peak to +/-2 mT or better restores a common W95 field across the retained anchor, mapping, and asymmetric-width envelope.  A 4 mT no-fit sweep across the full predicted peak support meets that discretization target.",
+  "limitations": [
+    "The sweep spacing controls discretization error only; instrument field calibration and heat/entropy uncertainty must also be below the target.",
+    "A smooth peak fit could use fewer points, but its guarantee would depend on the chosen line shape.",
+    "The target applies to the declared deformation envelope and does not replace a full ADR cycle measurement."
+  ]
+}

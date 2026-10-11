@@ -43,6 +43,20 @@ class EwaldSettings:
     boundary: str = 'tin_foil'
 
 
+@dataclass(frozen=True)
+class InterlayerParameters:
+    """M4 interlayer XXZ parameters, in microelectronvolt.
+
+    Defaults reproduce the representative, explicitly non-unique parameter
+    set in Table 1 of arXiv:2607.23173v1.  Explicit parameters are accepted so
+    that a set-valued robustness analysis need not privilege that one choice.
+    """
+    j2_microev: float = J2_MICROEV
+    ja_microev: float = JA_MICROEV
+    jb_microev: float = JB_MICROEV
+    delta_c: float = DELTA_C
+
+
 def _bond_exchange_tensor(theta: float, include_jpp: bool) -> np.ndarray:
     """Intralayer exchange tensor in kelvin for one positive NN bond."""
     jxy = JZZ_MEV * DELTA_XY_OVER_ZZ * MEV_TO_K
@@ -65,7 +79,8 @@ def _m2_bond_exchange_tensor(theta: float) -> np.ndarray:
                               [0.0, 0.0, jzz]])
 
 
-def _exchange_fourier(frac_k: np.ndarray, model: str) -> np.ndarray:
+def _exchange_fourier(frac_k: np.ndarray, model: str,
+                      interlayer: InterlayerParameters | None = None) -> np.ndarray:
     """Fourier exchange matrix including positive and negative bonds."""
     u, v, w = np.asarray(frac_k, dtype=float)
     include_jpp = model != 'M0'
@@ -82,15 +97,16 @@ def _exchange_fourier(frac_k: np.ndarray, model: str) -> np.ndarray:
         result += 2*np.cos(phase)*tensor
 
     if model == 'M4':
-        inter = [((0, 0, 1), J2_MICROEV)]
-        inter += [(d, JA_MICROEV) for d in
+        p = interlayer or InterlayerParameters()
+        inter = [((0, 0, 1), p.j2_microev)]
+        inter += [(d, p.ja_microev) for d in
                   ((1, 0, 1), (0, 1, 1), (1, -1, 1))]
-        inter += [(d, JB_MICROEV) for d in
+        inter += [(d, p.jb_microev) for d in
                   ((-1, 0, 1), (0, -1, 1), (-1, 1, 1))]
         for d, j_microev in inter:
             phase = 2*np.pi*(d[0]*u+d[1]*v+d[2]*w)
-            tensor = np.diag([DELTA_C*j_microev,
-                              DELTA_C*j_microev,
+            tensor = np.diag([p.delta_c*j_microev,
+                              p.delta_c*j_microev,
                               j_microev])*MICROEV_TO_K
             result += 2*np.cos(phase)*tensor
     return result
@@ -113,30 +129,35 @@ def _dipole_fourier(frac_k: np.ndarray, settings: EwaldSettings) -> np.ndarray:
 
 
 def coupling_fourier(frac_k: np.ndarray, model: str,
-                     settings: EwaldSettings) -> np.ndarray:
+                     settings: EwaldSettings,
+                     interlayer: InterlayerParameters | None = None) -> np.ndarray:
     if model not in ('M0', 'M1', 'M2', 'M3', 'M4'):
         raise ValueError('bulk stability supports M0 through M4')
-    result = _exchange_fourier(frac_k, model)
+    result = _exchange_fourier(frac_k, model, interlayer)
     if model in ('M3', 'M4'):
         result += _dipole_fourier(frac_k, settings)
     return .5*(result+result.T)
 
 
 def critical_energy_at_k(frac_k: np.ndarray, model: str,
-                         settings: EwaldSettings) -> float:
-    j0 = coupling_fourier(np.zeros(3), model, settings)
-    jk = coupling_fourier(frac_k, model, settings)
+                         settings: EwaldSettings,
+                         interlayer: InterlayerParameters | None = None) -> float:
+    j0 = coupling_fourier(np.zeros(3), model, settings, interlayer)
+    jk = coupling_fourier(frac_k, model, settings, interlayer)
     return float(S*(j0[2, 2]-np.linalg.eigvalsh(jk[:2, :2])[0]))
 
 
 def locate_critical_mode(model: str, settings: EwaldSettings,
-                         seed: int = 260711) -> dict:
+                         seed: int = 260711,
+                         interlayer: InterlayerParameters | None = None) -> dict:
     dimension = 3 if model in ('M3', 'M4') else 2
-    j0 = coupling_fourier(np.zeros(3), model, settings)
+    if interlayer is not None and model != 'M4':
+        raise ValueError('interlayer parameters are only valid for M4')
+    j0 = coupling_fourier(np.zeros(3), model, settings, interlayer)
 
     def objective(x):
         frac = np.r_[x, 0.0] if dimension == 2 else np.asarray(x)
-        jk = coupling_fourier(frac, model, settings)
+        jk = coupling_fourier(frac, model, settings, interlayer)
         return -float(S*(j0[2, 2]-np.linalg.eigvalsh(jk[:2, :2])[0]))
 
     # Deterministic global search followed by a tighter local polishing step.
@@ -148,10 +169,10 @@ def locate_critical_mode(model: str, settings: EwaldSettings,
                               'maxiter': 1200})
     x = np.mod(local.x, 1.0)
     frac = np.r_[x, 0.0] if dimension == 2 else x
-    h_k = critical_energy_at_k(frac, model, settings)
+    h_k = critical_energy_at_k(frac, model, settings, interlayer)
     bc = h_k/(GZ*MU_B_OVER_KB)
-    j0 = coupling_fourier(np.zeros(3), model, settings)
-    jk = coupling_fourier(frac, model, settings)
+    j0 = coupling_fourier(np.zeros(3), model, settings, interlayer)
+    jk = coupling_fourier(frac, model, settings, interlayer)
     return {
         'model': model,
         'boundary': settings.boundary,
@@ -165,6 +186,8 @@ def locate_critical_mode(model: str, settings: EwaldSettings,
         'global_objective': float(-de.fun),
         'local_objective': h_k,
         'ewald': settings.__dict__ if model in ('M3', 'M4') else None,
+        'interlayer_parameters': (interlayer or InterlayerParameters()).__dict__
+            if model == 'M4' else None,
     }
 
 

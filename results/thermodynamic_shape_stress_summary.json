@@ -1,0 +1,161 @@
+{
+  "status": "declared shape-deformation stress test; not a finite-temperature M4 solution",
+  "basis_for_bounds": {
+    "N9_vs_N12_90mK_Qmax_ratio": 1.0821606804201704,
+    "N9_vs_N12_90mK_W95_width_ratio": 1.1428571428571428,
+    "heat_scale": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "left_width_scale": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "right_width_scale": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "residual_peak_shift_T": [
+      -0.02,
+      0.0,
+      0.02
+    ],
+    "note": "The 10% heat and 20% width bands cover the N9/N12 reconstruction spread; the +/-0.02 T residual displacement is twice the 0.01 T field pixel and twice the observed N9/N12 peak-location spread at 120 mK."
+  },
+  "public_q_constrained_interlayer_shift_range_T": [
+    0.06832055733723608,
+    0.16364951448344
+  ],
+  "90mK_gate_stress": {
+    "scenario_count": 2268,
+    "finite_scenario_count": 2268,
+    "delta_B_star_T_range": [
+      0.038440418340304205,
+      0.18364951448344002
+    ],
+    "regret_percent_range": [
+      2.2361541953060367,
+      33.2793323506401
+    ],
+    "all_finite_scenarios_pass_delta_B_gate": false,
+    "all_finite_scenarios_pass_regret_gate": false,
+    "fraction_passing_both_descriptive_not_probability": 0.8809523809523809,
+    "by_interlayer_shift": [
+      {
+        "critical_field_shift_vs_M3_T": 0.06832055733723608,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": 0.038440418340304205,
+        "minimum_regret_percent": 2.2361541953060367,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.07370885189100784,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.043049487705896006,
+        "minimum_regret_percent": 2.6762608431413106,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09527380895522186,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.9444444444444444,
+        "minimum_delta_B_star_T": 0.06149584062574398,
+        "minimum_regret_percent": 4.387431209727622,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.10850319707632061,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 1.0,
+        "minimum_delta_B_star_T": 0.07281206821983455,
+        "minimum_regret_percent": 5.467745216463193,
+        "all_shape_scenarios_pass": true
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.11548799086432493,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 1.0,
+        "minimum_delta_B_star_T": 0.07878675998027851,
+        "minimum_regret_percent": 6.2165881293100105,
+        "all_shape_scenarios_pass": true
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.12879122934978637,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 1.0,
+        "minimum_delta_B_star_T": 0.09016615810980011,
+        "minimum_regret_percent": 7.990437655988584,
+        "all_shape_scenarios_pass": true
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.16364951448344,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 1.0,
+        "minimum_delta_B_star_T": 0.11998343193239025,
+        "minimum_regret_percent": 10.98261412100413,
+        "all_shape_scenarios_pass": true
+      }
+    ],
+    "minimum_interlayer_shift_with_all_shape_scenarios_passing_T": 0.10850319707632061,
+    "central_shape_all_interlayer_models_pass_both": true,
+    "central_shape_minimum_delta_B_star_T": 0.05844041834030422,
+    "central_shape_minimum_regret_percent": 5.131398235030879
+  },
+  "actual_material_robust_decisions": [
+    {
+      "temperature_K": 0.09,
+      "scenario_count": 324,
+      "robust_field_T": 1.4052,
+      "worst_case_regret_percent": 9.205181063028556,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.375395144404221,
+      "conditional_volume_cm3_for_0p10uW_60min": 0.9589894951127985
+    },
+    {
+      "temperature_K": 0.1,
+      "scenario_count": 324,
+      "robust_field_T": 1.403,
+      "worst_case_regret_percent": 7.975791883011099,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.486767209838917,
+      "conditional_volume_cm3_for_0p10uW_60min": 0.7395732348510752
+    },
+    {
+      "temperature_K": 0.12,
+      "scenario_count": 324,
+      "robust_field_T": 1.3969500000000001,
+      "worst_case_regret_percent": 6.168491861103834,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.7387662719551101,
+      "conditional_volume_cm3_for_0p10uW_60min": 0.48729891126090114
+    },
+    {
+      "temperature_K": 0.15,
+      "scenario_count": 324,
+      "robust_field_T": 1.39145,
+      "worst_case_regret_percent": 4.307191847031739,
+      "guaranteed_W95_exists": true,
+      "guaranteed_W95_min_T": 1.3836,
+      "guaranteed_W95_max_T": 1.3942,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 1.1688126995999402,
+      "conditional_volume_cm3_for_0p10uW_60min": 0.3080048669245469
+    }
+  ],
+  "limitations": [
+    "The deformation coordinates are deterministic stress bounds, not statistical confidence intervals.",
+    "The envelope tests peak displacement, asymmetric width and heat-scale changes but cannot represent every entropy redistribution allowed by M4.",
+    "The P2-P0 gate treats the deformation as differential uncertainty on P2; the actual-material recommendation uses measured Hc and does not require a counterfactual P0 model.",
+    "All heat and volume values remain magnetic-only conditional budgets."
+  ]
+}

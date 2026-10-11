@@ -35,6 +35,8 @@ python verify_engineering_decision.py
 python verify_quantum_stateprep_qpu.py
 python verify_second_screen.py
 python test_quantum_local_benchmark.py
+python test_bulk_polarized_stability.py
+python test_interlayer_robustness.py
 python verify_manuscript_claims.py
 python make_bulk_manifest.py
 ```
@@ -53,6 +55,10 @@ python bulk_to_engineering_surrogate.py
 python finite_cluster_stability_alignment.py
 python experimental_hc_engineering_anchor.py
 python interlayer_engineering_scenarios.py
+python screen_interlayer_parameter_ensemble.py
+python stress_test_thermodynamic_shape.py
+python design_peak_measurement_target.py
+python compile_refrigerator_design_chart.py
 python verify_engineering_decision.py
 ```
 
@@ -90,8 +96,10 @@ Do not resubmit merely to duplicate the archived pilot. The recorded stopping ru
 
 ## 7. Interpretation boundaries
 
-- P2 is a representative, non-unique interlayer scenario.
+- P2 is a public-propagation-vector-constrained set of seven models retained from a deterministic 375-member local grid; it is not a posterior distribution.
 - The critical-field transport is a decision-scale surrogate, not a finite-temperature three-dimensional M4 solution.
+- The finite-temperature deformation coordinates and their pass fractions are deterministic stress coverage, not probabilities or confidence intervals.
+- The 4 mT measurement sweep controls peak-grid localization only; calibration and thermodynamic measurement uncertainty remain experimental requirements.
 - The 90–300 mK `W95` result is a set of measured field candidates.
 - Conditional volumes include magnetic entropy only.
 - N=9 state-preparation targets use exact classical eigenvectors.

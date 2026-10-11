@@ -1,0 +1,25 @@
+{
+  "status": "magnetic-only conditional design chart",
+  "density_derivation": {
+    "formula": "Na2BaCo(PO4)2",
+    "molar_mass_g_mol": 432.179256556,
+    "lattice_a_angstrom": 5.312,
+    "lattice_c_angstrom": 6.983,
+    "assumed_formula_units_per_primitive_cell": 1,
+    "primitive_cell_volume_angstrom3": 170.64312919483834,
+    "density_g_cm3": 4.205563639857904,
+    "source": "public P-3 one-Co primitive magnetic lattice and a,c values in arXiv:2607.23173v1 lines 63, 78, 363-402"
+  },
+  "public_demagnetization_sample_crosscheck": {
+    "source": "Xiang et al. Nature 625, 270-275 (2024), public Extended Data Fig. 6b workbook",
+    "reported_NBCP_mass_g": 1.65,
+    "lattice_derived_volume_cm3": 0.3923374228277638
+  },
+  "design_rows": 24,
+  "scope": [
+    "Loads are assumed total cold loads supplied by the designer, not measured parasitic loads.",
+    "The heat budget is magnetic and reversible; addenda, heat switches, wiring, contact resistance and ramp loss are not separately predicted.",
+    "Mass uses a lattice-derived crystallographic density and does not include packing voids, binder or thermal bus material.",
+    "Field tolerance is the symmetric distance from the minimax field to the guaranteed 95%-efficiency interval under the declared shape envelope."
+  ]
+}

@@ -23,6 +23,10 @@ def main() -> None:
     eng = json.loads((RESULTS / "engineering_case_refinement.json").read_text(encoding="utf-8"))
     state = json.loads((RESULTS / "spectral_flow_stateprep_N9_field_scan.json").read_text(encoding="utf-8"))
     qpu = json.loads((RESULTS / "open_plan_qpu_pilot_N6_summary.json").read_text(encoding="utf-8"))
+    ensemble = json.loads((RESULTS / "interlayer_parameter_ensemble_summary.json").read_text(encoding="utf-8"))
+    shape = json.loads((RESULTS / "thermodynamic_shape_stress_summary.json").read_text(encoding="utf-8"))
+    measurement = json.loads((RESULTS / "peak_measurement_target_summary.json").read_text(encoding="utf-8"))
+    design = json.loads((RESULTS / "refrigerator_design_chart_summary.json").read_text(encoding="utf-8"))
     text = MANUSCRIPT.read_text(encoding="utf-8")
 
     rows = {(r["model"], r["boundary"]): r for r in bulk["rows"]}
@@ -39,6 +43,32 @@ def main() -> None:
         "p2_delta_gate": min(inter["90mK_P2_minus_P0_delta_B_star_T_range"]) >= 0.05,
         "p2_regret_gate": min(inter["90mK_P2_regret_at_P0_field_percent_range"]) >= 5.0,
         "experimental_robust_field": close(exp["robust_fields"][0]["robust_field_T"], 1.41085, 1e-8),
+        "ensemble_375_to_7": (
+            ensemble["grid_size"] == 375
+            and ensemble["retained_size"] == 7
+        ),
+        "shape_gate_fraction": close(
+            shape["90mK_gate_stress"]["fraction_passing_both_descriptive_not_probability"],
+            0.8809523809523809,
+            1e-12,
+        ),
+        "shape_guarantee_boundary": close(
+            shape["90mK_gate_stress"]["minimum_interlayer_shift_with_all_shape_scenarios_passing_T"],
+            0.10850319707632061,
+            1e-12,
+        ),
+        "shape_robust_field": close(
+            shape["actual_material_robust_decisions"][0]["robust_field_T"],
+            1.4052,
+            1e-12,
+        ),
+        "measurement_peak_target": close(
+            measurement["largest_symmetric_peak_uncertainty_with_common_W95_T"],
+            0.002,
+            1e-12,
+        ),
+        "measurement_sweep_26_points": measurement["recommended_no_fit_sweep"]["point_count"] == 26,
+        "design_density": close(design["density_derivation"]["density_g_cm3"], 4.205564, 1e-5),
         "candidate_schedule": (
             rankings[90]["best_candidate_B_T"] == 1.5
             and rankings[120]["best_candidate_B_T"] == 1.5
@@ -55,7 +85,7 @@ def main() -> None:
         == {"db5r8184qg6s73c3sl0g", "db5r8nimb58s738atca0"},
         "qpu_usage_71s": close(qpu["total_free_qpu_seconds_used"], 71.0, 1e-12),
         "scope_no_quantum_advantage": "not a quantum-advantage demonstration" in text,
-        "scope_qpu_quantitative_hold": "preclude a quantitative hardware claim" in text,
+        "scope_qpu_quantitative_hold": "not quantitative accuracy" in text,
         "authors_and_orcids": all(
             token in text
             for token in [
@@ -71,7 +101,7 @@ def main() -> None:
     checks["all_linked_figures_exist"] = bool(figure_links) and all(
         (MANUSCRIPT.parent / link).resolve().exists() for link in figure_links
     )
-    checks["minimum_reference_count"] = text.count("doi:") >= 9
+    checks["minimum_reference_count"] = text.count("doi:") >= 16
     failed = [name for name, passed in checks.items() if not passed]
     payload = {
         "checks": checks,

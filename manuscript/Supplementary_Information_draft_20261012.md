@@ -1,6 +1,6 @@
 # Supplementary Information
 
-## Model-risk-aware operating fields for sub-kelvin refrigeration with a frustrated quantum magnet: classical validation and a quantum spectral-flow pilot
+## Propagation-vector-constrained sub-kelvin refrigerator design with a frustrated quantum magnet and a quantum spectral-flow route
 
 Ugwiyeon Lee, Seong-Yun Bae, Hakrae Kim, and Jungsu Lee
 
@@ -15,6 +15,8 @@ The study was run as a sequence of gates. Later calculations were allowed only a
 - inferred field uncertainty target: \(\sigma_B\le0.02\) T.
 
 The work log is `연구실행_체크리스트_20261011.csv`. The final hash inventory is `results/bulk_path_manifest_20261011.json`. Each negative route was retained rather than deleted so that algorithm selection can be audited.
+
+The interlayer parameter-grid and finite-temperature shape-envelope analyses were added as reviewer-oriented robustness tests after the original P0–P2 result. Their coordinate values were frozen before each Cartesian screen was run. They are deterministic sensitivity bounds, not registered confidence intervals or posterior samples.
 
 ## S2. Public sources and provenance
 
@@ -59,7 +61,7 @@ For magnetic moment \({\bf m}_i=\mu_B{\bf g}{\bf S}_i\),
 
 \[
 H_{\rm dip}=\sum_{i<j}\frac{\mu_0}{4\pi r_{ij}^3}
-\left[{f m}_i\cdot{\bf m}_j-3({\bf m}_i\cdot\hat{\bf r}_{ij})({\bf m}_j\cdot\hat{\bf r}_{ij})\right].
+\left[{\bf m}_i\cdot{\bf m}_j-3({\bf m}_i\cdot\hat{\bf r}_{ij})({\bf m}_j\cdot\hat{\bf r}_{ij})\right].
 \]
 
 M2 retains only the nearest-neighbor tensor. M3 and M4 use the periodic Ewald tensor with \(\alpha=0.22\) Å−1, real-space cutoff 42 Å, and reciprocal cutoff 8 Å−1 in the frozen production calculation. Tin-foil omits the \(k=0\) surface term. Spherical-vacuum adds \(4\pi I/(3V)\). Convergence checks are stored in `results/bulk_stability_convergence.json`.
@@ -68,7 +70,16 @@ M2 retains only the nearest-neighbor tensor. M3 and M4 use the periodic Ewald te
 
 The AA-stacked triangular convention is implemented in `stacked_lattice.py`. Each site has one vertical \(J_2\) path and two symmetry-inequivalent sets of three diagonal paths, \(J_a\) and \(J_b\), to the next layer. Reversing the crystallographic \(c\) direction exchanges the labels \(J_a\) and \(J_b\) without changing the spectrum.
 
-P1 is a sensitivity model with one isotropic vertical bond above and below and \(J_\perp=0.05\) K. P2 uses \(J_2=2.8\) microelectronvolt, \(J_a=0\), \(J_b=7.9\) microelectronvolt, and \(\Delta_c=0.08\). P1 and P2 are explicit scenarios, not confidence limits.
+P1 is a sensitivity model with one isotropic vertical bond above and below and \(J_\perp=0.05\) K. The published P2 seed uses \(J_2=2.8\) microelectronvolt, \(J_a=0\), \(J_b=7.9\) microelectronvolt, and \(\Delta_c=0.08\).
+
+The set-valued P2 screen uses:
+
+- \(J_2=\{1.4,2.8,4.2\}\) microelectronvolt;
+- \(J_a=\{-2.8,-1.4,0,1.4,2.8\}\) microelectronvolt;
+- \(J_b=\{3.95,5.925,7.9,9.875,11.85\}\) microelectronvolt;
+- \(\Delta_c=\{0.04,0.06,0.08,0.10,0.12\}\).
+
+This gives 375 deterministic combinations. All exchange magnitudes remain below 10% of \(J_{zz}\), and every \(\Delta_c\) remains strongly Ising-like. The ranges are a local robustness envelope around the published representative set, not confidence limits.
 
 ## S4. Public entropy processing and engineering metrics
 
@@ -130,6 +141,22 @@ The frozen values are:
 
 The surface term changes the uniform contribution and absolute field but leaves the P2–P0 ablation at 0.0952738 T.
 
+### S6.1 Public-propagation-vector screen
+
+Near saturation, Ref. [4] reports \(\delta_c=0.027(2)\) along a K–M boundary and \(q_z=0.328(2)\). The same source approximates \(q_z\) by \(1/3\) in its interlayer model. Before the grid calculation, the acceptance bands were fixed to \(\delta_c=0.021\)–0.033, folded \(q_z=0.322\)–0.3373, and a K–M line residual no larger than 0.003 reciprocal-lattice units. Seven of 375 models pass:
+
+| \(J_2\) | \(J_a\) | \(J_b\) | \(\Delta_c\) | \(\Delta H_c\) vs M3 (T) | \(\delta_c\) | folded \(q_z\) | \((00l)\) bandwidth (microelectronvolt) |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1.4 | 0.0 | 5.925 | 0.10 | 0.068321 | 0.024893 | 0.329831 | 3.979 |
+| 1.4 | 2.8 | 11.85 | 0.04 | 0.163650 | 0.025245 | 0.327820 | 3.772 |
+| 2.8 | −2.8 | 11.85 | 0.06 | 0.108503 | 0.024450 | 0.332444 | 3.738 |
+| 2.8 | 0.0 | 5.925 | 0.12 | 0.073709 | 0.024754 | 0.325444 | 5.082 |
+| 2.8 | 0.0 | 7.90 | 0.08 | 0.095274 | 0.024826 | 0.334289 | 4.384 |
+| 4.2 | −1.4 | 11.85 | 0.06 | 0.128791 | 0.024600 | 0.329369 | 4.410 |
+| 4.2 | 1.4 | 7.90 | 0.08 | 0.115488 | 0.025037 | 0.328267 | 5.280 |
+
+Exchange entries are in microelectronvolt. The representative set reproduces the paper's 4.4 microelectronvolt bandwidth to 0.016 microelectronvolt. Over the full designed grid, the critical-field ablation correlates most strongly with \(J_b\) (descriptive Spearman \(\rho=0.824\)); this is a sensitivity diagnostic, not a fitted causal coefficient.
+
 ## S7. Critical-field transport and robust optimization
 
 Let \(Q_0(B,T)\) be the public reference curve with source critical field \(H_{c,0}\). For a target critical field \(H_c\), the two mappings are:
@@ -147,6 +174,34 @@ The mappings bracket two simple assumptions about how the near-critical profile 
 The 2026 full-model mean-field field overestimates the measured field. P2 is therefore set to either 1.65 or 1.70 T and the calculated shifts are subtracted to obtain P0 and P1. Under all four anchor/mapping combinations, P2–P0 passes both engineering thresholds.
 
 The robust-field grid spacing is 0.00005 T in the final minimax calculation. The identity \(E=P t\) was checked for every row of the 24-condition load/hold map.
+
+### S7.1 Finite-temperature shape envelope
+
+The rigid mappings are augmented by four deformation coordinates. Relative to the mapped peak, the low- and high-field sides are independently rescaled by \(s_-,s_+\in\{0.8,1.0,1.2\}\), the peak is displaced by \(\Delta B_{\rm peak}\in\{-0.02,0,0.02\}\) T, and the entire heat curve is scaled by \(a_Q\in\{0.9,1.0,1.1\}\). The 10% heat and 20% width ranges cover the N=9/N=12 reconstruction differences at 90 mK. The residual peak bound equals twice the heatmap field pixel and twice the observed N=9/N=12 peak-location difference at 120 mK.
+
+Combining seven retained interlayer shifts, two measured \(H_c\) anchors, two mappings, and 81 deformations gives 2,268 gate cases at each temperature. At 90 mK, 1,998 cases pass both the 0.05 T and 5% gates. The pass count is coverage of a Cartesian stress design and has no probability interpretation.
+
+| \(\Delta H_c\) (T) | Cases | Fraction passing both | Minimum \(\Delta B^*\) (T) | Minimum regret (%) |
+|---:|---:|---:|---:|---:|
+| 0.068321 | 324 | 0.556 | 0.03844 | 2.24 |
+| 0.073709 | 324 | 0.667 | 0.04305 | 2.68 |
+| 0.095274 | 324 | 0.944 | 0.06150 | 4.39 |
+| 0.108503 | 324 | 1.000 | 0.07281 | 5.47 |
+| 0.115488 | 324 | 1.000 | 0.07879 | 6.22 |
+| 0.128791 | 324 | 1.000 | 0.09017 | 7.99 |
+| 0.163650 | 324 | 1.000 | 0.11998 | 10.98 |
+
+The smallest retained shift that passes every declared deformation is therefore 0.108503 T. The central deformation \((\Delta B_{\rm peak},s_-,s_+,a_Q)=(0,1,1,1)\) passes for every retained model.
+
+### S7.2 Density and design conversion
+
+Using \(a=5.312\) Å, \(c=6.983\) Å, one formula unit per \(P\bar 3\) primitive cell, and a formula mass of 432.1793 g mol\(^{-1}\), the crystallographic density is 4.2056 g cm\(^{-3}\). The reported 1.65 g NBCP sample in the public Extended Data Fig. 6b workbook therefore corresponds to 0.3923 cm\(^3\). Required magnetic mass is \(m=\rho P_{\rm load}t_{\rm hold}/Q\). Packing and nonmagnetic components are not included.
+
+### S7.3 Minimum near-saturation field sweep
+
+The full shape envelope has no common 90 mK \(W_{95}\), so we varied the residual symmetric uncertainty in peak position while retaining both measured critical-field anchors, both transport mappings, and all nine independent left/right width combinations. The largest tested uncertainty with a common \(W_{95}\) was ±0.002 T. At ±0.002 T, the minimax field is 1.4106 T, the worst regret is 4.97%, and the common interval is 1.41035–1.41070 T. At ±0.00225 T the common interval disappears on the 0.00005 T decision grid.
+
+Under the original ±0.02 T displacement envelope, the possible 90 mK peak positions span 1.376405–1.474155 T. Sampling 1.376–1.476 T every 0.004 T gives 26 points and guarantees a grid point within 0.002 T of any peak in that support without fitting a line shape. This is only a discretization target. Field calibration, thermal equilibration, entropy reconstruction, and measurement noise must be controlled separately. The scan and field list are stored in `results/peak_location_uncertainty_scan.csv` and `results/recommended_90mK_field_sweep.csv`.
 
 ## S8. Quantum-algorithm screening
 
@@ -197,6 +252,10 @@ The N=6 live preflight on IBM Fez gave a maximum of 84 CZ gates, minimum calibra
 
 The exact value is 0.04873698 K. TREX is inconsistent with the exact value at two reported standard errors. The ZNE interval contains the exact value within two standard errors, but the uncertainty is too large for a thermodynamic claim. No additional QPU execution is justified until the N=9 ECR count is reduced and a stronger noisy preflight predicts target-level accuracy.
 
+![N=6 Open Plan hardware pilot](../figures/open_plan_qpu_pilot_N6.png)
+
+**Figure S1.** (a) IBM Fez estimates compared with the exact N=6 observable. TREX alone leaves a large systematic discrepancy; ZNE reduces the central discrepancy but increases variance. (b) QPU time. The two jobs used 71 free seconds. This figure is supplementary because neither hardware estimate enters the material or refrigerator result.
+
 ## S11. Verification suite
 
 The frozen verification commands are:
@@ -206,6 +265,11 @@ python verify_engineering_decision.py
 python verify_quantum_stateprep_qpu.py
 python verify_second_screen.py
 python test_quantum_local_benchmark.py
+python test_bulk_polarized_stability.py
+python test_interlayer_robustness.py
+python screen_interlayer_parameter_ensemble.py
+python stress_test_thermodynamic_shape.py
+python compile_refrigerator_design_chart.py
 python make_bulk_manifest.py
 ```
 
@@ -215,8 +279,9 @@ All passed on Python 3.14.8 with NumPy 2.5.3, SciPy 1.18.1, and Matplotlib 3.11.
 
 | Statement | Supported? | Evidence boundary |
 |---|---|---|
-| weak interactions can shift an engineering operating field by more than 0.05 T | yes | P2–P0 ablation transported through two mappings and two experimental anchors |
-| P2 is the unique microscopic Hamiltonian of NBCP | no | source explicitly calls it representative and non-unique |
+| every public-\(q\)-constrained interlayer model shifts the central-profile optimum by more than 0.05 T | yes | seven retained models, two mappings, and two measured \(H_c\) anchors |
+| every retained model passes both gates under every declared shape deformation | no | 88.1% of Cartesian cases pass; all-shape guarantee begins at \(\Delta H_c=0.108503\) T |
+| P2 is the unique microscopic Hamiltonian of NBCP | no | source explicitly calls it representative and non-unique; seven stress-grid models are retained |
 | full dipolar summation is needed before judging nearest-neighbor dipoles | yes | M2 versus M3 bulk stability and Ewald convergence |
 | the calculated volumes predict a finished refrigerator | no | magnetic-only reversible budgets |
 | spectral flow is more sample-efficient than direct finite-difference entropy for the tested ideal instances | yes | common error target and shot estimates |

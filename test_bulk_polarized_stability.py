@@ -1,6 +1,7 @@
 import numpy as np
 
-from bulk_polarized_stability import (EwaldSettings, analytic_m0_field,
+from bulk_polarized_stability import (EwaldSettings, InterlayerParameters,
+                                       analytic_m0_field,
                                        coupling_fourier, critical_energy_at_k,
                                        locate_critical_mode)
 from screen_weak_terms import (DELTA_XY_OVER_ZZ, JPP_EXTRA_MEV, JZZ_MEV,
@@ -31,6 +32,19 @@ def run():
                     2*abs(JPP_EXTRA_MEV*f))*MEV_TO_K
     actual=critical_energy_at_k(np.array([u,v,0.]),'M1',settings)
     assert abs(actual-expected)<1e-11
+    # Making the published representative M4 set explicit must preserve the
+    # frozen result; passing it to another model is a caller error.
+    implicit=locate_critical_mode('M4',settings)
+    explicit=locate_critical_mode('M4',settings,
+                                  interlayer=InterlayerParameters())
+    assert abs(implicit['critical_field_T']-explicit['critical_field_T'])<1e-10
+    assert np.allclose(implicit['critical_wavevector_rlu'],
+                       explicit['critical_wavevector_rlu'],atol=1e-9)
+    try:
+        locate_critical_mode('M3',settings,interlayer=InterlayerParameters())
+        raise AssertionError('non-M4 interlayer parameters were accepted')
+    except ValueError:
+        pass
     print('bulk polarized stability validation passed')
 
 

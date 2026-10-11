@@ -11,6 +11,13 @@
     "p2_delta_gate": true,
     "p2_regret_gate": true,
     "experimental_robust_field": true,
+    "ensemble_375_to_7": true,
+    "shape_gate_fraction": true,
+    "shape_guarantee_boundary": true,
+    "shape_robust_field": true,
+    "measurement_peak_target": true,
+    "measurement_sweep_26_points": true,
+    "design_density": true,
     "candidate_schedule": true,
     "all_stateprep_targets_pass": true,
     "two_qpu_jobs": true,
@@ -25,9 +32,10 @@
   "failed": [],
   "linked_figures": [
     "../figures/bulk_bridge_engineering_screen.png",
-    "../figures/interlayer_engineering_scenarios.png",
-    "../figures/spectral_flow_stateprep_N9_field_scan.png",
-    "../figures/open_plan_qpu_pilot_N6.png"
+    "../figures/interlayer_parameter_ensemble.png",
+    "../figures/thermodynamic_shape_stress.png",
+    "../figures/refrigerator_design_chart.png",
+    "../figures/spectral_flow_stateprep_N9_field_scan.png"
   ],
   "status": "PASS"
 }
