@@ -1,0 +1,103 @@
+{
+  "gate1_status": "HOLD",
+  "quantum_stage_authorized": false,
+  "supersedes": "gate1_preliminary_report.json field-window interpretation",
+  "validated_bulk_M0_proxy": {
+    "source": "Gao et al. 2022 XTRG Fig. 4a/4b",
+    "zero_field_validation_RMSE_J_mol_K": 0.033549922615027414,
+    "90mK_B_star_T": 1.5,
+    "90mK_W95_T": [
+      1.45,
+      1.52
+    ],
+    "rough_current_parameter_field_mapping_T": 1.597952865814317,
+    "mapping_warning": "Jz/Jxy also differs, so this rescaling is a window locator, not a prediction."
+  },
+  "finite_cluster_correction_comparisons": [
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.5,
+      "N15_deltaS": 0.006644048929107305,
+      "N18_deltaS": -0.0033098479333786707,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.0034548309363117147,
+      "N18_full_minus_low16": 0.000144983002933044
+    },
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.55,
+      "N15_deltaS": 0.003326237666616133,
+      "N18_deltaS": -0.00668006339882149,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.006749043799714874,
+      "N18_full_minus_low16": 6.89804008933842e-05
+    },
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.6,
+      "N15_deltaS": -0.0031118012635768244,
+      "N18_deltaS": 0.003418200500074728,
+      "same_sign": false,
+      "N18_low16_deltaS": 0.0031761862316209144,
+      "N18_full_minus_low16": 0.00024201426845381346
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.5,
+      "N15_deltaS": 0.005750101226373691,
+      "N18_deltaS": -0.0028065707471892076,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.003113964930304372,
+      "N18_full_minus_low16": 0.0003073941831151644
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.55,
+      "N15_deltaS": 0.003452528799691018,
+      "N18_deltaS": -0.0053017982752232296,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.005472800721810778,
+      "N18_full_minus_low16": 0.00017100244658754815
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.6,
+      "N15_deltaS": -0.0021832915105659684,
+      "N18_deltaS": 0.0026922140640668057,
+      "same_sign": false,
+      "N18_low16_deltaS": 0.002242304507440021,
+      "N18_full_minus_low16": 0.00044990955662678467
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.5,
+      "N15_deltaS": 0.0046300886863892415,
+      "N18_deltaS": -0.0013096043498285748,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.0021814417038383965,
+      "N18_full_minus_low16": 0.0008718373540098218
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.55,
+      "N15_deltaS": 0.00357758934117125,
+      "N18_deltaS": -0.0027483515440377138,
+      "same_sign": false,
+      "N18_low16_deltaS": -0.0033208853089138762,
+      "N18_full_minus_low16": 0.0005725337648761625
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.6,
+      "N15_deltaS": -0.00040254383957574746,
+      "N18_deltaS": 0.002260777614198392,
+      "same_sign": false,
+      "N18_low16_deltaS": 0.0011821779660295267,
+      "N18_full_minus_low16": 0.0010785996481688653
+    }
+  ],
+  "90mK_all_three_fields_opposite_sign_N15_vs_N18": true,
+  "max_abs_N18_full_minus_low16_90mK": 0.00024201426845381346,
+  "decision_reason": "The public quantum bulk baseline robustly relocates the relevant window to 1.45--1.60 T, but the M3-M0 correction reverses sign from N15 to N18 at every tested 90 mK field. The discrepancy is a cluster-size effect rather than stochastic FTLM noise.",
+  "next_required_method": "A thermodynamic-limit tensor-network calculation of the realistic M3 Hamiltonian, or author-supplied/re-runnable XTRG data/code extended to Jpp and long-range dipoles."
+}

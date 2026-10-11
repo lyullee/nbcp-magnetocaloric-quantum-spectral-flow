@@ -1,0 +1,71 @@
+{
+  "purpose": "minimal live-QPU execution-path proof for N=6 spectral flow",
+  "created_utc": "2026-10-11T16:06:27.091295+00:00",
+  "submission_requested": true,
+  "open_plan_only_guard_passed": true,
+  "account_name": "psa_open",
+  "backend": "ibm_fez",
+  "usage_before": {
+    "usage_consumed_seconds": 117,
+    "usage_consumed_ru": 1.905,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 483,
+    "usage_period": {
+      "start_time": "2026-09-13T16:06:25.212Z",
+      "end_time": "2026-10-11T16:06:25.212Z"
+    }
+  },
+  "condition": {
+    "N": 6,
+    "field_T": 1.05,
+    "lambda": 0.5,
+    "level": 0,
+    "path": "M0 + lambda*(M2-M0)"
+  },
+  "observable": "V=M2-M0",
+  "exact_V_expectation_K": 0.04873698301609778,
+  "target_precision_K": 0.01,
+  "resilience_level": 1,
+  "mitigation": "TREX readout mitigation",
+  "compiled": {
+    "depth": 279,
+    "size": 608,
+    "operation_counts": {
+      "delay": 217,
+      "sx": 172,
+      "rz": 132,
+      "cz": 84,
+      "x": 3
+    }
+  },
+  "scientific_scope": "QPU execution-path demonstration only; N=6 does not support the NBCP material or engineering conclusion",
+  "job_submitted": true,
+  "job_id": "db5r8184qg6s73c3sl0g",
+  "status_after_submission": "QUEUED",
+  "completed_utc": "2026-10-11T16:06:56.319019+00:00",
+  "status": "DONE",
+  "measured_V_expectation_K": 0.020955218369872984,
+  "reported_standard_error_K": 0.0018475798167566036,
+  "signed_error_K": -0.027781764646224796,
+  "absolute_error_K": 0.027781764646224796,
+  "within_two_reported_standard_errors": false,
+  "result_metadata": {
+    "compilation": {},
+    "circuit_metadata": {}
+  },
+  "usage_after": {
+    "usage_consumed_seconds": 136,
+    "usage_consumed_ru": 2.205,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 464,
+    "usage_period": {
+      "start_time": "2026-09-13T16:06:56.957Z",
+      "end_time": "2026-10-11T16:06:56.957Z"
+    }
+  },
+  "elapsed_seconds": 34.554588299943134
+}

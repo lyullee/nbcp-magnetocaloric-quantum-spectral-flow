@@ -1,0 +1,29 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 15,
+  "sector_dimensions": [
+    16384,
+    16384
+  ],
+  "random_vectors_per_sector": 4,
+  "krylov_dimension": 40,
+  "exact_low_states_per_sector": 8,
+  "seed": 20261011,
+  "max_lanczos_residual_K": 32.26203603168824,
+  "elapsed_seconds": 12.46451299986802,
+  "rows": [
+    {
+      "temperature_K": 2.0,
+      "log_partition": 39.75045708352235,
+      "energy_K_total": -77.2552088062683,
+      "heat_capacity_kB_total": 3.488380064319699,
+      "entropy_kB_total": 1.122852680388198,
+      "entropy_kB_per_spin": 0.07485684535921319
+    }
+  ],
+  "model": "M1",
+  "model_name": "M0 plus additional Jpp",
+  "field_T": 4.0,
+  "boundary": "tin_foil",
+  "wall_seconds_including_operator_build": 12.50054039992392
+}

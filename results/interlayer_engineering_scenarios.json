@@ -1,0 +1,259 @@
+{
+  "purpose": "public-data P0-P2 interlayer uncertainty and engineering propagation",
+  "public_evidence": {
+    "P0": "2D M3: long-range dipole plus bond-dependent exchange, no exchange between layers",
+    "P1": {
+      "source": "arXiv:2202.05242 source lines 2081-2083",
+      "J_perp_K": 0.05,
+      "model": "one isotropic vertical bond above and below",
+      "analytic_Hc_shift_T": 0.03156762600974645
+    },
+    "P2": {
+      "source": "arXiv:2607.23173v1 Table 1 and lines 275-317",
+      "J2_microeV": 2.8,
+      "Ja_microeV": 0.0,
+      "Jb_microeV": 7.9,
+      "Delta_c": 0.08,
+      "reported_out_of_plane_magnon_bandwidth_microeV": 4.4,
+      "warning": "The authors call this a representative, non-unique parameter set."
+    }
+  },
+  "critical_field_scenarios": [
+    {
+      "scenario": "P0",
+      "boundary": "tin_foil",
+      "critical_field_T": 1.7723974267895588,
+      "delta_Hc_vs_P0_same_boundary_T": 0.0
+    },
+    {
+      "scenario": "P1",
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8039650527993052,
+      "delta_Hc_vs_P0_same_boundary_T": 0.031567626009746386
+    },
+    {
+      "scenario": "P2",
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "delta_Hc_vs_P0_same_boundary_T": 0.09527380895522186
+    },
+    {
+      "scenario": "P0",
+      "boundary": "sphere_vacuum",
+      "critical_field_T": 1.8260772611571447,
+      "delta_Hc_vs_P0_same_boundary_T": 0.0
+    },
+    {
+      "scenario": "P1",
+      "boundary": "sphere_vacuum",
+      "critical_field_T": 1.8576448871668911,
+      "delta_Hc_vs_P0_same_boundary_T": 0.031567626009746386
+    },
+    {
+      "scenario": "P2",
+      "boundary": "sphere_vacuum",
+      "critical_field_T": 1.9213510701123666,
+      "delta_Hc_vs_P0_same_boundary_T": 0.09527380895522186
+    }
+  ],
+  "experiment_anchored_Hc_scenarios": [
+    {
+      "scenario": "P2",
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "critical_field_T": 1.65
+    },
+    {
+      "scenario": "P0",
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "critical_field_T": 1.554726191044778
+    },
+    {
+      "scenario": "P1",
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "critical_field_T": 1.5862938170545244
+    },
+    {
+      "scenario": "P2",
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "critical_field_T": 1.7
+    },
+    {
+      "scenario": "P0",
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "critical_field_T": 1.604726191044778
+    },
+    {
+      "scenario": "P1",
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "critical_field_T": 1.6362938170545245
+    }
+  ],
+  "P2_minus_P0_Hc_shift_T_range": [
+    0.09527380895522186,
+    0.09527380895522186
+  ],
+  "90mK_P2_minus_P0_delta_B_star_T_range": [
+    0.081495840625744,
+    0.09527380895522186
+  ],
+  "90mK_P2_regret_at_P0_field_percent_range": [
+    8.80497592659381,
+    10.000904733033185
+  ],
+  "predeclared_thresholds": {
+    "absolute_delta_B_star_GO_T": 0.05,
+    "regret_GO_percent": 5.0
+  },
+  "threshold_screen": {
+    "P1_all_90mK_cases_above_delta_B_threshold": false,
+    "P2_all_90mK_cases_above_delta_B_threshold": true,
+    "P2_all_90mK_cases_above_regret_threshold": true
+  },
+  "robust_fields": [
+    {
+      "temperature_K": 0.09,
+      "robust_field_T": 1.3468499999999999,
+      "worst_case_regret_percent": 11.894259488315083,
+      "worst_case_Q_mJ_per_cm3": 0.4047522580089147,
+      "scenario_order": [
+        "reduced_field/P2/neutron_diffraction_65mK",
+        "reduced_field/P0/neutron_diffraction_65mK",
+        "reduced_field/P1/neutron_diffraction_65mK",
+        "reduced_field/P2/bulk_magnetization_80mK",
+        "reduced_field/P0/bulk_magnetization_80mK",
+        "reduced_field/P1/bulk_magnetization_80mK",
+        "critical_offset/P2/neutron_diffraction_65mK",
+        "critical_offset/P0/neutron_diffraction_65mK",
+        "critical_offset/P1/neutron_diffraction_65mK",
+        "critical_offset/P2/bulk_magnetization_80mK",
+        "critical_offset/P0/bulk_magnetization_80mK",
+        "critical_offset/P1/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        6.342352983708832,
+        4.695684058767739,
+        0.3433083306177723,
+        11.894259488315083,
+        1.7820816970086035,
+        4.75523369593695,
+        4.056823133704446,
+        11.888870956336351,
+        3.445119838135196,
+        10.573886450635278,
+        0.09877570853718246,
+        2.547745093042935
+      ]
+    },
+    {
+      "temperature_K": 0.1,
+      "robust_field_T": 1.34345,
+      "worst_case_regret_percent": 10.614201389062542,
+      "worst_case_Q_mJ_per_cm3": 0.5253457719849314,
+      "scenario_order": [
+        "reduced_field/P2/neutron_diffraction_65mK",
+        "reduced_field/P0/neutron_diffraction_65mK",
+        "reduced_field/P1/neutron_diffraction_65mK",
+        "reduced_field/P2/bulk_magnetization_80mK",
+        "reduced_field/P0/bulk_magnetization_80mK",
+        "reduced_field/P1/bulk_magnetization_80mK",
+        "critical_offset/P2/neutron_diffraction_65mK",
+        "critical_offset/P0/neutron_diffraction_65mK",
+        "critical_offset/P1/neutron_diffraction_65mK",
+        "critical_offset/P2/bulk_magnetization_80mK",
+        "critical_offset/P0/bulk_magnetization_80mK",
+        "critical_offset/P1/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        5.813641489908427,
+        3.5798842380871387,
+        0.5632148615411569,
+        10.614201389062542,
+        1.6878773379114187,
+        4.232778969848391,
+        3.630059326388846,
+        10.603893099720374,
+        2.493631516451516,
+        9.182819047802733,
+        0.10136630639914493,
+        2.386947478382393
+      ]
+    },
+    {
+      "temperature_K": 0.12,
+      "robust_field_T": 1.3381,
+      "worst_case_regret_percent": 8.481835906466229,
+      "worst_case_Q_mJ_per_cm3": 0.8006139496988814,
+      "scenario_order": [
+        "reduced_field/P2/neutron_diffraction_65mK",
+        "reduced_field/P0/neutron_diffraction_65mK",
+        "reduced_field/P1/neutron_diffraction_65mK",
+        "reduced_field/P2/bulk_magnetization_80mK",
+        "reduced_field/P0/bulk_magnetization_80mK",
+        "reduced_field/P1/bulk_magnetization_80mK",
+        "critical_offset/P2/neutron_diffraction_65mK",
+        "critical_offset/P0/neutron_diffraction_65mK",
+        "critical_offset/P1/neutron_diffraction_65mK",
+        "critical_offset/P2/bulk_magnetization_80mK",
+        "critical_offset/P0/bulk_magnetization_80mK",
+        "critical_offset/P1/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        4.832150349592735,
+        2.054864529174307,
+        0.7150033631222126,
+        8.481835906466229,
+        1.491301975072703,
+        3.4455106336593038,
+        2.7875570002621246,
+        8.479622787240192,
+        1.2065344070498287,
+        7.024607589935732,
+        0.2098181250676936,
+        1.9819954288313477
+      ]
+    },
+    {
+      "temperature_K": 0.15,
+      "robust_field_T": 1.3312,
+      "worst_case_regret_percent": 6.066158123661989,
+      "worst_case_Q_mJ_per_cm3": 1.274809226946893,
+      "scenario_order": [
+        "reduced_field/P2/neutron_diffraction_65mK",
+        "reduced_field/P0/neutron_diffraction_65mK",
+        "reduced_field/P1/neutron_diffraction_65mK",
+        "reduced_field/P2/bulk_magnetization_80mK",
+        "reduced_field/P0/bulk_magnetization_80mK",
+        "reduced_field/P1/bulk_magnetization_80mK",
+        "critical_offset/P2/neutron_diffraction_65mK",
+        "critical_offset/P0/neutron_diffraction_65mK",
+        "critical_offset/P1/neutron_diffraction_65mK",
+        "critical_offset/P2/bulk_magnetization_80mK",
+        "critical_offset/P0/bulk_magnetization_80mK",
+        "critical_offset/P1/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        3.4109927989346582,
+        0.3382995020161626,
+        0.49929626655282705,
+        6.066158123661989,
+        1.2153679643759117,
+        2.690294669936738,
+        2.0458184183008306,
+        6.058308906147851,
+        0.027693293219521242,
+        5.085301423881923,
+        0.4067635181413744,
+        1.49160419393838
+      ]
+    }
+  ],
+  "design_map_rows": 24,
+  "limitations": [
+    "P1 is an explicit simple-bond interpretation of the published DFT scale, not a unique crystal model.",
+    "P2 is the paper's representative interlayer set and is not uniquely fitted by experiment.",
+    "The finite-temperature response is transported from a public XTRG curve by two similarity mappings; entropy redistribution and changes in Qmax are not calculated.",
+    "Heat-load, hold-time and volume values are magnetic-only conditional scenarios; nuclear, lattice, heat-switch, addenda and thermal-contact loads are excluded.",
+    "P2 is anchored to the measured 1.65--1.70 T critical field; only the calculated P0/P1 ablation shifts are transported into engineering coordinates.",
+    "The direct experimental Hc anchor already contains all real interactions and remains the primary engineering decision evidence."
+  ]
+}

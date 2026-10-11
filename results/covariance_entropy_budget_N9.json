@@ -1,0 +1,198 @@
+{
+  "purpose": "optimistic direct-covariance alternative to finite-difference entropy correction",
+  "identity": "Delta S = - integral_0^1 Cov_sym(H_lambda,V)/T^2 d lambda",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "quadrature": {
+    "type": "3-point Gauss-Legendre",
+    "nodes": [
+      0.1127016653792583,
+      0.5,
+      0.8872983346207417
+    ],
+    "weights": [
+      0.27777777777777785,
+      0.4444444444444444,
+      0.27777777777777785
+    ]
+  },
+  "rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "covariance_GL3_delta_S_kB_per_spin": -0.012036707787249289,
+      "exact_delta_S_kB_per_spin": -0.012036711571013547,
+      "quadrature_error_kB_per_spin": 3.783764258510902e-09,
+      "ideal_amplitude_integral": 82.57674816998352,
+      "separate_amplitude_integral": 437.65921850988553,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "ideal_mean_dependent_covariance_observable_shots": 84184190,
+          "separate_A_H_V_delta_method_shots": 2364760390
+        }
+      },
+      "details": [
+        {
+          "lambda": 0.1127016653792583,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -11.623483744952566,
+          "mean_V_K": 0.11592190223044721,
+          "symmetrized_covariance_K2": 0.0012303822504442508,
+          "variance_ideal_linearized_covariance_K4": 0.6727675751149125,
+          "variance_A_K4": 3.312821217295448,
+          "variance_H_K2": 0.006464527295491962,
+          "variance_V_K2": 0.05007872589283756
+        },
+        {
+          "lambda": 0.5,
+          "weight": 0.4444444444444444,
+          "mean_H_K": -11.584532832710268,
+          "mean_V_K": 0.10869692214040622,
+          "symmetrized_covariance_K2": 0.0010946918833447672,
+          "variance_ideal_linearized_covariance_K4": 0.6823831977849222,
+          "variance_A_K4": 3.189078282437265,
+          "variance_H_K2": 0.007284991907852145,
+          "variance_V_K2": 0.0494829382547334
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -11.547629620292028,
+          "mean_V_K": 0.10213271306971786,
+          "symmetrized_covariance_K2": 0.0009180040592728922,
+          "variance_ideal_linearized_covariance_K4": 0.6902868207071877,
+          "variance_A_K4": 3.1005857970703405,
+          "variance_H_K2": 0.007952589048159098,
+          "variance_V_K2": 0.04914512609703875
+        }
+      ]
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "covariance_GL3_delta_S_kB_per_spin": 0.001074275646032833,
+      "exact_delta_S_kB_per_spin": 0.0010742771787832506,
+      "quadrature_error_kB_per_spin": -1.532750417473222e-09,
+      "ideal_amplitude_integral": 79.98792754203552,
+      "separate_amplitude_integral": 518.1982855997345,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "ideal_mean_dependent_covariance_observable_shots": 78988501,
+          "separate_A_H_V_delta_method_shots": 3315178559
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "ideal_mean_dependent_covariance_observable_shots": 1974712517,
+          "separate_A_H_V_delta_method_shots": 82879463951
+        }
+      },
+      "details": [
+        {
+          "lambda": 0.1127016653792583,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -12.067014672802646,
+          "mean_V_K": 0.13406178335357694,
+          "symmetrized_covariance_K2": -0.0003573916044978809,
+          "variance_ideal_linearized_covariance_K4": 0.6261811103238797,
+          "variance_A_K4": 5.101121123319613,
+          "variance_H_K2": 0.0025804388766061948,
+          "variance_V_K2": 0.06162858910331994
+        },
+        {
+          "lambda": 0.5,
+          "weight": 0.4444444444444444,
+          "mean_H_K": -12.016353083945909,
+          "mean_V_K": 0.12359967655756798,
+          "symmetrized_covariance_K2": -6.921623613598271e-05,
+          "variance_ideal_linearized_covariance_K4": 0.6402218787991649,
+          "variance_A_K4": 4.896325979351068,
+          "variance_H_K2": 0.0026142855501518625,
+          "variance_V_K2": 0.06066677999320443
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -11.970500440572907,
+          "mean_V_K": 0.11398516935779468,
+          "symmetrized_covariance_K2": 0.00012007227300081524,
+          "variance_ideal_linearized_covariance_K4": 0.6529083918278131,
+          "variance_A_K4": 4.7216445987812135,
+          "variance_H_K2": 0.00280984185266675,
+          "variance_V_K2": 0.05987380973124447
+        }
+      ]
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "covariance_GL3_delta_S_kB_per_spin": 0.010934970016282278,
+      "exact_delta_S_kB_per_spin": 0.010934971367496105,
+      "quadrature_error_kB_per_spin": -1.3512138265919793e-09,
+      "ideal_amplitude_integral": 78.00242731902145,
+      "separate_amplitude_integral": 594.8111177491277,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "ideal_mean_dependent_covariance_observable_shots": 75115787,
+          "separate_A_H_V_delta_method_shots": 4367904517
+        }
+      },
+      "details": [
+        {
+          "lambda": 0.1127016653792583,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -12.611521422556809,
+          "mean_V_K": 0.14941496455359293,
+          "symmetrized_covariance_K2": -0.001139961979782722,
+          "variance_ideal_linearized_covariance_K4": 0.6011232700392508,
+          "variance_A_K4": 6.846127971707945,
+          "variance_H_K2": 0.005329000039807852,
+          "variance_V_K2": 0.07082701380801752
+        },
+        {
+          "lambda": 0.5,
+          "weight": 0.4444444444444444,
+          "mean_H_K": -12.551690897130896,
+          "mean_V_K": 0.13819314328236143,
+          "symmetrized_covariance_K2": -0.000992386421253988,
+          "variance_ideal_linearized_covariance_K4": 0.6082840161874827,
+          "variance_A_K4": 6.748628562325134,
+          "variance_H_K2": 0.00511771234613434,
+          "variance_V_K2": 0.07083676410933515
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "weight": 0.27777777777777785,
+          "mean_H_K": -12.496799692300371,
+          "mean_V_K": 0.12719519466994902,
+          "symmetrized_covariance_K2": -0.0008151500314863558,
+          "variance_ideal_linearized_covariance_K4": 0.6160443831866886,
+          "variance_A_K4": 6.648226321437131,
+          "variance_H_K2": 0.004878320365861555,
+          "variance_V_K2": 0.07078246064649593
+        }
+      ]
+    }
+  ],
+  "scope_limits": [
+    "The ideal covariance budget assumes direct projective measurement of a mean-dependent many-body observable.",
+    "The separate A,H,V budget uses first-order independent-error propagation and optimal shot allocation.",
+    "Neither budget includes Pauli decomposition, basis-change circuits, QITE, QMETTS correlation or hardware noise.",
+    "These are optimistic screening bounds, not executable QPU resource estimates."
+  ],
+  "elapsed_seconds": 6.347786600003019
+}

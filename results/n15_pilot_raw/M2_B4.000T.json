@@ -1,0 +1,29 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 15,
+  "sector_dimensions": [
+    16384,
+    16384
+  ],
+  "random_vectors_per_sector": 4,
+  "krylov_dimension": 40,
+  "exact_low_states_per_sector": 8,
+  "seed": 20261011,
+  "max_lanczos_residual_K": 33.151652821495595,
+  "elapsed_seconds": 13.504088500048965,
+  "rows": [
+    {
+      "temperature_K": 2.0,
+      "log_partition": 39.27334330108911,
+      "energy_K_total": -76.00391626589371,
+      "heat_capacity_kB_total": 3.7354310273069586,
+      "entropy_kB_total": 1.2713851681422572,
+      "entropy_kB_per_spin": 0.08475901120948381
+    }
+  ],
+  "model": "M2",
+  "model_name": "M1 plus nearest-neighbour dipole tensor",
+  "field_T": 4.0,
+  "boundary": "tin_foil",
+  "wall_seconds_including_operator_build": 13.540732499910519
+}

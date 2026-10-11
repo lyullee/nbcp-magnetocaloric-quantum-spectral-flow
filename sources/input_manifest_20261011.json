@@ -1,0 +1,63 @@
+{
+  "access_date": "2026-10-11",
+  "scope": "Additional public inputs for the M0-M4 NBCP Hamiltonians and the bulk XTRG baseline. Existing Nature 2024 figure workbooks remain listed in ../../source_manifest.json.",
+  "files": [
+    {
+      "file": "raw/arxiv_2607.23173_source.tar",
+      "url": "https://export.arxiv.org/e-print/2607.23173",
+      "description": "Author-supplied TeX source and figures for the 2026 fan-phase preprint; authoritative source used for equations, representative coupling table, lattice constants, and modelling limitations.",
+      "bytes": 4594960,
+      "sha256": "8e6b98abf97340684470416ab4f3229993548c10677cf66b3a047eaa17881b13"
+    },
+    {
+      "file": "raw/ora_NBCPO_data_archive.zip",
+      "url": "https://ora.ox.ac.uk/objects/uuid:b4da68a2-fdd2-42e9-80cd-1f13120b4790/files/rn870zs79x",
+      "record_url": "https://ora.ox.ac.uk/objects/uuid:b4da68a2-fdd2-42e9-80cd-1f13120b4790",
+      "description": "Oxford ORA public data archive for field-dependent neutron/x-ray study; contains ASCII figure data, calculations, error columns, and plotting code. It does not contain a CIF.",
+      "bytes": 10829748,
+      "sha256": "c231f504ebb7773bd7a1abfe7046b76c47425a9fbd035df83304a7ed244d0d36"
+    },
+    {
+      "file": "raw/pmc9907114_fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9907114/fullTextXML",
+      "record_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9907114/",
+      "description": "Machine-readable public full text of the 2022 PNAS quantum-universality paper; used for lattice constants, AA stacking, interlayer-path cancellation, and experimental phase-boundary context.",
+      "bytes": 136118,
+      "sha256": "ab8765cf54313f727714a518766a331fa92c26fc93891f029119a637ef67f2cc"
+    },
+    {
+      "file": "raw/arxiv_2202.05242_source.tar",
+      "url": "https://export.arxiv.org/e-print/2202.05242",
+      "record_url": "https://doi.org/10.1038/s41535-022-00500-3",
+      "description": "Author TeX and vector/raster figure source for Gao et al. (2022). Fig. 4a supplies the published YC6x9 XTRG C_m/T heatmap and Fig. 4b supplies an independent zero-field XTRG entropy validation curve. Fig. 4d is classical Monte Carlo and is kept separately labelled.",
+      "bytes": 11047325,
+      "sha256": "90fba79ce9090d0881a4d2aa6846ee6a11a3c000deca2b1e04532e272ccd4414"
+    },
+    {
+      "file": "raw/arxiv_2202.05242_source/Fig/Fig4.pdf",
+      "url": "https://arxiv.org/abs/2202.05242",
+      "description": "Extracted Fig. 4 PDF used for auditable image/colorbar and vector-path recovery. Hash is recorded separately because it is the direct derived-data parent.",
+      "sha256": "748f68788b521bb1e370aa263cc07459d89e0029655ac90de72f92020b924dbc"
+    },
+    {
+      "file": "raw/QMagen_public",
+      "url": "https://github.com/QMagen/QMagen",
+      "description": "Official public MATLAB QMagen repository. Contains XTRG, SETTN, MPO compression, and triangular-lattice TLXXZ code.",
+      "git_commit": "dcf17db27682d4c505155682108c612bdd11274c"
+    },
+    {
+      "file": "raw/PyQMagen_public",
+      "url": "https://github.com/QMagen/PyQMagen",
+      "description": "Official Python front end. Contains ED but lists 2D XTRG as a future feature; used to rule out a ready Python XTRG path.",
+      "git_commit": "6252c0356bd339eb34a5627276902998e330474f"
+    }
+  ],
+  "source_quality_notes": [
+    "The arXiv TeX source is a preprint, not a peer-reviewed version of record.",
+    "The 2026 paper states that its interlayer parameter set is representative and non-unique.",
+    "The ORA archive supplies figure-level data and calculations, not original instrument event files and not a CIF.",
+    "For the magnetic dipole lattice only the Co magnetic sublattice is required; the cited sources establish a one-site AA-stacked triangular magnetic lattice and give a and c.",
+    "The older PNAS paper uses P-3m1 in its structural description, whereas the 2026 diffraction paper identifies the lower-symmetry actual structure as P-3. M3/M4 uses the latter and treats the discrepancy explicitly.",
+    "Gao et al. (2022) states that numerical data and code are available from the authors upon request; no author-supplied numeric Fig. 4 table was found publicly. The reconstructed heatmap therefore carries explicit color-scale and finite-cylinder limitations."
+  ]
+}

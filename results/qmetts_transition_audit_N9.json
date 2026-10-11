@@ -1,0 +1,162 @@
+{
+  "purpose": "exact N=9 X-basis QMETTS mixing and observable-variance audit",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "observable": "V=M3-M0",
+  "target_independent_sample_standard_error_K_per_spin": 0.0001,
+  "rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "spectral_gap_H_K": 0.1614898620970422,
+      "exact_mean_V_K": 0.09937813201729091,
+      "X_METTS_variance_V_K2": 2.1095320258920553e-05,
+      "X_METTS_standard_deviation_V_K": 0.004592964212675792,
+      "independent_samples_for_1e-4_K_per_spin_SE": 27,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.4421605193827765,
+      "transition_spectral_gap": 0.5578394806172235,
+      "stationary_distribution_max_error": 1.734723475976807e-17,
+      "minimum_basis_probability": 5.341820140928509e-05,
+      "maximum_basis_probability": 0.018657277680556677
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "spectral_gap_H_K": 0.1614898620970422,
+      "exact_mean_V_K": 0.100314004146149,
+      "X_METTS_variance_V_K2": 2.3246797863473512e-05,
+      "X_METTS_standard_deviation_V_K": 0.00482149332297303,
+      "independent_samples_for_1e-4_K_per_spin_SE": 29,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.4649354428284193,
+      "transition_spectral_gap": 0.5350645571715806,
+      "stationary_distribution_max_error": 1.0408340855860843e-17,
+      "minimum_basis_probability": 4.95966963237485e-05,
+      "maximum_basis_probability": 0.01801577920044066
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "spectral_gap_H_K": 0.1614898620970422,
+      "exact_mean_V_K": 0.10176162615964215,
+      "X_METTS_variance_V_K2": 2.5600899269934755e-05,
+      "X_METTS_standard_deviation_V_K": 0.005059733122402283,
+      "independent_samples_for_1e-4_K_per_spin_SE": 32,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.49832590379251307,
+      "transition_spectral_gap": 0.5016740962074869,
+      "stationary_distribution_max_error": 2.0816681711721685e-17,
+      "minimum_basis_probability": 4.354227643734746e-05,
+      "maximum_basis_probability": 0.01699583478898729
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "spectral_gap_H_K": 0.04643876996238383,
+      "exact_mean_V_K": 0.11113182944471223,
+      "X_METTS_variance_V_K2": 5.630802906346529e-05,
+      "X_METTS_standard_deviation_V_K": 0.0075038676070054225,
+      "independent_samples_for_1e-4_K_per_spin_SE": 70,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.5941058623390084,
+      "transition_spectral_gap": 0.4058941376609916,
+      "stationary_distribution_max_error": 1.214306433183765e-17,
+      "minimum_basis_probability": 3.2559626569484906e-05,
+      "maximum_basis_probability": 0.014418886752997084
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "spectral_gap_H_K": 0.04643876996238383,
+      "exact_mean_V_K": 0.11132880158911065,
+      "X_METTS_variance_V_K2": 5.299409375927078e-05,
+      "X_METTS_standard_deviation_V_K": 0.007279704235700155,
+      "independent_samples_for_1e-4_K_per_spin_SE": 66,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.5958922683713787,
+      "transition_spectral_gap": 0.40410773162862135,
+      "stationary_distribution_max_error": 1.734723475976807e-17,
+      "minimum_basis_probability": 3.099146419473859e-05,
+      "maximum_basis_probability": 0.014181333215439426
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "spectral_gap_H_K": 0.04643876996238383,
+      "exact_mean_V_K": 0.1115278925983789,
+      "X_METTS_variance_V_K2": 4.7749871373708506e-05,
+      "X_METTS_standard_deviation_V_K": 0.006910128173464549,
+      "independent_samples_for_1e-4_K_per_spin_SE": 59,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.5984729495890982,
+      "transition_spectral_gap": 0.40152705041090175,
+      "stationary_distribution_max_error": 1.214306433183765e-17,
+      "minimum_basis_probability": 2.8638608936682605e-05,
+      "maximum_basis_probability": 0.013827849977105205
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "spectral_gap_H_K": 1.7763568394002505e-15,
+      "exact_mean_V_K": 0.12483379428771407,
+      "X_METTS_variance_V_K2": 2.70677101079576e-05,
+      "X_METTS_standard_deviation_V_K": 0.005202663751191076,
+      "independent_samples_for_1e-4_K_per_spin_SE": 34,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.46593137655854233,
+      "transition_spectral_gap": 0.5340686234414577,
+      "stationary_distribution_max_error": 6.071532165918825e-18,
+      "minimum_basis_probability": 1.0053794209868156e-05,
+      "maximum_basis_probability": 0.00983754509611993
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "spectral_gap_H_K": 1.7763568394002505e-15,
+      "exact_mean_V_K": 0.12404311911682449,
+      "X_METTS_variance_V_K2": 2.9539622965143775e-05,
+      "X_METTS_standard_deviation_V_K": 0.005435036611205464,
+      "independent_samples_for_1e-4_K_per_spin_SE": 37,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.4832327526303687,
+      "transition_spectral_gap": 0.5167672473696313,
+      "stationary_distribution_max_error": 7.806255641895632e-18,
+      "minimum_basis_probability": 1.1106694509461946e-05,
+      "maximum_basis_probability": 0.010066583803291005
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "spectral_gap_H_K": 1.7763568394002505e-15,
+      "exact_mean_V_K": 0.12263948760189027,
+      "X_METTS_variance_V_K2": 3.288689834055744e-05,
+      "X_METTS_standard_deviation_V_K": 0.005734709961328249,
+      "independent_samples_for_1e-4_K_per_spin_SE": 41,
+      "transition_unit_eigenvalue_multiplicity": 1,
+      "transition_second_eigenvalue_modulus": 0.5197674716051366,
+      "transition_spectral_gap": 0.4802325283948634,
+      "stationary_distribution_max_error": 1.214306433183765e-17,
+      "minimum_basis_probability": 1.297736828325512e-05,
+      "maximum_basis_probability": 0.010439781260511906
+    }
+  ],
+  "scope_limits": [
+    "Imaginary-time propagation and transition matrices are exact; QITE and hardware errors are absent.",
+    "Independent-sample counts do not include observable shot noise.",
+    "N=9 is a finite-cluster algorithm benchmark, not a bulk-material prediction."
+  ],
+  "elapsed_seconds": 4.836034100037068
+}

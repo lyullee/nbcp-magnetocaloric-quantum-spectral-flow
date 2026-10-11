@@ -1,0 +1,152 @@
+{
+  "purpose": "N=9 periodic M3 one-step QITE locality and optimistic circuit-resource screen",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "field_T": 1.45,
+  "initial_state": "X-basis product state X:101010101",
+  "efficient_pauli_action_max_error": 0.0,
+  "rows": [
+    {
+      "correlation_time_inverse_K": 0.0,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 1,
+      "pool_size": 27,
+      "energy_K": 0.0007085993742281724,
+      "relative_tangent_residual": 0.31090269209713545,
+      "effective_rank": 19,
+      "retained_pauli_terms": 16,
+      "resolved_condition_number": 3.000000000000001,
+      "compiled_all_to_all_depth": 4,
+      "compiled_all_to_all_CX": 0,
+      "compiled_operation_counts": {
+        "sx": 18,
+        "rz": 18
+      },
+      "one_step_infidelity": 0.01572509518893561,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 0
+    },
+    {
+      "correlation_time_inverse_K": 0.0,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 2,
+      "pool_size": 351,
+      "energy_K": 0.0007085993742281724,
+      "relative_tangent_residual": 2.5556326848398115e-15,
+      "effective_rank": 91,
+      "retained_pauli_terms": 216,
+      "resolved_condition_number": 4.743416490252575,
+      "compiled_all_to_all_depth": 168,
+      "compiled_all_to_all_CX": 104,
+      "compiled_operation_counts": {
+        "rz": 346,
+        "sx": 234,
+        "cx": 104
+      },
+      "one_step_infidelity": 0.0027241318987432095,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 10400
+    },
+    {
+      "correlation_time_inverse_K": 0.5,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 1,
+      "pool_size": 27,
+      "energy_K": -10.431135575984296,
+      "relative_tangent_residual": 0.6653979848789024,
+      "effective_rank": 27,
+      "retained_pauli_terms": 27,
+      "resolved_condition_number": 11.414199950799729,
+      "compiled_all_to_all_depth": 5,
+      "compiled_all_to_all_CX": 0,
+      "compiled_operation_counts": {
+        "rz": 27,
+        "sx": 18
+      },
+      "one_step_infidelity": 0.0016824426923721658,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 0
+    },
+    {
+      "correlation_time_inverse_K": 0.5,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 2,
+      "pool_size": 351,
+      "energy_K": -10.431135575984296,
+      "relative_tangent_residual": 0.1671709981442647,
+      "effective_rank": 351,
+      "retained_pauli_terms": 351,
+      "resolved_condition_number": 2204.4586964929595,
+      "compiled_all_to_all_depth": 170,
+      "compiled_all_to_all_CX": 108,
+      "compiled_operation_counts": {
+        "rz": 351,
+        "sx": 234,
+        "cx": 108
+      },
+      "one_step_infidelity": 0.00013683944182896202,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 10800
+    },
+    {
+      "correlation_time_inverse_K": 2.0,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 1,
+      "pool_size": 27,
+      "energy_K": -11.849276795909166,
+      "relative_tangent_residual": 0.9635295228568607,
+      "effective_rank": 27,
+      "retained_pauli_terms": 27,
+      "resolved_condition_number": 3.4273145294357734,
+      "compiled_all_to_all_depth": 5,
+      "compiled_all_to_all_CX": 0,
+      "compiled_operation_counts": {
+        "rz": 27,
+        "sx": 18
+      },
+      "one_step_infidelity": 0.0002827196567581902,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 0
+    },
+    {
+      "correlation_time_inverse_K": 2.0,
+      "imaginary_step_inverse_K": 0.05,
+      "maximum_pauli_weight": 2,
+      "pool_size": 351,
+      "energy_K": -11.849276795909166,
+      "relative_tangent_residual": 0.2703337459658597,
+      "effective_rank": 351,
+      "retained_pauli_terms": 351,
+      "resolved_condition_number": 744.6586827472944,
+      "compiled_all_to_all_depth": 170,
+      "compiled_all_to_all_CX": 108,
+      "compiled_operation_counts": {
+        "rz": 351,
+        "sx": 234,
+        "cx": 108
+      },
+      "one_step_infidelity": 2.2145962594088964e-05,
+      "projected_steps_to_100mK_beta_over_2": 100,
+      "projected_CX_per_100mK_METTS_state": 10800
+    }
+  ],
+  "scope_limits": [
+    "QITE coefficients use exact statevectors and exclude measurement noise.",
+    "Only one imaginary-time step is tested at each pre-correlated state.",
+    "CX counts assume all-to-all connectivity; hardware routing can only increase them.",
+    "Projected full-path CX is a step-count product, not a compiled concatenated circuit."
+  ],
+  "elapsed_seconds": 8.21061829989776
+}

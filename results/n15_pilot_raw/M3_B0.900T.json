@@ -1,0 +1,76 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 15,
+  "sector_dimensions": [
+    16384,
+    16384
+  ],
+  "random_vectors_per_sector": 4,
+  "krylov_dimension": 40,
+  "exact_low_states_per_sector": 8,
+  "seed": 20261011,
+  "max_lanczos_residual_K": 9.674614523024202,
+  "elapsed_seconds": 25.717304300051183,
+  "rows": [
+    {
+      "temperature_K": 0.09,
+      "log_partition": 157.4492224335599,
+      "energy_K_total": -14.071272370901648,
+      "heat_capacity_kB_total": 0.02278613142559635,
+      "entropy_kB_total": 1.1017516457637984,
+      "entropy_kB_per_spin": 0.07345010971758656
+    },
+    {
+      "temperature_K": 0.1,
+      "log_partition": 141.81462117979834,
+      "energy_K_total": -14.070974140977773,
+      "heat_capacity_kB_total": 0.03800357388001884,
+      "entropy_kB_total": 1.1048797700206228,
+      "entropy_kB_per_spin": 0.07365865133470818
+    },
+    {
+      "temperature_K": 0.12,
+      "log_partition": 118.36381820260375,
+      "energy_K_total": -14.06974178019859,
+      "heat_capacity_kB_total": 0.09024788337481167,
+      "entropy_kB_total": 1.1159700342821643,
+      "entropy_kB_per_spin": 0.07439800228547762
+    },
+    {
+      "temperature_K": 0.15,
+      "log_partition": 94.91721825200544,
+      "energy_K_total": -14.065156922139943,
+      "heat_capacity_kB_total": 0.22783851051523624,
+      "entropy_kB_total": 1.1495054377391434,
+      "entropy_kB_per_spin": 0.07663369584927622
+    },
+    {
+      "temperature_K": 0.2,
+      "log_partition": 71.48811201406544,
+      "energy_K_total": -14.044279335730737,
+      "heat_capacity_kB_total": 0.6556737915602183,
+      "entropy_kB_total": 1.2667153354117624,
+      "entropy_kB_per_spin": 0.08444768902745083
+    },
+    {
+      "temperature_K": 0.25,
+      "log_partition": 57.46401943000648,
+      "energy_K_total": -13.993772719067389,
+      "heat_capacity_kB_total": 1.428510472707785,
+      "entropy_kB_total": 1.4889285537369246,
+      "entropy_kB_per_spin": 0.09926190358246163
+    },
+    {
+      "temperature_K": 0.3,
+      "log_partition": 48.162492529742416,
+      "energy_K_total": -13.895547755022568,
+      "heat_capacity_kB_total": 2.545550933077973,
+      "entropy_kB_total": 1.8440000130005192,
+      "entropy_kB_per_spin": 0.12293333420003462
+    }
+  ],
+  "model": "M3",
+  "model_name": "M1 plus full 3D-periodic Ewald dipoles",
+  "field_T": 0.9,
+  "boundary": "tin_foil"
+}

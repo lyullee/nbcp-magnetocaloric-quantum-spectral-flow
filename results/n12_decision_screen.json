@@ -1,0 +1,129 @@
+{
+  "field_grid_T": [
+    0.0,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.66,
+    1.7,
+    1.8
+  ],
+  "temperatures_K": [
+    0.09,
+    0.1,
+    0.12,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "representative_scale_decisions": [
+    {
+      "N": 12,
+      "T_cold_K": 0.09,
+      "base_optimal_B_on_grid_T": 1.1,
+      "perturbed_optimal_B_on_grid_T": 1.2,
+      "field_shift_T": 0.09999999999999987,
+      "base_optimal_Q_model_mJ_per_cm3": 0.44486203976705996,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 0.4253013138742734,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.019560725892786568,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 3.6315919910718475,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.1,
+      "base_optimal_B_on_grid_T": 1.1,
+      "perturbed_optimal_B_on_grid_T": 1.2,
+      "field_shift_T": 0.09999999999999987,
+      "base_optimal_Q_model_mJ_per_cm3": 0.5109177645243766,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 0.4850755553241409,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.025842209200235777,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 3.5778513242780114,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.12,
+      "base_optimal_B_on_grid_T": 1.1,
+      "perturbed_optimal_B_on_grid_T": 1.2,
+      "field_shift_T": 0.09999999999999987,
+      "base_optimal_Q_model_mJ_per_cm3": 0.6477379628044755,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 0.6138169037050437,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.03392105909943177,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 3.288580157825559,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.15,
+      "base_optimal_B_on_grid_T": 1.1,
+      "perturbed_optimal_B_on_grid_T": 1.2,
+      "field_shift_T": 0.09999999999999987,
+      "base_optimal_Q_model_mJ_per_cm3": 0.8794660323205623,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 0.8422620540567355,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.03720397826382682,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 2.3463036358850937,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.2,
+      "base_optimal_B_on_grid_T": 1.2,
+      "perturbed_optimal_B_on_grid_T": 1.3,
+      "field_shift_T": 0.10000000000000009,
+      "base_optimal_Q_model_mJ_per_cm3": 1.516906641909677,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 1.490655551983605,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.026251089926071947,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 1.0093693772025412,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.25,
+      "base_optimal_B_on_grid_T": 1.2,
+      "perturbed_optimal_B_on_grid_T": 1.3,
+      "field_shift_T": 0.10000000000000009,
+      "base_optimal_Q_model_mJ_per_cm3": 2.3814692601318237,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 2.369927795462323,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.0115414646695009,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 0.2949170446997204,
+      "optimized_effect_exceeds_10_percent_screen": false
+    },
+    {
+      "N": 12,
+      "T_cold_K": 0.3,
+      "base_optimal_B_on_grid_T": 1.3,
+      "perturbed_optimal_B_on_grid_T": 1.3,
+      "field_shift_T": 0.0,
+      "base_optimal_Q_model_mJ_per_cm3": 3.485803509039882,
+      "perturbed_optimal_Q_model_mJ_per_cm3": 3.420231534448125,
+      "optimized_delta_Q_model_mJ_per_cm3": -0.0655719745917569,
+      "abs_optimized_delta_Q_as_percent_of_public_best_Q": 1.2058364346048585,
+      "optimized_effect_exceeds_10_percent_screen": false
+    }
+  ],
+  "max_reoptimized_effect": {
+    "N": 12,
+    "T_cold_K": 0.09,
+    "base_optimal_B_on_grid_T": 1.1,
+    "perturbed_optimal_B_on_grid_T": 1.2,
+    "field_shift_T": 0.09999999999999987,
+    "base_optimal_Q_model_mJ_per_cm3": 0.44486203976705996,
+    "perturbed_optimal_Q_model_mJ_per_cm3": 0.4253013138742734,
+    "optimized_delta_Q_model_mJ_per_cm3": -0.019560725892786568,
+    "abs_optimized_delta_Q_as_percent_of_public_best_Q": 3.6315919910718475,
+    "optimized_effect_exceeds_10_percent_screen": false
+  },
+  "scope": [
+    "Classical exact diagonalization, not a QPU calculation.",
+    "Field optimum is restricted to the stated coarse grid.",
+    "N=12 is exact for this cluster but is not a bulk convergence result.",
+    "Same model exclusions as broad_feasibility_screen.json."
+  ],
+  "elapsed_seconds": 111.51037469995208
+}

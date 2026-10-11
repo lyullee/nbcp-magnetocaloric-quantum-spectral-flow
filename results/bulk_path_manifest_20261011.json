@@ -1,0 +1,794 @@
+{
+  "created_utc": "2026-10-11T16:48:05.368422+00:00",
+  "runtime": {
+    "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "files": {
+    "make_bulk_manifest.py": {
+      "sha256": "fe854d49467c8c01e01f8bcbf2efc71a9132f477b7ca16b4cb73a5a72dbd2d9b",
+      "bytes": 10267
+    },
+    ".gitignore": {
+      "sha256": "b398818272df96c2981fbbb59773b4a48f87b1b401ded8de62d6463365ff92c3",
+      "bytes": 466
+    },
+    ".zenodo.json": {
+      "sha256": "558cf48c50372a79ff14c1876af0829296c34fcad44ba40b553f52e7c5cf9acf",
+      "bytes": 1347
+    },
+    "README.md": {
+      "sha256": "a1dc47c6cf449011da203fe4319916a92c447781834d17d5bd6894dbd42b9491",
+      "bytes": 4536
+    },
+    "REPRODUCE.md": {
+      "sha256": "d39fce44f7002a39b5717fa1b4ba36092fa268e29c07c7f85f26dd30075cd0fc",
+      "bytes": 3609
+    },
+    "RELEASE_NOTES_v0.1.0.md": {
+      "sha256": "7a0d72ed918f9391b0223eb5557d2a1534038c491ac9e3d6a7bb14096a1bf23a",
+      "bytes": 1847
+    },
+    "CITATION.cff": {
+      "sha256": "9f19e584cf2276153d782abf61354923b615e110017fc69d369f22ef73cd3f2e",
+      "bytes": 1358
+    },
+    "LICENSE": {
+      "sha256": "88fe5bbd72bc9022c8bf614cd5840492fea556ad9774534ec77622a3daf95cfd",
+      "bytes": 1086
+    },
+    "DATA_LICENSE.md": {
+      "sha256": "0744cd76b86011ab7db321500e7aa1774c758d4f5e80951140a2810f855a891f",
+      "bytes": 616
+    },
+    "requirements.txt": {
+      "sha256": "401d4ed39acf778dbe2c256dcc50826b651bfc6a8e9f61f5a3e0318897448753",
+      "bytes": 192
+    },
+    "fetch_public_inputs.py": {
+      "sha256": "7e6da70cdedf674988e717afcdc0b83e03ff9ef921971d65cd7fa4c9c8dec6e9",
+      "bytes": 5202
+    },
+    "bulk_polarized_stability.py": {
+      "sha256": "e766804306c5ceb867801ec5d1a89e537742329514058111d15e7daddbd801c9",
+      "bytes": 8579
+    },
+    "validate_bulk_stability_convergence.py": {
+      "sha256": "66bd51c94f2e54df53db20e6381afd6efb041cab15ab874f11995e8b390da3b9",
+      "bytes": 1829
+    },
+    "bulk_to_engineering_surrogate.py": {
+      "sha256": "6ac922ee6fa735590658e150e34cc6f6c52fd94f8c68864927751c36c70586fa",
+      "bytes": 10568
+    },
+    "dipole_ewald.py": {
+      "sha256": "67071e9f291a7acc8ba03a8bc089cafb7b2c8baca376a510ec2e601854f40a31",
+      "bytes": 12337
+    },
+    "finite_cluster_stability_alignment.py": {
+      "sha256": "f6dff2edb9fb7009f72c15146fd4ee45be5b04130003ebddfb6ac8eeef462cbb",
+      "bytes": 6568
+    },
+    "octave/bulk_polarized_stability_octave.m": {
+      "sha256": "38d16b7bb7f6bea6ca5e2bb1e76e932bca53dcf2808c994bc6bba615a96da204",
+      "bytes": 5277
+    },
+    "octave/qmagen_octave_compat/svdT.m": {
+      "sha256": "cd818003fcd6fdfdf8b15683a4af743d02934f5f8738d6b7d3674381d9c6a117",
+      "bytes": 1296
+    },
+    "octave/qmagen_n9_xtrg_validation.m": {
+      "sha256": "a279267c48ecde21da2a29055414c0ec7d39b5b5137f1867811c00bb04f01c0b",
+      "bytes": 4510
+    },
+    "octave/qmagen_n9_heat_capacity_validation.m": {
+      "sha256": "4215e73cdb1a5acf043827191e40369b6a3c0c0b0b50b1d12980e26c53491cfa",
+      "bytes": 3455
+    },
+    "octave/qmagen_cylinder_pilot.m": {
+      "sha256": "f8ab738cedb2da1485e64b9654ed7a1d9eee9996d55bad9f12fc61477e8a8744",
+      "bytes": 3018
+    },
+    "compile_qmagen_validation.py": {
+      "sha256": "632c806d87578a2d5b099a9c044853cf16129f3631dd447c5861006b6b46a7bf",
+      "bytes": 3029
+    },
+    "compile_qmagen_cylinder_convergence.py": {
+      "sha256": "d8f581eee48558577b532777b8846ad473a3b921ced293cec465a36eebef12d4",
+      "bytes": 5072
+    },
+    "analyze_qmagen_free_energy_derivative.py": {
+      "sha256": "56801e04c44a959c15bbf4110e0eeaf72d96153857da0ac7642a6a1452177484",
+      "bytes": 4356
+    },
+    "magnon_sector.py": {
+      "sha256": "e3a2422e6d9ee68b192a10f7ffc15f4e5ca66e8e23719d0b32b91a516273850b",
+      "bytes": 9917
+    },
+    "test_magnon_sector.py": {
+      "sha256": "177be363e4a6e01ab322233bd620e207c2e2a1adba638a435a7de9c27f06c19a",
+      "bytes": 1283
+    },
+    "validate_magnon_truncation_n18.py": {
+      "sha256": "9e87373e33d405ea8b63d057ff68e03cf97e7eac91e704c916ea0a162bce5041",
+      "bytes": 4128
+    },
+    "run_magnon_m0_size_scan.py": {
+      "sha256": "37cbcdf2e4b758105b7600a335e6e3c1d013b9ce2d2dafbb7a34b9571e740d0d",
+      "bytes": 3326
+    },
+    "truncated_magnon_operator.py": {
+      "sha256": "5d5e889cc3851a061f2d9d9e37276c54ce8faa42caee136444be9cdc7977092a",
+      "bytes": 6488
+    },
+    "test_truncated_magnon_operator.py": {
+      "sha256": "10f15b5fbfc9dcb60ec513be2b3e5664a850fe36de428d6c1a5d8ddd67ed5b01",
+      "bytes": 1797
+    },
+    "run_magnon_m3_low_energy.py": {
+      "sha256": "d6cb5a6755a0ee2e940275119669c14bc6ab099bdae83f0af561b4b84c5c3c72",
+      "bytes": 4080
+    },
+    "compile_magnon_size_evidence.py": {
+      "sha256": "ccd054ba1d5d12f08d32eb6c725b607ae8062758b427b7561ec2ae08c5c4a723",
+      "bytes": 4433
+    },
+    "diagnose_magnon_boundary_residual.py": {
+      "sha256": "8b1acbf76e850035056b934f4a9d08142ac22c7cfc5df93953eaa648db6fd88e",
+      "bytes": 5405
+    },
+    "estimate_magnon_boundary_denominator.py": {
+      "sha256": "b34b72aac89b38e07adbea9a5a81e88d0f93e81be3c11c9d5a6116a0474a977e",
+      "bytes": 4100
+    },
+    "selected_magnon_subspace.py": {
+      "sha256": "2aa158e4095b6bc364afbb3ca7d3148970d062a5b7437396068654ebe7042621",
+      "bytes": 10141
+    },
+    "run_magnon_m3_n27_direct.py": {
+      "sha256": "dd311536f46550e6ad9489f216b2a45de612bc629edbce00b5b14d914a91458f",
+      "bytes": 4069
+    },
+    "experimental_hc_engineering_anchor.py": {
+      "sha256": "54e6513d3d2c244e9374c106cc38717551982e3f043788489afd5e3e0a7a8d1e",
+      "bytes": 7416
+    },
+    "prepare_quantum_local_benchmark.py": {
+      "sha256": "d04055894e41a59a0c16c17e0329258ecc5e376f9b99c60559a61b1c71a4a84b",
+      "bytes": 7301
+    },
+    "test_quantum_local_benchmark.py": {
+      "sha256": "4c5ca9a3cda29d0a4cff2e424b49d87c78e0df874200ce7a78f479db46c3cb05",
+      "bytes": 927
+    },
+    "qiskit_pauli_mapping.py": {
+      "sha256": "2a91d8830a1076466036adbd4a09201e2b2eb424f65bd053ff65b5160c7832a7",
+      "bytes": 3489
+    },
+    "validate_qiskit_pauli_mapping_n6.py": {
+      "sha256": "36fef587d050ffb48310b167885651351184db0bc8d60e8ca2f9c90aa46de15c",
+      "bytes": 4595
+    },
+    "validate_qiskit_pauli_mapping_n9.py": {
+      "sha256": "3dff4a204323a3b2d179107ac0405255708153933147a3e3e7dab36224356338",
+      "bytes": 4430
+    },
+    "qite_tangent_screen_n6.py": {
+      "sha256": "6c7d80b1ec88dad061d4beba6ba300d881af8ed1e2b864be30f4216c0aa210c3",
+      "bytes": 7441
+    },
+    "qite_full_trajectory_n6.py": {
+      "sha256": "8be4b5e6eba94d022112779101000519b90786c2e583ff51387f832d2d2058c3",
+      "bytes": 7554
+    },
+    "qmetts_exact_sampling_n6.py": {
+      "sha256": "7dab16706bb2ee22b67418b444681df02f8e706f2d71c6eed87ecea3806e5602",
+      "bytes": 6962
+    },
+    "analyze_qmetts_transition_n6.py": {
+      "sha256": "b4893711e30dd87d006566fc08748fa544cc0b75d8606dcc908124ceb27d51e0",
+      "bytes": 6162
+    },
+    "qite_qmetts_xbasis_n6.py": {
+      "sha256": "3f52beb35ea4bb9aeb8485e940a8021b20cc315588ad5b04d193f3329e4dd187",
+      "bytes": 7101
+    },
+    "qite_tangent_screen_n9.py": {
+      "sha256": "06f7335d4c128504aca2ff7812408d6f9e2fd640ddf68ce6569f63b18f4603a7",
+      "bytes": 7658
+    },
+    "qite_adaptive_weight3_n9.py": {
+      "sha256": "715016599deca2d2933acb06e8c1e18a2cc353098e59c1985ec6c3506cbc75ba",
+      "bytes": 6146
+    },
+    "analyze_qmetts_transition_n9.py": {
+      "sha256": "540e3777afe25d8064fb0ea9e542f84baf102c820fdb23338d0b7b779ef24740",
+      "bytes": 4847
+    },
+    "estimate_qpu_shot_budget_n9.py": {
+      "sha256": "d49366e2a0305d377cf9dc2e1fa6916508564045b630bcea79875a63f05bbb1d",
+      "bytes": 6995
+    },
+    "compile_quantum_screening.py": {
+      "sha256": "e527d7830e407743d318ccba2e03f9f4579f24ab14203b369f71438b3d568d2c",
+      "bytes": 5616
+    },
+    "estimate_covariance_entropy_budget_n9.py": {
+      "sha256": "435d6a7373b6987dbad464af76d8178ac957f2178eb46babbe414fd6b6366b96",
+      "bytes": 6683
+    },
+    "estimate_jarzynski_budget_n9.py": {
+      "sha256": "2cb184f97364f9f2ecd7e87627347afd2c5605526b72c7d876ec8ab827b9a803",
+      "bytes": 7529
+    },
+    "screen_jarzynski_ramp_n9.py": {
+      "sha256": "5d2d1d3b1d94e28c7a3103421dfeebde1b8c4328ddec97f7577ab8acd56df229",
+      "bytes": 7483
+    },
+    "analyze_adiabatic_path_n9.py": {
+      "sha256": "295c0eb31659982c584542c0d9305a967784f8d56f2b847cc8e4fc64b3b14c10",
+      "bytes": 7785
+    },
+    "assess_low_energy_quantum_route_n9.py": {
+      "sha256": "20743042afe8effdf6802c9f543eed3bf47b5ec0c312dfab202663845628af9e",
+      "bytes": 12988
+    },
+    "screen_spectral_flow_entropy_n9.py": {
+      "sha256": "b10d509b3071d356f64bdfcd9d1f54a2dfaa92ca1e42b5559aa9b295af2f98a9",
+      "bytes": 9497
+    },
+    "screen_spectral_flow_entropy_n12.py": {
+      "sha256": "3b00bc459bb2c4fff0412fb86be0fbade74cc95f4c44cfefbd642d361237851e",
+      "bytes": 12444
+    },
+    "audit_low_energy_state_complexity.py": {
+      "sha256": "43c7573f549500880d37e200ef761a488f13290b24848488ad7756ce58ef48b2",
+      "bytes": 7713
+    },
+    "compile_quantum_second_screen.py": {
+      "sha256": "b557e0a2d87598b3a3fead0911cbb33a6bf62625c73396c84b6c4c4714e73ecf",
+      "bytes": 7830
+    },
+    "verify_second_screen.py": {
+      "sha256": "a27bea3cda8af108d53cbaed341988c01f0420f1c4716ca4f0d1d14e88503a8d",
+      "bytes": 880
+    },
+    "spectral_flow_circuit_unit_n6.py": {
+      "sha256": "3a5f1d5de384f08724c47432821a71988819c197365471b819e13e38b57ab3d9",
+      "bytes": 9475
+    },
+    "fit_number_conserving_ansatz_n9.py": {
+      "sha256": "679f6ea6f9a2fc60ed027548a4d8cfac4500031caea4a484520becc75b55164b",
+      "bytes": 12111
+    },
+    "fit_givens_ansatz_n9.py": {
+      "sha256": "11b871b96c67502c7eecdbca9845b0ef189d96aa00d4512bf11647697d5236fd",
+      "bytes": 6755
+    },
+    "fit_sector_mixing_ansatz_n9.py": {
+      "sha256": "4c25639e17ff3429b420002a1a3d1be7c16043c77d0db9cb302f5fb78f59a101",
+      "bytes": 6908
+    },
+    "fit_spectral_flow_states_n9.py": {
+      "sha256": "6a5a6d424f94fd4f195dd0eea00953984787350481a803f41a0cba19d98ac97e",
+      "bytes": 14121
+    },
+    "audit_fake_backend_noise_n9.py": {
+      "sha256": "4f671820471a8c2857f54c329c8b1f27d3878fa10f81db9be4ec3be15eb385a9",
+      "bytes": 7102
+    },
+    "audit_fake_backend_noise_n6.py": {
+      "sha256": "06127ebb1a1dc59c3faba85f919086b126970dd09ac4392085548c0c5fe48ca0",
+      "bytes": 4703
+    },
+    "preflight_open_plan_n6.py": {
+      "sha256": "a00d040096f06cb9ac2c8811775677783145e54ac0508b4b8f3f4c82ef62c6cd",
+      "bytes": 8618
+    },
+    "run_open_plan_n6_pilot.py": {
+      "sha256": "e27e8df39efddbd3b5cc042edc32f96a27861123089039ca5f54d5f6d44c31f1",
+      "bytes": 8738
+    },
+    "compile_open_plan_qpu_pilot.py": {
+      "sha256": "24152f4c131a4743d63e39669640112bc9737def9b6c41fdc8ae0721e115b575",
+      "bytes": 5263
+    },
+    "compile_n9_stateprep_field_scan.py": {
+      "sha256": "9b0d39acd88e85ce8ea50d281d90ec34d7fc6eb65f6499be65f54877e2ce2905",
+      "bytes": 5690
+    },
+    "verify_quantum_stateprep_qpu.py": {
+      "sha256": "92e1324a09ff3c80460be8cc515bb56f0262169ec512a5b1298a4349bcd3075c",
+      "bytes": 4690
+    },
+    "interlayer_engineering_scenarios.py": {
+      "sha256": "7e8e16f8f5899cfa2f94c5a94293bc2cb6457d7ab6a73fd7290faf6d843a12ed",
+      "bytes": 14216
+    },
+    "verify_engineering_decision.py": {
+      "sha256": "eac048d395867ad849002d699359c9c591fd08ef9890c5671ea1bd01f8c2f94b",
+      "bytes": 3085
+    },
+    "refine_engineering_case.py": {
+      "sha256": "0386f7606ad1d6c08a9b9d457b607feb1719774e53b0625c715b01e2127590f9",
+      "bytes": 7286
+    },
+    "verify_manuscript_claims.py": {
+      "sha256": "48d1c76f6a15359e2660f6741f21dde88767fb28ebbfd35532c71eeb17bfa9d8",
+      "bytes": 4322
+    },
+    "Octave_QMagen_\uac80\uc99d\uacb0\uacfc_20261011.md": {
+      "sha256": "316a76d6e5af30060029f9dbf16684b247549decfbf261db9fa6dd83cda28c77",
+      "bytes": 3595
+    },
+    "\uc800\ub9c8\uadf8\ub17c_\ud06c\uae30\ud655\uc7a5_\uac80\uc99d_20261011.md": {
+      "sha256": "05781445fa8e1ee49ab0a71d1c7c50611ab96f5f1974e71549c7b76c6aedd616",
+      "bytes": 7283
+    },
+    "Gate1_\uc2e4\ud5d8\uc784\uacc4\uc7a5_\uc7ac\ud310\uc815_20261011.md": {
+      "sha256": "8c927737f28f69ee0913df27eb09f0b0450c4ca842ca04399b3525975b30a5e6",
+      "bytes": 4881
+    },
+    "\uc591\uc790\uc54c\uace0\ub9ac\uc998_\ub85c\uceec\uc120\ubc1c\uacc4\ud68d_20261011.md": {
+      "sha256": "b090ac40d036d6f5c97ba639ac3d45fb117af608655a2ca2fef1278aea5d839c",
+      "bytes": 7317
+    },
+    "\uc591\uc790\uc54c\uace0\ub9ac\uc998_1\ucc28\uc120\ubc1c\uacb0\uacfc_20261012.md": {
+      "sha256": "52863142d41f198d70491f32b7e31bfcb476f3b9355483892e5566a7260bb1c2",
+      "bytes": 6038
+    },
+    "\uc591\uc790\uc54c\uace0\ub9ac\uc998_2\ucc28\uc120\ubc1c\uacb0\uacfc_20261012.md": {
+      "sha256": "0caf29b5b1a3988bcddea32ef0cbf0ccf0febe6387700ce03e70d26c3b776874",
+      "bytes": 7032
+    },
+    "\uc591\uc790\uc0c1\ud0dc\uc900\ube44_\ubc0f_OpenPlan_\uc2e4\uc99d\uacb0\uacfc_20261012.md": {
+      "sha256": "a9045a77233ab402c6caf33e449532881d9eaa4901b962cfd968d6d13a90d608",
+      "bytes": 9615
+    },
+    "\uacf5\ud559\uc758\uc0ac\uacb0\uc815_P0_P2_\uacb0\uacfc_20261012.md": {
+      "sha256": "0760851b817a958e0bcbeb30f8a1400b732c703e7addbc04a6b5107026fb44b3",
+      "bytes": 7450
+    },
+    "\uc138\uc158\ubaa9\ud45c_\ubc0f_\uc9c4\ud589\uc0c1\ud0dc_20261011.md": {
+      "sha256": "ed8bb32808bfb058aea3c021adc50d29cecf820aa9fcf8193f0d76989f804dd3",
+      "bytes": 19367
+    },
+    "\uc5f0\uad6c\ubaa9\ud45c_\uc644\ub8cc\uac10\uc0ac_20261012.md": {
+      "sha256": "8e079361b96a0bc4f1fddd25799239c0623fab4a1d96c8b597cf8f0958da6352",
+      "bytes": 5898
+    },
+    "\uc5f0\uad6c\uc2e4\ud589_\uccb4\ud06c\ub9ac\uc2a4\ud2b8_20261011.csv": {
+      "sha256": "3fc0695a809a4d7c96863d76f1ad7a1c933f06ae75a854063392f523722efd4e",
+      "bytes": 10890
+    },
+    "model_specification_v1.json": {
+      "sha256": "df31367b8509ae059af32f2b9f065b7e714e5d6e0f12df0123098ccf731511df",
+      "bytes": 2438
+    },
+    "source_manifest.json": {
+      "sha256": "f63ca9d68f3515cc30f5fec25ea63131deb1368b14dc2e394509cabb503be4a1",
+      "bytes": 1561
+    },
+    "requirements-research.txt": {
+      "sha256": "902ef33265ae2faa6244fddd680e54dc9969c34c65fad8b03deca6850e3d7e24",
+      "bytes": 99
+    },
+    "manuscript/Manuscript_draft_20261012.md": {
+      "sha256": "ff348dff205d013e778a0bc16d0ce1fc84f8447dfa3c4f3b291694c139644c0f",
+      "bytes": 32474
+    },
+    "manuscript/Supplementary_Information_draft_20261012.md": {
+      "sha256": "29b44548eba237b11dd517fcf88babe4a2f5540d6c1275661e3572eb35da002b",
+      "bytes": 14200
+    },
+    "manuscript/references.bib": {
+      "sha256": "55d283625719fdfa211635b28e7bd87849cf39d7cfe7f34220194522dffbe552",
+      "bytes": 3645
+    },
+    "manuscript/author_metadata.json": {
+      "sha256": "55a272bbd9f4ad6347d5038056999157c7da51d28fe56d5f75cce6186e54da75",
+      "bytes": 1655
+    },
+    "manuscript/COAUTHOR_REVIEW_CHECKLIST.md": {
+      "sha256": "c635af29502e9f4da38b13ee33a801fc7325842dd2afb09641c0d21d2c61dfcc",
+      "bytes": 1600
+    },
+    "tools/setup_octave_signed_shim.ps1": {
+      "sha256": "f682d5a623ff1ee1e8823b381e43385f1336561a6e1285a384ca176f2e4b5753",
+      "bytes": 1795
+    },
+    "sources/input_manifest_20261011.json": {
+      "sha256": "89464eda60b27058bc455e9dc436d7f45ccc50e4eb4c8ebf533ce25caca0d323",
+      "bytes": 4354
+    },
+    "sources/crystal_input_provenance_20261012.json": {
+      "sha256": "a9f9c1e0d490cea84b1a666a44a6565d0f20073ebff638a319b34146167c9660",
+      "bytes": 2658
+    },
+    "sources/raw/arxiv_2607.23173_source/main.tex": {
+      "sha256": "1b758155bd462010c00c71a6991d9e829dd1d587d5bcc212ddbd044193f44b8b",
+      "bytes": 77170
+    },
+    "results/npj2022_xtrg_entropy_reconstructed.csv": {
+      "sha256": "729af48fcfba4e98dcf38d11fd33721dc55d62181bc0140903c323382b19f61e",
+      "bytes": 130317
+    },
+    "results/bulk_polarized_stability.json": {
+      "sha256": "636ea5d7ed120f08ef1ca71b1ddcc28ae58453f4a630628b3313e7d2f52f31f5",
+      "bytes": 5187
+    },
+    "results/bulk_polarized_stability_octave.json": {
+      "sha256": "8dd8a2887d16a9a87547bbb738937f3be6f610f1449e1080504356962180f99e",
+      "bytes": 1049
+    },
+    "results/bulk_stability_convergence.json": {
+      "sha256": "01792cc33d108f020ac292584e6b7abb4916cb5138b87954cc55199770c6751d",
+      "bytes": 3091
+    },
+    "results/bulk_to_engineering_surrogate.json": {
+      "sha256": "55c6d3db5767af36a100c670ce625e33daae7405d4f367fae7935dc44af85df0",
+      "bytes": 31802
+    },
+    "results/finite_cluster_stability_alignment.json": {
+      "sha256": "72e12c11904f4484c48ba6dcd728161977d020249184c04c8415b10384b6f7f8",
+      "bytes": 52588
+    },
+    "results/qmagen_n9_xtrg_convergence.json": {
+      "sha256": "d81023aa4c65312a369fde6b18af4dd8ebd7497f5ad51afc5995c93c079bb3d2",
+      "bytes": 3055
+    },
+    "results/qmagen_n9_heat_capacity_D24.json": {
+      "sha256": "d4b7c4f9ae5bb0b62be23792eb0dc7c42fa5715db94d0ee7d7e8400a8d975c93",
+      "bytes": 15243
+    },
+    "results/qmagen_n9_heat_capacity_D32.json": {
+      "sha256": "cd9cf935b84cac1c4afcee57178dc93e92f920c0fe52e61a9c78b73ba47d5afc",
+      "bytes": 15232
+    },
+    "results/qmagen_n9_heat_capacity_D40.json": {
+      "sha256": "a344718b04d586a7275dc86c966705b7f30eb89b9bcbcd54878f570d09b379fd",
+      "bytes": 15241
+    },
+    "results/qmagen_cylinder_9x6_D8.json": {
+      "sha256": "7ed3d8c2326a8b8f99c40ba51febe99b248855561100badac27451ffcba2c4e9",
+      "bytes": 3024
+    },
+    "results/qmagen_cylinder_9x6_D16.json": {
+      "sha256": "60fab26c522750ce39dd8482664e6595b88899fdf6eed3925d8b38178fadc313",
+      "bytes": 3022
+    },
+    "results/qmagen_cylinder_9x6_D24.json": {
+      "sha256": "e843ec6aa209e87da3bf340f42117f003a63fbe4369c88668f83114bcf986c62",
+      "bytes": 3015
+    },
+    "results/qmagen_cylinder_9x6_D24_st1.json": {
+      "sha256": "9278400d2f7a4271f13adf86b9cfef1c5d8db7aa419f0aae9560809350d008cb",
+      "bytes": 3415
+    },
+    "results/qmagen_cylinder_9x6_D24_st3.json": {
+      "sha256": "359accd6a7388cbc876d834fd5bd42f94a0956810c5ee159934015ed3f6b0833",
+      "bytes": 3423
+    },
+    "results/qmagen_cylinder_convergence.json": {
+      "sha256": "db66114a59655c7cca875d3de2424170bf01079479703a499ed3f3574c8d47e3",
+      "bytes": 13953
+    },
+    "results/qmagen_cylinder_9x6_D24_free_energy_derivative.json": {
+      "sha256": "5c759e6e664ec7d339f01489144560fbef16eb019bf4d9060827e0190ae0a61e",
+      "bytes": 1534
+    },
+    "results/magnon_truncation_n18_validation.json": {
+      "sha256": "77156992017196eb56f6018eeda3cc172b04ae0541c6de1001aff1e9f429850c",
+      "bytes": 29749
+    },
+    "results/magnon_m0_N21_B1.500T.json": {
+      "sha256": "64a62b5e1d1d73a464b9a54d0b11e9ad0014892e7614c7e079bd5dcf6ede09af",
+      "bytes": 2661
+    },
+    "results/magnon_m0_N24_B1.500T.json": {
+      "sha256": "5161c4f3d93d0f1c8495739ebb560a71c91c4ecf57124f74f355be7cde393277",
+      "bytes": 2832
+    },
+    "results/magnon_m0_N27_B1.500T.json": {
+      "sha256": "5d1cc298f342ca5f6eea043c81834fb050e2bc68a1c2a4fc11d4040c260ef247",
+      "bytes": 2837
+    },
+    "results/magnon_M3_low_energy_N21_B1.500T.json": {
+      "sha256": "0880d82c6499af852918bbd8c50564057e43494e5c5b97e7f441d2b691c6d939",
+      "bytes": 8832
+    },
+    "results/magnon_M3_low_energy_N24_B1.500T.json": {
+      "sha256": "e2e8ed4a5acf789948e0a1e821cf1a397d50faa97650f9544a0069654bed813f",
+      "bytes": 9119
+    },
+    "results/magnon_size_evidence_B1.500T.json": {
+      "sha256": "8b1db433632ea0fb582a0d91a27247a33f321af17f093378ac1ace5fcfcefe31",
+      "bytes": 3290
+    },
+    "results/magnon_M3_boundary_residual_N24_B1.500T.json": {
+      "sha256": "fe3c1df82307ab34ca6d6d5d44f6a7ffb1e0776ac64280b3b5be48f261ed34c6",
+      "bytes": 5037
+    },
+    "results/magnon_M3_boundary_denominator_N24_B1.500T.json": {
+      "sha256": "ec083488caec43479d122e46bc27f902beea02798c85a5b93a047081e889437f",
+      "bytes": 5892
+    },
+    "results/magnon_M3_boundary_entropy_proxy_N24_B1.500T.json": {
+      "sha256": "141731eb86ed7363ca438d3f886c790ca9838786542a353bac94cf91cca5052a",
+      "bytes": 782
+    },
+    "results/selected_magnon_M3qbasis_N18_B1.500T.json": {
+      "sha256": "2965cf55bde7367c04609d0d7aae6e14529d3393711ed4b73b9beb1a82d02147",
+      "bytes": 7098
+    },
+    "results/magnon_M3_low_energy_N27_B1.500T.json": {
+      "sha256": "10f3bd6c3363ce922b9c88cdc5916a73fbaebebf7b677c1ba32680c3a7227a4e",
+      "bytes": 4629
+    },
+    "results/experimental_hc_engineering_anchor.json": {
+      "sha256": "2f4b97c901f2ef1cb4ac4440e2950137ea864646c9484a6a16ee434c28bdd458",
+      "bytes": 11353
+    },
+    "results/experimental_hc_engineering_anchor.csv": {
+      "sha256": "7a1ad6534b32eb55369b6eec6b106033a9d62839bb0600cd7c504d5240cf0d0b",
+      "bytes": 3131
+    },
+    "results/quantum_local_exact_target_N9.json": {
+      "sha256": "53118dc21c7aaeff4e10e64c2a144feb4d5e6f17ea30071fa646d64ee280b3b3",
+      "bytes": 16297
+    },
+    "results/quantum_local_exact_target_N9.csv": {
+      "sha256": "e5a6977e7bf66d0442e9f6157b9e696dc64fe51bfa11d7b6212a73fb44617594",
+      "bytes": 3329
+    },
+    "results/qiskit_pauli_mapping_N6.json": {
+      "sha256": "c7de21e8ff7bc8c453966c4c0cd795f2a116e2ed68cca682e8ee4eea968f8dce",
+      "bytes": 2735
+    },
+    "results/qiskit_pauli_mapping_N9.json": {
+      "sha256": "fd317f8b179d251995b71ea18f3dfcb186d3c9687ab621774b3d4ccc5a9fbda3",
+      "bytes": 2337
+    },
+    "results/qite_tangent_screen_N6.json": {
+      "sha256": "74569594fa5d3ca0acc12e82a37445c038a52fa575437b27b3efff49ccb1a843",
+      "bytes": 23940
+    },
+    "results/qite_full_trajectory_N6.json": {
+      "sha256": "ea32f39d032fd482b0a08943f20117210218730817cf8a4e12fa48afde9b357c",
+      "bytes": 16471
+    },
+    "results/qmetts_exact_sampling_N6.json": {
+      "sha256": "60a313a0ad81cbcbe4a0ed9f19b53c6ea9ee32982607e8dc7c95790a156d800d",
+      "bytes": 4106
+    },
+    "results/qmetts_transition_audit_N6.json": {
+      "sha256": "ea24adb00a91225b324d0045693701f73cda95776cc9171de308f46b4f879c12",
+      "bytes": 4354
+    },
+    "results/qite_qmetts_xbasis_N6.json": {
+      "sha256": "fccae58c0fbbcd59799baf0f5e112f44fd939ff6502f1c42c9ad7030f89019af",
+      "bytes": 1994
+    },
+    "results/qite_tangent_screen_N9.json": {
+      "sha256": "c0bc1ff86c3b48a8e91e94f7b211dbc8e575fefe57e1652748fb6996c0e97a09",
+      "bytes": 5048
+    },
+    "results/qite_adaptive_weight3_N9.json": {
+      "sha256": "212e9c57c96c564837f83fae02a4349d099af4e50f0269f03ad91fd85febe02a",
+      "bytes": 5320
+    },
+    "results/qmetts_transition_audit_N9.json": {
+      "sha256": "ef0c23a4b40a6154337bd0161393a887c6df1e649bbfd0fe026414665833979c",
+      "bytes": 6980
+    },
+    "results/qpu_shot_budget_N9.json": {
+      "sha256": "99541a68e4d113bdf407a5c54e7497ad048e4bad1efab0a2f88080949effab49",
+      "bytes": 12917
+    },
+    "results/quantum_algorithm_screening_summary.json": {
+      "sha256": "a0bacb80b8f8b667bb0e590723a03eb2c0a9ebcf92c7e9e22eefe01da8b3002f",
+      "bytes": 1139
+    },
+    "results/covariance_entropy_budget_N9.json": {
+      "sha256": "9977618fc55c9cd0e3a87d7158dd966bf6f45b5b33362612ae7755ca79a4d201",
+      "bytes": 7560
+    },
+    "results/jarzynski_shot_budget_N9.json": {
+      "sha256": "b6a59c42443641e4b5c4064b16503a027a29826902c6b72d47c037dd5d424fb5",
+      "bytes": 10348
+    },
+    "results/jarzynski_ramp_screen_N9.json": {
+      "sha256": "b5ccad6397b0ebd5fe42f4ed077e50356b024ea36019a9c9aa8837e15fc6f202",
+      "bytes": 10962
+    },
+    "results/adiabatic_path_diagnostic_N9.json": {
+      "sha256": "3e46481160cde3035a29cf3dbbd7cd76a38f263bed9b11dfc1f6475c08f31140",
+      "bytes": 6949
+    },
+    "results/low_energy_quantum_route_N9.json": {
+      "sha256": "8cac411a77546e0eeb4b1dfc9c686d84a715bb3dfb331ab3cccb5cf8eb5d7d38",
+      "bytes": 59985
+    },
+    "results/spectral_flow_entropy_N9.json": {
+      "sha256": "fbacf058532af2211c0aa8eece44c59f90b9c18ed5ca7f70056d22511e6df0cf",
+      "bytes": 822512
+    },
+    "results/spectral_flow_entropy_N12.json": {
+      "sha256": "b798afbd691dfe5ff7efa3055bca70e2a4a551c4b03bfec78582e26c2820a553",
+      "bytes": 11134
+    },
+    "results/low_energy_state_complexity_N9_N12.json": {
+      "sha256": "07e482690f867b718728e04630f69808ae94ff165b3b7d7ee072b80555b7c3f7",
+      "bytes": 221025
+    },
+    "results/quantum_algorithm_second_screen_summary.json": {
+      "sha256": "0fa97a2808d9a1dea71a04ef898da001c094160725dbcfe28574aaf9748acae4",
+      "bytes": 773
+    },
+    "results/spectral_flow_circuit_unit_N6.json": {
+      "sha256": "0ad1f14cbfe98afc6cb896427cebd5d6c5d986607cfe535603519b0ffce6beb7",
+      "bytes": 26560
+    },
+    "results/number_conserving_ansatz_N9.json": {
+      "sha256": "add995449e6a353d11dcb3ff4953c8033621b7f3de3fdd003858910892d10098",
+      "bytes": 3511
+    },
+    "results/givens_ansatz_N9.json": {
+      "sha256": "a19cd774357f83955010e5f10d858787a74220361cf3c9d6cdc183059cc9ef73",
+      "bytes": 3814
+    },
+    "results/sector_mixing_ansatz_N9.json": {
+      "sha256": "1861d498cf1c777b988a449392f73bf910cc9bf814d072fc7489f3580f2fe699",
+      "bytes": 4800
+    },
+    "results/spectral_flow_stateprep_N9_B1.45T.json": {
+      "sha256": "8af36c01a91f0e1a0fa174a583949c395e33adefea8f6d53d3cfe5780c01cd85",
+      "bytes": 47732
+    },
+    "results/spectral_flow_stateprep_N9_B1.40T.json": {
+      "sha256": "7209951b5bad7b472620dd5b82160d5e68d046c0c609acda60c1e3c00c82ae01",
+      "bytes": 63296
+    },
+    "results/spectral_flow_stateprep_N9_B1.50T.json": {
+      "sha256": "7b4628ba48400eaaaea53f9a76baecf0ab880e5da83e645b5cca0e6ba5aac3dd",
+      "bytes": 48173
+    },
+    "results/spectral_flow_stateprep_N9_field_scan.json": {
+      "sha256": "e3038518403aae6f12970397fda60c98a202fd0a16486c1087a32474ae98bef3",
+      "bytes": 6972
+    },
+    "results/fake_backend_noise_audit_N9.json": {
+      "sha256": "8ab13593ce847b6cd7e6d722191e7aa4cad1e8ff03e65f178c5472ff4ee0852b",
+      "bytes": 9845
+    },
+    "results/fake_backend_noise_audit_N6.json": {
+      "sha256": "2c2f4703a0617e2a6cf643e43c837714c66a7de77c0fd144b868622508b45274",
+      "bytes": 7829
+    },
+    "results/open_plan_preflight_N6.json": {
+      "sha256": "4f561410fc853ab84429462dcf423b2c18f36e89d0c4d4ad9133c309d632aac5",
+      "bytes": 10878
+    },
+    "results/open_plan_qpu_pilot_N6_TREX.json": {
+      "sha256": "a026cfa9fe6ff5aab6a4c04f9b75cc6cc6dc511fe7d5ef1eb260922a7ddf275d",
+      "bytes": 2139
+    },
+    "results/open_plan_qpu_pilot_N6_ZNE.json": {
+      "sha256": "b22861977c0ca23f722f8b3cb762de3823d67bdc71077d0caa5da1b94bec68e4",
+      "bytes": 2289
+    },
+    "results/open_plan_qpu_pilot_N6_TREX_dry_run.json": {
+      "sha256": "7d2ee034f8ad73ef472d137f6e4cc0571b137301b89254c2e86c60ce6b53329b",
+      "bytes": 1523
+    },
+    "results/open_plan_qpu_pilot_N6_summary.json": {
+      "sha256": "b3ad073ef909ab9eab7ba996b08b61269059eaad23944be956492aa8080a627e",
+      "bytes": 1783
+    },
+    "results/quantum_stateprep_qpu_verification.json": {
+      "sha256": "5c6fd88663dfa1b4f1613991b5a858fc83dbc0ce834d1d17f3f8e64f781e1d40",
+      "bytes": 525
+    },
+    "results/interlayer_engineering_scenarios.json": {
+      "sha256": "82e8d7535f91be55240135c7f1ceaf0ed567675f8b3959dd6918d8557fbbe1c4",
+      "bytes": 9329
+    },
+    "results/interlayer_P0_P2_critical_fields.csv": {
+      "sha256": "cc500b139431ca458701b489d3ba48e1b6acb1af22b0bc3b8e3a01517bdc7ad0",
+      "bytes": 367
+    },
+    "results/interlayer_P0_P2_metrics.csv": {
+      "sha256": "fe387d4d0137d933de752fd03a97f80ece91415a36eb6e6c1b1127c23d857787",
+      "bytes": 6610
+    },
+    "results/interlayer_P0_P2_regret.csv": {
+      "sha256": "62d678dc48918a1ec0af0435c394639cd919940dafbeb36d55a3503aa62add8a",
+      "bytes": 7492
+    },
+    "results/robust_conditional_design_map.csv": {
+      "sha256": "fad3d606befec6797ebf12c033920e8fd2d8881d611fa9fbf246c01d4abe6284",
+      "bytes": 2813
+    },
+    "results/engineering_decision_verification.json": {
+      "sha256": "caf88e0e5ef762aadc66516bd2485f4c82b4251581867a1f093f7b9396dbcc1f",
+      "bytes": 435
+    },
+    "results/engineering_case_refinement.json": {
+      "sha256": "7185683799f87339093d669475bbbc218d0c5dcd4972b927d1d34bba483cbfc2",
+      "bytes": 15643
+    },
+    "results/temperature_candidate_comparison.csv": {
+      "sha256": "338fc872e1d6813c65557b40a651054f024f4386a09b03ce4a66ae55a99eb451",
+      "bytes": 1408
+    },
+    "results/temperature_candidate_ranking.csv": {
+      "sha256": "9d91c1d5aca091bbe9f5a4cc0e5cf73d2f29a286f871d976c4efbc90a3b6de53",
+      "bytes": 768
+    },
+    "results/conditional_design_scenarios.csv": {
+      "sha256": "74e8aae963afcb762e70880dd2d6f53bcf5d0b47e21d6d61aa6f944a253ce19d",
+      "bytes": 476
+    },
+    "results/published_XTRG_decision_comparison.csv": {
+      "sha256": "3b9ecf0ad74b4957f525edda825e2442f82e0cbf056d6caf1f7119a7c3b81bbd",
+      "bytes": 1359
+    },
+    "results/manuscript_claim_verification.json": {
+      "sha256": "ed12fbe42f700016dce4e8c9fcc66b71f5968b1ebee47db1cffc1d7d2e60bdaa",
+      "bytes": 970
+    },
+    "figures/bulk_bridge_engineering_screen.png": {
+      "sha256": "247354d51d9f1d56ff162b2b1a486161d22fa74eaac1c510de391c45b4095242",
+      "bytes": 224563
+    },
+    "figures/finite_cluster_Hc_alignment.png": {
+      "sha256": "9ba412ae5314f49d6278ac7cf62e2e6e96bfc1152c40c2ea82290f9ddc1c5123",
+      "bytes": 103115
+    },
+    "figures/qmagen_n9_xtrg_validation.png": {
+      "sha256": "a7cd846076cc38f6d7d1700950da2652499759eae253f016d1807361cfa06f6b",
+      "bytes": 119071
+    },
+    "figures/qmagen_cylinder_convergence.png": {
+      "sha256": "956db524d2b541fc68ff4f21f2d94554ea96ae2fa859354a54fd5f15a1c03b7a",
+      "bytes": 167005
+    },
+    "figures/magnon_truncation_n18_validation.png": {
+      "sha256": "1153a901869756121babba8adcb561a6f52df7af381dd4ede83bb859944b7ea6",
+      "bytes": 120877
+    },
+    "figures/magnon_size_evidence_B1.500T.png": {
+      "sha256": "349c5922ddc87ec5cc4f1392a18bc793b28c1d8ee48aa384565e2b3e230b44fd",
+      "bytes": 178493
+    },
+    "figures/experimental_hc_engineering_anchor.png": {
+      "sha256": "f0916290fc88d9fd10bc7cc40c7e4acdb5403d9350bf088e92f46f4db273a5e1",
+      "bytes": 124722
+    },
+    "figures/quantum_algorithm_screening.png": {
+      "sha256": "72bf6b95db780b7fcc533d14cd7e38fcde5baf2dceb31286b5720690bf6debb3",
+      "bytes": 239559
+    },
+    "figures/quantum_algorithm_second_screen.png": {
+      "sha256": "1b5e997a5960e10b09b653afb21f3db7717cca3c8a4d199359d39429221e37a8",
+      "bytes": 296863
+    },
+    "figures/open_plan_qpu_pilot_N6.png": {
+      "sha256": "f82fd5d79eef95ca574ed117765f9f033799deeb68903dfa8dc9e2cc83228381",
+      "bytes": 100806
+    },
+    "figures/interlayer_engineering_scenarios.png": {
+      "sha256": "c07b7bbce7a2c0c4dcb656139d9233ab298182b752cdd1d44df47732feb9ee7a",
+      "bytes": 172914
+    },
+    "figures/spectral_flow_stateprep_N9_field_scan.png": {
+      "sha256": "858b1d06e795b749254f7c1fd13672add5d6d898a3a66a7c0b69b1a8bb5b669e",
+      "bytes": 178123
+    }
+  },
+  "octave_execution_status": "Octave 11.3.0 runs with a project-local signed libcurl shim; M0--M4 independent cross-check and public-QMagen N=9 regression passed",
+  "security_policy_changed": false
+}

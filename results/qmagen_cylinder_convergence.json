@@ -1,0 +1,376 @@
+{
+  "engine": "public QMagen commit dcf17db27682d4c505155682108c612bdd11274c",
+  "geometry": "9x6 OBC x / PBC y (YC6 width, N=54)",
+  "condition": {
+    "model": "Gao et al. 2022 M0",
+    "field_T": 1.5
+  },
+  "reference": {
+    "method": "reconstructed YC6x9 D=400 C/T, integrated and N=12-anchored at 1 K",
+    "validation_RMSE_J_mol_K": 0.033549922615027414,
+    "note": "Reference is a digitized reconstruction, not an author-supplied numeric table."
+  },
+  "predeclared_convergence_check": {
+    "minimum_D": 64,
+    "absolute_reference_error_limit_kB_per_spin": 0.005,
+    "successive_D_change_limit_kB_per_spin": 0.002,
+    "entropy_upturn_limit_kB_per_spin": 0.002
+  },
+  "runs": [
+    {
+      "D": 8,
+      "elapsed_seconds": 215.77668380737305,
+      "temperature_K": 0.09033203125,
+      "entropy_kB_per_spin": 0.34641021244012293,
+      "public_reconstructed_reference_kB_per_spin": 0.1475788238589029,
+      "entropy_error_kB_per_spin": 0.19883138858122004,
+      "max_entropy_upturn_on_cooling_kB_per_spin": 0.12639234184171677,
+      "file": "qmagen_cylinder_9x6_D8.json",
+      "rows": [
+        {
+          "temperature_K": 1480,
+          "beta_dimensionless": 0.001,
+          "logZ_per_spin": 0.6931486813552186,
+          "energy_scaled_per_spin": -0.002979032475143625,
+          "entropy_kB_per_spin": 0.6931457023227434
+        },
+        {
+          "temperature_K": 740,
+          "beta_dimensionless": 0.002,
+          "logZ_per_spin": 0.6931531550052045,
+          "energy_scaled_per_spin": -0.005946202413596719,
+          "entropy_kB_per_spin": 0.6931412626003772
+        },
+        {
+          "temperature_K": 370,
+          "beta_dimensionless": 0.004,
+          "logZ_per_spin": 0.6931709731236239,
+          "energy_scaled_per_spin": -0.011845114995187795,
+          "entropy_kB_per_spin": 0.6931235926636431
+        },
+        {
+          "temperature_K": 185,
+          "beta_dimensionless": 0.008,
+          "logZ_per_spin": 0.6932417607031657,
+          "energy_scaled_per_spin": -0.023502347723013628,
+          "entropy_kB_per_spin": 0.6930537419213816
+        },
+        {
+          "temperature_K": 92.5,
+          "beta_dimensionless": 0.016,
+          "logZ_per_spin": 0.693521319626912,
+          "energy_scaled_per_spin": -0.04626337536792926,
+          "entropy_kB_per_spin": 0.6927811056210251
+        },
+        {
+          "temperature_K": 46.25,
+          "beta_dimensionless": 0.032,
+          "logZ_per_spin": 0.6946119839681505,
+          "energy_scaled_per_spin": -0.08964788766456565,
+          "entropy_kB_per_spin": 0.6917432515628844
+        },
+        {
+          "temperature_K": 23.125,
+          "beta_dimensionless": 0.064,
+          "logZ_per_spin": 0.6987656602925144,
+          "energy_scaled_per_spin": -0.16847036440620725,
+          "entropy_kB_per_spin": 0.6879835569705172
+        },
+        {
+          "temperature_K": 11.5625,
+          "beta_dimensionless": 0.128,
+          "logZ_per_spin": 0.7138763687375103,
+          "energy_scaled_per_spin": -0.2989557941930008,
+          "entropy_kB_per_spin": 0.6756100270808062
+        },
+        {
+          "temperature_K": 5.78125,
+          "beta_dimensionless": 0.256,
+          "logZ_per_spin": 0.764610531816691,
+          "energy_scaled_per_spin": -0.48143164950333717,
+          "entropy_kB_per_spin": 0.6413640295438368
+        },
+        {
+          "temperature_K": 2.890625,
+          "beta_dimensionless": 0.512,
+          "logZ_per_spin": 0.9159358830712501,
+          "energy_scaled_per_spin": -0.6786433967715824,
+          "entropy_kB_per_spin": 0.5684704639241999
+        },
+        {
+          "temperature_K": 1.4453125,
+          "beta_dimensionless": 1.024,
+          "logZ_per_spin": 1.3097170498977528,
+          "energy_scaled_per_spin": -0.8343670450966053,
+          "entropy_kB_per_spin": 0.455325195718829
+        },
+        {
+          "temperature_K": 0.72265625,
+          "beta_dimensionless": 2.048,
+          "logZ_per_spin": 2.2226095392792615,
+          "energy_scaled_per_spin": -0.9264759676694726,
+          "entropy_kB_per_spin": 0.3251867574921816
+        },
+        {
+          "temperature_K": 0.361328125,
+          "beta_dimensionless": 4.096,
+          "logZ_per_spin": 4.185895104696656,
+          "energy_scaled_per_spin": -0.9672356856796918,
+          "entropy_kB_per_spin": 0.22409773615263884
+        },
+        {
+          "temperature_K": 0.1806640625,
+          "beta_dimensionless": 8.192,
+          "logZ_per_spin": 8.236740205300308,
+          "energy_scaled_per_spin": -0.9786038006227906,
+          "entropy_kB_per_spin": 0.22001787059840616
+        },
+        {
+          "temperature_K": 0.09033203125,
+          "beta_dimensionless": 16.384,
+          "logZ_per_spin": 16.420638206299035,
+          "energy_scaled_per_spin": -0.9810930172033027,
+          "entropy_kB_per_spin": 0.34641021244012293
+        }
+      ],
+      "change_from_previous_D_kB_per_spin": null
+    },
+    {
+      "D": 16,
+      "elapsed_seconds": 248.08303904533386,
+      "temperature_K": 0.09033203125,
+      "entropy_kB_per_spin": 0.5137547506166413,
+      "public_reconstructed_reference_kB_per_spin": 0.1475788238589029,
+      "entropy_error_kB_per_spin": 0.36617592675773847,
+      "max_entropy_upturn_on_cooling_kB_per_spin": 0.1699542476481941,
+      "file": "qmagen_cylinder_9x6_D16.json",
+      "rows": [
+        {
+          "temperature_K": 1480,
+          "beta_dimensionless": 0.001,
+          "logZ_per_spin": 0.6931487088860696,
+          "energy_scaled_per_spin": -0.0030525230146946376,
+          "entropy_kB_per_spin": 0.6931456563630549
+        },
+        {
+          "temperature_K": 740,
+          "beta_dimensionless": 0.002,
+          "logZ_per_spin": 0.6931532834648615,
+          "energy_scaled_per_spin": -0.006093369546053917,
+          "entropy_kB_per_spin": 0.6931410967257694
+        },
+        {
+          "temperature_K": 370,
+          "beta_dimensionless": 0.004,
+          "logZ_per_spin": 0.6931715247294923,
+          "energy_scaled_per_spin": -0.012140129589003078,
+          "entropy_kB_per_spin": 0.6931229642111363
+        },
+        {
+          "temperature_K": 185,
+          "beta_dimensionless": 0.008,
+          "logZ_per_spin": 0.6932440483892115,
+          "energy_scaled_per_spin": -0.02409359371276988,
+          "entropy_kB_per_spin": 0.6930512996395093
+        },
+        {
+          "temperature_K": 92.5,
+          "beta_dimensionless": 0.016,
+          "logZ_per_spin": 0.6935306940927229,
+          "energy_scaled_per_spin": -0.04745447136373976,
+          "entropy_kB_per_spin": 0.6927714225509031
+        },
+        {
+          "temperature_K": 46.25,
+          "beta_dimensionless": 0.032,
+          "logZ_per_spin": 0.6946501578008346,
+          "energy_scaled_per_spin": -0.09203306892242652,
+          "entropy_kB_per_spin": 0.691705099595317
+        },
+        {
+          "temperature_K": 23.125,
+          "beta_dimensionless": 0.064,
+          "logZ_per_spin": 0.6989192929365606,
+          "energy_scaled_per_spin": -0.17310677536352057,
+          "entropy_kB_per_spin": 0.6878404593132953
+        },
+        {
+          "temperature_K": 11.5625,
+          "beta_dimensionless": 0.128,
+          "logZ_per_spin": 0.714486956188913,
+          "energy_scaled_per_spin": -0.3077060450461111,
+          "entropy_kB_per_spin": 0.6751005824230107
+        },
+        {
+          "temperature_K": 5.78125,
+          "beta_dimensionless": 0.256,
+          "logZ_per_spin": 0.7669341263774863,
+          "energy_scaled_per_spin": -0.49645303792998585,
+          "entropy_kB_per_spin": 0.6398421486674098
+        },
+        {
+          "temperature_K": 2.890625,
+          "beta_dimensionless": 0.512,
+          "logZ_per_spin": 0.9238389899399645,
+          "energy_scaled_per_spin": -0.6995659608256324,
+          "entropy_kB_per_spin": 0.5656612179972407
+        },
+        {
+          "temperature_K": 1.4453125,
+          "beta_dimensionless": 1.024,
+          "logZ_per_spin": 1.3324507172423228,
+          "energy_scaled_per_spin": -0.8557230793738179,
+          "entropy_kB_per_spin": 0.4561902839635332
+        },
+        {
+          "temperature_K": 0.72265625,
+          "beta_dimensionless": 2.048,
+          "logZ_per_spin": 2.2739980080129323,
+          "energy_scaled_per_spin": -0.9384549624543536,
+          "entropy_kB_per_spin": 0.3520422449064162
+        },
+        {
+          "temperature_K": 0.361328125,
+          "beta_dimensionless": 4.096,
+          "logZ_per_spin": 4.274783931397121,
+          "energy_scaled_per_spin": -0.9694054791162529,
+          "entropy_kB_per_spin": 0.3040990889369497
+        },
+        {
+          "temperature_K": 0.1806640625,
+          "beta_dimensionless": 8.192,
+          "logZ_per_spin": 8.367593610852465,
+          "energy_scaled_per_spin": -0.9794669321147482,
+          "entropy_kB_per_spin": 0.3438005029684472
+        },
+        {
+          "temperature_K": 0.09033203125,
+          "beta_dimensionless": 16.384,
+          "logZ_per_spin": 16.627921297374442,
+          "energy_scaled_per_spin": -0.9835306730198853,
+          "entropy_kB_per_spin": 0.5137547506166413
+        }
+      ],
+      "change_from_previous_D_kB_per_spin": 0.1673445381765184
+    },
+    {
+      "D": 24,
+      "elapsed_seconds": 379.87341380119324,
+      "temperature_K": 0.09033203125,
+      "entropy_kB_per_spin": 0.539298578616183,
+      "public_reconstructed_reference_kB_per_spin": 0.1475788238589029,
+      "entropy_error_kB_per_spin": 0.39171975475728016,
+      "max_entropy_upturn_on_cooling_kB_per_spin": 0.18999579416909995,
+      "file": "qmagen_cylinder_9x6_D24.json",
+      "rows": [
+        {
+          "temperature_K": 1480,
+          "beta_dimensionless": 0.001,
+          "logZ_per_spin": 0.6931487121406058,
+          "energy_scaled_per_spin": -0.003061195963508389,
+          "entropy_kB_per_spin": 0.6931456509446423
+        },
+        {
+          "temperature_K": 740,
+          "beta_dimensionless": 0.002,
+          "logZ_per_spin": 0.6931532990763443,
+          "energy_scaled_per_spin": -0.006110730560985101,
+          "entropy_kB_per_spin": 0.6931410776152223
+        },
+        {
+          "temperature_K": 370,
+          "beta_dimensionless": 0.004,
+          "logZ_per_spin": 0.6931715924577162,
+          "energy_scaled_per_spin": -0.01217495075110054,
+          "entropy_kB_per_spin": 0.6931228926547118
+        },
+        {
+          "temperature_K": 185,
+          "beta_dimensionless": 0.008,
+          "logZ_per_spin": 0.6932443332327943,
+          "energy_scaled_per_spin": -0.02416492156203466,
+          "entropy_kB_per_spin": 0.6930510138602981
+        },
+        {
+          "temperature_K": 92.5,
+          "beta_dimensionless": 0.016,
+          "logZ_per_spin": 0.6935318659390556,
+          "energy_scaled_per_spin": -0.047598344576465,
+          "entropy_kB_per_spin": 0.6927702924258321
+        },
+        {
+          "temperature_K": 46.25,
+          "beta_dimensionless": 0.032,
+          "logZ_per_spin": 0.694655029977218,
+          "energy_scaled_per_spin": -0.0923340128996547,
+          "entropy_kB_per_spin": 0.691700341564429
+        },
+        {
+          "temperature_K": 23.125,
+          "beta_dimensionless": 0.064,
+          "logZ_per_spin": 0.6989405795811026,
+          "energy_scaled_per_spin": -0.17380506413453406,
+          "entropy_kB_per_spin": 0.6878170554764924
+        },
+        {
+          "temperature_K": 11.5625,
+          "beta_dimensionless": 0.128,
+          "logZ_per_spin": 0.7145794664897033,
+          "energy_scaled_per_spin": -0.3092371249607655,
+          "entropy_kB_per_spin": 0.6749971144947253
+        },
+        {
+          "temperature_K": 5.78125,
+          "beta_dimensionless": 0.256,
+          "logZ_per_spin": 0.76729751369055,
+          "energy_scaled_per_spin": -0.49930890786836424,
+          "entropy_kB_per_spin": 0.6394744332762488
+        },
+        {
+          "temperature_K": 2.890625,
+          "beta_dimensionless": 0.512,
+          "logZ_per_spin": 0.9251421383397603,
+          "energy_scaled_per_spin": -0.7046303781840579,
+          "entropy_kB_per_spin": 0.5643713847095226
+        },
+        {
+          "temperature_K": 1.4453125,
+          "beta_dimensionless": 1.024,
+          "logZ_per_spin": 1.3367074864495099,
+          "energy_scaled_per_spin": -0.8631507138265329,
+          "entropy_kB_per_spin": 0.45284115549114023
+        },
+        {
+          "temperature_K": 0.72265625,
+          "beta_dimensionless": 2.048,
+          "logZ_per_spin": 2.2855929356666835,
+          "energy_scaled_per_spin": -0.9463404397463191,
+          "entropy_kB_per_spin": 0.3474877150662219
+        },
+        {
+          "temperature_K": 0.361328125,
+          "beta_dimensionless": 4.096,
+          "logZ_per_spin": 4.29982890383762,
+          "energy_scaled_per_spin": -0.9760015643403563,
+          "entropy_kB_per_spin": 0.30212649629952004
+        },
+        {
+          "temperature_K": 0.1806640625,
+          "beta_dimensionless": 8.192,
+          "logZ_per_spin": 8.415466268018374,
+          "energy_scaled_per_spin": -0.9846390971156361,
+          "entropy_kB_per_spin": 0.34930278444708307
+        },
+        {
+          "temperature_K": 0.09033203125,
+          "beta_dimensionless": 16.384,
+          "logZ_per_spin": 16.720984575377642,
+          "energy_scaled_per_spin": -0.9876517332007727,
+          "entropy_kB_per_spin": 0.539298578616183
+        }
+      ],
+      "change_from_previous_D_kB_per_spin": 0.02554382799954169
+    }
+  ],
+  "decision": "PILOT_ONLY_M0_CYLINDER_NOT_YET_CONVERGED"
+}

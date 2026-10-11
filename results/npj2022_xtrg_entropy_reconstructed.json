@@ -1,0 +1,143 @@
+{
+  "method": "top-down integration of recovered XTRG C_m/T, anchored by exact entropy at 1 K",
+  "source_model": {
+    "Jxy_K": 0.88,
+    "Jz_K": 1.48,
+    "g_c": 4.89
+  },
+  "source_xtrg": {
+    "geometry": "YC6x9",
+    "bond_dimension": 400
+  },
+  "absolute_anchor": {
+    "temperature_K": 1.0,
+    "zero_field_entropy_J_mol_K_from_Fig4b": 4.521573652527142,
+    "field_dependence": "exact N9/N12 entropy difference S(1K,B)-S(1K,0)"
+  },
+  "validation_against_Fig4b_zero_field_entropy": {
+    "temperature_range_K": [
+      0.125,
+      1.0
+    ],
+    "rmse_J_mol_K": 0.033549922615027414,
+    "max_abs_J_mol_K": 0.07021890399504427,
+    "mean_bias_J_mol_K": -0.013674850886033077
+  },
+  "anchor_size_diagnostic": "N9 and N12 exact spectra of the identical source Hamiltonian",
+  "metrics": [
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.09,
+      "B_star_T": 1.5,
+      "S_at_B_star_kB_per_spin": 0.15249550085777824,
+      "Qmax_mJ_per_cm3": 0.4971378441231503,
+      "W95_min_T": 1.44,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.1,
+      "B_star_T": 1.5,
+      "S_at_B_star_kB_per_spin": 0.16214750370727948,
+      "Qmax_mJ_per_cm3": 0.6296663452355901,
+      "W95_min_T": 1.44,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.12,
+      "B_star_T": 1.49,
+      "S_at_B_star_kB_per_spin": 0.17978273356975638,
+      "Qmax_mJ_per_cm3": 0.9250621291045241,
+      "W95_min_T": 1.43,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.15,
+      "B_star_T": 1.49,
+      "S_at_B_star_kB_per_spin": 0.20172954773263238,
+      "Qmax_mJ_per_cm3": 1.419945030516952,
+      "W95_min_T": 1.3900000000000001,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.2,
+      "B_star_T": 0.0,
+      "S_at_B_star_kB_per_spin": 0.2466031148376051,
+      "Qmax_mJ_per_cm3": 2.6119339290682664,
+      "W95_min_T": 0.0,
+      "W95_max_T": 0.06
+    },
+    {
+      "anchor_N": 9,
+      "temperature_K": 0.3,
+      "B_star_T": 0.0,
+      "S_at_B_star_kB_per_spin": 0.32766632411408353,
+      "Qmax_mJ_per_cm3": 5.865306089146275,
+      "W95_min_T": 0.0,
+      "W95_max_T": 0.13
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.09,
+      "B_star_T": 1.5,
+      "S_at_B_star_kB_per_spin": 0.14725834720179054,
+      "Qmax_mJ_per_cm3": 0.4593937417224646,
+      "W95_min_T": 1.45,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.1,
+      "B_star_T": 1.5,
+      "S_at_B_star_kB_per_spin": 0.15691035005129178,
+      "Qmax_mJ_per_cm3": 0.5877284536792725,
+      "W95_min_T": 1.44,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.12,
+      "B_star_T": 1.49,
+      "S_at_B_star_kB_per_spin": 0.17455365545702406,
+      "Qmax_mJ_per_cm3": 0.8748142596923543,
+      "W95_min_T": 1.43,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.15,
+      "B_star_T": 1.49,
+      "S_at_B_star_kB_per_spin": 0.19650046961990006,
+      "Qmax_mJ_per_cm3": 1.35713519375174,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.52
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.2,
+      "B_star_T": 0.0,
+      "S_at_B_star_kB_per_spin": 0.2466031148376051,
+      "Qmax_mJ_per_cm3": 2.6119339290682664,
+      "W95_min_T": 0.0,
+      "W95_max_T": 0.06
+    },
+    {
+      "anchor_N": 12,
+      "temperature_K": 0.3,
+      "B_star_T": 0.0,
+      "S_at_B_star_kB_per_spin": 0.32766632411408353,
+      "Qmax_mJ_per_cm3": 5.865306089146275,
+      "W95_min_T": 0.0,
+      "W95_max_T": 0.13
+    }
+  ],
+  "output_csv": "npj2022_xtrg_entropy_reconstructed.csv",
+  "limitations": [
+    "The heatmap is color-scale digitisation, not an author-supplied numeric table.",
+    "YC6x9 XTRG can retain low-temperature finite-cylinder and truncation errors.",
+    "The source Hamiltonian differs by several percent from the 2026 M0 parameters."
+  ]
+}

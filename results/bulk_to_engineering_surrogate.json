@@ -1,0 +1,907 @@
+{
+  "status": "decision-scale surrogate, not a finite-temperature M4 solution",
+  "source_XTRG_model_Hc_T": 1.7535951814906219,
+  "mapping_assumptions": {
+    "reduced_field": "preserve B/Bc",
+    "critical_offset": "preserve B-Bc"
+  },
+  "bulk_Hc_T": {
+    "M0": 1.7743602002000807,
+    "M1": 1.7751631935270178,
+    "M2": 1.8568210601350268,
+    "M3_tin_foil": 1.7723974267895588,
+    "M4_tin_foil": 1.8676712357447807,
+    "M3_sphere_vacuum": 1.8260772611571447,
+    "M4_sphere_vacuum": 1.9213510701123666
+  },
+  "90mK_M4_minus_M0_delta_B_star_bracket_T": [
+    0.07981691258872714,
+    0.14699086991228594
+  ],
+  "90mK_regret_of_M0_field_under_M4_bracket_percent": [
+    7.497570395185217,
+    18.207959246457285
+  ],
+  "predeclared_thresholds": {
+    "delta_B_star_GO_T": 0.05,
+    "regret_GO_percent": 5.0
+  },
+  "threshold_screen": {
+    "all_four_scenarios_delta_B_star_above_GO": true,
+    "all_four_scenarios_regret_above_GO": true,
+    "interpretation": "candidate GO for full finite-T bulk calculation; Gate 1 remains HOLD until that calculation"
+  },
+  "metrics": [
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M0",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5177620972006274,
+      "W95_min_T": 1.4671700272939396,
+      "W95_max_T": 1.5379989251633024,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M1",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.518448966098945,
+      "W95_min_T": 1.4678340005623134,
+      "W95_max_T": 1.5386949523135978,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M2",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.5882979262266155,
+      "W95_min_T": 1.5353546620190617,
+      "W95_max_T": 1.609475231909637,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.51608316916361,
+      "W95_min_T": 1.4655470635248231,
+      "W95_max_T": 1.536297611419125,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.5975790097893545,
+      "W95_min_T": 1.5443263761297092,
+      "W95_max_T": 1.6188800632532125,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5620001244570971,
+      "W95_min_T": 1.5099334536418605,
+      "W95_max_T": 1.5828267927831916,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6434959650828411,
+      "W95_min_T": 1.5887127662467464,
+      "W95_max_T": 1.6654092446172792,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M0",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5207650187094588,
+      "W95_min_T": 1.4707650187094587,
+      "W95_max_T": 1.5407650187094588,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M1",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.521568012036396,
+      "W95_min_T": 1.4715680120363959,
+      "W95_max_T": 1.541568012036396,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M2",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.603225878644405,
+      "W95_min_T": 1.5532258786444049,
+      "W95_max_T": 1.623225878644405,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.518802245298937,
+      "W95_min_T": 1.4688022452989369,
+      "W95_max_T": 1.538802245298937,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.6140760542541588,
+      "W95_min_T": 1.5640760542541587,
+      "W95_max_T": 1.6340760542541588,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5724820796665229,
+      "W95_min_T": 1.5224820796665228,
+      "W95_max_T": 1.5924820796665229,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.09,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6677558886217447,
+      "W95_min_T": 1.6177558886217447,
+      "W95_max_T": 1.6877558886217447,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M0",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5177620972006274,
+      "W95_min_T": 1.4570516133126024,
+      "W95_max_T": 1.5379989251633024,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M1",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.518448966098945,
+      "W95_min_T": 1.4577110074549873,
+      "W95_max_T": 1.5386949523135978,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M2",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.5882979262266155,
+      "W95_min_T": 1.5247660091775508,
+      "W95_max_T": 1.609475231909637,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.51608316916361,
+      "W95_min_T": 1.4554398423970658,
+      "W95_max_T": 1.536297611419125,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.5975790097893545,
+      "W95_min_T": 1.5336758493977802,
+      "W95_max_T": 1.6188800632532125,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5620001244570971,
+      "W95_min_T": 1.4995201194788133,
+      "W95_max_T": 1.5828267927831916,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6434959650828411,
+      "W95_min_T": 1.5777561264795277,
+      "W95_max_T": 1.6654092446172792,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M0",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5207650187094588,
+      "W95_min_T": 1.4607650187094587,
+      "W95_max_T": 1.5407650187094588,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M1",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.521568012036396,
+      "W95_min_T": 1.4615680120363959,
+      "W95_max_T": 1.541568012036396,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M2",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.603225878644405,
+      "W95_min_T": 1.5432258786444049,
+      "W95_max_T": 1.623225878644405,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.518802245298937,
+      "W95_min_T": 1.4588022452989369,
+      "W95_max_T": 1.538802245298937,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.6140760542541588,
+      "W95_min_T": 1.5540760542541587,
+      "W95_max_T": 1.6340760542541588,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5724820796665229,
+      "W95_min_T": 1.5124820796665228,
+      "W95_max_T": 1.5924820796665229,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.1,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6677558886217447,
+      "W95_min_T": 1.6077558886217447,
+      "W95_max_T": 1.6877558886217447,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M0",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5076436832192899,
+      "W95_min_T": 1.4469331993312646,
+      "W95_max_T": 1.5379989251633024,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M1",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.5083259729916187,
+      "W95_min_T": 1.447588014347661,
+      "W95_max_T": 1.5386949523135978,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M2",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.5777092733851048,
+      "W95_min_T": 1.5141773563360401,
+      "W95_max_T": 1.609475231909637,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.5059759480358528,
+      "W95_min_T": 1.4453326212693083,
+      "W95_max_T": 1.536297611419125,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.5869284830574255,
+      "W95_min_T": 1.5230253226658512,
+      "W95_max_T": 1.6188800632532125,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5515867902940497,
+      "W95_min_T": 1.489106785315766,
+      "W95_max_T": 1.5828267927831916,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6325393253156224,
+      "W95_min_T": 1.5667994867123087,
+      "W95_max_T": 1.6654092446172792,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M0",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5107650187094588,
+      "W95_min_T": 1.4507650187094587,
+      "W95_max_T": 1.5407650187094588,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M1",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.511568012036396,
+      "W95_min_T": 1.4515680120363958,
+      "W95_max_T": 1.541568012036396,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M2",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.593225878644405,
+      "W95_min_T": 1.5332258786444048,
+      "W95_max_T": 1.623225878644405,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.508802245298937,
+      "W95_min_T": 1.4488022452989369,
+      "W95_max_T": 1.538802245298937,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.6040760542541588,
+      "W95_min_T": 1.5440760542541587,
+      "W95_max_T": 1.6340760542541588,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5624820796665229,
+      "W95_min_T": 1.5024820796665228,
+      "W95_max_T": 1.5924820796665229,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.12,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6577558886217447,
+      "W95_min_T": 1.5977558886217447,
+      "W95_max_T": 1.6877558886217447,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M0",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5076436832192899,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.5379989251633024,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M1",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.5083259729916187,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.5386949523135978,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M2",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.5777092733851048,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.609475231909637,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.5059759480358528,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.536297611419125,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.5869284830574255,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.6188800632532125,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5515867902940497,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.5828267927831916,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "reduced_field",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6325393253156224,
+      "W95_min_T": 0.0,
+      "W95_max_T": 1.6654092446172792,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M0",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7743602002000807,
+      "B_star_T": 1.5107650187094588,
+      "W95_min_T": 0.020765018709458793,
+      "W95_max_T": 1.5407650187094588,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M1",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7751631935270178,
+      "B_star_T": 1.511568012036396,
+      "W95_min_T": 0.02156801203639591,
+      "W95_max_T": 1.541568012036396,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M2",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8568210601350268,
+      "B_star_T": 1.593225878644405,
+      "W95_min_T": 0.10322587864440491,
+      "W95_max_T": 1.623225878644405,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M3_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.7723974267895588,
+      "B_star_T": 1.508802245298937,
+      "W95_min_T": 0.018802245298936926,
+      "W95_max_T": 1.538802245298937,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M4_tin_foil",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8676712357447807,
+      "B_star_T": 1.6040760542541588,
+      "W95_min_T": 0.11407605425415879,
+      "W95_max_T": 1.6340760542541588,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M3_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.8260772611571447,
+      "B_star_T": 1.5624820796665229,
+      "W95_min_T": 0.07248207966652287,
+      "W95_max_T": 1.5924820796665229,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    },
+    {
+      "temperature_K": 0.15,
+      "model_scenario": "M4_sphere_vacuum",
+      "mapping_method": "critical_offset",
+      "source_Hc_T": 1.7535951814906219,
+      "target_Hc_T": 1.9213510701123666,
+      "B_star_T": 1.6577558886217447,
+      "W95_min_T": 0.16775588862174473,
+      "W95_max_T": 1.6877558886217447,
+      "Qmax_mJ_per_cm3_inherited": 1.35713519375174
+    }
+  ],
+  "regrets": [
+    {
+      "temperature_K": 0.09,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5177620972006274,
+      "M4_optimal_field_T": 1.5975790097893545,
+      "delta_B_star_T": 0.07981691258872714,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.42495037254574747,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "regret_percent": 7.497570395185217
+    },
+    {
+      "temperature_K": 0.09,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5177620972006274,
+      "M4_optimal_field_T": 1.6434959650828411,
+      "delta_B_star_T": 0.12573386788221375,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.40072689836011216,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "regret_percent": 12.770492506577307
+    },
+    {
+      "temperature_K": 0.09,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5207650187094588,
+      "M4_optimal_field_T": 1.6140760542541588,
+      "delta_B_star_T": 0.0933110355447,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.4146570515752255,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "regret_percent": 9.738201913570276
+    },
+    {
+      "temperature_K": 0.09,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5207650187094588,
+      "M4_optimal_field_T": 1.6677558886217447,
+      "delta_B_star_T": 0.14699086991228594,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.375747516448863,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "regret_percent": 18.207959246457285
+    },
+    {
+      "temperature_K": 0.1,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5177620972006274,
+      "M4_optimal_field_T": 1.5975790097893545,
+      "delta_B_star_T": 0.07981691258872714,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.5509852052160416,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "regret_percent": 6.251738916707613
+    },
+    {
+      "temperature_K": 0.1,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5177620972006274,
+      "M4_optimal_field_T": 1.6434959650828411,
+      "delta_B_star_T": 0.12573386788221375,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.5247297162151421,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "regret_percent": 10.719021185676555
+    },
+    {
+      "temperature_K": 0.1,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5207650187094588,
+      "M4_optimal_field_T": 1.6140760542541588,
+      "delta_B_star_T": 0.0933110355447,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.5398107882026488,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "regret_percent": 8.153028014323887
+    },
+    {
+      "temperature_K": 0.1,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5207650187094588,
+      "M4_optimal_field_T": 1.6677558886217447,
+      "delta_B_star_T": 0.14699086991228594,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.49750020587146143,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "regret_percent": 15.352029877568128
+    },
+    {
+      "temperature_K": 0.12,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5076436832192899,
+      "M4_optimal_field_T": 1.5869284830574255,
+      "delta_B_star_T": 0.07928479983813563,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.8284739249439355,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "regret_percent": 5.297162710255238
+    },
+    {
+      "temperature_K": 0.12,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5076436832192899,
+      "M4_optimal_field_T": 1.6325393253156224,
+      "delta_B_star_T": 0.12489564209633253,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.7965852193181301,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "regret_percent": 8.942359993278457
+    },
+    {
+      "temperature_K": 0.12,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5107650187094588,
+      "M4_optimal_field_T": 1.6040760542541588,
+      "delta_B_star_T": 0.0933110355447,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.816491269158226,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "regret_percent": 6.6668998462186355
+    },
+    {
+      "temperature_K": 0.12,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5107650187094588,
+      "M4_optimal_field_T": 1.6577558886217447,
+      "delta_B_star_T": 0.14699086991228594,
+      "M4_Q_at_M0_field_mJ_per_cm3": 0.7688699336924814,
+      "M4_Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "regret_percent": 12.110493722076539
+    },
+    {
+      "temperature_K": 0.15,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5076436832192899,
+      "M4_optimal_field_T": 1.5869284830574255,
+      "delta_B_star_T": 0.07928479983813563,
+      "M4_Q_at_M0_field_mJ_per_cm3": 1.3111057179742427,
+      "M4_Qmax_mJ_per_cm3_inherited": 1.35713519375174,
+      "regret_percent": 3.3916647353496767
+    },
+    {
+      "temperature_K": 0.15,
+      "mapping_method": "reduced_field",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5076436832192899,
+      "M4_optimal_field_T": 1.6325393253156224,
+      "delta_B_star_T": 0.12489564209633253,
+      "M4_Q_at_M0_field_mJ_per_cm3": 1.2778647710268434,
+      "M4_Qmax_mJ_per_cm3_inherited": 1.35713519375174,
+      "regret_percent": 5.8410114990649555
+    },
+    {
+      "temperature_K": 0.15,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "tin_foil",
+      "M0_selected_field_T": 1.5107650187094588,
+      "M4_optimal_field_T": 1.6040760542541588,
+      "delta_B_star_T": 0.0933110355447,
+      "M4_Q_at_M0_field_mJ_per_cm3": 1.299259764332372,
+      "M4_Qmax_mJ_per_cm3_inherited": 1.35713519375174,
+      "regret_percent": 4.264529406195259
+    },
+    {
+      "temperature_K": 0.15,
+      "mapping_method": "critical_offset",
+      "M4_boundary": "sphere_vacuum",
+      "M0_selected_field_T": 1.5107650187094588,
+      "M4_optimal_field_T": 1.6577558886217447,
+      "delta_B_star_T": 0.14699086991228594,
+      "M4_Q_at_M0_field_mJ_per_cm3": 1.2479389908543805,
+      "M4_Qmax_mJ_per_cm3_inherited": 1.35713519375174,
+      "regret_percent": 8.046081436845755
+    }
+  ],
+  "robust_fields": [
+    {
+      "temperature_K": 0.09,
+      "robust_field_T": 1.6161,
+      "worst_case_regret_percent": 4.268672559512152,
+      "scenario_regret_percent": [
+        4.258715796715336,
+        1.5754393689101525,
+        0.48618186633196314,
+        4.268672559512152
+      ],
+      "scenario_order": [
+        "reduced_field/tin_foil",
+        "reduced_field/sphere_vacuum",
+        "critical_offset/tin_foil",
+        "critical_offset/sphere_vacuum"
+      ]
+    },
+    {
+      "temperature_K": 0.1,
+      "robust_field_T": 1.6142500000000002,
+      "worst_case_regret_percent": 3.6748219142486693,
+      "scenario_regret_percent": [
+        3.665637534385916,
+        1.3441891136950272,
+        0.040250468834838043,
+        3.6748219142486693
+      ],
+      "scenario_order": [
+        "reduced_field/tin_foil",
+        "reduced_field/sphere_vacuum",
+        "critical_offset/tin_foil",
+        "critical_offset/sphere_vacuum"
+      ]
+    },
+    {
+      "temperature_K": 0.12,
+      "robust_field_T": 1.6107,
+      "worst_case_regret_percent": 2.727408065628855,
+      "scenario_regret_percent": [
+        2.7215189098162513,
+        0.984054169674029,
+        0.012562081240299668,
+        2.727408065628855
+      ],
+      "scenario_order": [
+        "reduced_field/tin_foil",
+        "reduced_field/sphere_vacuum",
+        "critical_offset/tin_foil",
+        "critical_offset/sphere_vacuum"
+      ]
+    },
+    {
+      "temperature_K": 0.15,
+      "robust_field_T": 1.6064500000000002,
+      "worst_case_regret_percent": 1.766086664454397,
+      "scenario_regret_percent": [
+        1.7564115277608194,
+        0.677503465849027,
+        0.007733155791761679,
+        1.766086664454397
+      ],
+      "scenario_order": [
+        "reduced_field/tin_foil",
+        "reduced_field/sphere_vacuum",
+        "critical_offset/tin_foil",
+        "critical_offset/sphere_vacuum"
+      ]
+    }
+  ],
+  "limitations": [
+    "The source XTRG Hamiltonian and 2026 Hamiltonian differ in anisotropy and weak terms.",
+    "Horizontal critical-field alignment does not calculate entropy redistribution or Qmax changes.",
+    "The additive mapping is local to the near-saturation peak and is invalid around zero field.",
+    "The Ewald Gamma term is sample-shape dependent; tin-foil and spherical-vacuum conventions bracket it.",
+    "Final B*, W95, heat and regret require a converged finite-temperature M4 bulk solver."
+  ]
+}

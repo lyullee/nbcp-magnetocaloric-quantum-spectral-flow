@@ -1,0 +1,47 @@
+{
+  "source_article": "Gao et al., npj Quantum Materials 7, 89 (2022)",
+  "source_url": "https://doi.org/10.1038/s41535-022-00500-3",
+  "source_pdf_sha256": "748F68788B521BB1E370AA263CC07459D89E0029655AC90DE72F92020B924DBC",
+  "panel": "Fig. 4a",
+  "quantity": "XTRG magnetic specific heat divided by temperature",
+  "units": "J mol^-1 K^-2",
+  "xtrg_geometry": "YC6x9, bond dimension up to D=400 (article Methods)",
+  "axis_calibration_pdf_points": {
+    "B0_x": 79.335,
+    "B2_x": 464.835,
+    "T1_y": 34.335,
+    "T0.1_y": 315.521
+  },
+  "embedded_images": {
+    "panel_xref": 6169,
+    "panel_shape": [
+      2051,
+      2635,
+      3
+    ],
+    "colorbar_xref": 6175,
+    "colorbar_shape": [
+      654,
+      32,
+      3
+    ]
+  },
+  "grid": {
+    "field_T": [
+      0.0,
+      2.0,
+      0.01
+    ],
+    "temperature_K_logspace": [
+      0.07,
+      1.0,
+      181
+    ]
+  },
+  "limitations": [
+    "Values are recovered from the lossless plotted heatmap and color scale, not the authors' numerical table.",
+    "Color quantisation is about 15/653 = 0.023 J mol^-1 K^-2 before interpolation effects.",
+    "The paper reports XTRG truncation errors below about 100 mK and finite-cylinder effects at low temperature."
+  ],
+  "output_csv": "data\\derived\\npj2022_fig4a_xtrg_Cm_over_T_heatmap.csv"
+}

@@ -1,0 +1,105 @@
+{
+  "condition": {
+    "temperature_K": 0.09,
+    "field_T": 1.5,
+    "boundary": "tin_foil"
+  },
+  "M0_absolute_size_sequence": [
+    {
+      "N": 18,
+      "entropy_kB_per_spin": 0.07112174042109666,
+      "source": "full parity-space low-energy-corrected FTLM"
+    },
+    {
+      "N": 21,
+      "entropy_kB_per_spin": 0.09253975348462443,
+      "source": "magnon_m0_N21_B1.500T.json",
+      "max_q_down": 5,
+      "first_omitted_sector_upper_log": -7.72278027539207
+    },
+    {
+      "N": 24,
+      "entropy_kB_per_spin": 0.08243372050343074,
+      "source": "magnon_m0_N24_B1.500T.json",
+      "max_q_down": 6,
+      "first_omitted_sector_upper_log": -10.81341661318481
+    },
+    {
+      "N": 27,
+      "entropy_kB_per_spin": 0.0842748072565883,
+      "source": "magnon_m0_N27_B1.500T.json",
+      "max_q_down": 6,
+      "first_omitted_sector_upper_log": -1.5992952064927017
+    }
+  ],
+  "M3_minus_M0_low16_size_sequence": [
+    {
+      "N": 15,
+      "S_M0_low16": 0.10224546847349238,
+      "S_M3_low16": 0.10877743245094847,
+      "deltaS_low16": 0.00653196397745609,
+      "source": "n15_bulk_window_raw"
+    },
+    {
+      "N": 18,
+      "S_M0_low16": 0.07055185279961466,
+      "S_M3_low16": 0.06709702186330296,
+      "deltaS_low16": -0.003454830936311701,
+      "source": "n18_bulk_window_compact_raw"
+    },
+    {
+      "N": 21,
+      "temperature_K": 0.09,
+      "S_M0_low16": 0.08986725278293681,
+      "S_M3_low16": 0.09038455066642409,
+      "deltaS_low16": 0.0005172978834872832,
+      "max_q_down": 7,
+      "source": "magnon_M3_low_energy_N21_B1.500T.json"
+    },
+    {
+      "N": 24,
+      "temperature_K": 0.09,
+      "S_M0_low16": 0.07835802551100383,
+      "S_M3_low16": 0.07670287536764486,
+      "deltaS_low16": -0.0016551501433589716,
+      "max_q_down": 7,
+      "source": "magnon_M3_low_energy_N24_B1.500T.json"
+    },
+    {
+      "N": 27,
+      "temperature_K": 0.09,
+      "S_M0_low16": 0.07687270894707118,
+      "S_M3_low16": 0.07641449547879262,
+      "deltaS_low16": -0.0004582134682785677,
+      "max_q_down": 7,
+      "source": "magnon_M3_low_energy_N27_B1.500T.json"
+    }
+  ],
+  "M0_low16_coverage": [
+    {
+      "N": 18,
+      "M0_absolute_entropy_kB_per_spin": 0.07112174042109666,
+      "M0_low16_entropy_kB_per_spin": 0.07055185279961466,
+      "missing_from_low16_kB_per_spin": 0.0005698876214819959
+    },
+    {
+      "N": 21,
+      "M0_absolute_entropy_kB_per_spin": 0.09253975348462443,
+      "M0_low16_entropy_kB_per_spin": 0.08986725278293681,
+      "missing_from_low16_kB_per_spin": 0.002672500701687619
+    },
+    {
+      "N": 24,
+      "M0_absolute_entropy_kB_per_spin": 0.08243372050343074,
+      "M0_low16_entropy_kB_per_spin": 0.07835802551100383,
+      "missing_from_low16_kB_per_spin": 0.004075694992426909
+    },
+    {
+      "N": 27,
+      "M0_absolute_entropy_kB_per_spin": 0.0842748072565883,
+      "M0_low16_entropy_kB_per_spin": 0.07687270894707118,
+      "missing_from_low16_kB_per_spin": 0.007402098309517116
+    }
+  ],
+  "interpretation": "Low-16 deltaS is validated at N=18, but its absolute-state coverage worsens with N; N=27 is a sign/magnitude diagnostic, not a converged bulk correction or a B*/regret result."
+}

@@ -1,0 +1,58 @@
+{
+  "affiliation": {
+    "name_en": "Korea Gas Safety Corporation",
+    "name_ko": "한국가스안전공사",
+    "country": "Republic of Korea"
+  },
+  "authors": [
+    {
+      "name_en": "Ugwiyeon Lee",
+      "name_ko": "이우귀연",
+      "orcid": "0009-0008-8976-5363",
+      "email": "lyullee@kgs.or.kr",
+      "author_order": 1,
+      "corresponding": true,
+      "credit_provisional": [
+        "Conceptualization",
+        "Methodology",
+        "Software",
+        "Validation",
+        "Formal analysis",
+        "Investigation",
+        "Data curation",
+        "Visualization",
+        "Writing - original draft",
+        "Writing - review & editing",
+        "Project administration"
+      ]
+    },
+    {
+      "name_en": "Seong-Yun Bae",
+      "name_ko": "배성윤",
+      "orcid": "0009-0003-8731-428X",
+      "email": "seongyun.bae@kgs.or.kr",
+      "author_order": 2,
+      "corresponding": false,
+      "credit_provisional": ["Writing - review & editing"]
+    },
+    {
+      "name_en": "Hakrae Kim",
+      "name_ko": "김학래",
+      "orcid": "0009-0002-5048-3568",
+      "email": "okhakrae@kgs.or.kr",
+      "author_order": 3,
+      "corresponding": false,
+      "credit_provisional": ["Writing - review & editing"]
+    },
+    {
+      "name_en": "Jungsu Lee",
+      "name_ko": "이정수",
+      "orcid": "0009-0006-9347-453X",
+      "email": "jungsuu00@kgs.or.kr",
+      "author_order": 4,
+      "corresponding": false,
+      "credit_provisional": ["Writing - review & editing"]
+    }
+  ],
+  "status": "Provisional until every author confirms authorship, order, CRediT roles, competing interests, and the submitted manuscript."
+}

@@ -1,0 +1,70 @@
+{
+  "specification_version": "1.0.0",
+  "date": "2026-10-11",
+  "material": "Na2BaCo(PO4)2",
+  "field_direction": "crystallographic c axis",
+  "magnetic_lattice": {
+    "space_group_used": "P-3 (No. 147)",
+    "source": "arXiv:2607.23173 main.tex lines 63, 78, 363-402",
+    "a_angstrom": 5.312,
+    "c_angstrom": 6.983,
+    "stacking": "AA triangular layers",
+    "magnetic_sites_per_primitive_cell": 1,
+    "co_fractional_coordinate_convention": [0.0, 0.0, 0.0],
+    "coordinate_note": "The origin is chosen at Co. Only magnetic-site displacement vectors enter the dipolar Hamiltonian."
+  },
+  "spin": 0.5,
+  "g_tensor": {
+    "g_xx": 4.2,
+    "g_yy": 4.2,
+    "g_zz": 4.716
+  },
+  "model_hierarchy": {
+    "M0": "2D nearest-neighbor XXZ",
+    "M1": "M0 plus additional bond-dependent Jpp",
+    "M2": "M1 plus nearest-neighbor dipolar tensor",
+    "M3": "M1 plus full long-range dipolar interactions within and between layers",
+    "M4": "M3 plus representative interlayer exchange scenarios"
+  },
+  "intralayer_representative_parameters": {
+    "Jzz_meV": 0.1225,
+    "Delta_Jxy_over_Jzz": 0.636,
+    "additional_Jpp_microeV": -1.9,
+    "Jzpm_microeV": 0.0,
+    "nearest_neighbor_Kd_microeV_reported": 0.36
+  },
+  "interlayer_representative_scenario_P1": {
+    "J2_microeV": 2.8,
+    "Ja_microeV": 0.0,
+    "Jb_microeV": 7.9,
+    "Delta_c": 0.08,
+    "status": "Representative and non-unique; not a fitted confidence distribution"
+  },
+  "reported_reference_points": {
+    "experimental_Hc_T": 1.7,
+    "semiclassical_Hc_T": 1.86,
+    "fan_phase_experimental_field_T": [1.35, 1.65],
+    "fan_phase_base_temperature_K": 0.065,
+    "mean_field_field_axis_mismatch_percent_approx": 9.0
+  },
+  "dipolar_definition": {
+    "hamiltonian": "sum_ij mu0/(4*pi*r^3) [m_i dot m_j - 3(m_i dot rhat)(m_j dot rhat)]",
+    "moment": "m_i = mu_B * diag(gxx,gyy,gzz) * S_i",
+    "periodic_sum": "M3/M4 must state the Ewald k=0/demagnetization convention; nearest-neighbor-only M2 is not an acceptable bulk surrogate."
+  },
+  "frozen_engineering_metrics": [
+    "B_star",
+    "Q_max",
+    "W95",
+    "regret_of_M0_field_under_M4",
+    "robust_field_over_explicit_parameter_scenarios",
+    "conditional_material_volume"
+  ],
+  "go_stop_thresholds": {
+    "bulk_go_delta_B_star_T": 0.05,
+    "bulk_stop_delta_B_star_T": 0.02,
+    "engineering_go_regret_percent": 5.0,
+    "engineering_stop_regret_percent": 2.0,
+    "quantum_target_sigma_B_T": 0.02
+  }
+}

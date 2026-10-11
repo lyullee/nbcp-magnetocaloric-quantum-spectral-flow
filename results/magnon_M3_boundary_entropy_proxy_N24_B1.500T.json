@@ -1,0 +1,24 @@
+{
+  "method": "apply -r^2/isolated-boundary-gap statewise to the 16 M3 Ritz energies",
+  "warning": "diagnostic proxy, not a rigorous full omitted-space correction",
+  "rows": [
+    {
+      "temperature_K": 0.09,
+      "S_M3_before": 0.07670287536767124,
+      "S_M3_proxy_corrected": 0.07661568577107652,
+      "entropy_shift_kB_per_spin": -8.718959659471948e-05
+    },
+    {
+      "temperature_K": 0.1,
+      "S_M3_before": 0.08174642414893858,
+      "S_M3_proxy_corrected": 0.08166964674209029,
+      "entropy_shift_kB_per_spin": -7.677740684829126e-05
+    },
+    {
+      "temperature_K": 0.12,
+      "S_M3_before": 0.0895346311622958,
+      "S_M3_proxy_corrected": 0.08947788572747424,
+      "entropy_shift_kB_per_spin": -5.674543482156458e-05
+    }
+  ]
+}

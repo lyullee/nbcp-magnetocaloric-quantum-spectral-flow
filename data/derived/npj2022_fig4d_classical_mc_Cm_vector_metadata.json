@@ -1,0 +1,54 @@
+{
+  "source_article": "Gao et al., npj Quantum Materials 7, 89 (2022)",
+  "source_url": "https://doi.org/10.1038/s41535-022-00500-3",
+  "source_arxiv": "https://arxiv.org/abs/2202.05242",
+  "source_pdf_relative_path": "sources\\raw\\arxiv_2202.05242_source\\Fig\\Fig4.pdf",
+  "source_pdf_sha256": "748F68788B521BB1E370AA263CC07459D89E0029655AC90DE72F92020B924DBC",
+  "extraction": "PyMuPDF vector path extraction; no raster/pixel tracing",
+  "method": "classical Monte Carlo on up to 48x48 spins; this is not XTRG quantum data",
+  "figure_panel": "Fig. 4d",
+  "axis_map": {
+    "pdf_frame_points": [
+      642.755,
+      459.53,
+      1076.756,
+      786.031
+    ],
+    "temperature_K": [
+      0.0,
+      0.3
+    ],
+    "Cm_J_mol_K": [
+      0.0,
+      7.0
+    ]
+  },
+  "fields_T_in_pdf_draw_order": [
+    0.0,
+    1.33,
+    1.07,
+    0.8,
+    0.53,
+    0.27,
+    0.13,
+    1.6
+  ],
+  "points_per_curve": 120,
+  "output_csv": "data\\derived\\npj2022_fig4d_classical_mc_Cm_vector.csv",
+  "model_in_source": {
+    "Jxy_K": 0.88,
+    "Jz_K": 1.48,
+    "J_Gamma_and_J_PD": "negligible / fixed to zero",
+    "g_c": 4.89
+  },
+  "current_M0_model": {
+    "Jxy_K_approx": 0.9041080067291999,
+    "Jz_K_approx": 1.4215534696999998,
+    "g_c": 4.716
+  },
+  "limitations": [
+    "The source curves begin near 8.76 mK; entropy below the first point requires an explicit low-T assumption.",
+    "Only 1.07 T and 1.33 T bracket the current 1.10--1.25 T window.",
+    "The source and current M0 parameters differ by several percent and must not be silently merged."
+  ]
+}

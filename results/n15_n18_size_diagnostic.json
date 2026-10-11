@@ -1,0 +1,1389 @@
+{
+  "diagnostics": [
+    {
+      "model": "M0",
+      "field_T": 1.1,
+      "ground_energy_K": -18.79500108170018,
+      "first_gap_K": 0.007330063747783555,
+      "states_within_0p1K": 6,
+      "wall_seconds": 161.65030670003034,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10158571302819347,
+          "low16_entropy_kB_per_spin": 0.10135469105079126,
+          "complement_increment_kB_per_spin": 0.00023102197740221264
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10303256685719982,
+          "low16_entropy_kB_per_spin": 0.1025542010729676,
+          "complement_increment_kB_per_spin": 0.0004783657842322153
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.10682155288660408,
+          "low16_entropy_kB_per_spin": 0.10533557850574311,
+          "complement_increment_kB_per_spin": 0.0014859743808609688
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.11508548399212033,
+          "low16_entropy_kB_per_spin": 0.11012038326683442,
+          "complement_increment_kB_per_spin": 0.004965100725285915
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.13629479722725113,
+          "low16_entropy_kB_per_spin": 0.11831415971270373,
+          "complement_increment_kB_per_spin": 0.0179806375145474
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.16516664223867747,
+          "low16_entropy_kB_per_spin": 0.1254706277707332,
+          "complement_increment_kB_per_spin": 0.03969601446794427
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.19788975817596655,
+          "low16_entropy_kB_per_spin": 0.13117733591597838,
+          "complement_increment_kB_per_spin": 0.06671242225998816
+        }
+      ]
+    },
+    {
+      "model": "M0",
+      "field_T": 1.15,
+      "ground_energy_K": -19.412852055729804,
+      "first_gap_K": 1.8829382497642655e-13,
+      "states_within_0p1K": 3,
+      "wall_seconds": 167.62121940008365,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10045978910587891,
+          "low16_entropy_kB_per_spin": 0.09984575149974441,
+          "complement_increment_kB_per_spin": 0.0006140376061345015
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10508507680910206,
+          "low16_entropy_kB_per_spin": 0.10382843448993076,
+          "complement_increment_kB_per_spin": 0.0012566423191713028
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11397730238490508,
+          "low16_entropy_kB_per_spin": 0.11036194753812481,
+          "complement_increment_kB_per_spin": 0.003615354846780272
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.12810885218760545,
+          "low16_entropy_kB_per_spin": 0.11786012788176481,
+          "complement_increment_kB_per_spin": 0.010248724305840645
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.1557145058879196,
+          "low16_entropy_kB_per_spin": 0.12684156984706074,
+          "complement_increment_kB_per_spin": 0.02887293604085886
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.18652375214239567,
+          "low16_entropy_kB_per_spin": 0.13311587528707888,
+          "complement_increment_kB_per_spin": 0.05340787685531678
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.21746038171991822,
+          "low16_entropy_kB_per_spin": 0.13761134175538706,
+          "complement_increment_kB_per_spin": 0.07984903996453116
+        }
+      ]
+    },
+    {
+      "model": "M0",
+      "field_T": 1.2,
+      "ground_energy_K": -20.046412526632,
+      "first_gap_K": 3.907985046680551e-14,
+      "states_within_0p1K": 6,
+      "wall_seconds": 201.8612511998508,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10410312539995983,
+          "low16_entropy_kB_per_spin": 0.10219004906818802,
+          "complement_increment_kB_per_spin": 0.001913076331771818
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10875982253182032,
+          "low16_entropy_kB_per_spin": 0.10535059841142368,
+          "complement_increment_kB_per_spin": 0.0034092241203966395
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.1192489411852292,
+          "low16_entropy_kB_per_spin": 0.11127316972481537,
+          "complement_increment_kB_per_spin": 0.007975771460413839
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.13728197978811385,
+          "low16_entropy_kB_per_spin": 0.11898226146225317,
+          "complement_increment_kB_per_spin": 0.018299718325860678
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.16998036616803983,
+          "low16_entropy_kB_per_spin": 0.12868962410372087,
+          "complement_increment_kB_per_spin": 0.04129074206431896
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.20194163632829762,
+          "low16_entropy_kB_per_spin": 0.1352787101973962,
+          "complement_increment_kB_per_spin": 0.06666292613090141
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.23118483111120572,
+          "low16_entropy_kB_per_spin": 0.13976880060316893,
+          "complement_increment_kB_per_spin": 0.09141603050803679
+        }
+      ]
+    },
+    {
+      "model": "M0",
+      "field_T": 1.25,
+      "ground_energy_K": -20.831706053661176,
+      "first_gap_K": 0.0931080821819883,
+      "states_within_0p1K": 3,
+      "wall_seconds": 278.7924709999934,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.09444587427472223,
+          "low16_entropy_kB_per_spin": 0.09238849055399424,
+          "complement_increment_kB_per_spin": 0.002057383720727987
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10136796075824127,
+          "low16_entropy_kB_per_spin": 0.09775104729593276,
+          "complement_increment_kB_per_spin": 0.0036169134623085103
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11511270390084179,
+          "low16_entropy_kB_per_spin": 0.106784708092275,
+          "complement_increment_kB_per_spin": 0.008327995808566788
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.1362728300596395,
+          "low16_entropy_kB_per_spin": 0.11730643891410514,
+          "complement_increment_kB_per_spin": 0.01896639114553436
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.17200089526831258,
+          "low16_entropy_kB_per_spin": 0.12921199637131275,
+          "complement_increment_kB_per_spin": 0.04278889889699983
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.2055220291849313,
+          "low16_entropy_kB_per_spin": 0.13656097659598496,
+          "complement_increment_kB_per_spin": 0.06896105258894633
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.23526287173328436,
+          "low16_entropy_kB_per_spin": 0.14123391974321078,
+          "complement_increment_kB_per_spin": 0.09402895199007358
+        }
+      ]
+    },
+    {
+      "model": "M0",
+      "field_T": 1.3,
+      "ground_energy_K": -21.623656642289507,
+      "first_gap_K": 0.09310808218241107,
+      "states_within_0p1K": 3,
+      "wall_seconds": 230.15909720002674,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.0855773286235303,
+          "low16_entropy_kB_per_spin": 0.08392547248242116,
+          "complement_increment_kB_per_spin": 0.0016518561411091454
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.09470916975015332,
+          "low16_entropy_kB_per_spin": 0.09174302872778213,
+          "complement_increment_kB_per_spin": 0.0029661410223711937
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11178449861271528,
+          "low16_entropy_kB_per_spin": 0.10474849723446243,
+          "complement_increment_kB_per_spin": 0.007036001378252846
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.1353052345289958,
+          "low16_entropy_kB_per_spin": 0.11868168211646374,
+          "complement_increment_kB_per_spin": 0.01662355241253205
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.17184847196576847,
+          "low16_entropy_kB_per_spin": 0.13227341131996484,
+          "complement_increment_kB_per_spin": 0.03957506064580363
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.2056407548052441,
+          "low16_entropy_kB_per_spin": 0.13953959105189317,
+          "complement_increment_kB_per_spin": 0.06610116375335093
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.23561973835613065,
+          "low16_entropy_kB_per_spin": 0.1437631201225041,
+          "complement_increment_kB_per_spin": 0.09185661823362654
+        }
+      ]
+    },
+    {
+      "model": "M2",
+      "field_T": 1.1,
+      "ground_energy_K": -19.01066853044248,
+      "first_gap_K": 0.0068445324319945655,
+      "states_within_0p1K": 3,
+      "wall_seconds": 139.51470490009524,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.06792733404486191,
+          "low16_entropy_kB_per_spin": 0.06791082173138939,
+          "complement_increment_kB_per_spin": 1.6512313472522022e-05
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.07012718538226156,
+          "low16_entropy_kB_per_spin": 0.0700791974345389,
+          "complement_increment_kB_per_spin": 4.798794772266357e-05
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.07476294822876656,
+          "low16_entropy_kB_per_spin": 0.07452090183949495,
+          "complement_increment_kB_per_spin": 0.0002420463892716107
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.08233280171569989,
+          "low16_entropy_kB_per_spin": 0.08105118908622228,
+          "complement_increment_kB_per_spin": 0.0012816126294776103
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.09881190789078868,
+          "low16_entropy_kB_per_spin": 0.09141036695650763,
+          "complement_increment_kB_per_spin": 0.007401540934281053
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.12320509183274028,
+          "low16_entropy_kB_per_spin": 0.10108310775989293,
+          "complement_increment_kB_per_spin": 0.02212198407284735
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.15551481763759492,
+          "low16_entropy_kB_per_spin": 0.10972049702935098,
+          "complement_increment_kB_per_spin": 0.04579432060824394
+        }
+      ]
+    },
+    {
+      "model": "M2",
+      "field_T": 1.2,
+      "ground_energy_K": -19.96066986216271,
+      "first_gap_K": 0.0018803678536620794,
+      "states_within_0p1K": 6,
+      "wall_seconds": 170.25152190006338,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10462873561457381,
+          "low16_entropy_kB_per_spin": 0.10428091487671381,
+          "complement_increment_kB_per_spin": 0.000347820737859994
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10655802479086254,
+          "low16_entropy_kB_per_spin": 0.10580942215846637,
+          "complement_increment_kB_per_spin": 0.0007486026323961781
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11137514679820534,
+          "low16_entropy_kB_per_spin": 0.10901748602139788,
+          "complement_increment_kB_per_spin": 0.002357660776807463
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.12141171929775332,
+          "low16_entropy_kB_per_spin": 0.11397067555723774,
+          "complement_increment_kB_per_spin": 0.007441043740515588
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.14539205299942465,
+          "low16_entropy_kB_per_spin": 0.12177130773056459,
+          "complement_increment_kB_per_spin": 0.023620745268860058
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.1751998185203229,
+          "low16_entropy_kB_per_spin": 0.12829481773395449,
+          "complement_increment_kB_per_spin": 0.04690500078636842
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.20657258069514273,
+          "low16_entropy_kB_per_spin": 0.13341467994371584,
+          "complement_increment_kB_per_spin": 0.07315790075142689
+        }
+      ]
+    },
+    {
+      "model": "M2",
+      "field_T": 1.3,
+      "ground_energy_K": -21.311482506243475,
+      "first_gap_K": 0.08683057636735114,
+      "states_within_0p1K": 3,
+      "wall_seconds": 158.9184840999078,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.09986636451093954,
+          "low16_entropy_kB_per_spin": 0.09726424276196623,
+          "complement_increment_kB_per_spin": 0.002602121748973313
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10521226252589172,
+          "low16_entropy_kB_per_spin": 0.10100759642716942,
+          "complement_increment_kB_per_spin": 0.004204666098722304
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11658283093410551,
+          "low16_entropy_kB_per_spin": 0.1077431246913662,
+          "complement_increment_kB_per_spin": 0.008839706242739317
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.1356529334378323,
+          "low16_entropy_kB_per_spin": 0.11641776357142808,
+          "complement_increment_kB_per_spin": 0.019235169866404223
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.17029207869119237,
+          "low16_entropy_kB_per_spin": 0.1273655172343651,
+          "complement_increment_kB_per_spin": 0.04292656145682727
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.20386480028076284,
+          "low16_entropy_kB_per_spin": 0.13471696970219726,
+          "complement_increment_kB_per_spin": 0.06914783057856558
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.23377735897496077,
+          "low16_entropy_kB_per_spin": 0.1396257502831684,
+          "complement_increment_kB_per_spin": 0.09415160869179237
+        }
+      ]
+    },
+    {
+      "model": "M3",
+      "field_T": 1.1,
+      "ground_energy_K": -18.802442973499478,
+      "first_gap_K": 0.006892526412112687,
+      "states_within_0p1K": 3,
+      "wall_seconds": 537.0118344000075,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.09205699027361398,
+          "low16_entropy_kB_per_spin": 0.09196471347054852,
+          "complement_increment_kB_per_spin": 9.22768030654636e-05
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.09417589802525067,
+          "low16_entropy_kB_per_spin": 0.09394714072056781,
+          "complement_increment_kB_per_spin": 0.00022875730468285838
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.09852401411893161,
+          "low16_entropy_kB_per_spin": 0.0976185814231491,
+          "complement_increment_kB_per_spin": 0.0009054326957825126
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.10672109664800639,
+          "low16_entropy_kB_per_spin": 0.10304096171226959,
+          "complement_increment_kB_per_spin": 0.003680134935736795
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.1275221035003611,
+          "low16_entropy_kB_per_spin": 0.11207871033634603,
+          "complement_increment_kB_per_spin": 0.015443393164015079
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.15674261429248165,
+          "low16_entropy_kB_per_spin": 0.1202219339446892,
+          "complement_increment_kB_per_spin": 0.03652068034779245
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.19054347354847975,
+          "low16_entropy_kB_per_spin": 0.12689779181130037,
+          "complement_increment_kB_per_spin": 0.06364568173717938
+        }
+      ]
+    },
+    {
+      "model": "M3",
+      "field_T": 1.15,
+      "ground_energy_K": -19.333191657157172,
+      "first_gap_K": 3.552713678800501e-15,
+      "states_within_0p1K": 6,
+      "wall_seconds": 506.05060450010933,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10521874494927332,
+          "low16_entropy_kB_per_spin": 0.10382802041131992,
+          "complement_increment_kB_per_spin": 0.0013907245379534
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10790263245432508,
+          "low16_entropy_kB_per_spin": 0.10602963422143204,
+          "complement_increment_kB_per_spin": 0.001872998232893039
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11374967174088549,
+          "low16_entropy_kB_per_spin": 0.11021413920591135,
+          "complement_increment_kB_per_spin": 0.0035355325349741423
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.12471169502937528,
+          "low16_entropy_kB_per_spin": 0.11606470930578647,
+          "complement_increment_kB_per_spin": 0.00864698572358881
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.14970310973249681,
+          "low16_entropy_kB_per_spin": 0.12449529923429253,
+          "complement_increment_kB_per_spin": 0.02520781049820428
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.18012754367618813,
+          "low16_entropy_kB_per_spin": 0.13106702078318852,
+          "complement_increment_kB_per_spin": 0.049060522892999614
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.2117428858532064,
+          "low16_entropy_kB_per_spin": 0.1359854065476169,
+          "complement_increment_kB_per_spin": 0.07575747930558949
+        }
+      ]
+    },
+    {
+      "model": "M3",
+      "field_T": 1.2,
+      "ground_energy_K": -19.96619404666285,
+      "first_gap_K": 1.1368683772161603e-13,
+      "states_within_0p1K": 4,
+      "wall_seconds": 558.6039660000242,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10337435844609925,
+          "low16_entropy_kB_per_spin": 0.10204763669409658,
+          "complement_increment_kB_per_spin": 0.0013267217520026714
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10838881991437536,
+          "low16_entropy_kB_per_spin": 0.10590670940913859,
+          "complement_increment_kB_per_spin": 0.0024821105052367787
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11862991535200784,
+          "low16_entropy_kB_per_spin": 0.11238182528843874,
+          "complement_increment_kB_per_spin": 0.006248090063569106
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.1353853664459904,
+          "low16_entropy_kB_per_spin": 0.11994488252250649,
+          "complement_increment_kB_per_spin": 0.015440483923483905
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.16645681398491932,
+          "low16_entropy_kB_per_spin": 0.12896024778141757,
+          "complement_increment_kB_per_spin": 0.03749656620350175
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.19814619436145597,
+          "low16_entropy_kB_per_spin": 0.13510136697489022,
+          "complement_increment_kB_per_spin": 0.06304482738656575
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.22787027451967848,
+          "low16_entropy_kB_per_spin": 0.13938666267285732,
+          "complement_increment_kB_per_spin": 0.08848361184682116
+        }
+      ]
+    },
+    {
+      "model": "M3",
+      "field_T": 1.25,
+      "ground_energy_K": -20.68876714457146,
+      "first_gap_K": 0.08951866968364897,
+      "states_within_0p1K": 5,
+      "wall_seconds": 599.913321999833,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.10173179267496477,
+          "low16_entropy_kB_per_spin": 0.09872887773321296,
+          "complement_increment_kB_per_spin": 0.003002914941751811
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.10763363469213347,
+          "low16_entropy_kB_per_spin": 0.1025700397149872,
+          "complement_increment_kB_per_spin": 0.005063594977146271
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.12046132446692193,
+          "low16_entropy_kB_per_spin": 0.10952571821709932,
+          "complement_increment_kB_per_spin": 0.010935606249822608
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.14158968971390795,
+          "low16_entropy_kB_per_spin": 0.1184025466023462,
+          "complement_increment_kB_per_spin": 0.023187143111561753
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.1774124915588333,
+          "low16_entropy_kB_per_spin": 0.12929516767334995,
+          "complement_increment_kB_per_spin": 0.04811732388548334
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.20998488672137355,
+          "low16_entropy_kB_per_spin": 0.13637612683388697,
+          "complement_increment_kB_per_spin": 0.07360875988748658
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.23832600597056697,
+          "low16_entropy_kB_per_spin": 0.1409955389993288,
+          "complement_increment_kB_per_spin": 0.09733046697123818
+        }
+      ]
+    },
+    {
+      "model": "M3",
+      "field_T": 1.3,
+      "ground_energy_K": -21.47968368706902,
+      "first_gap_K": 0.09674875780138237,
+      "states_within_0p1K": 3,
+      "wall_seconds": 741.5075807000976,
+      "temperature_rows": [
+        {
+          "temperature_K": 0.09,
+          "full_entropy_kB_per_spin": 0.08679917778764283,
+          "low16_entropy_kB_per_spin": 0.08470608915458094,
+          "complement_increment_kB_per_spin": 0.0020930886330618875
+        },
+        {
+          "temperature_K": 0.1,
+          "full_entropy_kB_per_spin": 0.0961194060296962,
+          "low16_entropy_kB_per_spin": 0.09237075395700704,
+          "complement_increment_kB_per_spin": 0.0037486520726891515
+        },
+        {
+          "temperature_K": 0.12,
+          "full_entropy_kB_per_spin": 0.11376297797327124,
+          "low16_entropy_kB_per_spin": 0.10498794982156978,
+          "complement_increment_kB_per_spin": 0.008775028151701461
+        },
+        {
+          "temperature_K": 0.15,
+          "full_entropy_kB_per_spin": 0.13852606087781463,
+          "low16_entropy_kB_per_spin": 0.11847459116884838,
+          "complement_increment_kB_per_spin": 0.02005146970896625
+        },
+        {
+          "temperature_K": 0.2,
+          "full_entropy_kB_per_spin": 0.17666971964358527,
+          "low16_entropy_kB_per_spin": 0.13178506245791935,
+          "complement_increment_kB_per_spin": 0.04488465718566592
+        },
+        {
+          "temperature_K": 0.25,
+          "full_entropy_kB_per_spin": 0.21054658489158892,
+          "low16_entropy_kB_per_spin": 0.1390364795497326,
+          "complement_increment_kB_per_spin": 0.07151010534185631
+        },
+        {
+          "temperature_K": 0.3,
+          "full_entropy_kB_per_spin": 0.239676155872448,
+          "low16_entropy_kB_per_spin": 0.14331650516127287,
+          "complement_increment_kB_per_spin": 0.09635965071117514
+        }
+      ]
+    }
+  ],
+  "field_margins": [
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.0025174123717663643,
+      "ranking": [
+        [
+          1.2,
+          0.10410312539995983
+        ],
+        [
+          1.1,
+          0.10158571302819347
+        ],
+        [
+          1.15,
+          0.10045978910587891
+        ],
+        [
+          1.25,
+          0.09444587427472223
+        ],
+        [
+          1.3,
+          0.0855773286235303
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.0036747457227182534,
+      "ranking": [
+        [
+          1.2,
+          0.10875982253182032
+        ],
+        [
+          1.15,
+          0.10508507680910206
+        ],
+        [
+          1.1,
+          0.10303256685719982
+        ],
+        [
+          1.25,
+          0.10136796075824127
+        ],
+        [
+          1.3,
+          0.09470916975015332
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.004136237284387417,
+      "ranking": [
+        [
+          1.2,
+          0.1192489411852292
+        ],
+        [
+          1.25,
+          0.11511270390084179
+        ],
+        [
+          1.15,
+          0.11397730238490508
+        ],
+        [
+          1.3,
+          0.11178449861271528
+        ],
+        [
+          1.1,
+          0.10682155288660408
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.0010091497284743511,
+      "ranking": [
+        [
+          1.2,
+          0.13728197978811385
+        ],
+        [
+          1.25,
+          0.1362728300596395
+        ],
+        [
+          1.3,
+          0.1353052345289958
+        ],
+        [
+          1.15,
+          0.12810885218760545
+        ],
+        [
+          1.1,
+          0.11508548399212033
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.2,
+      "winner_field_T": 1.25,
+      "winner_minus_runnerup_kB_per_spin": 0.00015242330254411351,
+      "ranking": [
+        [
+          1.25,
+          0.17200089526831258
+        ],
+        [
+          1.3,
+          0.17184847196576847
+        ],
+        [
+          1.2,
+          0.16998036616803983
+        ],
+        [
+          1.15,
+          0.1557145058879196
+        ],
+        [
+          1.1,
+          0.13629479722725113
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.25,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.00011872562031281508,
+      "ranking": [
+        [
+          1.3,
+          0.2056407548052441
+        ],
+        [
+          1.25,
+          0.2055220291849313
+        ],
+        [
+          1.2,
+          0.20194163632829762
+        ],
+        [
+          1.15,
+          0.18652375214239567
+        ],
+        [
+          1.1,
+          0.16516664223867747
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.3,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.0003568666228462858,
+      "ranking": [
+        [
+          1.3,
+          0.23561973835613065
+        ],
+        [
+          1.25,
+          0.23526287173328436
+        ],
+        [
+          1.2,
+          0.23118483111120572
+        ],
+        [
+          1.15,
+          0.21746038171991822
+        ],
+        [
+          1.1,
+          0.19788975817596655
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.09,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.004762371103634269,
+      "ranking": [
+        [
+          1.2,
+          0.10462873561457381
+        ],
+        [
+          1.3,
+          0.09986636451093954
+        ],
+        [
+          1.1,
+          0.06792733404486191
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.1,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.0013457622649708234,
+      "ranking": [
+        [
+          1.2,
+          0.10655802479086254
+        ],
+        [
+          1.3,
+          0.10521226252589172
+        ],
+        [
+          1.1,
+          0.07012718538226156
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.12,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.00520768413590017,
+      "ranking": [
+        [
+          1.3,
+          0.11658283093410551
+        ],
+        [
+          1.2,
+          0.11137514679820534
+        ],
+        [
+          1.1,
+          0.07476294822876656
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.15,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.014241214140078978,
+      "ranking": [
+        [
+          1.3,
+          0.1356529334378323
+        ],
+        [
+          1.2,
+          0.12141171929775332
+        ],
+        [
+          1.1,
+          0.08233280171569989
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.2,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.02490002569176772,
+      "ranking": [
+        [
+          1.3,
+          0.17029207869119237
+        ],
+        [
+          1.2,
+          0.14539205299942465
+        ],
+        [
+          1.1,
+          0.09881190789078868
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.25,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.02866498176043994,
+      "ranking": [
+        [
+          1.3,
+          0.20386480028076284
+        ],
+        [
+          1.2,
+          0.1751998185203229
+        ],
+        [
+          1.1,
+          0.12320509183274028
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.3,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.027204778279818043,
+      "ranking": [
+        [
+          1.3,
+          0.23377735897496077
+        ],
+        [
+          1.2,
+          0.20657258069514273
+        ],
+        [
+          1.1,
+          0.15551481763759492
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "winner_field_T": 1.15,
+      "winner_minus_runnerup_kB_per_spin": 0.0018443865031740614,
+      "ranking": [
+        [
+          1.15,
+          0.10521874494927332
+        ],
+        [
+          1.2,
+          0.10337435844609925
+        ],
+        [
+          1.25,
+          0.10173179267496477
+        ],
+        [
+          1.1,
+          0.09205699027361398
+        ],
+        [
+          1.3,
+          0.08679917778764283
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "winner_field_T": 1.2,
+      "winner_minus_runnerup_kB_per_spin": 0.00048618746005028857,
+      "ranking": [
+        [
+          1.2,
+          0.10838881991437536
+        ],
+        [
+          1.15,
+          0.10790263245432508
+        ],
+        [
+          1.25,
+          0.10763363469213347
+        ],
+        [
+          1.3,
+          0.0961194060296962
+        ],
+        [
+          1.1,
+          0.09417589802525067
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "winner_field_T": 1.25,
+      "winner_minus_runnerup_kB_per_spin": 0.0018314091149140843,
+      "ranking": [
+        [
+          1.25,
+          0.12046132446692193
+        ],
+        [
+          1.2,
+          0.11862991535200784
+        ],
+        [
+          1.3,
+          0.11376297797327124
+        ],
+        [
+          1.15,
+          0.11374967174088549
+        ],
+        [
+          1.1,
+          0.09852401411893161
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "winner_field_T": 1.25,
+      "winner_minus_runnerup_kB_per_spin": 0.0030636288360933184,
+      "ranking": [
+        [
+          1.25,
+          0.14158968971390795
+        ],
+        [
+          1.3,
+          0.13852606087781463
+        ],
+        [
+          1.2,
+          0.1353853664459904
+        ],
+        [
+          1.15,
+          0.12471169502937528
+        ],
+        [
+          1.1,
+          0.10672109664800639
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.2,
+      "winner_field_T": 1.25,
+      "winner_minus_runnerup_kB_per_spin": 0.0007427719152480194,
+      "ranking": [
+        [
+          1.25,
+          0.1774124915588333
+        ],
+        [
+          1.3,
+          0.17666971964358527
+        ],
+        [
+          1.2,
+          0.16645681398491932
+        ],
+        [
+          1.15,
+          0.14970310973249681
+        ],
+        [
+          1.1,
+          0.1275221035003611
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.25,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.0005616981702153689,
+      "ranking": [
+        [
+          1.3,
+          0.21054658489158892
+        ],
+        [
+          1.25,
+          0.20998488672137355
+        ],
+        [
+          1.2,
+          0.19814619436145597
+        ],
+        [
+          1.15,
+          0.18012754367618813
+        ],
+        [
+          1.1,
+          0.15674261429248165
+        ]
+      ]
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.3,
+      "winner_field_T": 1.3,
+      "winner_minus_runnerup_kB_per_spin": 0.001350149901881037,
+      "ranking": [
+        [
+          1.3,
+          0.239676155872448
+        ],
+        [
+          1.25,
+          0.23832600597056697
+        ],
+        [
+          1.2,
+          0.22787027451967848
+        ],
+        [
+          1.15,
+          0.2117428858532064
+        ],
+        [
+          1.1,
+          0.19054347354847975
+        ]
+      ]
+    }
+  ],
+  "size_comparison_common_grid": [
+    {
+      "model": "M0",
+      "temperature_K": 0.09,
+      "N15_winner_on_common_grid_T": 1.1,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.1,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.12,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.15,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.2,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.25,
+      "same_winner": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.25,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.3,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.09,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.1,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.12,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.15,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.2,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.25,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.3,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.09,
+      "N15_winner_on_common_grid_T": 1.15,
+      "N18_winner_on_common_grid_T": 1.15,
+      "same_winner": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.1,
+      "N15_winner_on_common_grid_T": 1.15,
+      "N18_winner_on_common_grid_T": 1.2,
+      "same_winner": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.12,
+      "N15_winner_on_common_grid_T": 1.15,
+      "N18_winner_on_common_grid_T": 1.25,
+      "same_winner": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.15,
+      "N15_winner_on_common_grid_T": 1.2,
+      "N18_winner_on_common_grid_T": 1.25,
+      "same_winner": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.2,
+      "N15_winner_on_common_grid_T": 1.25,
+      "N18_winner_on_common_grid_T": 1.25,
+      "same_winner": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.25,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.3,
+      "N15_winner_on_common_grid_T": 1.3,
+      "N18_winner_on_common_grid_T": 1.3,
+      "same_winner": true
+    }
+  ],
+  "interpretation": [
+    "The low16/full difference measures omitted-state contribution, not stochastic error.",
+    "A winner at 1.1 or 1.3 T is edge-censored on this sparse grid.",
+    "No Gate-1 decision is allowed until 1.15 and 1.25 T or an equivalent interpolation is checked."
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "purpose": "exact sudden-quench two-projective-measurement Jarzynski variance screen",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "protocols": [
+    "sudden quench M0 to M3 with exact initial/final energy measurements",
+    "optimistic infinitely-slow level mapping sorted within conserved parity sectors"
+  ],
+  "rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.095,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.10831427819215812,
+      "exact_delta_F_K": 0.10831427819215932,
+      "identity_error_K": -1.1934897514720433e-15,
+      "log_relative_second_moment": 388.2807838289152,
+      "relative_variance_exp_betaW": 4.248169591938849e+168,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 174.97619403333027,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.095,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.10831427819218552,
+      "exact_delta_F_K": 0.10831427819218632,
+      "identity_error_K": -8.049116928532385e-16,
+      "log_relative_second_moment": 0.02670822796232164,
+      "relative_variance_exp_betaW": 0.027068089292363283,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 4.78044978782987,
+          "shots_if_below_1e18": 60319
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.105,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.109398532785109,
+      "exact_delta_F_K": 0.10939853278510775,
+      "identity_error_K": 1.2490009027033011e-15,
+      "log_relative_second_moment": 348.61840016738915,
+      "relative_variance_exp_betaW": 2.529574546825351e+151,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 157.837971057562,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.105,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.10939853278513456,
+      "exact_delta_F_K": 0.1093985327851346,
+      "identity_error_K": -4.163336342344337e-17,
+      "log_relative_second_moment": 0.024129306470623835,
+      "relative_variance_exp_betaW": 0.024422773820041953,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 4.822718562393449,
+          "shots_if_below_1e18": 66485
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.095,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.12387969661038958,
+      "exact_delta_F_K": 0.12387969661039165,
+      "identity_error_K": -2.067790383364354e-15,
+      "log_relative_second_moment": 396.14316084026785,
+      "relative_variance_exp_betaW": 1.1035418218725865e+172,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 178.39078098400373,
+          "shots_if_below_1e18": null
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "target_each_delta_F_error_K_per_spin": 1.4142135623730954e-06,
+          "log10_shots_for_this_temperature": 179.78872099267576,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.095,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.123879696610366,
+      "exact_delta_F_K": 0.12387969661036735,
+      "identity_error_K": -1.3461454173580023e-15,
+      "log_relative_second_moment": 0.052074400698709944,
+      "relative_variance_exp_betaW": 0.053454117320145905,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 5.075973349864834,
+          "shots_if_below_1e18": 119117
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "target_each_delta_F_error_K_per_spin": 1.4142135623730954e-06,
+          "log10_shots_for_this_temperature": 6.473913358536872,
+          "shots_if_below_1e18": 2977923
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.105,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.12378362752327328,
+      "exact_delta_F_K": 0.12378362752327304,
+      "identity_error_K": 2.3592239273284576e-16,
+      "log_relative_second_moment": 355.6849046449869,
+      "relative_variance_exp_betaW": 2.9647725678846966e+154,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 160.90691495852732,
+          "shots_if_below_1e18": null
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "target_each_delta_F_error_K_per_spin": 1.4142135623730954e-06,
+          "log10_shots_for_this_temperature": 162.30485496719936,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.105,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.12378362752324842,
+      "exact_delta_F_K": 0.12378362752324769,
+      "identity_error_K": 7.355227538141662e-16,
+      "log_relative_second_moment": 0.04220815046781512,
+      "relative_variance_exp_betaW": 0.0431115803185096,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 5.0695175177751315,
+          "shots_if_below_1e18": 117360
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "target_each_delta_F_error_K_per_spin": 1.4142135623730954e-06,
+          "log10_shots_for_this_temperature": 6.467457526447169,
+          "shots_if_below_1e18": 2933983
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.095,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.1387543165928973,
+      "exact_delta_F_K": 0.13875431659289844,
+      "identity_error_K": -1.1379786002407855e-15,
+      "log_relative_second_moment": 403.38182623134054,
+      "relative_variance_exp_betaW": 1.5363891528897923e+175,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 181.53449341969062,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.095,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.13875431659288406,
+      "exact_delta_F_K": 0.13875431659288495,
+      "identity_error_K": -8.881784197001252e-16,
+      "log_relative_second_moment": 0.031303330475193736,
+      "relative_variance_exp_betaW": 0.03179843233253982,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 4.8503978970924395,
+          "shots_if_below_1e18": 70860
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.105,
+      "protocol": "sudden_quench",
+      "jarzynski_delta_F_K": 0.13777054272780986,
+      "exact_delta_F_K": 0.13777054272780964,
+      "identity_error_K": 2.220446049250313e-16,
+      "log_relative_second_moment": 362.2346222496157,
+      "relative_variance_exp_betaW": 2.0725145936082657e+157,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 163.7514211722422,
+          "shots_if_below_1e18": null
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.105,
+      "protocol": "ideal_sorted_parity_adiabatic",
+      "jarzynski_delta_F_K": 0.13777054272779632,
+      "exact_delta_F_K": 0.13777054272779474,
+      "identity_error_K": 1.582067810090848e-15,
+      "log_relative_second_moment": 0.027874697719504127,
+      "relative_variance_exp_betaW": 0.028266832169824,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "target_each_delta_F_error_K_per_spin": 7.071067811865476e-06,
+          "log10_shots_for_this_temperature": 4.88620071527703,
+          "shots_if_below_1e18": 76949
+        }
+      }
+    }
+  ],
+  "scope_limits": [
+    "The exact Jarzynski identity holds, but sampling can be dominated by exponentially rare work values.",
+    "State preparation, energy measurement/phase estimation, circuit depth and hardware noise are excluded.",
+    "The first-order Delta-F error formula is used to convert work variance to shots.",
+    "This is the exact two-projective-measurement protocol, not the approximate METTS pseudo-work implementation.",
+    "The sorted-parity adiabatic mapping is a best-case variance endpoint and has no finite-depth circuit estimate."
+  ],
+  "elapsed_seconds": 6.037282099947333
+}

@@ -1,0 +1,30 @@
+# Local runtimes and third-party checkouts
+tools/*
+!tools/setup_octave_signed_shim.ps1
+vendor/
+sources/raw/
+
+# Publisher source workbooks are downloaded by fetch_sources.py
+sources/*.xlsx
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Scratch outputs
+tmp/
+figures/_tmp_*/
+*.log
+
+# Credentials and local IBM configuration
+.env
+*.token
+qiskit-ibm.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

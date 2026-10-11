@@ -1,0 +1,1818 @@
+{
+  "purpose": "screen low-energy eigenspectrum reconstruction as an alternative to direct entropy estimation",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "3x3 periodic; M3 tin-foil Ewald"
+  },
+  "principle": "measure K low-energy levels; reconstruct Z, F and S classically",
+  "rows": [
+    {
+      "model": "M0",
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "energy_min_K": -11.706693065098909,
+      "energy_max_K": 29.55264075517644,
+      "spectral_width_K": 41.25933382027535,
+      "log10_gibbs_condition_number": 199.09667783499776,
+      "entropy_kB": 1.255815003127306,
+      "effective_rank_exp_entropy": 3.510698438910228,
+      "ground_state_probability": 0.5843749381304725,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 6
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.5843749381304725,
+        "1": 0.6923913530820529,
+        "2": 0.900139799855134,
+        "3": 0.9999976967475404,
+        "4": 0.999999822086154,
+        "5": 0.9999999999999748,
+        "6": 0.9999999999999998,
+        "7": 0.9999999999999998,
+        "8": 0.9999999999999998,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 357,
+          "achieved_fidelity": 0.9901626517955774
+        },
+        "0.999": {
+          "minimum_order": 435,
+          "achieved_fidelity": 0.9990400624999846
+        },
+        "0.9999": {
+          "minimum_order": 469,
+          "achieved_fidelity": 0.9999077875309156
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "energy_min_K": -11.706693065098909,
+      "energy_max_K": 29.55264075517644,
+      "spectral_width_K": 41.25933382027535,
+      "log10_gibbs_condition_number": 179.18701005149796,
+      "entropy_kB": 1.3269982101420088,
+      "effective_rank_exp_entropy": 3.7697105078468613,
+      "ground_state_probability": 0.5418341057585292,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 7
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.5418341057585292,
+        "1": 0.6604068025108374,
+        "2": 0.8893352868180221,
+        "3": 0.999990683023879,
+        "4": 0.9999990905336349,
+        "5": 0.9999999999993481,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 313,
+          "achieved_fidelity": 0.9900349923636793
+        },
+        "0.999": {
+          "minimum_order": 389,
+          "achieved_fidelity": 0.999039660662572
+        },
+        "0.9999": {
+          "minimum_order": 422,
+          "achieved_fidelity": 0.999908568297484
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "energy_min_K": -11.706693065098909,
+      "energy_max_K": 29.55264075517644,
+      "spectral_width_K": 41.25933382027535,
+      "log10_gibbs_condition_number": 149.32250837624832,
+      "entropy_kB": 1.4253771273295628,
+      "effective_rank_exp_entropy": 4.159426180293833,
+      "ground_state_probability": 0.4768037161613504,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 6,
+        "0.9999": 8
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.4768037161613504,
+        "1": 0.6112157845285151,
+        "2": 0.8722317123450629,
+        "3": 0.9999241831827048,
+        "4": 0.9999895285616848,
+        "5": 0.9999999999129876,
+        "6": 0.9999999999999974,
+        "7": 0.9999999999999998,
+        "8": 0.9999999999999998,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 253,
+          "achieved_fidelity": 0.9900030643670922
+        },
+        "0.999": {
+          "minimum_order": 320,
+          "achieved_fidelity": 0.9990048546657565
+        },
+        "0.9999": {
+          "minimum_order": 351,
+          "achieved_fidelity": 0.9999048523818226
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.4,
+      "temperature_K": 0.3,
+      "energy_min_K": -11.706693065098909,
+      "energy_max_K": 29.55264075517644,
+      "spectral_width_K": 41.25933382027535,
+      "log10_gibbs_condition_number": 59.72900335049933,
+      "entropy_kB": 1.9690387815311416,
+      "effective_rank_exp_entropy": 7.163787213251475,
+      "ground_state_probability": 0.27015005645975226,
+      "mass_ranks": {
+        "0.95": 8,
+        "0.99": 20,
+        "0.999": 28,
+        "0.9999": 43
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.27015005645975226,
+        "1": 0.43294635104773427,
+        "2": 0.7546880545751249,
+        "3": 0.9585279431225311,
+        "4": 0.9847119224589818,
+        "5": 0.9997855750674229,
+        "6": 0.999996852346462,
+        "7": 0.9999999988654413,
+        "8": 0.9999999999999996,
+        "9": 1.0000000000000002
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 117,
+          "achieved_fidelity": 0.9903451173111772
+        },
+        "0.999": {
+          "minimum_order": 137,
+          "achieved_fidelity": 0.9990203677546785
+        },
+        "0.9999": {
+          "minimum_order": 149,
+          "achieved_fidelity": 0.9999023566881776
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "energy_min_K": -11.608457377683091,
+      "energy_max_K": 29.77591546399172,
+      "spectral_width_K": 41.38437284167481,
+      "log10_gibbs_condition_number": 199.7000529129574,
+      "entropy_kB": 1.1271603016165717,
+      "effective_rank_exp_entropy": 3.086878239071427,
+      "ground_state_probability": 0.6491547720782822,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 7
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.6491547720782822,
+        "1": 0.7570692848174907,
+        "2": 0.9323444107458082,
+        "3": 0.9999966119587644,
+        "4": 0.999999818744131,
+        "5": 0.9999999999999662,
+        "6": 1.0000000000000002,
+        "7": 1.0000000000000002,
+        "8": 1.0000000000000002,
+        "9": 1.0000000000000002
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 371,
+          "achieved_fidelity": 0.9900858285803658
+        },
+        "0.999": {
+          "minimum_order": 441,
+          "achieved_fidelity": 0.9990439851573516
+        },
+        "0.9999": {
+          "minimum_order": 472,
+          "achieved_fidelity": 0.999902069743869
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "energy_min_K": -11.608457377683091,
+      "energy_max_K": 29.77591546399172,
+      "spectral_width_K": 41.38437284167481,
+      "log10_gibbs_condition_number": 179.73004762166164,
+      "entropy_kB": 1.218667806002897,
+      "effective_rank_exp_entropy": 3.382678346811479,
+      "ground_state_probability": 0.6026928389019436,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 8
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.6026928389019436,
+        "1": 0.7225749746195789,
+        "2": 0.9208989971320555,
+        "3": 0.999986803396788,
+        "4": 0.9999990643837261,
+        "5": 0.999999999999137,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 329,
+          "achieved_fidelity": 0.9902045724049091
+        },
+        "0.999": {
+          "minimum_order": 395,
+          "achieved_fidelity": 0.9990213501883911
+        },
+        "0.9999": {
+          "minimum_order": 425,
+          "achieved_fidelity": 0.9999011421725535
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "energy_min_K": -11.608457377683091,
+      "energy_max_K": 29.77591546399172,
+      "spectral_width_K": 41.38437284167481,
+      "log10_gibbs_condition_number": 149.77503968471805,
+      "entropy_kB": 1.3509925222119656,
+      "effective_rank_exp_entropy": 3.861256011821543,
+      "ground_state_probability": 0.5289601870208663,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 7,
+        "0.9999": 9
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.5289601870208663,
+        "1": 0.6666721552755186,
+        "2": 0.901092995774439,
+        "3": 0.9998988873137842,
+        "4": 0.9999891196488861,
+        "5": 0.9999999998877603,
+        "6": 0.9999999999999968,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 267,
+          "achieved_fidelity": 0.9900298436267482
+        },
+        "0.999": {
+          "minimum_order": 327,
+          "achieved_fidelity": 0.9990281538111331
+        },
+        "0.9999": {
+          "minimum_order": 355,
+          "achieved_fidelity": 0.9999066090020581
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.4,
+      "temperature_K": 0.3,
+      "energy_min_K": -11.608457377683091,
+      "energy_max_K": 29.77591546399172,
+      "spectral_width_K": 41.38437284167481,
+      "log10_gibbs_condition_number": 59.910015873887225,
+      "entropy_kB": 2.0043917332947623,
+      "effective_rank_exp_entropy": 7.4215782245962005,
+      "ground_state_probability": 0.2818388198533589,
+      "mass_ranks": {
+        "0.95": 8,
+        "0.99": 20,
+        "0.999": 28,
+        "0.9999": 45
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2818388198533589,
+        "1": 0.44635942249872185,
+        "2": 0.7537096005051631,
+        "3": 0.9549751980744556,
+        "4": 0.9844461989019392,
+        "5": 0.9997566184804115,
+        "6": 0.9999961703394389,
+        "7": 0.9999999982203538,
+        "8": 0.9999999999999982,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 118,
+          "achieved_fidelity": 0.9906720862341633
+        },
+        "0.999": {
+          "minimum_order": 138,
+          "achieved_fidelity": 0.9990721159469952
+        },
+        "0.9999": {
+          "minimum_order": 150,
+          "achieved_fidelity": 0.999910518152588
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "energy_min_K": -12.102668359412792,
+      "energy_max_K": 30.26539628494143,
+      "spectral_width_K": 42.36806464435422,
+      "log10_gibbs_condition_number": 204.44685204403663,
+      "entropy_kB": 1.401120005801555,
+      "effective_rank_exp_entropy": 4.059744358731599,
+      "ground_state_probability": 0.2981985843637396,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2981985843637396,
+        "1": 0.5939720863020739,
+        "2": 0.9448648959397477,
+        "3": 0.9999971912100882,
+        "4": 0.9999995691678156,
+        "5": 0.9999999999999948,
+        "6": 0.9999999999999998,
+        "7": 0.9999999999999998,
+        "8": 0.9999999999999998,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 316,
+          "achieved_fidelity": 0.9901261518385904
+        },
+        "0.999": {
+          "minimum_order": 423,
+          "achieved_fidelity": 0.9990086413219356
+        },
+        "0.9999": {
+          "minimum_order": 469,
+          "achieved_fidelity": 0.9999012864017984
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "energy_min_K": -12.102668359412792,
+      "energy_max_K": 30.26539628494143,
+      "spectral_width_K": 42.36806464435422,
+      "log10_gibbs_condition_number": 184.00216683963293,
+      "entropy_kB": 1.429624340167889,
+      "effective_rank_exp_entropy": 4.17712971729911,
+      "ground_state_probability": 0.29212461924667593,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.29212461924667593,
+        "1": 0.5821102488483361,
+        "2": 0.9360232014510452,
+        "3": 0.9999892293856477,
+        "4": 0.9999980744194086,
+        "5": 0.9999999999998359,
+        "6": 1.0000000000000002,
+        "7": 1.0000000000000002,
+        "8": 1.0000000000000002,
+        "9": 1.0000000000000002
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 281,
+          "achieved_fidelity": 0.9900239931996037
+        },
+        "0.999": {
+          "minimum_order": 380,
+          "achieved_fidelity": 0.9990330272330354
+        },
+        "0.9999": {
+          "minimum_order": 423,
+          "achieved_fidelity": 0.9999056562178595
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "energy_min_K": -12.102668359412792,
+      "energy_max_K": 30.26539628494143,
+      "spectral_width_K": 42.36806464435422,
+      "log10_gibbs_condition_number": 153.33513903302747,
+      "entropy_kB": 1.4745711088761952,
+      "effective_rank_exp_entropy": 4.369161476448209,
+      "ground_state_probability": 0.2814847097624616,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 8
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2814847097624616,
+        "1": 0.5612507999240038,
+        "2": 0.920368079622192,
+        "3": 0.9999172709656735,
+        "4": 0.9999817279715983,
+        "5": 0.9999999999716611,
+        "6": 0.9999999999999993,
+        "7": 0.9999999999999997,
+        "8": 0.9999999999999997,
+        "9": 0.9999999999999997
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 237,
+          "achieved_fidelity": 0.9902048220636759
+        },
+        "0.999": {
+          "minimum_order": 315,
+          "achieved_fidelity": 0.9990163153095164
+        },
+        "0.9999": {
+          "minimum_order": 353,
+          "achieved_fidelity": 0.9999047681437293
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.45,
+      "temperature_K": 0.3,
+      "energy_min_K": -12.102668359412792,
+      "energy_max_K": 30.26539628494143,
+      "spectral_width_K": 42.36806464435422,
+      "log10_gibbs_condition_number": 61.33405561321099,
+      "entropy_kB": 1.9099970395822208,
+      "effective_rank_exp_entropy": 6.753068806596735,
+      "ground_state_probability": 0.2223688140721821,
+      "mass_ranks": {
+        "0.95": 7,
+        "0.99": 19,
+        "0.999": 27,
+        "0.9999": 38
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2223688140721821,
+        "1": 0.4441935563981797,
+        "2": 0.8000209320653514,
+        "3": 0.9575325862427231,
+        "4": 0.9830706792618233,
+        "5": 0.9998580507728471,
+        "6": 0.9999984376375526,
+        "7": 0.9999999995797343,
+        "8": 0.9999999999999994,
+        "9": 0.9999999999999997
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 120,
+          "achieved_fidelity": 0.9902039218215882
+        },
+        "0.999": {
+          "minimum_order": 141,
+          "achieved_fidelity": 0.999083285315036
+        },
+        "0.9999": {
+          "minimum_order": 153,
+          "achieved_fidelity": 0.9999067969428206
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "energy_min_K": -12.004242632477107,
+      "energy_max_K": 30.48850997627055,
+      "spectral_width_K": 42.49275260874766,
+      "log10_gibbs_condition_number": 205.04853309843463,
+      "entropy_kB": 1.4071223565537019,
+      "effective_rank_exp_entropy": 4.084185647549628,
+      "ground_state_probability": 0.3958263967318331,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.3958263967318331,
+        "1": 0.6320997449969094,
+        "2": 0.9341687689954741,
+        "3": 0.9999950683185729,
+        "4": 0.9999994983458818,
+        "5": 0.9999999999999913,
+        "6": 1.0000000000000002,
+        "7": 1.0000000000000002,
+        "8": 1.0000000000000002,
+        "9": 1.0000000000000002
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 322,
+          "achieved_fidelity": 0.9900929519234775
+        },
+        "0.999": {
+          "minimum_order": 428,
+          "achieved_fidelity": 0.9990249273173207
+        },
+        "0.9999": {
+          "minimum_order": 472,
+          "achieved_fidelity": 0.9999005336888059
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "energy_min_K": -12.004242632477107,
+      "energy_max_K": 30.48850997627055,
+      "spectral_width_K": 42.49275260874766,
+      "log10_gibbs_condition_number": 184.54367978859113,
+      "entropy_kB": 1.4392928347769827,
+      "effective_rank_exp_entropy": 4.2177121427974935,
+      "ground_state_probability": 0.3766341998050015,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 6
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.3766341998050015,
+        "1": 0.6133562631600844,
+        "2": 0.9249888948198302,
+        "3": 0.9999823563040133,
+        "4": 0.9999977927767678,
+        "5": 0.9999999999997378,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 286,
+          "achieved_fidelity": 0.9901226716702496
+        },
+        "0.999": {
+          "minimum_order": 383,
+          "achieved_fidelity": 0.9990272865080412
+        },
+        "0.9999": {
+          "minimum_order": 425,
+          "achieved_fidelity": 0.9999034069115177
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "energy_min_K": -12.004242632477107,
+      "energy_max_K": 30.48850997627055,
+      "spectral_width_K": 42.49275260874766,
+      "log10_gibbs_condition_number": 153.78639982382597,
+      "entropy_kB": 1.487790464440008,
+      "effective_rank_exp_entropy": 4.42730242175385,
+      "ground_state_probability": 0.3471905231632762,
+      "mass_ranks": {
+        "0.95": 5,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 9
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.3471905231632762,
+        "1": 0.5829669324560945,
+        "2": 0.9091264580589228,
+        "3": 0.9998775713378673,
+        "4": 0.9999795519808347,
+        "5": 0.9999999999579487,
+        "6": 0.9999999999999993,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 240,
+          "achieved_fidelity": 0.9900868649541679
+        },
+        "0.999": {
+          "minimum_order": 317,
+          "achieved_fidelity": 0.9990158418415022
+        },
+        "0.9999": {
+          "minimum_order": 354,
+          "achieved_fidelity": 0.9999006603315473
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.45,
+      "temperature_K": 0.3,
+      "energy_min_K": -12.004242632477107,
+      "energy_max_K": 30.48850997627055,
+      "spectral_width_K": 42.49275260874766,
+      "log10_gibbs_condition_number": 61.514559929530385,
+      "entropy_kB": 1.9517164303338808,
+      "effective_rank_exp_entropy": 7.04076219281088,
+      "ground_state_probability": 0.2379443877292763,
+      "mass_ranks": {
+        "0.95": 8,
+        "0.99": 20,
+        "0.999": 27,
+        "0.9999": 40
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2379443877292763,
+        "1": 0.4417651683795833,
+        "2": 0.784479872293735,
+        "3": 0.9524805373286374,
+        "4": 0.9825092531783244,
+        "5": 0.9998336146729544,
+        "6": 0.9999980066083933,
+        "7": 0.99999999932693,
+        "8": 0.9999999999999993,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 121,
+          "achieved_fidelity": 0.9905959025658265
+        },
+        "0.999": {
+          "minimum_order": 141,
+          "achieved_fidelity": 0.9990059412816725
+        },
+        "0.9999": {
+          "minimum_order": 154,
+          "achieved_fidelity": 0.9999170124188005
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "energy_min_K": -12.656298859371097,
+      "energy_max_K": 30.97815181470643,
+      "spectral_width_K": 43.63445067407753,
+      "log10_gibbs_condition_number": 210.55779054034997,
+      "entropy_kB": 1.040124830768047,
+      "effective_rank_exp_entropy": 2.829570209728799,
+      "ground_state_probability": 0.4468929625686364,
+      "mass_ranks": {
+        "0.95": 3,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.4468929625686364,
+        "1": 0.8937859251372022,
+        "2": 0.9856401806925359,
+        "3": 0.9999989201504774,
+        "4": 0.9999997873311032,
+        "5": 0.9999999999999991,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 371,
+          "achieved_fidelity": 0.9900778725471095
+        },
+        "0.999": {
+          "minimum_order": 453,
+          "achieved_fidelity": 0.9990237894148283
+        },
+        "0.9999": {
+          "minimum_order": 491,
+          "achieved_fidelity": 0.9999065356511306
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "energy_min_K": -12.656298859371097,
+      "energy_max_K": 30.97815181470643,
+      "spectral_width_K": 43.63445067407753,
+      "log10_gibbs_condition_number": 189.50201148631493,
+      "entropy_kB": 1.0962239300328558,
+      "effective_rank_exp_entropy": 2.992843473671854,
+      "ground_state_probability": 0.43528776533414804,
+      "mass_ranks": {
+        "0.95": 3,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.43528776533414804,
+        "1": 0.8705755306682341,
+        "2": 0.9802318846863882,
+        "3": 0.9999950960909408,
+        "4": 0.9999989501202485,
+        "5": 0.9999999999999685,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 334,
+          "achieved_fidelity": 0.9900620403078199
+        },
+        "0.999": {
+          "minimum_order": 409,
+          "achieved_fidelity": 0.9990348202166245
+        },
+        "0.9999": {
+          "minimum_order": 443,
+          "achieved_fidelity": 0.9999014364741776
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "energy_min_K": -12.656298859371097,
+      "energy_max_K": 30.97815181470643,
+      "spectral_width_K": 43.63445067407753,
+      "log10_gibbs_condition_number": 157.91834290526248,
+      "entropy_kB": 1.194465178531627,
+      "effective_rank_exp_entropy": 3.301791429264706,
+      "ground_state_probability": 0.41301582415855226,
+      "mass_ranks": {
+        "0.95": 4,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 6
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.41301582415855226,
+        "1": 0.8260316483170556,
+        "2": 0.9683459039652424,
+        "3": 0.9999528437129529,
+        "4": 0.9999885499514498,
+        "5": 0.9999999999926802,
+        "6": 1.0,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 278,
+          "achieved_fidelity": 0.9901181227508892
+        },
+        "0.999": {
+          "minimum_order": 342,
+          "achieved_fidelity": 0.9990475751455072
+        },
+        "0.9999": {
+          "minimum_order": 372,
+          "achieved_fidelity": 0.9999082167868204
+        }
+      }
+    },
+    {
+      "model": "M0",
+      "field_T": 1.5,
+      "temperature_K": 0.3,
+      "energy_min_K": -12.656298859371097,
+      "energy_max_K": 30.97815181470643,
+      "spectral_width_K": 43.63445067407753,
+      "log10_gibbs_condition_number": 63.167337162104985,
+      "entropy_kB": 1.8147352865282567,
+      "effective_rank_exp_entropy": 6.139450766993281,
+      "ground_state_probability": 0.2843077746323545,
+      "mass_ranks": {
+        "0.95": 6,
+        "0.99": 19,
+        "0.999": 26,
+        "0.9999": 30
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.2843077746323545,
+        "1": 0.5686155492646956,
+        "2": 0.8380098917077689,
+        "3": 0.962259487049287,
+        "4": 0.985499196612001,
+        "5": 0.9999138934001657,
+        "6": 0.9999992687694393,
+        "7": 0.9999999998518013,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 124,
+          "achieved_fidelity": 0.9901547433663134
+        },
+        "0.999": {
+          "minimum_order": 145,
+          "achieved_fidelity": 0.9990225358700638
+        },
+        "0.9999": {
+          "minimum_order": 158,
+          "achieved_fidelity": 0.999915313787841
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "energy_min_K": -12.511197847499332,
+      "energy_max_K": 31.2011105858839,
+      "spectral_width_K": 43.71230843338323,
+      "log10_gibbs_condition_number": 210.93349270968127,
+      "entropy_kB": 1.1436494237899448,
+      "effective_rank_exp_entropy": 3.1382001150059753,
+      "ground_state_probability": 0.41883917586146086,
+      "mass_ranks": {
+        "0.95": 3,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.41883917586146086,
+        "1": 0.8376783517229134,
+        "2": 0.9797280449188629,
+        "3": 0.9999982038183097,
+        "4": 0.9999995297800656,
+        "5": 0.9999999999999981,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 365,
+          "achieved_fidelity": 0.9900242018837772
+        },
+        "0.999": {
+          "minimum_order": 452,
+          "achieved_fidelity": 0.9990334577883283
+        },
+        "0.9999": {
+          "minimum_order": 491,
+          "achieved_fidelity": 0.9999063977334318
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "energy_min_K": -12.511197847499332,
+      "energy_max_K": 31.2011105858839,
+      "spectral_width_K": 43.71230843338323,
+      "log10_gibbs_condition_number": 189.8401434387131,
+      "entropy_kB": 1.1946386723403324,
+      "effective_rank_exp_entropy": 3.302364319330323,
+      "ground_state_probability": 0.406486425811739,
+      "mass_ranks": {
+        "0.95": 4,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 5
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.406486425811739,
+        "1": 0.8129728516234708,
+        "2": 0.9733256361468555,
+        "3": 0.9999922692952065,
+        "4": 0.9999978812367151,
+        "5": 0.99999999999994,
+        "6": 0.9999999999999999,
+        "7": 0.9999999999999999,
+        "8": 0.9999999999999999,
+        "9": 0.9999999999999999
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 328,
+          "achieved_fidelity": 0.9901401328523372
+        },
+        "0.999": {
+          "minimum_order": 407,
+          "achieved_fidelity": 0.9990261581827266
+        },
+        "0.9999": {
+          "minimum_order": 443,
+          "achieved_fidelity": 0.9999048637993416
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "energy_min_K": -12.511197847499332,
+      "energy_max_K": 31.2011105858839,
+      "spectral_width_K": 43.71230843338323,
+      "log10_gibbs_condition_number": 158.20011953226094,
+      "entropy_kB": 1.2805455285168605,
+      "effective_rank_exp_entropy": 3.598602330384227,
+      "ground_state_probability": 0.3841557641320814,
+      "mass_ranks": {
+        "0.95": 4,
+        "0.99": 5,
+        "0.999": 5,
+        "0.9999": 7
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 3,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.3841557641320814,
+        "1": 0.768311528264157,
+        "2": 0.9600448056984422,
+        "3": 0.9999315208042422,
+        "4": 0.999979848976016,
+        "5": 0.9999999999875739,
+        "6": 0.9999999999999999,
+        "7": 1.0,
+        "8": 1.0,
+        "9": 1.0
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 272,
+          "achieved_fidelity": 0.9901115596293543
+        },
+        "0.999": {
+          "minimum_order": 339,
+          "achieved_fidelity": 0.9990081225088604
+        },
+        "0.9999": {
+          "minimum_order": 371,
+          "achieved_fidelity": 0.9999059938768792
+        }
+      }
+    },
+    {
+      "model": "M3",
+      "field_T": 1.5,
+      "temperature_K": 0.3,
+      "energy_min_K": -12.511197847499332,
+      "energy_max_K": 31.2011105858839,
+      "spectral_width_K": 43.71230843338323,
+      "log10_gibbs_condition_number": 63.28004781290438,
+      "entropy_kB": 1.8640375625961358,
+      "effective_rank_exp_entropy": 6.44972544087932,
+      "ground_state_probability": 0.26692828928010004,
+      "mass_ranks": {
+        "0.95": 7,
+        "0.99": 19,
+        "0.999": 27,
+        "0.9999": 33
+      },
+      "minimum_ancilla_qubits_for_99_9pct_mass": 5,
+      "low_rank_fidelity_ceilings": {
+        "0": 0.26692828928010004,
+        "1": 0.5338565785601985,
+        "2": 0.8257036695666464,
+        "3": 0.9573494880526545,
+        "4": 0.9828750926726255,
+        "5": 0.999895645491073,
+        "6": 0.9999990118659867,
+        "7": 0.9999999997471278,
+        "8": 0.9999999999999997,
+        "9": 0.9999999999999998
+      },
+      "positive_shift_taylor_orders": {
+        "0.99": {
+          "minimum_order": 125,
+          "achieved_fidelity": 0.9907049941686766
+        },
+        "0.999": {
+          "minimum_order": 146,
+          "achieved_fidelity": 0.9991191072281917
+        },
+        "0.9999": {
+          "minimum_order": 158,
+          "achieved_fidelity": 0.9999091877276106
+        }
+      }
+    }
+  ],
+  "delta_S_comparisons": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": -0.014294966834526048,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": -0.01445235735295827,
+      "direct_delta_S_error_kB_per_spin": -0.00015739051843222107,
+      "triangle_error_bound_kB_per_spin": 0.0004364191599951865,
+      "individual_entropy_kB": {
+        "M0": 1.2545593742402728,
+        "M3": 1.1244881580636483
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 48858293,
+        "weighted_measurement_amplitude_sum": 6.989870724678584,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 9.318404263892747,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503826122,
+              2.7104516217328634,
+              2.710451621733073,
+              2.214603765984278,
+              2.2146035811490536
+            ],
+            "weighted_measurement_amplitude_sum": 2.7694921609497465
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 9.995590759406245,
+            "group_stddev_sum_by_state_K": [
+              3.960834296233926,
+              3.9360043687028217,
+              3.8118191390728815,
+              3.528157645761151,
+              3.2235250085383784
+            ],
+            "weighted_measurement_amplitude_sum": 4.220378563728838
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": -0.012036711571012418,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": -0.012332992777891412,
+      "direct_delta_S_error_kB_per_spin": -0.0002962812068789924,
+      "triangle_error_bound_kB_per_spin": 0.0009091382053580707,
+      "individual_entropy_kB": {
+        "M0": 1.324240353648853,
+        "M3": 1.2132434186478303
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 34708112,
+        "weighted_measurement_amplitude_sum": 5.891359093817394,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 7.715434521355523,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503826122,
+              2.7104516217328634,
+              2.710451621733073,
+              2.214603765984278,
+              2.2146035811490536
+            ],
+            "weighted_measurement_amplitude_sum": 2.2923259346496376
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 8.53439361805407,
+            "group_stddev_sum_by_state_K": [
+              3.960834296233926,
+              3.9360043687028217,
+              3.8118191390728815,
+              3.528157645761151,
+              3.2235250085383784
+            ],
+            "weighted_measurement_amplitude_sum": 3.5990331591677553
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": -0.00826495612417746,
+      "minimum_common_low_energy_rank": 7,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": -0.00842148546762167,
+      "direct_delta_S_error_kB_per_spin": -0.0001565293434442092,
+      "triangle_error_bound_kB_per_spin": 0.000665660364162922,
+      "individual_entropy_kB": {
+        "M0": 1.4230860377363286,
+        "M3": 1.3472926685277336
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 18125768,
+        "weighted_measurement_amplitude_sum": 4.257436786516416,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 5.426448385297178,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503826122,
+              2.7104516217328634,
+              2.710451621733073,
+              2.214603765984278,
+              2.2146035811490536,
+              3.056262262414713,
+              3.0562622624148648
+            ],
+            "weighted_measurement_amplitude_sum": 1.6145165664617338
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 6.269925968405174,
+            "group_stddev_sum_by_state_K": [
+              3.960834296233926,
+              3.9360043687028217,
+              3.8118191390728815,
+              3.528157645761151,
+              3.2235250085383784,
+              4.192507883673731,
+              3.9962544365746107
+            ],
+            "weighted_measurement_amplitude_sum": 2.6429202200546826
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.3,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.003928105751513404,
+      "minimum_common_low_energy_rank": 28,
+      "minimum_ancilla_qubits_for_that_rank": 5,
+      "truncated_delta_S_kB_per_spin": 0.003889772072285913,
+      "direct_delta_S_error_kB_per_spin": -3.833367922749057e-05,
+      "triangle_error_bound_kB_per_spin": 0.0007057861608730972,
+      "individual_entropy_kB": {
+        "M0": 1.9660352453637364,
+        "M3": 2.0010431940143096
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 1610594,
+        "weighted_measurement_amplitude_sum": 1.2690917933092156,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 1.7820605180076132,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503826122,
+              2.7104516217328634,
+              2.710451621733073,
+              2.214603765984278,
+              2.2146035811490536,
+              3.056262262414713,
+              3.0562622624148648,
+              3.190982651500457,
+              1.6216783916845174,
+              1.6216783916845015,
+              1.6216783916842306,
+              1.6216783916844855,
+              1.6216783916846298,
+              1.6216783916846453,
+              2.3489415050909432,
+              1.750797833327885,
+              1.7507976268513397,
+              1.7507977954387333,
+              1.7507976268513405,
+              1.7507979844792068,
+              1.750798088546931,
+              1.5659611719813633,
+              1.8082160136999215,
+              1.8082162201764662,
+              1.8082160136999215,
+              1.808216013699922,
+              1.8082160136999215,
+              1.8082161822873144
+            ],
+            "weighted_measurement_amplitude_sum": 0.49436886521783296
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 1.9181263198116087,
+            "group_stddev_sum_by_state_K": [
+              3.960834296233926,
+              3.9360043687028217,
+              3.8118191390728815,
+              3.528157645761151,
+              3.2235250085383784,
+              4.192507883673731,
+              3.9962544365746107,
+              4.238385551412439,
+              2.6577950022393106,
+              2.8936388216092994,
+              2.821022651066996,
+              2.567622241422,
+              2.9605258671704155,
+              2.5179258216101297,
+              3.3509519550860873,
+              2.9144266864500903,
+              3.1954162054644835,
+              2.7729146417916284,
+              2.9253823613939,
+              2.738530245679159,
+              2.8149521963042132,
+              2.9666389233830652,
+              3.1984636954643455,
+              3.350882703238043,
+              2.9187024672370367,
+              2.8455328526748,
+              2.8371955687936996,
+              2.91638445185297
+            ],
+            "weighted_measurement_amplitude_sum": 0.7747229280913828
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "target_delta_S_error_kB_per_spin": 0.0002,
+      "exact_delta_S_kB_per_spin": 0.0006669278613496606,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.0006438260473595007,
+      "direct_delta_S_error_kB_per_spin": -2.3101813990159908e-05,
+      "triangle_error_bound_kB_per_spin": 6.65181122135995e-05,
+      "individual_entropy_kB": {
+        "M0": 1.4009246324595495,
+        "M3": 1.406719066885785
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 207088133,
+        "weighted_measurement_amplitude_sum": 2.878111412287054,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 3.6681003543275637,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503825407,
+              2.2146032891471212,
+              2.2146032891471217,
+              2.7104516217328207,
+              2.7104516217328296
+            ],
+            "weighted_measurement_amplitude_sum": 1.0509180783524543
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 4.222079033421569,
+            "group_stddev_sum_by_state_K": [
+              3.9615372278634755,
+              3.5609837216943645,
+              3.27698191883482,
+              4.025209910612459,
+              3.7120177280612308
+            ],
+            "weighted_measurement_amplitude_sum": 1.8271933339345987
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.001074277178788188,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.0010202632435748359,
+      "direct_delta_S_error_kB_per_spin": -5.4013935213352106e-05,
+      "triangle_error_bound_kB_per_spin": 0.00017851992178413093,
+      "individual_entropy_kB": {
+        "M0": 1.4290640632283205,
+        "M3": 1.438246432420494
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 6153116,
+        "weighted_measurement_amplitude_sum": 2.4805475007285778,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 3.3778180625799514,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503825407,
+              2.2146032891471212,
+              2.2146032891471217,
+              2.7104516217328207,
+              2.7104516217328296
+            ],
+            "weighted_measurement_amplitude_sum": 0.9675578047607891
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 3.479441338733526,
+            "group_stddev_sum_by_state_K": [
+              3.9615372278634755,
+              3.5609837216943645,
+              3.27698191883482,
+              4.025209910612459,
+              3.7120177280612308
+            ],
+            "weighted_measurement_amplitude_sum": 1.5129896959677884
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.0014688172848680786,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.001281731271172025,
+      "direct_delta_S_error_kB_per_spin": -0.00018708601369605345,
+      "triangle_error_bound_kB_per_spin": 0.0007965314108825518,
+      "individual_entropy_kB": {
+        "M0": 1.471828604588856,
+        "M3": 1.4833641860294042
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 4005430,
+        "weighted_measurement_amplitude_sum": 2.001357002234572,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 2.809192450421876,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503825407,
+              2.2146032891471212,
+              2.2146032891471217,
+              2.7104516217328207,
+              2.7104516217328296
+            ],
+            "weighted_measurement_amplitude_sum": 0.8044765110302928
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 2.77263585835284,
+            "group_stddev_sum_by_state_K": [
+              3.9615372278634755,
+              3.5609837216943645,
+              3.27698191883482,
+              4.025209910612459,
+              3.7120177280612308
+            ],
+            "weighted_measurement_amplitude_sum": 1.1968804912042794
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.3,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.004635487861295553,
+      "minimum_common_low_energy_rank": 28,
+      "minimum_ancilla_qubits_for_that_rank": 5,
+      "truncated_delta_S_kB_per_spin": 0.004603465086567344,
+      "direct_delta_S_error_kB_per_spin": -3.2022774728209434e-05,
+      "triangle_error_bound_kB_per_spin": 0.00046618118788159063,
+      "individual_entropy_kB": {
+        "M0": 1.9080433267230306,
+        "M3": 1.9494745125021367
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 1327270,
+        "weighted_measurement_amplitude_sum": 1.1520719899259664,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 1.7904387352540674,
+            "group_stddev_sum_by_state_K": [
+              2.8870934503825407,
+              2.2146032891471212,
+              2.2146032891471217,
+              2.7104516217328207,
+              2.7104516217328296,
+              3.0562622624148883,
+              3.056262262414733,
+              2.3489415050909432,
+              3.1909826515004376,
+              1.6216783916845179,
+              1.6216783916845336,
+              1.621678391684454,
+              1.6216783916845343,
+              1.621678391684581,
+              1.6216783916846451,
+              1.750797984479207,
+              1.7507976268513392,
+              1.7507976268513388,
+              1.7507979422494722,
+              1.75079813261352,
+              1.7507978652699174,
+              1.565961003393959,
+              1.8082160136999206,
+              1.8082160136999212,
+              1.8082160136999201,
+              1.8082160136999212,
+              1.8082164597402395,
+              1.8082161822873153
+            ],
+            "weighted_measurement_amplitude_sum": 0.460779617636081
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 1.7917354739229772,
+            "group_stddev_sum_by_state_K": [
+              3.9615372278634755,
+              3.5609837216943645,
+              3.27698191883482,
+              4.025209910612459,
+              3.7120177280612308,
+              4.125638504510172,
+              4.110482531624502,
+              4.238677374866986,
+              3.3750894493096157,
+              2.7886964484658354,
+              2.5602298068946934,
+              2.864770575511447,
+              2.7419164583058464,
+              2.4896600001667735,
+              2.977994473374251,
+              2.87263328404327,
+              3.206795891198374,
+              2.809477384523275,
+              2.722466453763738,
+              2.8744982060591147,
+              2.7915329732634877,
+              2.9675174323133913,
+              2.748877695614048,
+              2.9080810004518867,
+              3.630171414575973,
+              2.9194365685908483,
+              2.777594545842716,
+              2.938683589062697
+            ],
+            "weighted_measurement_amplitude_sum": 0.6912923722898853
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.01150273255798864,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.011505771323993342,
+      "direct_delta_S_error_kB_per_spin": 3.03876600470253e-06,
+      "triangle_error_bound_kB_per_spin": 6.854268794192425e-05,
+      "individual_entropy_kB": {
+        "M0": 1.0398027142252873,
+        "M3": 1.1433546561412273
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 11388567,
+        "weighted_measurement_amplitude_sum": 3.374694974335227,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 4.655705285621969,
+            "group_stddev_sum_by_state_K": [
+              2.214603289147122,
+              2.2146032891471226,
+              2.887093450382802,
+              2.710451621732971,
+              2.7104516217329704
+            ],
+            "weighted_measurement_amplitude_sum": 1.2995200233834763
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 5.084155980626066,
+            "group_stddev_sum_by_state_K": [
+              3.3553471778597546,
+              3.507338079359783,
+              3.962215484372966,
+              4.053433020195279,
+              3.680009658254421
+            ],
+            "weighted_measurement_amplitude_sum": 2.075174950951751
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.0109349713674974,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.01093877636929884,
+      "direct_delta_S_error_kB_per_spin": 3.805001801440413e-06,
+      "triangle_error_bound_kB_per_spin": 0.00017094012054983152,
+      "individual_entropy_kB": {
+        "M0": 1.095437576982275,
+        "M3": 1.1938865643059646
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 10421163,
+        "weighted_measurement_amplitude_sum": 3.2281826095245965,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 4.592992569321519,
+            "group_stddev_sum_by_state_K": [
+              2.214603289147122,
+              2.2146032891471226,
+              2.887093450382802,
+              2.710451621732971,
+              2.7104516217329704
+            ],
+            "weighted_measurement_amplitude_sum": 1.279890677699906
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 4.7766544673155,
+            "group_stddev_sum_by_state_K": [
+              3.3553471778597546,
+              3.507338079359783,
+              3.962215484372966,
+              4.053433020195279,
+              3.680009658254421
+            ],
+            "weighted_measurement_amplitude_sum": 1.9482919318246903
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.009564483331692623,
+      "minimum_common_low_energy_rank": 5,
+      "minimum_ancilla_qubits_for_that_rank": 3,
+      "truncated_delta_S_kB_per_spin": 0.009554130097767288,
+      "direct_delta_S_error_kB_per_spin": -1.0353233925335874e-05,
+      "triangle_error_bound_kB_per_spin": 0.0006994944378827404,
+      "individual_entropy_kB": {
+        "M0": 1.1913640431138186,
+        "M3": 1.2773512139937242
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 8134698,
+        "weighted_measurement_amplitude_sum": 2.8521390874982666,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 4.234274849118403,
+            "group_stddev_sum_by_state_K": [
+              2.214603289147122,
+              2.2146032891471226,
+              2.887093450382802,
+              2.710451621732971,
+              2.7104516217329704
+            ],
+            "weighted_measurement_amplitude_sum": 1.1768370413728726
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 4.111888292007683,
+            "group_stddev_sum_by_state_K": [
+              3.3553471778597546,
+              3.507338079359783,
+              3.962215484372966,
+              4.053433020195279,
+              3.680009658254421
+            ],
+            "weighted_measurement_amplitude_sum": 1.6753020461253947
+          }
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.3,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "exact_delta_S_kB_per_spin": 0.005478030674208798,
+      "minimum_common_low_energy_rank": 27,
+      "minimum_ancilla_qubits_for_that_rank": 5,
+      "truncated_delta_S_kB_per_spin": 0.005433811901040025,
+      "direct_delta_S_error_kB_per_spin": -4.421877316877302e-05,
+      "triangle_error_bound_kB_per_spin": 0.0008792884263437224,
+      "individual_entropy_kB": {
+        "M0": 1.8109774730889694,
+        "M3": 1.8598817801983296
+      },
+      "optimistic_exact_eigenstate_energy_measurement": {
+        "optimal_total_shots": 1788994,
+        "weighted_measurement_amplitude_sum": 1.3375325036177554,
+        "models": {
+          "M0": {
+            "pauli_term_count": 90,
+            "qwc_group_count": 3,
+            "entropy_gradient_abs_sum_inverse_K": 2.131697958782623,
+            "group_stddev_sum_by_state_K": [
+              2.214603289147122,
+              2.2146032891471226,
+              2.887093450382802,
+              2.710451621732971,
+              2.7104516217329704,
+              2.3489415050909432,
+              3.056262262414906,
+              3.056262262414858,
+              1.7507981985590053,
+              1.7507978333278853,
+              1.7507979844792065,
+              1.7507979422494728,
+              1.7507981183638297,
+              1.7507976268513397,
+              3.1909826515004625,
+              1.6216783916841822,
+              1.6216783916844855,
+              1.6216783916845818,
+              1.621678391684645,
+              1.6216783916847253,
+              1.6216783916845496,
+              1.8082161329092106,
+              1.8082162201764669,
+              1.8082163508747082,
+              1.8082161822873155,
+              1.808216182287315,
+              1.808216132909211
+            ],
+            "weighted_measurement_amplitude_sum": 0.529896249566011
+          },
+          "M3": {
+            "pauli_term_count": 153,
+            "qwc_group_count": 7,
+            "entropy_gradient_abs_sum_inverse_K": 2.1293573157950525,
+            "group_stddev_sum_by_state_K": [
+              3.3553471778597546,
+              3.507338079359783,
+              3.962215484372966,
+              4.053433020195279,
+              3.680009658254421,
+              3.3915111854669298,
+              4.189934624502643,
+              4.008098322381121,
+              4.238952685464968,
+              3.2296907295061565,
+              2.8311128029579202,
+              2.772046546945767,
+              2.890066269891132,
+              2.6953996316015862,
+              2.847557657653497,
+              2.815077178071385,
+              2.571074081750173,
+              2.7330148671512795,
+              2.8297026652163826,
+              2.5518486308942983,
+              2.9393165568203847,
+              3.224534983031305,
+              2.9451799685425657,
+              3.3208399899102914,
+              2.8861679816729047,
+              2.7853598962719985,
+              2.9377139100507788
+            ],
+            "weighted_measurement_amplitude_sum": 0.807636254051744
+          }
+        }
+      }
+    }
+  ],
+  "literature_basis": [
+    "https://arxiv.org/abs/2203.12757",
+    "https://arxiv.org/abs/2303.11276"
+  ],
+  "scope_limits": [
+    "Exact diagonalization supplies the eigenstates and spectra only for local route screening.",
+    "Shot budgets assume exact preparation of every selected eigenstate and omit VQD/QSE optimization, overlap penalties, routing, noise and mitigation.",
+    "The entropy-error rank uses a conservative triangle bound, not cancellation between M0 and M3 truncation errors.",
+    "The ordinary Taylor screen uses the most stable scalar shift Emax-H; implementing H^m still incurs rapidly growing observable cost.",
+    "N=9 finite-cluster low-rank behavior does not prove the same rank suffices in the bulk or at N=12/15/18."
+  ],
+  "elapsed_seconds": 5.3260980998165905
+}

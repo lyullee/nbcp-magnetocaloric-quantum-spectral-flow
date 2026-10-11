@@ -1,0 +1,1969 @@
+{
+  "method": "finite-cluster transverse-stability alignment to bulk Hc",
+  "bulk_Hc_T": {
+    "M0": 1.7743602002000807,
+    "M3": 1.7723974267895588
+  },
+  "cluster_stability": [
+    {
+      "model": "M0",
+      "critical_field_T": 1.7743602002000813,
+      "minimum_transverse_eigenvalue_K": -11.241644839889139,
+      "next_eigenvalue_K": -11.241644839889133,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N9_3x3",
+      "N": 9,
+      "translations": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "model": "M3",
+      "critical_field_T": 1.791835004650154,
+      "minimum_transverse_eigenvalue_K": -11.35235829325226,
+      "next_eigenvalue_K": -11.352358293252255,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N9_3x3",
+      "N": 9,
+      "translations": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "model": "M0",
+      "critical_field_T": 1.7743602002000813,
+      "minimum_transverse_eigenvalue_K": -11.241644839889139,
+      "next_eigenvalue_K": -11.241644839889133,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N12_skew",
+      "N": 12,
+      "translations": [
+        [
+          2,
+          2
+        ],
+        [
+          -2,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "M3",
+      "critical_field_T": 1.793610478625129,
+      "minimum_transverse_eigenvalue_K": -11.363606994528858,
+      "next_eigenvalue_K": -11.363606994528855,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N12_skew",
+      "N": 12,
+      "translations": [
+        [
+          2,
+          2
+        ],
+        [
+          -2,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "M0",
+      "critical_field_T": 1.7743602002000811,
+      "minimum_transverse_eigenvalue_K": -11.241644839889137,
+      "next_eigenvalue_K": -11.241644839889132,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N15_used",
+      "N": 15,
+      "translations": [
+        [
+          4,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "M3",
+      "critical_field_T": 1.7968701971210868,
+      "minimum_transverse_eigenvalue_K": -11.384259282381935,
+      "next_eigenvalue_K": -11.384259282381928,
+      "soft_mode_degeneracy_1e-8": 2,
+      "cluster": "N15_used",
+      "N": 15,
+      "translations": [
+        [
+          4,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "M0",
+      "critical_field_T": 1.7743602002000813,
+      "minimum_transverse_eigenvalue_K": -11.241644839889139,
+      "next_eigenvalue_K": -11.241644839889133,
+      "soft_mode_degeneracy_1e-8": 4,
+      "cluster": "N18_used",
+      "N": 18,
+      "translations": [
+        [
+          4,
+          1
+        ],
+        [
+          -2,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "M3",
+      "critical_field_T": 1.7966635641272224,
+      "minimum_transverse_eigenvalue_K": -11.382950137412967,
+      "next_eigenvalue_K": -11.382950137412966,
+      "soft_mode_degeneracy_1e-8": 2,
+      "cluster": "N18_used",
+      "N": 18,
+      "translations": [
+        [
+          4,
+          1
+        ],
+        [
+          -2,
+          4
+        ]
+      ]
+    }
+  ],
+  "aligned_rows": [
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.0897716174410946
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.08381513196764177
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.11218181401199782
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.10613514385896886
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.10244321660359983
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.10908726553270713
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.08691798545552004
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.09024422312213617
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.09384396555668649
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.09073216429310967
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.10681073517498359
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.10651566060500102
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.08990638516115225
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.09679620228683973
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.09752394448089442
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.0923182748312296
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.11598445129445885
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.11135651802907266
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.10762727475614081
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.1133773759825145
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.09365281823716068
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.0971053470368517
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.09909463911981353
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.09691134760924756
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.10927127684889866
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.10953808463264367
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.09535940469063266
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.10150652875362225
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.11189182603378635
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.10851331273515233
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.12388160261995335
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.12153686891583039
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.11753952622071619
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.12216961490710543
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.10665417294595445
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.1102317622871257
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.10922100085673654
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.1088184570171608
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.11518709089127972
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.11638148965244871
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.10530587402320885
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.11043407183466693
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.1316773985433468
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.13077448007043296
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.13728424118699117
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.13750536753020634
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.1326038840778852
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.13674101005390582
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.12527884318677832
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.12912587649489718
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.12469404474078312
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.12643000404923296
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.12652096967290824
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.12886278868081255
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.1191581639154848
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.12372127384253061
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.1634074004154954
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.16508445322021056
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.16380013375150174
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.16692540926625205
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.1597531458952315
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.16444859534359121
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.15517569366791298
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.15990952941749928
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.15168388460296447
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.1556124921905197
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.14933280585214317
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.1530314699652073
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.14158531432878566
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.14640880997266698
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.3999999999999995,
+      "entropy_kB_per_spin": 0.2238014903523834
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.4,
+      "aligned_bulk_field_T": 1.375527229668472,
+      "entropy_kB_per_spin": 0.22690772451040755
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.4499999999999995,
+      "entropy_kB_per_spin": 0.2203774279175394
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.45,
+      "aligned_bulk_field_T": 1.425527229668472,
+      "entropy_kB_per_spin": 0.22567419873117525
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999996,
+      "entropy_kB_per_spin": 0.21487261794470214
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.475527229668472,
+      "entropy_kB_per_spin": 0.22037119838745511
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999996,
+      "entropy_kB_per_spin": 0.20956581565538604
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.525527229668472,
+      "entropy_kB_per_spin": 0.21565399558896078
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999996,
+      "entropy_kB_per_spin": 0.20253848841261476
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5755272296684721,
+      "entropy_kB_per_spin": 0.20790766521545134
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.6499999999999995,
+      "entropy_kB_per_spin": 0.195202939698245
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.65,
+      "aligned_bulk_field_T": 1.625527229668472,
+      "entropy_kB_per_spin": 0.1999351342516243
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.6999999999999995,
+      "entropy_kB_per_spin": 0.18368359308725618
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.7,
+      "aligned_bulk_field_T": 1.675527229668472,
+      "entropy_kB_per_spin": 0.18939089024543504
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.07112174042109666
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.06781189248771799
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.09232529999419742
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.08564523659537593
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.09686379376690607
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.1002819942669808
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.07946864468282538
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.07666207393563618
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.09814438518913017
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.09284258691390694
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.10318476544831003
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.10587697951237683
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.09657888703762235
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.09526928268779378
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.11028480735373408
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.10753645580969637
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.11471669272657217
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.11697747034077056
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.12236771368860307
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.1235399998702858
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.12996591159405949
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.13041154667585975
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.13153577724796536
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.15,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.13444094635408632
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.16312732665451035
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.1671736842556099
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.16413069158418464
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.16798630002587586
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.16027946365600823
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.2,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.16491879781550295
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4999999999999993,
+      "entropy_kB_per_spin": 0.2271686677442892
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.5,
+      "aligned_bulk_field_T": 1.4757338626623364,
+      "entropy_kB_per_spin": 0.23237897035403832
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5499999999999994,
+      "entropy_kB_per_spin": 0.22229993906470774
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.55,
+      "aligned_bulk_field_T": 1.5257338626623365,
+      "entropy_kB_per_spin": 0.22781083977819805
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M0",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5999999999999994,
+      "entropy_kB_per_spin": 0.2129308320689066
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.3,
+      "model": "M3",
+      "cluster_field_T": 1.6,
+      "aligned_bulk_field_T": 1.5757338626623365,
+      "entropy_kB_per_spin": 0.2189141836310354
+    }
+  ],
+  "aligned_deltaS": [
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.4,
+      "deltaS_aligned_kB_per_spin": 0.004968165022815371
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.41,
+      "deltaS_aligned_kB_per_spin": 0.004950128086900152
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.42,
+      "deltaS_aligned_kB_per_spin": 0.004932091150984919
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.43,
+      "deltaS_aligned_kB_per_spin": 0.0031814917200792547
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.44,
+      "deltaS_aligned_kB_per_spin": -0.000710123259353726
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.45,
+      "deltaS_aligned_kB_per_spin": -0.004601738238786429
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.46,
+      "deltaS_aligned_kB_per_spin": -0.0020635944223591773
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.47,
+      "deltaS_aligned_kB_per_spin": 0.0004745493940680745
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.48,
+      "deltaS_aligned_kB_per_spin": 0.001062997944753702
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.49,
+      "deltaS_aligned_kB_per_spin": -0.0007578910556808871
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": -0.0025787800561154206
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": -0.0032423423086136716
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": -0.0039059045611118948
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": -0.0028402058167544264
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.000362428647056226
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.003565063110866698
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.0022774553248281065
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.000989847538789515
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.58,
+      "deltaS_aligned_kB_per_spin": 0.0010705098575218563
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.59,
+      "deltaS_aligned_kB_per_spin": 0.0028420130996668486
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6,
+      "deltaS_aligned_kB_per_spin": 0.004613516341811799
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.61,
+      "deltaS_aligned_kB_per_spin": 0.0051768616805306505
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.62,
+      "deltaS_aligned_kB_per_spin": 0.005740207019249502
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6300000000000001,
+      "deltaS_aligned_kB_per_spin": 0.0040221751812561934
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6400000000000001,
+      "deltaS_aligned_kB_per_spin": -0.0005150704060355032
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6500000000000001,
+      "deltaS_aligned_kB_per_spin": -0.005052315993326784
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6600000000000001,
+      "deltaS_aligned_kB_per_spin": -0.0036153376541927795
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.6700000000000002,
+      "deltaS_aligned_kB_per_spin": -0.0021783593150587616
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.4,
+      "deltaS_aligned_kB_per_spin": 0.0041127014162667536
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.41,
+      "deltaS_aligned_kB_per_spin": 0.004228248693122494
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.42,
+      "deltaS_aligned_kB_per_spin": 0.004343795969978206
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.43,
+      "deltaS_aligned_kB_per_spin": 0.0029370461300071565
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.44,
+      "deltaS_aligned_kB_per_spin": -0.0003508836420173522
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.45,
+      "deltaS_aligned_kB_per_spin": -0.003638813414041639
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.46,
+      "deltaS_aligned_kB_per_spin": -0.0015632065156896552
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.47,
+      "deltaS_aligned_kB_per_spin": 0.0005124003826623147
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.48,
+      "deltaS_aligned_kB_per_spin": 0.0009516096450080669
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.49,
+      "deltaS_aligned_kB_per_spin": -0.0006313608364608841
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": -0.0022143313179297935
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": -0.0026738458032663226
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": -0.0031333602886028655
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": -0.002154608105583322
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.0006014833126918723
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.0033575747309669
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.0022304106689154946
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.001103246606864089
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.58,
+      "deltaS_aligned_kB_per_spin": 0.0011229667373401642
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.59,
+      "deltaS_aligned_kB_per_spin": 0.0025599499654888197
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6,
+      "deltaS_aligned_kB_per_spin": 0.003996933193637434
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.61,
+      "deltaS_aligned_kB_per_spin": 0.0044869530524996315
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.62,
+      "deltaS_aligned_kB_per_spin": 0.004976972911361829
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6300000000000001,
+      "deltaS_aligned_kB_per_spin": 0.003618996778344985
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6400000000000001,
+      "deltaS_aligned_kB_per_spin": -2.264194327633584e-05
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6500000000000001,
+      "deltaS_aligned_kB_per_spin": -0.0036642806648973236
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6600000000000001,
+      "deltaS_aligned_kB_per_spin": -0.002488217409048407
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.6700000000000002,
+      "deltaS_aligned_kB_per_spin": -0.0013121541531994907
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.4,
+      "deltaS_aligned_kB_per_spin": 0.0029959366875555726
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.41,
+      "deltaS_aligned_kB_per_spin": 0.00320269260645778
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.42,
+      "deltaS_aligned_kB_per_spin": 0.003409448525360001
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.43,
+      "deltaS_aligned_kB_per_spin": 0.0025077794802870895
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.44,
+      "deltaS_aligned_kB_per_spin": 0.00023637336130870323
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.45,
+      "deltaS_aligned_kB_per_spin": -0.0020350327576695165
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.46,
+      "deltaS_aligned_kB_per_spin": -0.0006400682795670853
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.47,
+      "deltaS_aligned_kB_per_spin": 0.0007548961985353597
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.48,
+      "deltaS_aligned_kB_per_spin": 0.00102535266627847
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.49,
+      "deltaS_aligned_kB_per_spin": -9.380257787004742e-05
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": -0.0012129578220185233
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": -0.0014234576910621133
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": -0.0016339575601057171
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": -0.0009029797663511613
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.000991429834608204
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.0028858394355674444
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.002089812799418056
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.0012937861632686537
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.58,
+      "deltaS_aligned_kB_per_spin": 0.0013007414844869308
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.59,
+      "deltaS_aligned_kB_per_spin": 0.0022999824293881005
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6,
+      "deltaS_aligned_kB_per_spin": 0.0032992233742892424
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.61,
+      "deltaS_aligned_kB_per_spin": 0.003618611894438198
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.62,
+      "deltaS_aligned_kB_per_spin": 0.0039380004145871395
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6300000000000001,
+      "deltaS_aligned_kB_per_spin": 0.0030488060956946617
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6400000000000001,
+      "deltaS_aligned_kB_per_spin": 0.0006661045252296799
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6500000000000001,
+      "deltaS_aligned_kB_per_spin": -0.0017165970452351215
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6600000000000001,
+      "deltaS_aligned_kB_per_spin": -0.0009298372351772971
+    },
+    {
+      "N": 15,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.6700000000000002,
+      "deltaS_aligned_kB_per_spin": -0.00014307742511948662
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": 0.0053450796127458705
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": 0.004671036519657307
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": 0.003996993426568743
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": 0.0030502087985218723
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.0017368484182227056
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.0004234880379237471
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.002443140817702985
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.004462793597482223
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": 0.005046200255301864
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": 0.004547154749695068
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": 0.004048109244088258
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": 0.0032806281060604042
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.002152358524493414
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.0010240889429266181
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.0026228914107846307
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.0042216938786426295
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.5,
+      "deltaS_aligned_kB_per_spin": 0.004643933804590911
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.51,
+      "deltaS_aligned_kB_per_spin": 0.004356184365749083
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.52,
+      "deltaS_aligned_kB_per_spin": 0.004068434926907255
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.53,
+      "deltaS_aligned_kB_per_spin": 0.003539549874335593
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.54,
+      "deltaS_aligned_kB_per_spin": 0.002686568717328086
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.55,
+      "deltaS_aligned_kB_per_spin": 0.0018335875603207041
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.56,
+      "deltaS_aligned_kB_per_spin": 0.0028354133919679253
+    },
+    {
+      "N": 18,
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.57,
+      "deltaS_aligned_kB_per_spin": 0.0038372392236151465
+    }
+  ],
+  "common_size_comparison": [
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.5,
+      "N15_deltaS": -0.0025787800561154206,
+      "N18_deltaS": 0.0053450796127458705,
+      "same_sign": false,
+      "absolute_size_difference": 0.007923859668861291
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.51,
+      "N15_deltaS": -0.0032423423086136716,
+      "N18_deltaS": 0.004671036519657307,
+      "same_sign": false,
+      "absolute_size_difference": 0.007913378828270978
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.52,
+      "N15_deltaS": -0.0039059045611118948,
+      "N18_deltaS": 0.003996993426568743,
+      "same_sign": false,
+      "absolute_size_difference": 0.007902897987680638
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.53,
+      "N15_deltaS": -0.0028402058167544264,
+      "N18_deltaS": 0.0030502087985218723,
+      "same_sign": false,
+      "absolute_size_difference": 0.005890414615276299
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.54,
+      "N15_deltaS": 0.000362428647056226,
+      "N18_deltaS": 0.0017368484182227056,
+      "same_sign": true,
+      "absolute_size_difference": 0.0013744197711664796
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.55,
+      "N15_deltaS": 0.003565063110866698,
+      "N18_deltaS": 0.0004234880379237471,
+      "same_sign": true,
+      "absolute_size_difference": 0.003141575072942951
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.56,
+      "N15_deltaS": 0.0022774553248281065,
+      "N18_deltaS": 0.002443140817702985,
+      "same_sign": true,
+      "absolute_size_difference": 0.00016568549287487855
+    },
+    {
+      "temperature_K": 0.09,
+      "aligned_bulk_field_T": 1.57,
+      "N15_deltaS": 0.000989847538789515,
+      "N18_deltaS": 0.004462793597482223,
+      "same_sign": true,
+      "absolute_size_difference": 0.003472946058692708
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.5,
+      "N15_deltaS": -0.0022143313179297935,
+      "N18_deltaS": 0.005046200255301864,
+      "same_sign": false,
+      "absolute_size_difference": 0.007260531573231657
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.51,
+      "N15_deltaS": -0.0026738458032663226,
+      "N18_deltaS": 0.004547154749695068,
+      "same_sign": false,
+      "absolute_size_difference": 0.00722100055296139
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.52,
+      "N15_deltaS": -0.0031333602886028655,
+      "N18_deltaS": 0.004048109244088258,
+      "same_sign": false,
+      "absolute_size_difference": 0.007181469532691123
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.53,
+      "N15_deltaS": -0.002154608105583322,
+      "N18_deltaS": 0.0032806281060604042,
+      "same_sign": false,
+      "absolute_size_difference": 0.005435236211643726
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.54,
+      "N15_deltaS": 0.0006014833126918723,
+      "N18_deltaS": 0.002152358524493414,
+      "same_sign": true,
+      "absolute_size_difference": 0.0015508752118015418
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.55,
+      "N15_deltaS": 0.0033575747309669,
+      "N18_deltaS": 0.0010240889429266181,
+      "same_sign": true,
+      "absolute_size_difference": 0.002333485788040282
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.56,
+      "N15_deltaS": 0.0022304106689154946,
+      "N18_deltaS": 0.0026228914107846307,
+      "same_sign": true,
+      "absolute_size_difference": 0.0003924807418691362
+    },
+    {
+      "temperature_K": 0.1,
+      "aligned_bulk_field_T": 1.57,
+      "N15_deltaS": 0.001103246606864089,
+      "N18_deltaS": 0.0042216938786426295,
+      "same_sign": true,
+      "absolute_size_difference": 0.0031184472717785405
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.5,
+      "N15_deltaS": -0.0012129578220185233,
+      "N18_deltaS": 0.004643933804590911,
+      "same_sign": false,
+      "absolute_size_difference": 0.005856891626609434
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.51,
+      "N15_deltaS": -0.0014234576910621133,
+      "N18_deltaS": 0.004356184365749083,
+      "same_sign": false,
+      "absolute_size_difference": 0.005779642056811196
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.52,
+      "N15_deltaS": -0.0016339575601057171,
+      "N18_deltaS": 0.004068434926907255,
+      "same_sign": false,
+      "absolute_size_difference": 0.005702392487012972
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.53,
+      "N15_deltaS": -0.0009029797663511613,
+      "N18_deltaS": 0.003539549874335593,
+      "same_sign": false,
+      "absolute_size_difference": 0.004442529640686754
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.54,
+      "N15_deltaS": 0.000991429834608204,
+      "N18_deltaS": 0.002686568717328086,
+      "same_sign": true,
+      "absolute_size_difference": 0.0016951388827198821
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.55,
+      "N15_deltaS": 0.0028858394355674444,
+      "N18_deltaS": 0.0018335875603207041,
+      "same_sign": true,
+      "absolute_size_difference": 0.0010522518752467402
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.56,
+      "N15_deltaS": 0.002089812799418056,
+      "N18_deltaS": 0.0028354133919679253,
+      "same_sign": true,
+      "absolute_size_difference": 0.0007456005925498693
+    },
+    {
+      "temperature_K": 0.12,
+      "aligned_bulk_field_T": 1.57,
+      "N15_deltaS": 0.0012937861632686537,
+      "N18_deltaS": 0.0038372392236151465,
+      "same_sign": true,
+      "absolute_size_difference": 0.0025434530603464928
+    }
+  ],
+  "90mK_same_sign_fraction": 0.5,
+  "warning": "Linear interpolation of 0.05 T entropy grids; diagnostic only."
+}

@@ -1,0 +1,184 @@
+{
+  "public_hot_entropy": {
+    "mJ_per_cm3_K": 6.687726300709299,
+    "kB_per_spin": 0.08351552485410721
+  },
+  "table": [
+    {
+      "cluster": "N9",
+      "N": 9,
+      "temperature_K": 0.09,
+      "M0_B_star_sampled_T": 1.15,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.0,
+      "M0_field_regret_under_M3_percent": 0.0,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.6179665650240914,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N9",
+      "N": 9,
+      "temperature_K": 0.1,
+      "M0_B_star_sampled_T": 1.15,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.0,
+      "M0_field_regret_under_M3_percent": 0.0,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.7208841230023247,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N12",
+      "N": 12,
+      "temperature_K": 0.09,
+      "M0_B_star_sampled_T": 1.1,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.04999999999999982,
+      "M0_field_regret_under_M3_percent": 33.726447745355124,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.4715308907473367,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N12",
+      "N": 12,
+      "temperature_K": 0.1,
+      "M0_B_star_sampled_T": 1.1,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.04999999999999982,
+      "M0_field_regret_under_M3_percent": 28.901849554464658,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.534056392500782,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N15",
+      "N": 15,
+      "temperature_K": 0.09,
+      "M0_B_star_sampled_T": 1.1,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.04999999999999982,
+      "M0_field_regret_under_M3_percent": 31.706641822905667,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.25806371343442774,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N15",
+      "N": 15,
+      "temperature_K": 0.1,
+      "M0_B_star_sampled_T": 1.1,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": 0.04999999999999982,
+      "M0_field_regret_under_M3_percent": 29.47521531792281,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.3034171383313938,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N18-A",
+      "N": 18,
+      "temperature_K": 0.09,
+      "M0_B_star_sampled_T": 1.2,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": -0.050000000000000044,
+      "M0_field_regret_under_M3_percent": 8.498215910296446,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.15641484201251254,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2,
+        1.25,
+        1.3
+      ]
+    },
+    {
+      "cluster": "N18-A",
+      "N": 18,
+      "temperature_K": 0.1,
+      "M0_B_star_sampled_T": 1.2,
+      "M3_B_star_sampled_T": 1.2,
+      "delta_B_star_sampled_T": 0.0,
+      "M0_field_regret_under_M3_percent": 0.0,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.1991794817196522,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.25,
+      "field_grid_T": [
+        1.1,
+        1.15,
+        1.2,
+        1.25,
+        1.3
+      ]
+    },
+    {
+      "cluster": "N18-B compact",
+      "N": 18,
+      "temperature_K": 0.09,
+      "M0_B_star_sampled_T": 1.2,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": -0.050000000000000044,
+      "M0_field_regret_under_M3_percent": 20.473218513237242,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.1900739636599805,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.15,
+        1.2
+      ]
+    },
+    {
+      "cluster": "N18-B compact",
+      "N": 18,
+      "temperature_K": 0.1,
+      "M0_B_star_sampled_T": 1.2,
+      "M3_B_star_sampled_T": 1.15,
+      "delta_B_star_sampled_T": -0.050000000000000044,
+      "M0_field_regret_under_M3_percent": 14.711321388637542,
+      "M3_Qmax_sampled_mJ_per_cm3": 0.23206922676038302,
+      "M3_W95_sampled_min_T": 1.15,
+      "M3_W95_sampled_max_T": 1.15,
+      "field_grid_T": [
+        1.15,
+        1.2
+      ]
+    }
+  ],
+  "gate1_status": "HOLD",
+  "gate1_reason": "Individual clusters cross thresholds, but the 90 mK shift changes from +0.05 T at N12/N15 to -0.05 T in both N18 shapes.",
+  "quantum_stage_authorized": false,
+  "next_required_evidence": "Thermodynamic-limit or independent bulk/semi-classical calculation before any quantum algorithm work."
+}

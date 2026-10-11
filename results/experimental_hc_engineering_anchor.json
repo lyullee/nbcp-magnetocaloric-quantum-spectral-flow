@@ -1,0 +1,295 @@
+{
+  "status": "experimental-Hc decision-scale surrogate; not a finite-temperature M4 solution",
+  "public_evidence": [
+    {
+      "source": "arXiv:2607.23173v1 main.tex lines 80, 96, 101",
+      "condition": "neutron diffraction, 0.065 K",
+      "Hc_T": 1.65
+    },
+    {
+      "source": "arXiv:2607.23173v1 main.tex lines 264 and 341",
+      "condition": "bulk magnetization anomaly, 0.08 K",
+      "Hc_T": 1.7
+    },
+    {
+      "source": "arXiv:2607.23173v1 main.tex lines 293 and 341",
+      "condition": "full-model mean field",
+      "Hc_T": 1.86,
+      "warning": "authors report about 9% overestimate versus experiment"
+    }
+  ],
+  "mapping_assumptions": {
+    "reduced_field": "preserve B/Bc",
+    "critical_offset": "preserve B-Bc"
+  },
+  "90mK_delta_B_star_vs_M0_T_range": [
+    -0.12436020020008076,
+    -0.06360664164536978
+  ],
+  "90mK_absolute_delta_B_star_min_T": 0.06360664164536978,
+  "90mK_regret_of_M0_field_percent_range": [
+    17.957207069202802,
+    36.46861855107185
+  ],
+  "predeclared_thresholds": {
+    "absolute_delta_B_star_GO_T": 0.05,
+    "regret_GO_percent": 5.0
+  },
+  "threshold_screen": {
+    "all_four_scenarios_absolute_delta_B_star_above_GO": true,
+    "all_four_scenarios_regret_above_GO": true
+  },
+  "records": [
+    {
+      "temperature_K": 0.09,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5177620972006274,
+      "experimental_anchor_B_star_T": 1.411386177450691,
+      "delta_B_star_vs_M0_T": -0.10637591974993632,
+      "W95_min_T": 1.364339971535668,
+      "W95_max_T": 1.4302046598167004,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "Q_at_M0_field_mJ_per_cm3": 0.3102286651594627,
+      "regret_percent": 32.469984463375134
+    },
+    {
+      "temperature_K": 0.09,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5177620972006274,
+      "experimental_anchor_B_star_T": 1.4541554555552576,
+      "delta_B_star_vs_M0_T": -0.06360664164536978,
+      "W95_min_T": 1.4056836070367489,
+      "W95_max_T": 1.473544194962661,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "Q_at_M0_field_mJ_per_cm3": 0.37689945625840293,
+      "regret_percent": 17.957207069202802
+    },
+    {
+      "temperature_K": 0.09,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5207650187094588,
+      "experimental_anchor_B_star_T": 1.396404818509378,
+      "delta_B_star_vs_M0_T": -0.12436020020008076,
+      "W95_min_T": 1.346404818509378,
+      "W95_max_T": 1.416404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "Q_at_M0_field_mJ_per_cm3": 0.2918591904062028,
+      "regret_percent": 36.46861855107185
+    },
+    {
+      "temperature_K": 0.09,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5207650187094588,
+      "experimental_anchor_B_star_T": 1.446404818509378,
+      "delta_B_star_vs_M0_T": -0.07436020020008072,
+      "W95_min_T": 1.396404818509378,
+      "W95_max_T": 1.466404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.4593937417224646,
+      "Q_at_M0_field_mJ_per_cm3": 0.3652998193606949,
+      "regret_percent": 20.48219507931718
+    },
+    {
+      "temperature_K": 0.1,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5177620972006274,
+      "experimental_anchor_B_star_T": 1.411386177450691,
+      "delta_B_star_vs_M0_T": -0.10637591974993632,
+      "W95_min_T": 1.3549307303526636,
+      "W95_max_T": 1.4302046598167004,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "Q_at_M0_field_mJ_per_cm3": 0.4068797598400993,
+      "regret_percent": 30.770790950656203
+    },
+    {
+      "temperature_K": 0.1,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5177620972006274,
+      "experimental_anchor_B_star_T": 1.4541554555552576,
+      "delta_B_star_vs_M0_T": -0.06360664164536978,
+      "W95_min_T": 1.3959892373330474,
+      "W95_max_T": 1.473544194962661,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "Q_at_M0_field_mJ_per_cm3": 0.48728855065150467,
+      "regret_percent": 17.089508326336468
+    },
+    {
+      "temperature_K": 0.1,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5207650187094588,
+      "experimental_anchor_B_star_T": 1.396404818509378,
+      "delta_B_star_vs_M0_T": -0.12436020020008076,
+      "W95_min_T": 1.336404818509378,
+      "W95_max_T": 1.416404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "Q_at_M0_field_mJ_per_cm3": 0.38482883400083584,
+      "regret_percent": 34.522681079715156
+    },
+    {
+      "temperature_K": 0.1,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5207650187094588,
+      "experimental_anchor_B_star_T": 1.446404818509378,
+      "delta_B_star_vs_M0_T": -0.07436020020008072,
+      "W95_min_T": 1.386404818509378,
+      "W95_max_T": 1.466404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.5877284536792725,
+      "Q_at_M0_field_mJ_per_cm3": 0.4728192844117732,
+      "regret_percent": 19.551404827884355
+    },
+    {
+      "temperature_K": 0.12,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5076436832192899,
+      "experimental_anchor_B_star_T": 1.4019769362676866,
+      "delta_B_star_vs_M0_T": -0.10566674695160327,
+      "W95_min_T": 1.3455214891696587,
+      "W95_max_T": 1.4302046598167004,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "Q_at_M0_field_mJ_per_cm3": 0.6520007919374258,
+      "regret_percent": 25.469802908023613
+    },
+    {
+      "temperature_K": 0.12,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "reduced_field",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5076436832192899,
+      "experimental_anchor_B_star_T": 1.4444610858515559,
+      "delta_B_star_vs_M0_T": -0.06318259736773402,
+      "W95_min_T": 1.3862948676293456,
+      "W95_max_T": 1.473544194962661,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "Q_at_M0_field_mJ_per_cm3": 0.762487507401584,
+      "regret_percent": 12.84006873987996
+    },
+    {
+      "temperature_K": 0.12,
+      "experimental_anchor": "neutron_diffraction_65mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.65,
+      "M0_selected_field_T": 1.5107650187094588,
+      "experimental_anchor_B_star_T": 1.386404818509378,
+      "delta_B_star_vs_M0_T": -0.12436020020008076,
+      "W95_min_T": 1.326404818509378,
+      "W95_max_T": 1.416404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "Q_at_M0_field_mJ_per_cm3": 0.6271163595585572,
+      "regret_percent": 28.31434186051162
+    },
+    {
+      "temperature_K": 0.12,
+      "experimental_anchor": "bulk_magnetization_80mK",
+      "mapping_method": "critical_offset",
+      "source_XTRG_Hc_T": 1.7535951814906219,
+      "M0_2026_Hc_T": 1.7743602002000807,
+      "experimental_Hc_T": 1.7,
+      "M0_selected_field_T": 1.5107650187094588,
+      "experimental_anchor_B_star_T": 1.436404818509378,
+      "delta_B_star_vs_M0_T": -0.07436020020008072,
+      "W95_min_T": 1.376404818509378,
+      "W95_max_T": 1.466404818509378,
+      "Qmax_mJ_per_cm3_inherited": 0.8748142596923543,
+      "Q_at_M0_field_mJ_per_cm3": 0.7400982361677623,
+      "regret_percent": 15.399385873290127
+    }
+  ],
+  "robust_fields": [
+    {
+      "temperature_K": 0.09,
+      "robust_field_T": 1.4108500000000002,
+      "worst_case_regret_percent": 3.521155676014804,
+      "scenario_order": [
+        "reduced_field/neutron_diffraction_65mK",
+        "reduced_field/bulk_magnetization_80mK",
+        "critical_offset/neutron_diffraction_65mK",
+        "critical_offset/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        0.013147945684280259,
+        3.521155676014804,
+        3.518937184074997,
+        2.5151071703739927
+      ]
+    },
+    {
+      "temperature_K": 0.1,
+      "robust_field_T": 1.4094,
+      "worst_case_regret_percent": 3.032974477874069,
+      "scenario_order": [
+        "reduced_field/neutron_diffraction_65mK",
+        "reduced_field/bulk_magnetization_80mK",
+        "critical_offset/neutron_diffraction_65mK",
+        "critical_offset/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        0.02785728342519693,
+        3.032974477874069,
+        3.0301683009226177,
+        2.1729309056101584
+      ]
+    },
+    {
+      "temperature_K": 0.12,
+      "robust_field_T": 1.4068,
+      "worst_case_regret_percent": 2.30346215541889,
+      "scenario_order": [
+        "reduced_field/neutron_diffraction_65mK",
+        "reduced_field/bulk_magnetization_80mK",
+        "critical_offset/neutron_diffraction_65mK",
+        "critical_offset/bulk_magnetization_80mK"
+      ],
+      "scenario_regret_percent": [
+        0.009721051211653849,
+        2.3011188727418967,
+        2.30346215541889,
+        1.6109634184270023
+      ]
+    }
+  ],
+  "limitations": [
+    "The experimental Hc anchors and source XTRG profile come from different public parameterizations.",
+    "Horizontal transport does not calculate entropy redistribution or changes in Qmax.",
+    "The 1.65 and 1.70 T values bracket probe and temperature dependence; they are not fit parameters.",
+    "A converged finite-temperature realistic-model solver is still required for a final microscopic attribution."
+  ]
+}

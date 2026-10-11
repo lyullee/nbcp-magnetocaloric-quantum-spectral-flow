@@ -1,0 +1,2 @@
+# Optional dependency used only to extract vector coordinates from the public PDF.
+pymupdf==1.26.5

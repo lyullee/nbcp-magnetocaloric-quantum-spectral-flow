@@ -1,0 +1,157 @@
+{
+  "method": "thermodynamic-limit polarized-state transverse Hessian (LSWT)",
+  "scope": "zero-temperature bulk critical-mode diagnostic; not finite-temperature entropy",
+  "source": "arXiv:2607.23173v1 Eq. 5 and Table 1",
+  "analytic_M0_field_T": 1.7743602002000802,
+  "numeric_M0_field_T": 1.7743602002000807,
+  "M0_absolute_validation_error_T": 4.440892098500626e-16,
+  "reported_full_model_mean_field_Hc_T": 1.86,
+  "rows": [
+    {
+      "model": "M0",
+      "boundary": "tin_foil",
+      "critical_wavevector_rlu": [
+        0.3333333308642518,
+        0.6666666659829736,
+        0.0
+      ],
+      "critical_energy_K": 5.620822419944567,
+      "critical_field_T": 1.7743602002000807,
+      "Jzz_Gamma_K": 8.529320819339251,
+      "transverse_min_eigenvalue_K": -2.712324020549882,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.620822419706647,
+      "local_objective": 5.620822419944567,
+      "ewald": null
+    },
+    {
+      "model": "M1",
+      "boundary": "tin_foil",
+      "critical_wavevector_rlu": [
+        0.3404961612867961,
+        0.6595038348730557,
+        0.0
+      ],
+      "critical_energy_K": 5.623366144096295,
+      "critical_field_T": 1.7751631935270178,
+      "Jzz_Gamma_K": 8.529320819339251,
+      "transverse_min_eigenvalue_K": -2.7174114688533377,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.623366143774222,
+      "local_objective": 5.623366144096295,
+      "ewald": null
+    },
+    {
+      "model": "M2",
+      "boundary": "tin_foil",
+      "critical_wavevector_rlu": [
+        0.7306097683890231,
+        0.3653048863561996,
+        0.0
+      ],
+      "critical_energy_K": 5.8820421262014975,
+      "critical_field_T": 1.8568210601350268,
+      "Jzz_Gamma_K": 9.086799745807514,
+      "transverse_min_eigenvalue_K": -2.6772845065954796,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.882042122893177,
+      "local_objective": 5.8820421262014975,
+      "ewald": null
+    },
+    {
+      "model": "M3",
+      "boundary": "tin_foil",
+      "critical_wavevector_rlu": [
+        0.2835722651714775,
+        0.6417861352537763,
+        0.500000004869678
+      ],
+      "critical_energy_K": 5.614604741713344,
+      "critical_field_T": 1.7723974267895588,
+      "Jzz_Gamma_K": 8.524738680013222,
+      "transverse_min_eigenvalue_K": -2.704470803413466,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.614604734853625,
+      "local_objective": 5.614604741713344,
+      "ewald": {
+        "alpha": 0.22,
+        "real_cutoff": 42.0,
+        "reciprocal_cutoff": 8.0,
+        "boundary": "tin_foil"
+      }
+    },
+    {
+      "model": "M4",
+      "boundary": "tin_foil",
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ],
+      "critical_energy_K": 5.916413338044935,
+      "critical_field_T": 1.8676712357447807,
+      "Jzz_Gamma_K": 9.139778140455373,
+      "transverse_min_eigenvalue_K": -2.6930485356344955,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.916413326001949,
+      "local_objective": 5.916413338044935,
+      "ewald": {
+        "alpha": 0.22,
+        "real_cutoff": 42.0,
+        "reciprocal_cutoff": 8.0,
+        "boundary": "tin_foil"
+      }
+    },
+    {
+      "model": "M3",
+      "boundary": "sphere_vacuum",
+      "critical_wavevector_rlu": [
+        0.2835722651714775,
+        0.6417861352537763,
+        0.500000004869678
+      ],
+      "critical_energy_K": 5.784651847412747,
+      "critical_field_T": 1.8260772611571447,
+      "Jzz_Gamma_K": 8.864832891412028,
+      "transverse_min_eigenvalue_K": -2.704470803413466,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 5.784651840553028,
+      "local_objective": 5.784651847412747,
+      "ewald": {
+        "alpha": 0.22,
+        "real_cutoff": 42.0,
+        "reciprocal_cutoff": 8.0,
+        "boundary": "sphere_vacuum"
+      }
+    },
+    {
+      "model": "M4",
+      "boundary": "sphere_vacuum",
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ],
+      "critical_energy_K": 6.086460443744338,
+      "critical_field_T": 1.9213510701123666,
+      "Jzz_Gamma_K": 9.47987235185418,
+      "transverse_min_eigenvalue_K": -2.6930485356344955,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "global_objective": 6.086460431701353,
+      "local_objective": 6.086460443744338,
+      "ewald": {
+        "alpha": 0.22,
+        "real_cutoff": 42.0,
+        "reciprocal_cutoff": 8.0,
+        "boundary": "sphere_vacuum"
+      }
+    }
+  ]
+}

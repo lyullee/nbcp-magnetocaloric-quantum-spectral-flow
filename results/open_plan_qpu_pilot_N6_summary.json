@@ -1,0 +1,41 @@
+{
+  "purpose": "paired live-QPU pilot summary for N=6 spectral flow",
+  "exact_V_expectation_K": 0.04873698301609778,
+  "observations": [
+    {
+      "label": "TREX",
+      "job_id": "db5r8184qg6s73c3sl0g",
+      "backend": "ibm_fez",
+      "resilience_level": 1,
+      "expectation_K": 0.020955218369872984,
+      "reported_standard_error_K": 0.0018475798167566036,
+      "signed_error_K": -0.027781764646224796,
+      "absolute_error_K": 0.027781764646224796,
+      "within_two_reported_standard_errors": false,
+      "free_qpu_seconds_used": 19.0
+    },
+    {
+      "label": "TREX+ZNE",
+      "job_id": "db5r8nimb58s738atca0",
+      "backend": "ibm_fez",
+      "resilience_level": 2,
+      "expectation_K": 0.031143831560670687,
+      "reported_standard_error_K": 0.01589332489029994,
+      "signed_error_K": -0.017593151455427093,
+      "absolute_error_K": 0.017593151455427093,
+      "within_two_reported_standard_errors": true,
+      "free_qpu_seconds_used": 52.0
+    }
+  ],
+  "absolute_bias_reduction_fraction_TREX_to_ZNE": 0.36673743804759396,
+  "total_free_qpu_seconds_used": 71.0,
+  "free_qpu_seconds_remaining_after_pilot": 412,
+  "decision": "PASS_EXECUTION_PATH_HOLD_QUANTITATIVE_ACCURACY",
+  "interpretation": [
+    "The Open Plan guard and two real-QPU jobs completed successfully.",
+    "TREX alone retained a systematic error much larger than its reported standard error.",
+    "ZNE moved the central estimate toward the exact value but increased uncertainty; the apparent improvement is not statistically conclusive.",
+    "No material or engineering conclusion is inferred from the N=6 pilot.",
+    "Further QPU runs are stopped until circuit compression or a stronger observable-level mitigation design is available."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "purpose": "dominant-state adiabatic depth diagnostic for the low-variance Jarzynski endpoint",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "path": "H(lambda)=M0+lambda*(M3-M0)",
+  "rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "lambda_grid_points": 101,
+      "parities": {
+        "0": {
+          "initial_thermal_parity_weight": 0.22101215461102816,
+          "initial_ground_state_probability": 0.11035578755486568,
+          "minimum_raw_ground_gap_K": 0.0,
+          "minimum_V_coupled_ground_gap_K": 0.5638595369011465,
+          "minimum_coupled_gap_lambda": 1.0,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.010045536711185741,
+          "maximum_ratio_lambda": 0.9,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 1.004553671118574,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 2216638.574287756,
+          "maximum_all_spectrum_ratio_lambda": 0.93,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.036671462205579756,
+          "maximum_thermal_spectrum_ratio_lambda": 0.24,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 3.6671462205579757
+        },
+        "1": {
+          "initial_thermal_parity_weight": 0.7789878453889709,
+          "initial_ground_state_probability": 0.5418341057585901,
+          "minimum_raw_ground_gap_K": 0.15194336294723243,
+          "minimum_V_coupled_ground_gap_K": 1.346131315933464,
+          "minimum_coupled_gap_lambda": 0.01,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.002591148329840054,
+          "maximum_ratio_lambda": 1.0,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 0.2591148329840054,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 299436.13716404134,
+          "maximum_all_spectrum_ratio_lambda": 0.01,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.1234930501104321,
+          "maximum_thermal_spectrum_ratio_lambda": 0.47000000000000003,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 12.34930501104321
+        }
+      },
+      "combined_initial_ground_probability": 0.6521898933134558
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "lambda_grid_points": 101,
+      "parities": {
+        "0": {
+          "initial_thermal_parity_weight": 0.5800066568259786,
+          "initial_ground_state_probability": 0.28998562960166413,
+          "minimum_raw_ground_gap_K": 0.0,
+          "minimum_V_coupled_ground_gap_K": 0.8796241258539972,
+          "minimum_coupled_gap_lambda": 1.0,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.00869518978669608,
+          "maximum_ratio_lambda": 0.86,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 0.869518978669608,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 438791.64845917583,
+          "maximum_all_spectrum_ratio_lambda": 0.93,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.02542476571308852,
+          "maximum_thermal_spectrum_ratio_lambda": 0.5,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 2.542476571308852
+        },
+        "1": {
+          "initial_thermal_parity_weight": 0.4199933431740216,
+          "initial_ground_state_probability": 0.2921246192466955,
+          "minimum_raw_ground_gap_K": 0.15194336294724664,
+          "minimum_V_coupled_ground_gap_K": 1.029352224287619,
+          "minimum_coupled_gap_lambda": 0.01,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.0024053990799982453,
+          "maximum_ratio_lambda": 1.0,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 0.24053990799982453,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 723744.512752552,
+          "maximum_all_spectrum_ratio_lambda": 0.41000000000000003,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.08882011926740704,
+          "maximum_thermal_spectrum_ratio_lambda": 0.5700000000000001,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 8.882011926740704
+        }
+      },
+      "combined_initial_ground_probability": 0.5821102488483596
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "lambda_grid_points": 101,
+      "parities": {
+        "0": {
+          "initial_thermal_parity_weight": 0.8705809922808457,
+          "initial_ground_state_probability": 0.4352877653341133,
+          "minimum_raw_ground_gap_K": 0.0,
+          "minimum_V_coupled_ground_gap_K": 1.1955258206892534,
+          "minimum_coupled_gap_lambda": 1.0,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.007512117623715155,
+          "maximum_ratio_lambda": 0.97,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 0.7512117623715154,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 251628.6678083505,
+          "maximum_all_spectrum_ratio_lambda": 0.01,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.01860630055528699,
+          "maximum_thermal_spectrum_ratio_lambda": 0.31,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 1.860630055528699
+        },
+        "1": {
+          "initial_thermal_parity_weight": 0.1294190077191545,
+          "initial_ground_state_probability": 0.08996811101018962,
+          "minimum_raw_ground_gap_K": 0.15194336294723243,
+          "minimum_V_coupled_ground_gap_K": 0.7125728263834432,
+          "minimum_coupled_gap_lambda": 0.01,
+          "maximum_abs_Vmn_over_gap2_inverse_K": 0.002239021981441846,
+          "maximum_ratio_lambda": 1.0,
+          "indicative_ramp_time_for_1pct_amplitude_inverse_K": 0.2239021981441846,
+          "maximum_all_spectrum_abs_Vmn_over_gap2_inverse_K": 331108.86906777957,
+          "maximum_all_spectrum_ratio_lambda": 0.01,
+          "maximum_thermal_spectrum_abs_Vmn_over_gap2_inverse_K": 0.06694655890639377,
+          "maximum_thermal_spectrum_ratio_lambda": 0.67,
+          "indicative_thermal_spectrum_ramp_time_for_1pct_inverse_K": 6.6946558906393765
+        }
+      },
+      "combined_initial_ground_probability": 0.5252558763443029
+    }
+  ],
+  "scope_limits": [
+    "The ratio |<m|dH/dlambda|0>|/gap^2 is an adiabatic diagnostic, not a rigorous complete runtime bound.",
+    "Only the lowest state in each conserved spin-parity sector is audited.",
+    "Translation and other symmetry-protected crossings are suppressed by the coupling matrix element threshold.",
+    "Excited states that contribute to high moments of exp(-beta W) can require slower ramps.",
+    "The thermal-spectrum audit uses instantaneous Boltzmann probability >1e-8 and does not exactly reproduce Jarzynski rare-event importance."
+  ],
+  "elapsed_seconds": 51.64768479997292
+}

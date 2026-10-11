@@ -1,0 +1,101 @@
+{
+  "method": "Ritz residual after exact embedding from q<=K to the first omitted same-parity q=K+2 block",
+  "warning": "Residual norms diagnose omitted coupling but are not a rigorous entropy or free-energy error bound.",
+  "condition": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "model": "M3",
+    "field_T": 1.5,
+    "temperature_K": 0.09
+  },
+  "settings": {
+    "low_states_per_parity": 4,
+    "eigsh_tolerance": 1e-09,
+    "seed_base": 20261011
+  },
+  "blocks": [
+    {
+      "parity": 0,
+      "included_max_q": 2,
+      "first_omitted_q": 4,
+      "included_dimension": 37,
+      "first_omitted_dimension": 126,
+      "rows": [
+        {
+          "state_index": 0,
+          "energy_K": -12.395270730152244,
+          "kept_space_residual_norm_K": 1.7765812951937014e-14,
+          "first_omitted_block_residual_norm_K": 0.2062987499847586
+        },
+        {
+          "state_index": 1,
+          "energy_K": -12.233847817358248,
+          "kept_space_residual_norm_K": 1.2530331134992696e-14,
+          "first_omitted_block_residual_norm_K": 0.20003013067204384
+        },
+        {
+          "state_index": 2,
+          "energy_K": -12.233847817358246,
+          "kept_space_residual_norm_K": 1.463326785792526e-14,
+          "first_omitted_block_residual_norm_K": 0.20003013067204375
+        },
+        {
+          "state_index": 3,
+          "energy_K": -11.629655190859506,
+          "kept_space_residual_norm_K": 6.038593709231234e-14,
+          "first_omitted_block_residual_norm_K": 0.06162880267617789
+        }
+      ]
+    },
+    {
+      "parity": 1,
+      "included_max_q": 3,
+      "first_omitted_q": 5,
+      "included_dimension": 93,
+      "first_omitted_dimension": 126,
+      "rows": [
+        {
+          "state_index": 0,
+          "energy_K": -12.51117606958409,
+          "kept_space_residual_norm_K": 4.0515328057689376e-11,
+          "first_omitted_block_residual_norm_K": 0.017237518827077865
+        },
+        {
+          "state_index": 1,
+          "energy_K": -12.511176069584051,
+          "kept_space_residual_norm_K": 3.3896348208610077e-09,
+          "first_omitted_block_residual_norm_K": 0.017237518764766292
+        },
+        {
+          "state_index": 2,
+          "energy_K": -11.312399767675407,
+          "kept_space_residual_norm_K": 1.9803792850722917e-14,
+          "first_omitted_block_residual_norm_K": 0.19395046323048654
+        },
+        {
+          "state_index": 3,
+          "energy_K": -11.196624806496168,
+          "kept_space_residual_norm_K": 2.1655532596836383e-12,
+          "first_omitted_block_residual_norm_K": 0.19443021797617766
+        }
+      ]
+    }
+  ],
+  "diagnostic": {
+    "boltzmann_weighted_mean_boundary_residual_K": 0.046352822829039554,
+    "boltzmann_weighted_rms_boundary_residual_K": 0.08222459866646747,
+    "maximum_boundary_residual_K": 0.2062987499847586,
+    "weighted_rms_over_temperature": 0.9136066518496386,
+    "weighted_rms_over_N_temperature": 0.10151185020551541
+  },
+  "elapsed_seconds": 0.1373807000927627
+}

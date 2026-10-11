@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-11",
+  "octave": {
+    "version": "11.3.0",
+    "portable_archive": {
+      "path": "tools/octave-11.3.0-w64.7z",
+      "bytes": 481127074,
+      "sha256": "FD3CF0E885467A15211B8CEDED42800432A5462481324D49A896EF257E05D1A0",
+      "source": "https://ftpmirror.gnu.org/octave/windows/octave-11.3.0-w64.7z"
+    },
+    "installer": {
+      "path": "tools/octave-11.3.0-w64-installer.exe",
+      "bytes": 566880889,
+      "sha256": "251DB7F300E6A1227BB11D029B97C489FDED9D0618EAE106FA704B5B641A8AA3",
+      "source": "https://ftpmirror.gnu.org/octave/windows/octave-11.3.0-w64-installer.exe",
+      "authenticode_status": "NotSigned"
+    },
+    "windows_result": {
+      "status": "RESOLVED_PROJECT_LOCAL_SIGNED_SHIM",
+      "smart_app_control": "On",
+      "ntstatus": "0xC0E90002 STATUS_SYSTEM_INTEGRITY_POLICY_VIOLATION",
+      "blocked_file": "mingw64/bin/libcurl-4.dll",
+      "code_integrity_event_id": 3077,
+      "winget_attempts": 2,
+      "winget_exit": "0x800704c7 operation canceled",
+      "security_policy_changed": false,
+      "initial_block_preserved": true,
+      "resolution": "same-version validly signed Git for Windows libcurl and signed dependency closure copied only into project-local Octave; original backed up",
+      "smoke_test_version": "11.3.0"
+    },
+    "wsl": {
+      "installed": false,
+      "enabling_requires_admin_and_likely_restart": true
+    },
+    "signed_shim_manifest": "results/octave_signed_shim_manifest.json",
+    "independent_cross_validation": {
+      "output": "results/bulk_polarized_stability_octave.json",
+      "models": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "M4"
+      ],
+      "max_abs_critical_field_difference_vs_python_T": 2.220446049250313e-16
+    }
+  },
+  "python_tensor_network": {
+    "python": "3.14.8",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "quimb": "1.15.0",
+    "numba": "0.68.0",
+    "validation_result": "results/xtrg_quimb_n9_purified_stabilized_convergence.json",
+    "decision": "STOP_FOR_BULK",
+    "reason": "N=9 at 90 mK is positive by construction but entropy, energy and logZ errors are non-monotonic between D=24 and D=32 and comparable to the desired M3-M0 correction."
+  },
+  "qmagen": {
+    "commit": "dcf17db27682d4c505155682108c612bdd11274c",
+    "license_file_present": false,
+    "redistribution": "do not redistribute local clone without permission"
+  },
+  "local_magnon_route": {
+    "runtime": "Python/NumPy/SciPy/Numba on this PC; no remote compute",
+    "operator_regressions": {
+      "fixed_q_N9": "test_magnon_sector.py",
+      "parity_projected_M3_N9": "test_truncated_magnon_operator.py",
+      "matrix_max_abs_difference_K": 8.9e-15
+    },
+    "N18_M0_validation": {
+      "result": "results/magnon_truncation_n18_validation.json",
+      "temperature_range_mK": [
+        90,
+        300
+      ],
+      "max_entropy_error_kB_per_spin": 0.002864,
+      "entropy_error_at_90mK_q_le_4_kB_per_spin": -1.7956636493038358e-05
+    },
+    "M0_size_scan_90mK_1p50T": {
+      "N21": 0.09253975348462443,
+      "N24": 0.08243372050343074,
+      "N27": 0.0842748072565883
+    },
+    "M3_minus_M0_low16_90mK_1p50T": {
+      "N15": 0.00653196397745609,
+      "N18": -0.003454830936311701,
+      "N21": 0.0005172978834872832,
+      "N24": -0.0016551501433589716
+    },
+    "decision": "GATE1_HOLD",
+    "reason": "M3 correction still alternates sign with size and N24 q<=6 to q<=7 drift is 0.001442 kB/spin; one field point is not B* or regret.",
+    "next": "N24 omitted-q=8 boundary residual / second-order correction bound before any N27 M3 or field grid.",
+    "N24_boundary_diagnostic": {
+      "residual_result": "results/magnon_M3_boundary_residual_N24_B1.500T.json",
+      "denominator_result": "results/magnon_M3_boundary_denominator_N24_B1.500T.json",
+      "boltzmann_weighted_residual_rms_K": 0.04295876767855911,
+      "minimum_isolated_boundary_gap_K": 2.581587738005144,
+      "boltzmann_weighted_second_order_proxy_K": 0.0005859594377216114,
+      "entropy_proxy_shift_90mK_kB_per_spin": -8.718959659471948e-05,
+      "decision": "diagnostic pass; not a rigorous direct q<=8/9 convergence proof"
+    },
+    "selected_subspace_attempt": {
+      "result": "results/selected_magnon_M3qbasis_N18_B1.500T.json",
+      "basis_states_per_q": 12,
+      "entropy_error_90mK_kB_per_spin": -0.0010084836041468065,
+      "full_space_residual_range_K": [
+        0.34228648107494475,
+        0.4869707967501031
+      ],
+      "decision": "STOP_BELOW_PREDECLARED_ACCURACY"
+    },
+    "N27_direct_low16": {
+      "result": "results/magnon_M3_low_energy_N27_B1.500T.json",
+      "elapsed_seconds": 3815.8243114999495,
+      "deltaS_90mK_kB_per_spin": -0.0004582134682785677,
+      "M0_low16_entropy_90mK_kB_per_spin": 0.07687270894707118,
+      "M0_full_magnon_entropy_90mK_kB_per_spin": 0.0842748072565883,
+      "M0_entropy_missing_from_low16_kB_per_spin": 0.00740209830951712,
+      "decision": "size-trend diagnostic only; low16 coverage insufficient for bulk deltaS claim"
+    }
+  },
+  "experimental_Hc_gate": {
+    "result": "results/experimental_hc_engineering_anchor.json",
+    "public_Hc_T": [
+      1.65,
+      1.7
+    ],
+    "M4_mean_field_Hc_T": 1.86,
+    "authors_reported_mean_field_overestimate_percent": 9,
+    "delta_B_star_90mK_T": [
+      -0.12436020020008076,
+      -0.06360664164536978
+    ],
+    "regret_at_M0_field_90mK_percent": [
+      17.957207069202802,
+      36.46861855107185
+    ],
+    "robust_field_90mK_T": 1.41085,
+    "robust_worst_regret_90mK_percent": 3.521155676014804,
+    "gate1_engineering_relevance": "GO",
+    "gate1_microscopic_attribution": "HOLD",
+    "local_quantum_simulator": "AUTHORIZED",
+    "IBM_QPU": "HOLD"
+  }
+}

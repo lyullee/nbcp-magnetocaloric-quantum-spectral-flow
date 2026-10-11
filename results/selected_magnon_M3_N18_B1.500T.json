@@ -1,0 +1,225 @@
+{
+  "method": "M3 projected into the lowest M0 eigenstates of each fixed-q sector",
+  "condition": {
+    "N": 18,
+    "translations": [
+      [
+        4,
+        1
+      ],
+      [
+        -2,
+        4
+      ]
+    ],
+    "field_T": 1.5,
+    "max_q_even": 6,
+    "max_q_odd": 7
+  },
+  "settings": {
+    "maximum_basis_states_per_q": 12,
+    "eigsh_tolerance": 1e-09
+  },
+  "reference": "direct M3 lowest eight states per parity",
+  "runs": [
+    {
+      "basis_states_per_q": 4,
+      "parities": [
+        {
+          "parity": 0,
+          "selected_dimension": 13,
+          "projected_hermiticity_error_K": 2.7889149323279128e-14,
+          "low_energies_K": [
+            -24.77366210551093,
+            -24.70378186199198,
+            -24.660289659687006,
+            -24.660255848418178,
+            -24.636492865813576,
+            -24.636483117005024,
+            -24.50792414240981,
+            -24.259960914196657
+          ],
+          "full_space_residual_norms_K": []
+        },
+        {
+          "parity": 1,
+          "selected_dimension": 16,
+          "projected_hermiticity_error_K": 7.945033519973776e-15,
+          "low_energies_K": [
+            -25.035227501285206,
+            -25.035227501285082,
+            -24.782620885527407,
+            -24.73701538414801,
+            -24.07993247400629,
+            -24.079932474006274,
+            -23.811321790394185,
+            -23.811321790394175
+          ],
+          "full_space_residual_norms_K": []
+        }
+      ],
+      "rows": [
+        {
+          "temperature_K": 0.09,
+          "S_M3_selected": 0.06444105837889497,
+          "S_M3_reference_low16": 0.06709702186330296,
+          "M3_entropy_error_kB_per_spin": -0.002655963484407997,
+          "deltaS_selected_vs_reference_M0": -0.006110794420719698
+        },
+        {
+          "temperature_K": 0.1,
+          "S_M3_selected": 0.07133975103490812,
+          "S_M3_reference_low16": 0.07503493744685974,
+          "M3_entropy_error_kB_per_spin": -0.003695186411951615,
+          "deltaS_selected_vs_reference_M0": -0.006809151342256015
+        },
+        {
+          "temperature_K": 0.12,
+          "S_M3_selected": 0.08407431460241428,
+          "S_M3_reference_low16": 0.08998839573245114,
+          "M3_entropy_error_kB_per_spin": -0.005914081130036858,
+          "deltaS_selected_vs_reference_M0": -0.008095522833875268
+        }
+      ]
+    },
+    {
+      "basis_states_per_q": 8,
+      "parities": [
+        {
+          "parity": 0,
+          "selected_dimension": 25,
+          "projected_hermiticity_error_K": 2.7889149323279128e-14,
+          "low_energies_K": [
+            -24.77366221715212,
+            -24.703803015423407,
+            -24.660289665058915,
+            -24.660289665058908,
+            -24.636493440984623,
+            -24.636493440984406,
+            -24.513197260172703,
+            -24.507924142407056
+          ],
+          "full_space_residual_norms_K": []
+        },
+        {
+          "parity": 1,
+          "selected_dimension": 32,
+          "projected_hermiticity_error_K": 7.945033519973776e-15,
+          "low_energies_K": [
+            -25.035251434444028,
+            -25.035251434443904,
+            -24.782620885527415,
+            -24.73701538414801,
+            -24.495514562101235,
+            -24.49551456210107,
+            -24.407248664283422,
+            -24.406952122251827
+          ],
+          "full_space_residual_norms_K": []
+        }
+      ],
+      "rows": [
+        {
+          "temperature_K": 0.09,
+          "S_M3_selected": 0.06603343033544755,
+          "S_M3_reference_low16": 0.06709702186330296,
+          "M3_entropy_error_kB_per_spin": -0.0010635915278554148,
+          "deltaS_selected_vs_reference_M0": -0.004518422464167116
+        },
+        {
+          "temperature_K": 0.1,
+          "S_M3_selected": 0.07383890851459743,
+          "S_M3_reference_low16": 0.07503493744685974,
+          "M3_entropy_error_kB_per_spin": -0.0011960289322623108,
+          "deltaS_selected_vs_reference_M0": -0.004309993862566711
+        },
+        {
+          "temperature_K": 0.12,
+          "S_M3_selected": 0.08865521333521093,
+          "S_M3_reference_low16": 0.08998839573245114,
+          "M3_entropy_error_kB_per_spin": -0.0013331823972402151,
+          "deltaS_selected_vs_reference_M0": -0.0035146241010786256
+        }
+      ]
+    },
+    {
+      "basis_states_per_q": 12,
+      "parities": [
+        {
+          "parity": 0,
+          "selected_dimension": 37,
+          "projected_hermiticity_error_K": 2.7889149323279128e-14,
+          "low_energies_K": [
+            -24.77366221715212,
+            -24.703803015423404,
+            -24.660289665058926,
+            -24.660289665058894,
+            -24.63649344098464,
+            -24.636493440984403,
+            -24.514965270773736,
+            -24.513214708585075
+          ],
+          "full_space_residual_norms_K": [
+            0.4226951002175705,
+            0.3453182269541787,
+            0.41956056442156936,
+            0.41956056442156986,
+            0.3445382242639565,
+            0.344538224263954,
+            0.48431551972399567,
+            0.4855009218152489
+          ]
+        },
+        {
+          "parity": 1,
+          "selected_dimension": 48,
+          "projected_hermiticity_error_K": 7.945033519973776e-15,
+          "low_energies_K": [
+            -25.035251434519665,
+            -25.035251434519544,
+            -24.782620885527407,
+            -24.737015384148005,
+            -24.495514562101217,
+            -24.49551456210107,
+            -24.40915938162405,
+            -24.40915938162392
+          ],
+          "full_space_residual_norms_K": [
+            0.3918900930783715,
+            0.39189009307837025,
+            0.379255037155335,
+            0.36838971996220343,
+            0.41006185496151937,
+            0.41006185496151937,
+            0.4132446974725323,
+            0.4132446974727875
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "temperature_K": 0.09,
+          "S_M3_selected": 0.06607179848441201,
+          "S_M3_reference_low16": 0.06709702186330296,
+          "M3_entropy_error_kB_per_spin": -0.001025223378890952,
+          "deltaS_selected_vs_reference_M0": -0.004480054315202653
+        },
+        {
+          "temperature_K": 0.1,
+          "S_M3_selected": 0.07389182561904876,
+          "S_M3_reference_low16": 0.07503493744685974,
+          "M3_entropy_error_kB_per_spin": -0.0011431118278109748,
+          "deltaS_selected_vs_reference_M0": -0.0042570767581153746
+        },
+        {
+          "temperature_K": 0.12,
+          "S_M3_selected": 0.08873279962726198,
+          "S_M3_reference_low16": 0.08998839573245114,
+          "M3_entropy_error_kB_per_spin": -0.0012555961051891606,
+          "deltaS_selected_vs_reference_M0": -0.003437037809027571
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 43.46041840012185
+}

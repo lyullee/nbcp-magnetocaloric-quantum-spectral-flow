@@ -1,0 +1,161 @@
+{
+  "purpose": "adaptive weight-3 QITE accuracy-resource Pareto for N=9 M3",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "field_T": 1.45,
+  "initial_state": "X-basis product state X:101010101",
+  "selection": "greedy batches ranked by absolute overlap with the current real tangent residual",
+  "rows": [
+    {
+      "correlation_time_inverse_K": 0.5,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 64,
+      "combined_pool_size": 415,
+      "effective_rank": 415,
+      "retained_pauli_terms": 415,
+      "relative_tangent_residual": 0.06443190976978151,
+      "resolved_condition_number": 2703.421844946739,
+      "one_step_infidelity": 3.6800997621821985e-05,
+      "compiled_all_to_all_depth": 569,
+      "compiled_all_to_all_CX": 347,
+      "compiled_operation_counts": {
+        "rz": 657,
+        "sx": 400,
+        "cx": 347,
+        "x": 38
+      },
+      "projected_CX_per_100mK_METTS_state": 34700
+    },
+    {
+      "correlation_time_inverse_K": 0.5,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 128,
+      "combined_pool_size": 479,
+      "effective_rank": 479,
+      "retained_pauli_terms": 479,
+      "relative_tangent_residual": 0.02936117684236483,
+      "resolved_condition_number": 3091.600980255636,
+      "one_step_infidelity": 2.4446401349687008e-05,
+      "compiled_all_to_all_depth": 905,
+      "compiled_all_to_all_CX": 597,
+      "compiled_operation_counts": {
+        "rz": 878,
+        "cx": 597,
+        "sx": 516,
+        "x": 66
+      },
+      "projected_CX_per_100mK_METTS_state": 59700
+    },
+    {
+      "correlation_time_inverse_K": 0.5,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 256,
+      "combined_pool_size": 607,
+      "effective_rank": 607,
+      "retained_pauli_terms": 607,
+      "relative_tangent_residual": 0.011507621574291934,
+      "resolved_condition_number": 5328.10999059414,
+      "one_step_infidelity": 2.240733750014101e-05,
+      "compiled_all_to_all_depth": 1643,
+      "compiled_all_to_all_CX": 1048,
+      "compiled_operation_counts": {
+        "rz": 1438,
+        "cx": 1048,
+        "sx": 817,
+        "x": 140
+      },
+      "projected_CX_per_100mK_METTS_state": 104800
+    },
+    {
+      "correlation_time_inverse_K": 2.0,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 64,
+      "combined_pool_size": 415,
+      "effective_rank": 415,
+      "retained_pauli_terms": 415,
+      "relative_tangent_residual": 0.0673033218560756,
+      "resolved_condition_number": 830.7026660162214,
+      "one_step_infidelity": 1.5899699520316446e-06,
+      "compiled_all_to_all_depth": 537,
+      "compiled_all_to_all_CX": 344,
+      "compiled_operation_counts": {
+        "rz": 619,
+        "sx": 367,
+        "cx": 344,
+        "x": 39
+      },
+      "projected_CX_per_100mK_METTS_state": 34400
+    },
+    {
+      "correlation_time_inverse_K": 2.0,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 128,
+      "combined_pool_size": 479,
+      "effective_rank": 479,
+      "retained_pauli_terms": 479,
+      "relative_tangent_residual": 0.04018482360047667,
+      "resolved_condition_number": 1187.270183142343,
+      "one_step_infidelity": 7.043186224242604e-07,
+      "compiled_all_to_all_depth": 909,
+      "compiled_all_to_all_CX": 582,
+      "compiled_operation_counts": {
+        "rz": 920,
+        "cx": 582,
+        "sx": 524,
+        "x": 90
+      },
+      "projected_CX_per_100mK_METTS_state": 58200
+    },
+    {
+      "correlation_time_inverse_K": 2.0,
+      "imaginary_step_inverse_K": 0.05,
+      "base_weight2_pool_size": 351,
+      "weight3_candidate_count": 2268,
+      "selected_weight3_count": 256,
+      "combined_pool_size": 607,
+      "effective_rank": 607,
+      "retained_pauli_terms": 607,
+      "relative_tangent_residual": 0.01850074478684935,
+      "resolved_condition_number": 2423.7663224840962,
+      "one_step_infidelity": 3.467271380008796e-07,
+      "compiled_all_to_all_depth": 1667,
+      "compiled_all_to_all_CX": 1057,
+      "compiled_operation_counts": {
+        "rz": 1470,
+        "cx": 1057,
+        "sx": 820,
+        "x": 180
+      },
+      "projected_CX_per_100mK_METTS_state": 105700
+    }
+  ],
+  "scope_limits": [
+    "Operator selection and coefficients use exact statevectors with no measurement noise.",
+    "Selection is greedy and is not guaranteed to be the smallest possible operator set.",
+    "Only one step at two correlated states is tested; full thermal trajectories remain unproven.",
+    "CX counts assume all-to-all connectivity and exclude routing overhead."
+  ],
+  "elapsed_seconds": 17.42433980014175
+}

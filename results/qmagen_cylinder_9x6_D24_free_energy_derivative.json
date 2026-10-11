@@ -1,0 +1,40 @@
+{
+  "method": "three staggered XTRG free-energy points around the st0 cold point",
+  "bond_dimension": 24,
+  "target_temperature_K": 0.09033203125,
+  "target_beta_dimensionless": 16.384,
+  "points": [
+    {
+      "beta": 13.777246867516858,
+      "logZ_per_spin": 14.061462485978794,
+      "stagger_index": 3
+    },
+    {
+      "beta": 16.384,
+      "logZ_per_spin": 16.720984575377642,
+      "stagger_index": 0
+    },
+    {
+      "beta": 19.48396937220458,
+      "logZ_per_spin": 19.840126735796428,
+      "stagger_index": 1
+    }
+  ],
+  "slope_dlogZ_dbeta": {
+    "left_secant": 1.0202431738771671,
+    "quadratic": 1.0138215145086134,
+    "right_secant": 1.0061848314974065
+  },
+  "local_logZ_convexity_consistent": false,
+  "entropy_kB_per_spin": {
+    "direct_logZ_plus_betaE": 0.539298578616183,
+    "free_energy_left_secant": 0.005320414574136123,
+    "free_energy_quadratic": 0.11053288166852226,
+    "free_energy_right_secant": 0.2356522961241332,
+    "secant_bracket_min": 0.005320414574136123,
+    "secant_bracket_max": 0.2356522961241332,
+    "public_reconstructed_proxy": 0.1475788238589029
+  },
+  "decision": "DIAGNOSTIC_REJECTED_LOCAL_LOGZ_CONVEXITY_VIOLATION",
+  "interpretation": "For a physical partition function logZ(beta) is convex, so its secant slope must not decrease with beta. The independent stagger runs violate that condition; their truncation bias is larger than the local thermal curvature. The quadratic entropy estimate must therefore not be used as a result."
+}

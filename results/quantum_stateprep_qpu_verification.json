@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "n6_circuit_unit_pass": true,
+    "n9_stateprep_pass": true,
+    "n9_three_field_stateprep_pass": true,
+    "n9_fake_raw_stop": true,
+    "n6_fake_conditional_go": true,
+    "live_open_only_guard": true,
+    "live_compile_gate": true,
+    "two_distinct_completed_jobs": true,
+    "same_qpu_target": true,
+    "open_guards_on_jobs": true,
+    "usage_accounting": true,
+    "honest_quantitative_hold": true,
+    "no_secret_or_crn_in_results": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

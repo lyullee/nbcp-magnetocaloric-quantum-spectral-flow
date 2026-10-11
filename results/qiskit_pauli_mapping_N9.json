@@ -1,0 +1,70 @@
+{
+  "purpose": "N=9 periodic scientific observable mapping before thermal-state simulation",
+  "runtime": {
+    "qiskit": "2.5.2",
+    "simulator": "qiskit.quantum_info.Statevector"
+  },
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "field_T": 1.45,
+  "field_K": 4.593313414041066,
+  "basis_mapping": {
+    "Sx": "X/2",
+    "Sy": "-Y/2",
+    "Sz": "-Z/2"
+  },
+  "models": {
+    "M0": {
+      "raw_bond_contribution_count": 27,
+      "pauli_term_count": 90,
+      "global_commuting_group_count": 8,
+      "qubitwise_commuting_group_count": 3,
+      "coefficient_l1_K": 42.47085437741591,
+      "largest_coefficient_K": 2.296656707020533,
+      "dense_matrix_max_abs_error_K": 1.7763568394002505e-15,
+      "random_state_expectation_K": -0.12365798133668303,
+      "random_state_expectation_abs_error_K": 7.911556306605241e-16
+    },
+    "M3": {
+      "raw_bond_contribution_count": 63,
+      "pauli_term_count": 153,
+      "global_commuting_group_count": 16,
+      "qubitwise_commuting_group_count": 7,
+      "coefficient_l1_K": 42.81868366635124,
+      "largest_coefficient_K": 2.296656707020533,
+      "dense_matrix_max_abs_error_K": 1.7763568394002505e-15,
+      "random_state_expectation_K": -0.11421117844041827,
+      "random_state_expectation_abs_error_K": 2.37549462997806e-16
+    }
+  },
+  "correction_M3_minus_M0": {
+    "pauli_term_count": 144,
+    "global_commuting_group_count": 16,
+    "qubitwise_commuting_group_count": 7,
+    "coefficient_l1_K": 2.724057766827727,
+    "largest_coefficient_K": 0.0588430167945988,
+    "dense_matrix_max_abs_error_K": 1.7985612998927536e-14,
+    "random_state_expectation_K": 0.009446802896264764,
+    "random_state_expectation_abs_error_K": 9.731814161211154e-16
+  },
+  "acceptance_tolerance_K": 1e-11,
+  "status": "PASS",
+  "scope_limits": [
+    "This validates the observable representation and measurement grouping, not Gibbs-state preparation.",
+    "Commuting-group counts are Qiskit greedy partitions and may not be globally minimal.",
+    "N=9 remains a finite-cluster algorithm benchmark rather than a bulk-material prediction."
+  ],
+  "elapsed_seconds": 1.9009845000691712
+}

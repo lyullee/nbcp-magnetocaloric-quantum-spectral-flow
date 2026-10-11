@@ -1,0 +1,352 @@
+{
+  "source": "https://arxiv.org/html/2607.23173v1",
+  "preprint": true,
+  "parameters": {
+    "Jzz_meV": 0.1225,
+    "Delta_XY_over_ZZ": 0.636,
+    "gxy": 4.2,
+    "gz": 4.716,
+    "Kd_nn_meV": 0.00036,
+    "additional_Jpp_meV": -0.0019
+  },
+  "scope": [
+    "Classical exact diagonalization, no quantum circuit or hardware.",
+    "2D N=9/12 sensitivity ablations only. No long-range dipoles or interlayer exchange.",
+    "Nearest-neighbor dipole terms and additional Jpp are counted separately as in source.",
+    "Does not reproduce the 2026 full 3D model or its incommensurate phase.",
+    "Negative endpoint budget flags a non-absorbing requested endpoint, not a device cooling measurement."
+  ],
+  "rows": [
+    {
+      "N": 9,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.15404282403271677,
+      "S_hot_kB_per_spin": 0.07960363908286433,
+      "Q_entropy_budget_mJ_per_cm3": 0.5960914403186072
+    },
+    {
+      "N": 9,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.10447963448395964,
+      "S_hot_kB_per_spin": 0.07960363908286433,
+      "Q_entropy_budget_mJ_per_cm3": 0.19920110541225566
+    },
+    {
+      "N": 9,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.12180265889253578,
+      "S_hot_kB_per_spin": 0.07960363908286433,
+      "Q_entropy_budget_mJ_per_cm3": 0.33791980010697786
+    },
+    {
+      "N": 9,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.08462693375283158,
+      "S_hot_kB_per_spin": 0.07960363908286433,
+      "Q_entropy_budget_mJ_per_cm3": 0.04022535922421453
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.1540428658996789,
+      "S_hot_kB_per_spin": 0.07959700630075023,
+      "Q_entropy_budget_mJ_per_cm3": 0.5961448893345274
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.10454180106336326,
+      "S_hot_kB_per_spin": 0.07959700630075023,
+      "Q_entropy_budget_mJ_per_cm3": 0.19975203447640016
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.12156738303667843,
+      "S_hot_kB_per_spin": 0.07959700630075023,
+      "Q_entropy_budget_mJ_per_cm3": 0.3360888802864787
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.08476300622195837,
+      "S_hot_kB_per_spin": 0.07959700630075023,
+      "Q_entropy_budget_mJ_per_cm3": 0.04136810922625338
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.15405439141698485,
+      "S_hot_kB_per_spin": 0.08754113472567845,
+      "Q_entropy_budget_mJ_per_cm3": 0.5326224757580538
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.12589196015980345,
+      "S_hot_kB_per_spin": 0.08754113472567845,
+      "Q_entropy_budget_mJ_per_cm3": 0.3071043669518356
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.15517600265288717,
+      "S_hot_kB_per_spin": 0.08754113472567845,
+      "Q_entropy_budget_mJ_per_cm3": 0.5416040740592302
+    },
+    {
+      "N": 9,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.08362334003236313,
+      "S_hot_kB_per_spin": 0.08754113472567845,
+      "Q_entropy_budget_mJ_per_cm3": -0.03137277608808043
+    },
+    {
+      "N": 12,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.001776281378885698,
+      "S_hot_kB_per_spin": 0.07985645800705769,
+      "Q_entropy_budget_mJ_per_cm3": -0.6252476431327525
+    },
+    {
+      "N": 12,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.11762433048758025,
+      "S_hot_kB_per_spin": 0.07985645800705769,
+      "Q_entropy_budget_mJ_per_cm3": 0.30243621715969377
+    },
+    {
+      "N": 12,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.025995447348124687,
+      "S_hot_kB_per_spin": 0.07985645800705769,
+      "Q_entropy_budget_mJ_per_cm3": -0.4313062729304222
+    },
+    {
+      "N": 12,
+      "model": "XXZ_2026_parameters",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.10589928468631948,
+      "S_hot_kB_per_spin": 0.07985645800705769,
+      "Q_entropy_budget_mJ_per_cm3": 0.20854481514899745
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.0017752184765512527,
+      "S_hot_kB_per_spin": 0.07984992542398979,
+      "Q_entropy_budget_mJ_per_cm3": -0.6252038432191896
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.11724697685680124,
+      "S_hot_kB_per_spin": 0.07984992542398979,
+      "Q_entropy_budget_mJ_per_cm3": 0.29946676964922625
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.02594682515585398,
+      "S_hot_kB_per_spin": 0.07984992542398979,
+      "Q_entropy_budget_mJ_per_cm3": -0.4316433165961884
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_additional_Jpp",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.10618806036903954,
+      "S_hot_kB_per_spin": 0.07984992542398979,
+      "Q_entropy_budget_mJ_per_cm3": 0.21090957410773833
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 0.0,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.002403717463698091,
+      "S_hot_kB_per_spin": 0.0877781407844657,
+      "Q_entropy_budget_mJ_per_cm3": -0.683658250663688
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.3,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.12880717558511875,
+      "S_hot_kB_per_spin": 0.0877781407844657,
+      "Q_entropy_budget_mJ_per_cm3": 0.3285508360372236
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.5,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.023742229679333076,
+      "S_hot_kB_per_spin": 0.0877781407844657,
+      "Q_entropy_budget_mJ_per_cm3": -0.5127844764620635
+    },
+    {
+      "N": 12,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "B_end_T": 1.66,
+      "T_cold_K": 0.1,
+      "S_cold_kB_per_spin": 0.0657211556321665,
+      "S_hot_kB_per_spin": 0.0877781407844657,
+      "Q_entropy_budget_mJ_per_cm3": -0.1766271360625131
+    }
+  ],
+  "comparisons": [
+    {
+      "N": 9,
+      "B_end_T": 0.0,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 4.1866962119385676e-08,
+      "delta_Q_entropy_budget_mJ_per_cm3": 5.34490159201928e-05
+    },
+    {
+      "N": 9,
+      "B_end_T": 0.0,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 1.1567384268079683e-05,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.0634689645605534
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.3,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 6.216657940362469e-05,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.0005509290641445008
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.3,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.021412325675843807,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.10790326153957991
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.5,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -0.00023527585585735034,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.001830919820499155
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.5,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.03337334376035139,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.2036842739522523
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.66,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.00013607246912679394,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.0011427500020388462
+    },
+    {
+      "N": 9,
+      "B_end_T": 1.66,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -0.0010035937204684459,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.07159813531229496
+    },
+    {
+      "N": 12,
+      "B_end_T": 0.0,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -1.062902334445252e-06,
+      "delta_Q_entropy_budget_mJ_per_cm3": 4.3799913562847514e-05
+    },
+    {
+      "N": 12,
+      "B_end_T": 0.0,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.0006274360848123929,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.05841060753093552
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.3,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -0.0003773536307790093,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.0029694475104675155
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.3,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.011182845097538502,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.02611461887752986
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.5,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -4.862219227070794e-05,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.00033704366576620126
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.5,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -0.0022532176687916107,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.08147820353164131
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.66,
+      "model": "XXZ_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": 0.00028877568272005216,
+      "delta_Q_entropy_budget_mJ_per_cm3": 0.002364758958740887
+    },
+    {
+      "N": 12,
+      "B_end_T": 1.66,
+      "model": "XXZ_plus_nn_dipoles_plus_additional_Jpp",
+      "delta_S_cold_kB_per_spin": -0.04017812905415298,
+      "delta_Q_entropy_budget_mJ_per_cm3": -0.38517195121151054
+    }
+  ],
+  "elapsed_seconds": 79.3925171000883
+}

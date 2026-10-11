@@ -1,0 +1,38 @@
+{
+  "title": "NBCP magnetocaloric model risk and quantum spectral flow",
+  "description": "Reproducible public-data analysis of how long-range dipolar coupling, bond-dependent exchange, and interlayer exchange affect sub-kelvin magnetic-refrigeration operating decisions in Na2BaCo(PO4)2. The release includes classical finite-size and thermodynamic-limit calculations, engineering decision maps, ideal N=6/9/12 quantum-algorithm validation, and a scoped IBM Open Plan hardware pilot. No quantum advantage is claimed.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "0.1.0",
+  "creators": [
+    {
+      "name": "Lee, Ugwiyeon",
+      "affiliation": "Korea Gas Safety Corporation",
+      "orcid": "0009-0008-8976-5363"
+    },
+    {
+      "name": "Bae, Seong-Yun",
+      "affiliation": "Korea Gas Safety Corporation",
+      "orcid": "0009-0003-8731-428X"
+    },
+    {
+      "name": "Kim, Hakrae",
+      "affiliation": "Korea Gas Safety Corporation",
+      "orcid": "0009-0002-5048-3568"
+    },
+    {
+      "name": "Lee, Jungsu",
+      "affiliation": "Korea Gas Safety Corporation",
+      "orcid": "0009-0006-9347-453X"
+    }
+  ],
+  "keywords": [
+    "magnetic refrigeration",
+    "frustrated quantum magnet",
+    "Na2BaCo(PO4)2",
+    "model uncertainty",
+    "quantum simulation",
+    "spectral flow"
+  ]
+}

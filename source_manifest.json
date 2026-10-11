@@ -1,0 +1,30 @@
+{
+  "access_date": "2026-10-11",
+  "paper_doi": "10.1038/s41586-023-06885-w",
+  "paper_url": "https://www.nature.com/articles/s41586-023-06885-w",
+  "model_source": "https://arxiv.org/html/2504.11298v1#S0.SS5",
+  "files": [
+    {
+      "file": "figure_2.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06885-w/MediaObjects/41586_2023_6885_MOESM2_ESM.xlsx",
+      "description": "Main figure 2: cooling and heat capacity",
+      "bytes": 61559,
+      "sha256": "6c0ff63711b67815e368a229a2ec53a60a338b7728f4b5cf1eb7657907c42c27"
+    },
+    {
+      "file": "extended_figure_4.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06885-w/MediaObjects/41586_2023_6885_MOESM6_ESM.xlsx",
+      "description": "Extended figure 4: nuclear/phonon corrections and entropy",
+      "bytes": 98585,
+      "sha256": "ee95f89f71d58c0ef06d16ed14afa6b5261a1c0018334f45c9bf902a16897805"
+    },
+    {
+      "file": "extended_figure_6.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06885-w/MediaObjects/41586_2023_6885_MOESM7_ESM.xlsx",
+      "description": "Extended figure 6: refrigeration comparisons and hold times",
+      "bytes": 367703,
+      "sha256": "26a31b0d22ff37f808763679b9aab3423d6eb6b68fb727d3e6cc02dfa068dbe7"
+    }
+  ],
+  "note": "Public source-data files; not a claim of access to every original laboratory log. Source files are preserved unchanged."
+}

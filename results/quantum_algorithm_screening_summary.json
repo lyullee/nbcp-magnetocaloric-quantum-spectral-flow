@@ -1,0 +1,39 @@
+{
+  "N6_end_to_end_ideal_QITE_QMETTS": {
+    "bias_K_per_spin": 5.126830264397716e-07,
+    "minimum_state_fidelity": 0.9998613725176133,
+    "transition_spectral_gap": 0.9886394367754958,
+    "decision": "PASS_ideal_observable_path_only"
+  },
+  "N9_exact_QMETTS_sampling": {
+    "spectral_gap_range": [
+      0.40152705041090175,
+      0.5578394806172235
+    ],
+    "independent_sample_range_for_1e-4_K_per_spin": [
+      27,
+      70
+    ],
+    "decision": "PASS_sampling_only"
+  },
+  "N9_QITE": {
+    "weight2_correlated_residual_range": [
+      0.1671709981442647,
+      0.2703337459658597
+    ],
+    "adaptive_best_residual_range": [
+      0.011507621574291934,
+      0.01850074478684935
+    ],
+    "decision": "STOP_current_QPU_depth"
+  },
+  "finite_difference_entropy_shots": {
+    "general_range": [
+      146556843,
+      154981473
+    ],
+    "stress_1p45T": 3874536808,
+    "decision": "STOP_Open_Plan"
+  },
+  "figure": "C:\\Users\\lyul\\Desktop\\DocuData\\\uc591\uc790\ucef4\ud4e8\ud130\\\uc790\uae30\ub0c9\ub3d9_\ud6c4\ubcf4\uac80\uc99d_20261011\\figures\\quantum_algorithm_screening.png"
+}

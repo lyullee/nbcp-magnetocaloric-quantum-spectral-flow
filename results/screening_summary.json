@@ -1,0 +1,887 @@
+{
+  "date": "2026-10-11",
+  "parameters": {
+    "Jxy_K": 0.88,
+    "Jz_K": 1.48,
+    "g_c": 4.89,
+    "mu_B_over_kB_K_per_T": 0.67171381563,
+    "magnetic_ions_per_cm3": 5.8e+21
+  },
+  "graphs": [
+    {
+      "N": 9,
+      "translations": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          -2
+        ]
+      ],
+      "degree": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "largest_sector_dimension": 126
+    },
+    {
+      "N": 12,
+      "translations": [
+        [
+          2,
+          2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "degree": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "largest_sector_dimension": 924
+    }
+  ],
+  "physical_checks": {
+    "9": {
+      "XXZ": {
+        "high_T_entropy_error": 3.503863865716994e-13,
+        "high_T_energy_K_per_spin": -7.010995136175819e-07,
+        "polarized_4T_Mz_per_spin_at_1mK": 0.5,
+        "dU_dT_minus_C": 2.9602154061336705e-12,
+        "dS_dT_minus_C_over_T": 9.649536725220287e-11
+      },
+      "Ising": {
+        "high_T_entropy_error": 2.0539125955565396e-13,
+        "high_T_energy_K_per_spin": -4.106995441387361e-07,
+        "polarized_4T_Mz_per_spin_at_1mK": 0.5,
+        "dU_dT_minus_C": 1.2486975342618223e-10,
+        "dS_dT_minus_C_over_T": 7.950758940111768e-10
+      }
+    },
+    "12": {
+      "XXZ": {
+        "high_T_entropy_error": 3.5060843117662444e-13,
+        "high_T_energy_K_per_spin": -7.010997294804033e-07,
+        "polarized_4T_Mz_per_spin_at_1mK": 0.5,
+        "dU_dT_minus_C": 8.512773819191466e-12,
+        "dS_dT_minus_C_over_T": 1.1846634784262733e-11
+      },
+      "Ising": {
+        "high_T_entropy_error": 2.0539125955565396e-13,
+        "high_T_energy_K_per_spin": -4.106996960804669e-07,
+        "polarized_4T_Mz_per_spin_at_1mK": 0.5,
+        "dU_dT_minus_C": 2.1147888995542985e-11,
+        "dS_dT_minus_C_over_T": 5.911308109673996e-10
+      }
+    }
+  },
+  "source_data_audit": {
+    "source_workbooks": {
+      "extended_figure_4.xlsx": {
+        "a": {
+          "rows": 26,
+          "columns": 8
+        },
+        "b": {
+          "rows": 13,
+          "columns": 3
+        },
+        "c": {
+          "rows": 175,
+          "columns": 10
+        },
+        "d": {
+          "rows": 137,
+          "columns": 10
+        },
+        "e": {
+          "rows": 137,
+          "columns": 8
+        },
+        "f": {
+          "rows": 137,
+          "columns": 8
+        },
+        "g": {
+          "rows": 137,
+          "columns": 8
+        },
+        "h": {
+          "rows": 479,
+          "columns": 10
+        },
+        "i": {
+          "rows": 62,
+          "columns": 10
+        },
+        "j": {
+          "rows": 64,
+          "columns": 10
+        }
+      },
+      "extended_figure_6.xlsx": {
+        "a": {
+          "rows": 1344,
+          "columns": 13
+        },
+        "b": {
+          "rows": 1344,
+          "columns": 6
+        },
+        "c": {
+          "rows": 508,
+          "columns": 4
+        },
+        "d": {
+          "rows": 3426,
+          "columns": 6
+        }
+      },
+      "figure_2.xlsx": {
+        "Figure 2a": {
+          "rows": 226,
+          "columns": 17
+        },
+        "Figure 2b": {
+          "rows": 217,
+          "columns": 8
+        },
+        "Figure 2c": {
+          "rows": 138,
+          "columns": 15
+        },
+        "Figure 2d": {
+          "rows": 163,
+          "columns": 5
+        }
+      }
+    },
+    "cooling_curves": [
+      {
+        "label": "Experiment: 3 T",
+        "points": 142,
+        "minimum_T_K": 0.261658323267586,
+        "field_at_minimum_T": 0.1621551636
+      },
+      {
+        "label": "Experiment: 3.5 T",
+        "points": 170,
+        "minimum_T_K": 0.134487378179536,
+        "field_at_minimum_T": 1.405233984
+      },
+      {
+        "label": "Experiment: 4 T",
+        "points": 221,
+        "minimum_T_K": 0.094097068227703,
+        "field_at_minimum_T": 1.49749619140625
+      },
+      {
+        "label": "Theory",
+        "points": 96,
+        "minimum_T_K": 0.0725062349672955,
+        "field_at_minimum_T": 1.6
+      },
+      {
+        "label": "Corrected",
+        "points": 5,
+        "minimum_T_K": 0.0705,
+        "field_at_minimum_T": 1.66
+      }
+    ],
+    "entropy_curves": [
+      {
+        "label": "NBCP_0 T",
+        "points": 90,
+        "T_range_K": [
+          0.08641,
+          11.786919
+        ],
+        "S_range_mJ_per_cm3_K": [
+          8.21008207534575,
+          55.2781809385583
+        ]
+      },
+      {
+        "label": "NBCP_4 T",
+        "points": 42,
+        "T_range_K": [
+          0.45489,
+          14.914132
+        ],
+        "S_range_mJ_per_cm3_K": [
+          0.0,
+          46.7768672557633
+        ]
+      }
+    ],
+    "notes": [
+      "Corrected points use experimental entropy and are not independent thermometer observations.",
+      "Theory columns are published XTRG calculations, not observations.",
+      "All spreadsheet headers/units have been inspected; original workbook bytes are unchanged."
+    ],
+    "measured_entropy_at_2K_4T_mJ_per_cm3_K": 6.687726300709299,
+    "source_equilibrium_hold_leg": [
+      {
+        "T_cold_K": 0.1,
+        "B_end_T": 0.0,
+        "T_hot_K": 2.0,
+        "B_hot_T": 4.0,
+        "Q_cold_mJ_per_cm3": 0.26279580044764295,
+        "S_end_mJ_per_cm3_K": 9.315684305185728,
+        "warning": "Endpoint entropy budget only. Reachability of the full cycle, heat switches, ramp time, phonons and nuclear heat are not modelled."
+      },
+      {
+        "T_cold_K": 0.2,
+        "B_end_T": 0.0,
+        "T_hot_K": 2.0,
+        "B_hot_T": 4.0,
+        "Q_cold_mJ_per_cm3": 2.5227074411524324,
+        "S_end_mJ_per_cm3_K": 19.30126350647146,
+        "warning": "Endpoint entropy budget only. Reachability of the full cycle, heat switches, ramp time, phonons and nuclear heat are not modelled."
+      },
+      {
+        "T_cold_K": 0.3,
+        "B_end_T": 0.0,
+        "T_hot_K": 2.0,
+        "B_hot_T": 4.0,
+        "Q_cold_mJ_per_cm3": 5.437883008838113,
+        "S_end_mJ_per_cm3_K": 24.81400299683634,
+        "warning": "Endpoint entropy budget only. Reachability of the full cycle, heat switches, ramp time, phonons and nuclear heat are not modelled."
+      }
+    ],
+    "measured_field_candidates_100mK": [
+      {
+        "B_end_T": 0.0,
+        "S_cold_mJ_per_cm3_K": 9.315684305185728,
+        "T_cold_K": 0.1,
+        "Q_entropy_budget_mJ_per_cm3": 0.26279580044764295
+      },
+      {
+        "B_end_T": 1.3,
+        "S_cold_mJ_per_cm3_K": 6.986590091605752,
+        "T_cold_K": 0.1,
+        "Q_entropy_budget_mJ_per_cm3": 0.02988637908964531
+      },
+      {
+        "B_end_T": 1.5,
+        "S_cold_mJ_per_cm3_K": 13.910555551572754,
+        "T_cold_K": 0.1,
+        "Q_entropy_budget_mJ_per_cm3": 0.7222829250863456
+      },
+      {
+        "B_end_T": 1.66,
+        "S_cold_mJ_per_cm3_K": 9.810908065033873,
+        "T_cold_K": 0.1,
+        "Q_entropy_budget_mJ_per_cm3": 0.3123181764324574
+      }
+    ],
+    "conditional_decision_accuracy_target": {
+      "best_of_measured_candidates_T": 1.5,
+      "runner_up_of_measured_candidates_T": 1.66,
+      "Q_gap_mJ_per_cm3": 0.4099647486538882,
+      "equal_absolute_entropy_error_bound_each_endpoint_mJ_per_cm3_K": 2.049823743269441,
+      "equal_absolute_entropy_error_bound_each_endpoint_kB_per_spin": 0.025597953337205423,
+      "note": "Sufficient central-value ranking bound for two endpoint entropies with shared hot state; not an experimental confidence interval and not a full-cycle optimum. Other input and interpolation uncertainties must be added."
+    }
+  },
+  "cycle_screen": [
+    {
+      "N": 9,
+      "model": "XXZ",
+      "T_cold_K": 0.1,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 1.155,
+      "Q_opt_mJ_per_cm3": 0.8314320099200915,
+      "Q_B0_mJ_per_cm3": 0.6651657639952452,
+      "S_hot_kB_per_spin": 0.07098370437454096,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "XXZ",
+      "T_cold_K": 0.2,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 1.175,
+      "Q_opt_mJ_per_cm3": 2.064010621968153,
+      "Q_B0_mJ_per_cm3": 1.415471586027312,
+      "S_hot_kB_per_spin": 0.07098370437454096,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "XXZ",
+      "T_cold_K": 0.3,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 1.235,
+      "Q_opt_mJ_per_cm3": 3.813027819865551,
+      "Q_B0_mJ_per_cm3": 2.960110083561371,
+      "S_hot_kB_per_spin": 0.07098370437454096,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "XXZ",
+      "T_cold_K": 0.5,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 9.878977050197115,
+      "Q_B0_mJ_per_cm3": 9.878977050197115,
+      "S_hot_kB_per_spin": 0.07098370437454096,
+      "end_ground_state_entropy_kB_per_spin": 0.15403270679109896,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "Ising",
+      "T_cold_K": 0.1,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 2.796243597505916,
+      "Q_B0_mJ_per_cm3": 2.796243597505916,
+      "S_hot_kB_per_spin": 0.06610591703387818,
+      "end_ground_state_entropy_kB_per_spin": 0.4152966242537076,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "Ising",
+      "T_cold_K": 0.2,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 5.604279926102825,
+      "Q_B0_mJ_per_cm3": 5.604279926102825,
+      "S_hot_kB_per_spin": 0.06610591703387818,
+      "end_ground_state_entropy_kB_per_spin": 0.4152966242537076,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "Ising",
+      "T_cold_K": 0.3,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 8.543706832713594,
+      "Q_B0_mJ_per_cm3": 8.543706832713594,
+      "S_hot_kB_per_spin": 0.06610591703387818,
+      "end_ground_state_entropy_kB_per_spin": 0.4152966242537076,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 9,
+      "model": "Ising",
+      "T_cold_K": 0.5,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 15.578292797331777,
+      "Q_B0_mJ_per_cm3": 15.578292797331777,
+      "S_hot_kB_per_spin": 0.06610591703387818,
+      "end_ground_state_entropy_kB_per_spin": 0.4152966242537076,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "XXZ",
+      "T_cold_K": 0.1,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 1.135,
+      "Q_opt_mJ_per_cm3": 0.626731908360915,
+      "Q_B0_mJ_per_cm3": -0.5527666084300797,
+      "S_hot_kB_per_spin": 0.0712037274873878,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "XXZ",
+      "T_cold_K": 0.2,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 1.195,
+      "Q_opt_mJ_per_cm3": 1.69410234833859,
+      "Q_B0_mJ_per_cm3": -0.08662935651314912,
+      "S_hot_kB_per_spin": 0.0712037274873878,
+      "end_ground_state_entropy_kB_per_spin": 0.057762265046662105,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "XXZ",
+      "T_cold_K": 0.3,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.28,
+      "Q_opt_mJ_per_cm3": 3.8297646549910866,
+      "Q_B0_mJ_per_cm3": 2.907434477259228,
+      "S_hot_kB_per_spin": 0.0712037274873878,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "XXZ",
+      "T_cold_K": 0.5,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 11.310821064132602,
+      "Q_B0_mJ_per_cm3": 11.310821064132602,
+      "S_hot_kB_per_spin": 0.0712037274873878,
+      "end_ground_state_entropy_kB_per_spin": 0.0,
+      "ground_entropy_exceeds_hot_entropy": false,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "Ising",
+      "T_cold_K": 0.1,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 2.665390848896405,
+      "Q_B0_mJ_per_cm3": 2.665390848896405,
+      "S_hot_kB_per_spin": 0.06610889533124542,
+      "end_ground_state_entropy_kB_per_spin": 0.39895764523183713,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "Ising",
+      "T_cold_K": 0.2,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 5.35951946286871,
+      "Q_B0_mJ_per_cm3": 5.35951946286871,
+      "S_hot_kB_per_spin": 0.06610889533124542,
+      "end_ground_state_entropy_kB_per_spin": 0.39895764523183713,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "Ising",
+      "T_cold_K": 0.3,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 8.353985122677832,
+      "Q_B0_mJ_per_cm3": 8.353985122677832,
+      "S_hot_kB_per_spin": 0.06610889533124542,
+      "end_ground_state_entropy_kB_per_spin": 0.39895764523183713,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    },
+    {
+      "N": 12,
+      "model": "Ising",
+      "T_cold_K": 0.5,
+      "T_hot_K": 2.0,
+      "B_hot_T": 4.0,
+      "B_end_opt_grid_T": 0.0,
+      "Q_opt_mJ_per_cm3": 16.131950662866874,
+      "Q_B0_mJ_per_cm3": 16.131950662866874,
+      "S_hot_kB_per_spin": 0.06610889533124542,
+      "end_ground_state_entropy_kB_per_spin": 0.39895764523183713,
+      "ground_entropy_exceeds_hot_entropy": true,
+      "scope": "Endpoint entropy budget, not verified cycle reachability"
+    }
+  ],
+  "elapsed_seconds": 1.6567712998948991,
+  "scope": [
+    "Exact diagonalization on a classical PC, not a quantum circuit or hardware execution.",
+    "N=9 and N=12 finite clusters are exact for those graphs, not a bulk convergence demonstration.",
+    "Ising is an ablation with Jxy set to zero, not the strongest classical algorithm for XXZ.",
+    "Q is the endpoint entropy budget conditional on a reversible cold hold leg. Full-cycle reachability has not been demonstrated; not device cooling power or electrical COP.",
+    "No new proof of quantum advantage and no finite-rate spin-phonon model.",
+    "Longitudinal-field sweeps commute with the XXZ exchange Hamiltonian; a closed-system ramp alone cannot establish thermalization."
+  ]
+}

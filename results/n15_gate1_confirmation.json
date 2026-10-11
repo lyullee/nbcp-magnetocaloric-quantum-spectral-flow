@@ -1,0 +1,317 @@
+{
+  "scope": "N=15 high-accuracy three-field confirmation",
+  "settings": {
+    "random_vectors": 8,
+    "krylov_dim": 50,
+    "exact_low_states": 16,
+    "seed": 20261011
+  },
+  "rows": [
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.11859180884959432
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.11077143683060138
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10622663004438901
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.10796962156146753
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.11932295526915195
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10761293596315515
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.11970255289543782
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.11534715514689227
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.11206987035585035
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.11023762582415522
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.12140589359540878
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.1136465527900255
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.12245291631459244
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.12350678545512735
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.12275351471571447
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.11432980623586661
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.12582098436078895
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.1241753336617894
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.12838311174108483
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.13502904367220375
+    },
+    {
+      "N": 15,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.13756873124465274
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.12088556305620372
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.15,
+      "entropy_kB_per_spin": 0.1338087063054759
+    },
+    {
+      "N": 15,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.13823280710893837
+    }
+  ],
+  "comparison": [
+    {
+      "temperature_K": 0.09,
+      "M0_B_T": 1.1,
+      "M3_B_T": 1.15,
+      "delta_B_T": 0.04999999999999982,
+      "M0_ranking": [
+        [
+          1.1,
+          0.11859180884959432
+        ],
+        [
+          1.15,
+          0.11077143683060138
+        ],
+        [
+          1.2,
+          0.10622663004438901
+        ]
+      ],
+      "M3_ranking": [
+        [
+          1.15,
+          0.11932295526915195
+        ],
+        [
+          1.1,
+          0.10796962156146753
+        ],
+        [
+          1.2,
+          0.10761293596315515
+        ]
+      ]
+    },
+    {
+      "temperature_K": 0.1,
+      "M0_B_T": 1.1,
+      "M3_B_T": 1.15,
+      "delta_B_T": 0.04999999999999982,
+      "M0_ranking": [
+        [
+          1.1,
+          0.11970255289543782
+        ],
+        [
+          1.15,
+          0.11534715514689227
+        ],
+        [
+          1.2,
+          0.11206987035585035
+        ]
+      ],
+      "M3_ranking": [
+        [
+          1.15,
+          0.12140589359540878
+        ],
+        [
+          1.2,
+          0.1136465527900255
+        ],
+        [
+          1.1,
+          0.11023762582415522
+        ]
+      ]
+    },
+    {
+      "temperature_K": 0.12,
+      "M0_B_T": 1.15,
+      "M3_B_T": 1.15,
+      "delta_B_T": 0.0,
+      "M0_ranking": [
+        [
+          1.15,
+          0.12350678545512735
+        ],
+        [
+          1.2,
+          0.12275351471571447
+        ],
+        [
+          1.1,
+          0.12245291631459244
+        ]
+      ],
+      "M3_ranking": [
+        [
+          1.15,
+          0.12582098436078895
+        ],
+        [
+          1.2,
+          0.1241753336617894
+        ],
+        [
+          1.1,
+          0.11432980623586661
+        ]
+      ]
+    },
+    {
+      "temperature_K": 0.15,
+      "M0_B_T": 1.2,
+      "M3_B_T": 1.2,
+      "delta_B_T": 0.0,
+      "M0_ranking": [
+        [
+          1.2,
+          0.13756873124465274
+        ],
+        [
+          1.15,
+          0.13502904367220375
+        ],
+        [
+          1.1,
+          0.12838311174108483
+        ]
+      ],
+      "M3_ranking": [
+        [
+          1.2,
+          0.13823280710893837
+        ],
+        [
+          1.15,
+          0.1338087063054759
+        ],
+        [
+          1.1,
+          0.12088556305620372
+        ]
+      ]
+    }
+  ]
+}

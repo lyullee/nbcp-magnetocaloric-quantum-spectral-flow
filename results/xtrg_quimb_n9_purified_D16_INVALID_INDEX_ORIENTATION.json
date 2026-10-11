@@ -1,0 +1,234 @@
+{
+  "purpose": "N=9 exact validation of positive MPO-factor thermal squaring; not a bulk claim",
+  "representation": "rho=X_dagger_X; X approximates exp(-beta H/2)/sqrt(Z)",
+  "model": "M0 current 2026 parameters",
+  "N": 9,
+  "field_T": 1.5,
+  "target_temperature_K": 0.09,
+  "squarings": 18,
+  "initial_beta_K_inv": 4.238552517361111e-05,
+  "hamiltonian_initial_max_bond": 17,
+  "hamiltonian_MPO_dense_max_abs_error": 3.552713678800501e-15,
+  "software": {
+    "python": "3.14.8",
+    "numpy": "2.5.3",
+    "quimb": "1.15.0"
+  },
+  "runs": [
+    {
+      "max_bond": 16,
+      "wall_s": 31.836289200000465,
+      "final": {
+        "beta_K_inv": 11.11111111111111,
+        "temperature_K": 0.09,
+        "logZ": 143.90384626273928,
+        "energy_K": -12.650260386418575,
+        "entropy_kB_per_spin": 0.37171083608390315,
+        "rho_trace": 0.999999999999999,
+        "factor_max_bond": 16,
+        "exact": {
+          "logZ": 141.4309790522845,
+          "energy_K": -12.635176879936475,
+          "entropy_kB_per_spin": 0.11556942564090239
+        },
+        "errors": {
+          "energy_K": -0.015083506482099551,
+          "entropy_kB_per_spin": 0.25614141044300076,
+          "logZ": 2.4728672104547798
+        },
+        "step": 18,
+        "elapsed_s": 6.405900100013241
+      },
+      "diagnostic": {
+        "final_hermitian_max_abs_error": 0.0001415916858583728,
+        "final_min_density_eigenvalue": -1.3573024517815925e-07,
+        "final_max_density_eigenvalue": 0.560366033851799
+      },
+      "trajectory": [
+        {
+          "step": 0,
+          "beta_K_inv": 4.238552517361111e-05,
+          "temperature_K": 23592.96,
+          "logZ": 6.238324650627043,
+          "rho_trace": 1.0,
+          "factor_max_bond": 18,
+          "elapsed_s": 0.0
+        },
+        {
+          "beta_K_inv": 8.477105034722222e-05,
+          "temperature_K": 11796.48,
+          "logZ": 6.238324778552035,
+          "rho_trace": 1.0,
+          "factor_max_bond": 10,
+          "step": 1,
+          "elapsed_s": 1.6765646999701858
+        },
+        {
+          "beta_K_inv": 0.00016954210069444444,
+          "temperature_K": 5898.24,
+          "logZ": 6.238325341312899,
+          "rho_trace": 1.0,
+          "factor_max_bond": 10,
+          "step": 2,
+          "elapsed_s": 0.08731419988907874
+        },
+        {
+          "beta_K_inv": 0.0003390842013888889,
+          "temperature_K": 2949.12,
+          "logZ": 6.238327693768015,
+          "rho_trace": 1.0,
+          "factor_max_bond": 10,
+          "step": 3,
+          "elapsed_s": 0.07947700005024672
+        },
+        {
+          "beta_K_inv": 0.0006781684027777778,
+          "temperature_K": 1474.56,
+          "logZ": 6.238337300735001,
+          "rho_trace": 1.0,
+          "factor_max_bond": 10,
+          "step": 4,
+          "elapsed_s": 0.07453510002233088
+        },
+        {
+          "beta_K_inv": 0.0013563368055555555,
+          "temperature_K": 737.28,
+          "logZ": 6.238376077548668,
+          "rho_trace": 1.0,
+          "factor_max_bond": 10,
+          "step": 5,
+          "elapsed_s": 0.06866330001503229
+        },
+        {
+          "beta_K_inv": 0.002712673611111111,
+          "temperature_K": 368.64,
+          "logZ": 6.2385315209979515,
+          "rho_trace": 1.0,
+          "factor_max_bond": 12,
+          "step": 6,
+          "elapsed_s": 0.07795519987121224
+        },
+        {
+          "beta_K_inv": 0.005425347222222222,
+          "temperature_K": 184.32,
+          "logZ": 6.2391510912435395,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 7,
+          "elapsed_s": 0.4781047999858856
+        },
+        {
+          "beta_K_inv": 0.010850694444444444,
+          "temperature_K": 92.16,
+          "logZ": 6.241602244881909,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 8,
+          "elapsed_s": 1.0112656999845058
+        },
+        {
+          "beta_K_inv": 0.021701388888888888,
+          "temperature_K": 46.08,
+          "logZ": 6.251175518329381,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 9,
+          "elapsed_s": 0.9692500000819564
+        },
+        {
+          "beta_K_inv": 0.043402777777777776,
+          "temperature_K": 23.04,
+          "logZ": 6.287665417562678,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 10,
+          "elapsed_s": 1.0851040999405086
+        },
+        {
+          "beta_K_inv": 0.08680555555555555,
+          "temperature_K": 11.52,
+          "logZ": 6.420501713197638,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 11,
+          "elapsed_s": 1.337994899833575
+        },
+        {
+          "beta_K_inv": 0.1736111111111111,
+          "temperature_K": 5.76,
+          "logZ": 6.866590465176588,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 12,
+          "elapsed_s": 2.0671053999103606
+        },
+        {
+          "beta_K_inv": 0.3472222222222222,
+          "temperature_K": 2.88,
+          "logZ": 8.195368361464386,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 13,
+          "elapsed_s": 1.4816634999588132
+        },
+        {
+          "beta_K_inv": 0.6944444444444444,
+          "temperature_K": 1.44,
+          "logZ": 11.646227355013536,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 14,
+          "elapsed_s": 1.3637576000764966
+        },
+        {
+          "beta_K_inv": 1.3888888888888888,
+          "temperature_K": 0.72,
+          "logZ": 19.628976426957937,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 15,
+          "elapsed_s": 0.9851555998902768
+        },
+        {
+          "beta_K_inv": 2.7777777777777777,
+          "temperature_K": 0.36,
+          "logZ": 36.82957578056917,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 16,
+          "elapsed_s": 1.0303837999235839
+        },
+        {
+          "beta_K_inv": 5.555555555555555,
+          "temperature_K": 0.18,
+          "logZ": 72.35127667860655,
+          "rho_trace": 1.0,
+          "factor_max_bond": 16,
+          "step": 17,
+          "elapsed_s": 1.0250940998084843
+        },
+        {
+          "beta_K_inv": 11.11111111111111,
+          "temperature_K": 0.09,
+          "logZ": 143.90384626273928,
+          "energy_K": -12.650260386418575,
+          "entropy_kB_per_spin": 0.37171083608390315,
+          "rho_trace": 0.999999999999999,
+          "factor_max_bond": 16,
+          "exact": {
+            "logZ": 141.4309790522845,
+            "energy_K": -12.635176879936475,
+            "entropy_kB_per_spin": 0.11556942564090239
+          },
+          "errors": {
+            "energy_K": -0.015083506482099551,
+            "entropy_kB_per_spin": 0.25614141044300076,
+            "logZ": 2.4728672104547798
+          },
+          "step": 18,
+          "elapsed_s": 6.405900100013241
+        }
+      ]
+    }
+  ]
+}

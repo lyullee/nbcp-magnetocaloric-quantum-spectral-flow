@@ -1,0 +1,25 @@
+{
+  "purpose": "second-stage quantum algorithm screening summary",
+  "comparison_condition": {
+    "field_T": 1.45,
+    "temperature_K": 0.1,
+    "entropy_error_kB_per_spin": 0.001
+  },
+  "shot_comparison": {
+    "Finite\ndifference": 154981473,
+    "Ideal\ncovariance": 78988501,
+    "Low spectrum\nfull H": 6153116,
+    "Spectral flow\nN=9": 38272,
+    "Spectral flow\nN=12": 45638
+  },
+  "selected_route": "low-energy spectral flow of V=M3-M0",
+  "N9_general_shot_range": [
+    12658,
+    330473
+  ],
+  "N12_general_shot_range": [
+    21506,
+    135794
+  ],
+  "figure": "C:\\Users\\lyul\\Desktop\\DocuData\\\uc591\uc790\ucef4\ud4e8\ud130\\\uc790\uae30\ub0c9\ub3d9_\ud6c4\ubcf4\uac80\uc99d_20261011\\figures\\quantum_algorithm_second_screen.png"
+}

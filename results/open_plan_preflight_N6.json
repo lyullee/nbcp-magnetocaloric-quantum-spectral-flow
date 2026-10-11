@@ -1,0 +1,369 @@
+{
+  "purpose": "read-only live Open Plan preflight for the N=6 QPU pilot",
+  "created_utc": "2026-10-11T16:04:19.820972+00:00",
+  "runtime": {
+    "qiskit": "2.5.2",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "account": {
+    "saved_name": "psa_open",
+    "channel": "ibm_quantum_platform",
+    "region": "us-east",
+    "plans_preference": [
+      "open"
+    ],
+    "credential_or_instance_identifier_recorded": false
+  },
+  "open_plan_usage": {
+    "usage_consumed_seconds": 117,
+    "usage_consumed_ru": 1.905,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 483,
+    "usage_period": {
+      "start_time": "2026-09-13T16:04:11.595Z",
+      "end_time": "2026-10-11T16:04:11.595Z"
+    }
+  },
+  "visible_operational_backends": [
+    {
+      "name": "ibm_fez",
+      "num_qubits": 156,
+      "operational": true,
+      "pending_jobs": 0,
+      "status_message": "active"
+    },
+    {
+      "name": "ibm_kingston",
+      "num_qubits": 156,
+      "operational": true,
+      "pending_jobs": 0,
+      "status_message": "active"
+    },
+    {
+      "name": "ibm_marrakesh",
+      "num_qubits": 156,
+      "operational": true,
+      "pending_jobs": 2,
+      "status_message": "active"
+    }
+  ],
+  "chosen_backend": "ibm_fez",
+  "source": "results/spectral_flow_circuit_unit_N6.json",
+  "compiled_circuits": [
+    {
+      "lambda": 0.1127016653792583,
+      "level": 0,
+      "depth": 271,
+      "operation_count": 601,
+      "two_qubit_gate_count": 80,
+      "operation_counts": {
+        "delay": 213,
+        "sx": 172,
+        "rz": 133,
+        "cz": 80,
+        "x": 3
+      },
+      "scheduled_duration_seconds": 7.1880000000000005e-06,
+      "duration_over_median_T1": 0.037322256546658106,
+      "duration_over_median_T2": 0.03927455446950971,
+      "calibration_product_all_gates": 0.8132082176407028,
+      "calibration_product_two_qubit_gates": 0.8446197590502488,
+      "sum_reported_gate_errors": 0.20658367027109786,
+      "sum_reported_two_qubit_errors": 0.16868902669832242,
+      "counted_gates": 388,
+      "counted_two_qubit_gates": 80,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "level": 1,
+      "depth": 285,
+      "operation_count": 619,
+      "two_qubit_gate_count": 84,
+      "operation_counts": {
+        "delay": 217,
+        "sx": 176,
+        "rz": 136,
+        "cz": 84,
+        "x": 6
+      },
+      "scheduled_duration_seconds": 7.6280000000000005e-06,
+      "duration_over_median_T1": 0.03960686880048803,
+      "duration_over_median_T2": 0.041678672995745694,
+      "calibration_product_all_gates": 0.805343418904086,
+      "calibration_product_two_qubit_gates": 0.8376187948723006,
+      "sum_reported_gate_errors": 0.21629324992527543,
+      "sum_reported_two_qubit_errors": 0.17700381112753605,
+      "counted_gates": 402,
+      "counted_two_qubit_gates": 84,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "level": 2,
+      "depth": 290,
+      "operation_count": 627,
+      "two_qubit_gate_count": 84,
+      "operation_counts": {
+        "delay": 217,
+        "sx": 178,
+        "rz": 142,
+        "cz": 84,
+        "x": 6
+      },
+      "scheduled_duration_seconds": 7.676e-06,
+      "duration_over_median_T1": 0.03985609922817857,
+      "duration_over_median_T2": 0.04194094047133508,
+      "calibration_product_all_gates": 0.8049247165949457,
+      "calibration_product_two_qubit_gates": 0.8376187948723006,
+      "sum_reported_gate_errors": 0.21681322178204757,
+      "sum_reported_two_qubit_errors": 0.17700381112753605,
+      "counted_gates": 410,
+      "counted_two_qubit_gates": 84,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.5,
+      "level": 0,
+      "depth": 279,
+      "operation_count": 608,
+      "two_qubit_gate_count": 84,
+      "operation_counts": {
+        "delay": 217,
+        "sx": 172,
+        "rz": 132,
+        "cz": 84,
+        "x": 3
+      },
+      "scheduled_duration_seconds": 7.508000000000001e-06,
+      "duration_over_median_T1": 0.03898379273126169,
+      "duration_over_median_T2": 0.04102300430677225,
+      "calibration_product_all_gates": 0.8062764340529278,
+      "calibration_product_two_qubit_gates": 0.8376187948723006,
+      "sum_reported_gate_errors": 0.21513548643758534,
+      "sum_reported_two_qubit_errors": 0.17700381112753605,
+      "counted_gates": 391,
+      "counted_two_qubit_gates": 84,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.5,
+      "level": 1,
+      "depth": 278,
+      "operation_count": 610,
+      "two_qubit_gate_count": 80,
+      "operation_counts": {
+        "delay": 213,
+        "sx": 178,
+        "rz": 135,
+        "cz": 80,
+        "x": 4
+      },
+      "scheduled_duration_seconds": 7.356e-06,
+      "duration_over_median_T1": 0.038194563043574985,
+      "duration_over_median_T2": 0.04019249063407254,
+      "calibration_product_all_gates": 0.8117792239421396,
+      "calibration_product_two_qubit_gates": 0.8446197590502488,
+      "sum_reported_gate_errors": 0.20834219273891258,
+      "sum_reported_two_qubit_errors": 0.16868902669832242,
+      "counted_gates": 397,
+      "counted_two_qubit_gates": 80,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.5,
+      "level": 2,
+      "depth": 287,
+      "operation_count": 608,
+      "two_qubit_gate_count": 80,
+      "operation_counts": {
+        "delay": 213,
+        "sx": 179,
+        "rz": 135,
+        "cz": 80,
+        "x": 1
+      },
+      "scheduled_duration_seconds": 7.356e-06,
+      "duration_over_median_T1": 0.038194563043574985,
+      "duration_over_median_T2": 0.04019249063407254,
+      "calibration_product_all_gates": 0.8120921696425,
+      "calibration_product_two_qubit_gates": 0.8446197590502488,
+      "sum_reported_gate_errors": 0.2079568077999822,
+      "sum_reported_two_qubit_errors": 0.16868902669832242,
+      "counted_gates": 395,
+      "counted_two_qubit_gates": 80,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "level": 0,
+      "depth": 281,
+      "operation_count": 619,
+      "two_qubit_gate_count": 84,
+      "operation_counts": {
+        "delay": 217,
+        "sx": 172,
+        "rz": 139,
+        "cz": 84,
+        "x": 7
+      },
+      "scheduled_duration_seconds": 7.532e-06,
+      "duration_over_median_T1": 0.039108407945106956,
+      "duration_over_median_T2": 0.04115413804456693,
+      "calibration_product_all_gates": 0.8054578018258054,
+      "calibration_product_two_qubit_gates": 0.8376187948723006,
+      "sum_reported_gate_errors": 0.2161511794649847,
+      "sum_reported_two_qubit_errors": 0.17700381112753605,
+      "counted_gates": 402,
+      "counted_two_qubit_gates": 84,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "level": 1,
+      "depth": 277,
+      "operation_count": 601,
+      "two_qubit_gate_count": 80,
+      "operation_counts": {
+        "delay": 213,
+        "sx": 176,
+        "rz": 130,
+        "cz": 80,
+        "x": 2
+      },
+      "scheduled_duration_seconds": 7.308e-06,
+      "duration_over_median_T1": 0.037945332615884446,
+      "duration_over_median_T2": 0.03993022315848316,
+      "calibration_product_all_gates": 0.8126666230946725,
+      "calibration_product_two_qubit_gates": 0.8446197590502488,
+      "sum_reported_gate_errors": 0.20724981020927694,
+      "sum_reported_two_qubit_errors": 0.16868902669832242,
+      "counted_gates": 388,
+      "counted_two_qubit_gates": 80,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "level": 2,
+      "depth": 288,
+      "operation_count": 615,
+      "two_qubit_gate_count": 84,
+      "operation_counts": {
+        "delay": 217,
+        "sx": 176,
+        "rz": 135,
+        "cz": 84,
+        "x": 3
+      },
+      "scheduled_duration_seconds": 7.604e-06,
+      "duration_over_median_T1": 0.039482253586642764,
+      "duration_over_median_T2": 0.041547539257951,
+      "calibration_product_all_gates": 0.8058877175649729,
+      "calibration_product_two_qubit_gates": 0.8376187948723006,
+      "sum_reported_gate_errors": 0.21561771394378093,
+      "sum_reported_two_qubit_errors": 0.17700381112753605,
+      "counted_gates": 398,
+      "counted_two_qubit_gates": 84,
+      "used_physical_qubits": [
+        1,
+        2,
+        3,
+        4,
+        16,
+        23
+      ],
+      "missing_error_entries": []
+    }
+  ],
+  "decision": "GO_MINIMAL_TREX_PILOT",
+  "decision_basis": {
+    "minimum_calibration_product_all_gates": 0.8049247165949457,
+    "maximum_duration_over_median_T1": 0.03985609922817857,
+    "maximum_duration_over_median_T2": 0.04194094047133508,
+    "maximum_two_qubit_gate_count": 84
+  },
+  "proposed_minimal_pilot": {
+    "scope": "central Gauss-Legendre node, ground state, V expectation",
+    "lambda": 0.5,
+    "level": 0,
+    "resilience_level": 1,
+    "mitigation": "TREX readout mitigation; no ZNE in first run",
+    "target_precision": 0.05,
+    "job_submitted_by_this_script": false,
+    "scientific_claim": "execution-path demonstration only; no material conclusion"
+  },
+  "scope_limits": [
+    "Calibration products use the backend snapshot visible during preflight and are not circuit fidelities.",
+    "The selected backend and calibration can change before submission.",
+    "The returned usage period is recorded verbatim and must be refreshed immediately before a job.",
+    "The script does not submit a job and cannot consume QPU time.",
+    "N=6 is a circuit proof only; material conclusions require the N=9/N=12 simulator evidence."
+  ],
+  "elapsed_seconds": 11.032710700063035
+}

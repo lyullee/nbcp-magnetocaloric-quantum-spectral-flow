@@ -1,0 +1,351 @@
+{
+  "purpose": "finite-time exact-dynamics Jarzynski shot-depth tradeoff at the sign-change field",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "field_T": 1.45,
+  "ramp": {
+    "path": "linear M0 to M3",
+    "piecewise_constant_exact_slices": 24,
+    "times_inverse_K": [
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0
+    ]
+  },
+  "optimistic_first_order_Pauli_slice_resource": {
+    "midpoint_pauli_terms": 153,
+    "all_to_all_CX_per_slice": 144,
+    "all_to_all_depth_per_slice": 244,
+    "projected_CX_for_ramp": 3456
+  },
+  "rows": [
+    {
+      "ramp_time_inverse_K": 0.25,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038566,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -1.942890293094024e-15,
+      "relative_variance_exp_betaW": 1.97998698092078e+170,
+      "thermal_same_rank_survival_probability": 0.5851157710769428,
+      "budgets": {
+        "general": {
+          "log10_shots": 176.6446545220019,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 178.04259453067394,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 0.25,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326963,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -4.3021142204224816e-16,
+      "relative_variance_exp_betaW": 5.319427836306504e+152,
+      "thermal_same_rank_survival_probability": 0.588041887013175,
+      "budgets": {
+        "general": {
+          "log10_shots": 159.1607884965251,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 160.55872850519714,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 0.5,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038545,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -2.1510571102112408e-15,
+      "relative_variance_exp_betaW": 1.7154824973113885e+168,
+      "thermal_same_rank_survival_probability": 0.5854162997824659,
+      "budgets": {
+        "general": {
+          "log10_shots": 174.58237847876725,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 175.9803184874393,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 0.5,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326941,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -6.522560269672795e-16,
+      "relative_variance_exp_betaW": 4.608810783409168e+150,
+      "thermal_same_rank_survival_probability": 0.5883411886195656,
+      "budgets": {
+        "general": {
+          "log10_shots": 157.0985124532801,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 158.49645246195215,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 1.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.1238796966103856,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -1.9984014443252818e-15,
+      "relative_variance_exp_betaW": 5.187440391171216e+166,
+      "thermal_same_rank_survival_probability": 0.5857829606553704,
+      "budgets": {
+        "general": {
+          "log10_shots": 173.06294530663803,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 174.46088531531007,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 1.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326955,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -5.134781488891349e-16,
+      "relative_variance_exp_betaW": 1.3936563750318714e+149,
+      "thermal_same_rank_survival_probability": 0.5887033108246428,
+      "budgets": {
+        "general": {
+          "log10_shots": 155.57907928066433,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 156.97701928933637,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 2.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.1238796966103856,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -1.9984014443252818e-15,
+      "relative_variance_exp_betaW": 4.3601480689448805e+164,
+      "thermal_same_rank_survival_probability": 0.5858425738767007,
+      "budgets": {
+        "general": {
+          "log10_shots": 170.98749342535496,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 172.385433434027,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 2.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326957,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -4.85722573273506e-16,
+      "relative_variance_exp_betaW": 1.1713962095984007e+147,
+      "thermal_same_rank_survival_probability": 0.5887631415890574,
+      "budgets": {
+        "general": {
+          "log10_shots": 153.50362738933018,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 154.90156739800221,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 5.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038557,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -2.0261570199409107e-15,
+      "relative_variance_exp_betaW": 1.7734247824793484e+166,
+      "thermal_same_rank_survival_probability": 0.5858672981396429,
+      "budgets": {
+        "general": {
+          "log10_shots": 172.59680496052232,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 173.99474496919436,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 5.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326955,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -5.134781488891349e-16,
+      "relative_variance_exp_betaW": 4.7644783747744215e+148,
+      "thermal_same_rank_survival_probability": 0.5887874828753994,
+      "budgets": {
+        "general": {
+          "log10_shots": 155.11293893501863,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 156.51087894369067,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 10.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038549,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -2.1094237467877974e-15,
+      "relative_variance_exp_betaW": 2.598357584125956e+166,
+      "thermal_same_rank_survival_probability": 0.5858712904193749,
+      "budgets": {
+        "general": {
+          "log10_shots": 172.76269110551124,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 174.16063111418327,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 10.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326941,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -6.522560269672795e-16,
+      "relative_variance_exp_betaW": 6.980740675298457e+148,
+      "thermal_same_rank_survival_probability": 0.5887914452403932,
+      "budgets": {
+        "general": {
+          "log10_shots": 155.27882507980186,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 156.6767650884739,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 20.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038549,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -2.1094237467877974e-15,
+      "relative_variance_exp_betaW": 2.589892135316917e+163,
+      "thermal_same_rank_survival_probability": 0.585866232812558,
+      "budgets": {
+        "general": {
+          "log10_shots": 169.7612738641809,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 171.15921387285294,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 20.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.12378362752326946,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -5.967448757360216e-16,
+      "relative_variance_exp_betaW": 6.957995261180033e+145,
+      "thermal_same_rank_survival_probability": 0.5887864017260475,
+      "budgets": {
+        "general": {
+          "log10_shots": 152.2774077035558,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 153.67534771222785,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 50.0,
+      "temperature_K": 0.095,
+      "jarzynski_delta_F_K": 0.12387969661038557,
+      "exact_delta_F_K": 0.1238796966103876,
+      "identity_error_K": -2.0261570199409107e-15,
+      "relative_variance_exp_betaW": 6.181248951349151e+165,
+      "thermal_same_rank_survival_probability": 0.5858590801602821,
+      "budgets": {
+        "general": {
+          "log10_shots": 172.13906842262608,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 173.53700843129812,
+          "shots": null
+        }
+      }
+    },
+    {
+      "ramp_time_inverse_K": 50.0,
+      "temperature_K": 0.105,
+      "jarzynski_delta_F_K": 0.1237836275232695,
+      "exact_delta_F_K": 0.12378362752327006,
+      "identity_error_K": -5.551115123125783e-16,
+      "relative_variance_exp_betaW": 1.6606527232554755e+148,
+      "thermal_same_rank_survival_probability": 0.5887775832303082,
+      "budgets": {
+        "general": {
+          "log10_shots": 154.65520239693555,
+          "shots": null
+        },
+        "stress_sign_change": {
+          "log10_shots": 156.0531424056076,
+          "shots": null
+        }
+      }
+    }
+  ],
+  "scope_limits": [
+    "Ramp dynamics use exact exponentials of 24 midpoint Hamiltonians.",
+    "The circuit resource uses one first-order Pauli-Trotter slice and does not reproduce the exact-slice error.",
+    "State preparation and two projective energy measurements/phase estimation are excluded.",
+    "All-to-all CX counts exclude hardware routing and fault-tolerance overhead."
+  ],
+  "elapsed_seconds": 7.399811600102112
+}

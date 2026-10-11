@@ -1,0 +1,739 @@
+{
+  "scope": "N=18 sparse triage; not final B* or W95",
+  "cluster_translations": [
+    [
+      3,
+      -3
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "fields_T": [
+    1.1,
+    1.2,
+    1.3
+  ],
+  "temperatures_K": [
+    0.09,
+    0.1,
+    0.12,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "settings": {
+    "random_vectors": 2,
+    "krylov_dim": 30,
+    "exact_low_states": 8,
+    "seed": 20261011
+  },
+  "rows": [
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.10158571302819347
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10410312539995983
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.09,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.0855773286235303
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.10303256685719982
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10875982253182032
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.1,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.09470916975015332
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.10682155288660408
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.1192489411852292
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.12,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.11178449861271528
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.11508548399212033
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.13728197978811385
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.15,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.1353052345289958
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.2,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.13629479722725113
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.2,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.16998036616803983
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.2,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.17184847196576847
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.25,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.16516664223867747
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.25,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.20194163632829762
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.25,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.2056407548052441
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.3,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.19788975817596655
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.3,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.23118483111120572
+    },
+    {
+      "N": 18,
+      "model": "M0",
+      "temperature_K": 0.3,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.23561973835613065
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.06792733404486191
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10462873561457381
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.09,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.09986636451093954
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.07012718538226156
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10655802479086254
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.1,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.10521226252589172
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.07476294822876656
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.11137514679820534
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.12,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.11658283093410551
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.15,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.08233280171569989
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.15,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.12141171929775332
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.15,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.1356529334378323
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.2,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.09881190789078868
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.2,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.14539205299942465
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.2,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.17029207869119237
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.25,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.12320509183274028
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.25,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.1751998185203229
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.25,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.20386480028076284
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.3,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.15551481763759492
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.3,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.20657258069514273
+    },
+    {
+      "N": 18,
+      "model": "M2",
+      "temperature_K": 0.3,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.23377735897496077
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.09205699027361398
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10337435844609925
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.09,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.08679917778764283
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.09417589802525067
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.10838881991437536
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.1,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.0961194060296962
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.09852401411893161
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.11862991535200784
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.12,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.11376297797327124
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.10672109664800639
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.1353853664459904
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.15,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.13852606087781463
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.2,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.1275221035003611
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.2,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.16645681398491932
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.2,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.17666971964358527
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.25,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.15674261429248165
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.25,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.19814619436145597
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.25,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.21054658489158892
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.3,
+      "field_T": 1.1,
+      "entropy_kB_per_spin": 0.19054347354847975
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.3,
+      "field_T": 1.2,
+      "entropy_kB_per_spin": 0.22787027451967848
+    },
+    {
+      "N": 18,
+      "model": "M3",
+      "temperature_K": 0.3,
+      "field_T": 1.3,
+      "entropy_kB_per_spin": 0.239676155872448
+    }
+  ],
+  "best": [
+    {
+      "model": "M0",
+      "temperature_K": 0.09,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10410312539995983,
+      "edge_warning": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.1,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10875982253182032,
+      "edge_warning": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.12,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.1192489411852292,
+      "edge_warning": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.15,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.13728197978811385,
+      "edge_warning": false
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.2,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.17184847196576847,
+      "edge_warning": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.25,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.2056407548052441,
+      "edge_warning": true
+    },
+    {
+      "model": "M0",
+      "temperature_K": 0.3,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.23561973835613065,
+      "edge_warning": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.09,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10462873561457381,
+      "edge_warning": false
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.1,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10655802479086254,
+      "edge_warning": false
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.12,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.11658283093410551,
+      "edge_warning": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.15,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.1356529334378323,
+      "edge_warning": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.2,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.17029207869119237,
+      "edge_warning": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.25,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.20386480028076284,
+      "edge_warning": true
+    },
+    {
+      "model": "M2",
+      "temperature_K": 0.3,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.23377735897496077,
+      "edge_warning": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.09,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10337435844609925,
+      "edge_warning": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.1,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.10838881991437536,
+      "edge_warning": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.12,
+      "B_max_entropy_sparse_T": 1.2,
+      "S_max_kB_per_spin": 0.11862991535200784,
+      "edge_warning": false
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.15,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.13852606087781463,
+      "edge_warning": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.2,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.17666971964358527,
+      "edge_warning": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.25,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.21054658489158892,
+      "edge_warning": true
+    },
+    {
+      "model": "M3",
+      "temperature_K": 0.3,
+      "B_max_entropy_sparse_T": 1.3,
+      "S_max_kB_per_spin": 0.239676155872448,
+      "edge_warning": true
+    }
+  ],
+  "comparisons": [
+    {
+      "temperature_K": 0.09,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.2,
+      "edge_warning": false
+    },
+    {
+      "temperature_K": 0.09,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.2,
+      "edge_warning": false
+    },
+    {
+      "temperature_K": 0.1,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.2,
+      "edge_warning": false
+    },
+    {
+      "temperature_K": 0.1,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.2,
+      "edge_warning": false
+    },
+    {
+      "temperature_K": 0.12,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.10000000000000009,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.12,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.2,
+      "edge_warning": false
+    },
+    {
+      "temperature_K": 0.15,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.10000000000000009,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.15,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.10000000000000009,
+      "M0_B_T": 1.2,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.2,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.2,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.25,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.25,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.3,
+      "comparison": "M0_to_M2",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    },
+    {
+      "temperature_K": 0.3,
+      "comparison": "M0_to_M3",
+      "delta_B_max_entropy_sparse_T": 0.0,
+      "M0_B_T": 1.3,
+      "full_model_B_T": 1.3,
+      "edge_warning": true
+    }
+  ]
+}

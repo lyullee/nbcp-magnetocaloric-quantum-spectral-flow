@@ -1,0 +1,117 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 15,
+  "sector_dimensions": [
+    16384,
+    16384
+  ],
+  "random_vectors_per_sector": 8,
+  "krylov_dimension": 50,
+  "exact_low_states_per_sector": 16,
+  "seed": 20261011,
+  "max_last_lanczos_beta_K": 15.993008808730526,
+  "low_energies_K_by_sector": [
+    [
+      -21.58733500663601,
+      -21.58733500663587,
+      -21.54395460538249,
+      -21.543954605382325,
+      -21.37863170643995,
+      -21.32681781426886,
+      -20.94073713436705,
+      -20.940737134367005,
+      -20.94073713436699,
+      -20.919231337399882,
+      -20.919231337399722,
+      -20.91923133739952,
+      -20.74656207284166,
+      -20.746562072841563,
+      -20.733692368608686,
+      -20.733692368608597
+    ],
+    [
+      -21.88763673261902,
+      -21.8112650134744,
+      -21.811265013474227,
+      -21.40288858062436,
+      -21.402888580623735,
+      -21.084291510377597,
+      -21.084291510377536,
+      -21.08429151037702,
+      -20.92640888953025,
+      -20.92640888953013,
+      -20.834793608759043,
+      -20.83479360875893,
+      -20.833225834930193,
+      -20.788444221381802,
+      -20.78844422138175,
+      -20.749891440568597
+    ]
+  ],
+  "elapsed_seconds": 21.592520099831745,
+  "rows": [
+    {
+      "temperature_K": 0.09,
+      "log_partition": 243.88462506844178,
+      "energy_K_total": -21.832276975794805,
+      "heat_capacity_kB_total": 0.9201670204492424,
+      "entropy_kB_total": 1.3037697818328007,
+      "entropy_kB_per_spin": 0.08691798545552004
+    },
+    {
+      "temperature_K": 0.1,
+      "log_partition": 219.6316109572167,
+      "energy_K_total": -21.82268186836593,
+      "heat_capacity_kB_total": 0.9980706214037125,
+      "entropy_kB_total": 1.40479227355741,
+      "entropy_kB_per_spin": 0.09365281823716068
+    },
+    {
+      "temperature_K": 0.12,
+      "log_partition": 183.2768495034116,
+      "energy_K_total": -21.801244429106674,
+      "heat_capacity_kB_total": 1.1446721947984253,
+      "entropy_kB_total": 1.5998125941893167,
+      "entropy_kB_per_spin": 0.10665417294595445
+    },
+    {
+      "temperature_K": 0.15,
+      "log_partition": 146.96957763718652,
+      "energy_K_total": -21.763559248407727,
+      "heat_capacity_kB_total": 1.3708833749837546,
+      "entropy_kB_total": 1.8791826478016747,
+      "entropy_kB_per_spin": 0.12527884318677832
+    },
+    {
+      "temperature_K": 0.2,
+      "log_partition": 110.7533748385996,
+      "energy_K_total": -21.68514788671618,
+      "heat_capacity_kB_total": 1.7595479398153198,
+      "entropy_kB_total": 2.3276354050186945,
+      "entropy_kB_per_spin": 0.15517569366791298
+    },
+    {
+      "temperature_K": 0.3,
+      "log_partition": 74.75154040731913,
+      "energy_K_total": -21.4824159517465,
+      "heat_capacity_kB_total": 2.205122884571943,
+      "entropy_kB_total": 3.1434872348307907,
+      "entropy_kB_per_spin": 0.20956581565538604
+    }
+  ],
+  "N": 15,
+  "model": "M0",
+  "field_T": 1.55,
+  "boundary": "tin_foil",
+  "cluster_translations": [
+    [
+      4,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "wall_seconds_including_operator_build": 21.624612299958244
+}

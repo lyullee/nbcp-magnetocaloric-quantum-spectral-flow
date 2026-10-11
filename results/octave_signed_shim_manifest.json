@@ -1,0 +1,46 @@
+{
+  "created_date": "2026-10-11",
+  "scope": "project-local reversible DLL compatibility shim",
+  "source_git_bin": "C:\\Users\\lyul\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\mingw64\\bin",
+  "files": {
+    "libcurl-4.dll": {
+      "sha256": "b1023881668cbbaccfffa29a431d4f8c0ab40ba151e4ab738965dd30905824fd",
+      "bytes": 866944,
+      "authenticode_status": "Valid"
+    },
+    "libbrotlidec.dll": {
+      "sha256": "14252dd7f3f6e810408e2f8759661435aa26f59bdbc17c2502fb644020505c18",
+      "bytes": 77264,
+      "authenticode_status": "Valid"
+    },
+    "libbrotlicommon.dll": {
+      "sha256": "597f35f8e5c55f92713bcc6212d08449ae9e80dfe2acc92212e2224d8dfcd47a",
+      "bytes": 158232,
+      "authenticode_status": "Valid"
+    },
+    "libpsl-5.dll": {
+      "sha256": "217e6f634ac26f22f5b804d61fda057da29d2848e1b862c4cae6adc006f62265",
+      "bytes": 120104,
+      "authenticode_status": "Valid"
+    },
+    "zlib1.dll": {
+      "sha256": "8e69cf54e805ad56b01974db3ddc9700f312d4b7efea99a651e607c07edbf34e",
+      "bytes": 135616,
+      "authenticode_status": "Valid"
+    }
+  },
+  "libcurl_compatibility": {
+    "octave_original_version": "8.18.0",
+    "signed_git_version": "8.18.0",
+    "octave_original_export_count": 100,
+    "signed_git_export_count": 100,
+    "octave_exports_missing_from_signed_git": 0
+  },
+  "octave_smoke_test": {
+    "version": "11.3.0",
+    "exit_code": 0
+  },
+  "security_policy_changed": false,
+  "original_backup": "tools/octave-11.3.0/octave-11.3.0-w64/mingw64/bin/libcurl-4.dll.octave-original",
+  "original_backup_sha256": "4dcb527074a1670f3a1492a0f079c6597284322c9ba12dd8a8b207fa1e9d1db9"
+}

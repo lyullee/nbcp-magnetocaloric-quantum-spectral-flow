@@ -1,0 +1,79 @@
+{
+  "engine": "public QMagen commit dcf17db27682d4c505155682108c612bdd11274c",
+  "geometry": "N=9 3x3, OBC x / PBC y",
+  "condition": {
+    "model": "M0 2026 parameters",
+    "field_T": 1.5,
+    "cold_temperature_K": 0.08676473815245819
+  },
+  "octave": "11.3.0 with project-local signed libcurl shim",
+  "compatibility_patch": "project shadow svdT.m changes the second find(...) to find(...,1); upstream clone unmodified",
+  "runs": [
+    {
+      "D": 8,
+      "elapsed_seconds": 23.77785301208496,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.25643733378442946,
+      "energy_error_scaled_per_spin": 0.004918762233582008,
+      "logZ_error_per_spin": 0.17584833334942118,
+      "file": "qmagen_n9_xtrg_D8.json"
+    },
+    {
+      "D": 16,
+      "elapsed_seconds": 22.537149906158447,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.0566697462082999,
+      "energy_error_scaled_per_spin": 9.029931847082118e-05,
+      "logZ_error_per_spin": 0.05519028217447186,
+      "file": "qmagen_n9_xtrg_D16.json"
+    },
+    {
+      "D": 24,
+      "elapsed_seconds": 28.14173698425293,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.003272270517285847,
+      "energy_error_scaled_per_spin": -1.6925126866684792e-06,
+      "logZ_error_per_spin": 0.003300000645143797,
+      "file": "qmagen_n9_xtrg_D24.json"
+    },
+    {
+      "D": 32,
+      "elapsed_seconds": 43.074830055236816,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": -0.0010045109354201998,
+      "energy_error_scaled_per_spin": 2.63807320319831e-05,
+      "logZ_error_per_spin": -0.0014367328490330067,
+      "file": "qmagen_n9_xtrg_D32.json"
+    },
+    {
+      "D": 40,
+      "elapsed_seconds": 66.45417809486389,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.0005356630208943614,
+      "energy_error_scaled_per_spin": -2.8588565370579744e-06,
+      "logZ_error_per_spin": 0.0005825025263952455,
+      "file": "qmagen_n9_xtrg_D40.json"
+    },
+    {
+      "D": 48,
+      "elapsed_seconds": 98.20611310005188,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.0003496595492862298,
+      "energy_error_scaled_per_spin": -1.8395083820621494e-06,
+      "logZ_error_per_spin": 0.0003797980546167423,
+      "file": "qmagen_n9_xtrg_D48.json"
+    },
+    {
+      "D": 64,
+      "elapsed_seconds": 251.33291101455688,
+      "temperature_K": 0.08676473815245819,
+      "entropy_error_kB_per_spin": 0.0002590224454159795,
+      "energy_error_scaled_per_spin": -1.1251418619018239e-06,
+      "logZ_error_per_spin": 0.00027745676968038424,
+      "file": "qmagen_n9_xtrg_D64.json"
+    }
+  ],
+  "D48_to_D64_entropy_change_kB_per_spin": 9.063710387025026e-05,
+  "D64_absolute_entropy_error_kB_per_spin": 0.0002590224454159795,
+  "decision": "PASS_N9_ENGINE_REGRESSION; proceed to staggered-grid heat-capacity validation, then cylinder pilot"
+}

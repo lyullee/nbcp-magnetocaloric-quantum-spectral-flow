@@ -1,0 +1,377 @@
+{
+  "purpose": "optimistic shot lower bound from exact thermal variances of QWC correction groups",
+  "cluster": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "observable": "V=M3-M0",
+  "pauli_term_count": 144,
+  "qubitwise_commuting_group_count": 7,
+  "quadrature": {
+    "type": "3-point Gauss-Legendre",
+    "nodes": [
+      0.1127016653792583,
+      0.5,
+      0.8872983346207417
+    ],
+    "weights": [
+      0.27777777777777785,
+      0.4444444444444444,
+      0.27777777777777785
+    ]
+  },
+  "rows": [
+    {
+      "field_T": 1.4,
+      "central_temperature_K": 0.1,
+      "derivative_half_width_K": 0.005,
+      "qubitwise_commuting_group_count": 7,
+      "pauli_term_count": 144,
+      "combined_derivative_amplitude": 108.95459726267016,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "optimally_allocated_total_shots": 146556843,
+          "optimistic_total_CX_using_weight2_QITE": 1582813904400,
+          "quadratic_precision_query_scale_sqrt_shots": 12107,
+          "optimistic_CX_if_one_QITE_prep_per_query": 130755600
+        }
+      },
+      "details": [
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.545719823680374,
+          "group_variances_K2": [
+            0.0012944029385513608,
+            0.017938572099042205,
+            0.009670322770306173,
+            0.008383230204731295,
+            0.012677562624769823,
+            0.00134291105504833,
+            0.001344604022180036
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.5444519305008474,
+          "group_variances_K2": [
+            0.0011727806209987364,
+            0.01820401189835807,
+            0.009591086670060792,
+            0.008378843926701393,
+            0.012642734497772576,
+            0.0013422158581453394,
+            0.0013496441833090952
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5437767372602001,
+          "group_variances_K2": [
+            0.0010770926817464514,
+            0.018501002699092696,
+            0.009526621329637216,
+            0.008380108548567867,
+            0.012623760345032617,
+            0.0013416694025626022,
+            0.0013547991509858892
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.545871062384152,
+          "group_variances_K2": [
+            0.0013710251214038563,
+            0.017769081141547273,
+            0.009677022839140395,
+            0.008370876434500508,
+            0.012663379460422048,
+            0.0013367739483597862,
+            0.0013384646954645075
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.5447785149544747,
+          "group_variances_K2": [
+            0.001262854605888228,
+            0.018022097696625015,
+            0.00959585251283549,
+            0.008366559042747655,
+            0.012627079091374477,
+            0.0013357751090261082,
+            0.0013431924260661643
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5442291654028838,
+          "group_variances_K2": [
+            0.0011764222967522676,
+            0.018307098909932387,
+            0.009529039410265729,
+            0.008368016441163311,
+            0.012606462059982254,
+            0.0013350028985380494,
+            0.0013481064096473592
+          ]
+        }
+      ]
+    },
+    {
+      "field_T": 1.45,
+      "central_temperature_K": 0.1,
+      "derivative_half_width_K": 0.005,
+      "qubitwise_commuting_group_count": 7,
+      "pauli_term_count": 144,
+      "combined_derivative_amplitude": 112.0423993717814,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "optimally_allocated_total_shots": 154981473,
+          "optimistic_total_CX_using_weight2_QITE": 1673799908400,
+          "quadratic_precision_query_scale_sqrt_shots": 12450,
+          "optimistic_CX_if_one_QITE_prep_per_query": 134460000
+        },
+        "stress_sign_change": {
+          "target_entropy_error_kB_per_spin": 0.0002,
+          "optimally_allocated_total_shots": 3874536808,
+          "optimistic_total_CX_using_weight2_QITE": 41844997526400,
+          "quadratic_precision_query_scale_sqrt_shots": 62246,
+          "optimistic_CX_if_one_QITE_prep_per_query": 672256800
+        }
+      },
+      "details": [
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5604863181074655,
+          "group_variances_K2": [
+            0.0018353150331279914,
+            0.018498891479103535,
+            0.010077754921763887,
+            0.008634064665190727,
+            0.013221092985811676,
+            0.0013438791786071764,
+            0.0013458223968991026
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.560710146180617,
+          "group_variances_K2": [
+            0.0018824063948717044,
+            0.018707407202584504,
+            0.00994478619688623,
+            0.00861931337454023,
+            0.013134833016592436,
+            0.0013418193402988758,
+            0.001350302098876368
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5609028375985943,
+          "group_variances_K2": [
+            0.0018991530577138352,
+            0.018946372134592573,
+            0.009830091933460308,
+            0.008611353620280815,
+            0.01306800237241698,
+            0.001340124449656671,
+            0.0013550106719702872
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5595702806941127,
+          "group_variances_K2": [
+            0.0018378094366584682,
+            0.01837106792374619,
+            0.010058500411895254,
+            0.008612726463265441,
+            0.013182666750919314,
+            0.0013403578982046705,
+            0.0013422802657753195
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.5597136995662976,
+          "group_variances_K2": [
+            0.0018765866346622901,
+            0.01857160935761691,
+            0.009930247432164491,
+            0.008599688760358031,
+            0.013101004841095476,
+            0.0013379861563165476,
+            0.0013463889083872593
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.559888787788895,
+          "group_variances_K2": [
+            0.0018913936912133495,
+            0.018802140382395194,
+            0.009818889533730389,
+            0.008593356484096539,
+            0.013037697005996612,
+            0.0013360101231500684,
+            0.0013507726150311223
+          ]
+        }
+      ]
+    },
+    {
+      "field_T": 1.5,
+      "central_temperature_K": 0.1,
+      "derivative_half_width_K": 0.005,
+      "qubitwise_commuting_group_count": 7,
+      "pauli_term_count": 144,
+      "combined_derivative_amplitude": 110.90420160863749,
+      "budgets": {
+        "general": {
+          "target_entropy_error_kB_per_spin": 0.001,
+          "optimally_allocated_total_shots": 151848666,
+          "optimistic_total_CX_using_weight2_QITE": 1639965592800,
+          "quadratic_precision_query_scale_sqrt_shots": 12323,
+          "optimistic_CX_if_one_QITE_prep_per_query": 133088400
+        }
+      },
+      "details": [
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.552070363024374,
+          "group_variances_K2": [
+            0.0008047170144253688,
+            0.01890419708554575,
+            0.010414960936972776,
+            0.008839915067780256,
+            0.013634339111444847,
+            0.0013447363766542263,
+            0.0013468118481663636
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.5539829274212822,
+          "group_variances_K2": [
+            0.0009358417596463352,
+            0.01909084497415793,
+            0.0102816964971264,
+            0.008841739412517117,
+            0.013551659342828934,
+            0.001341606831905349,
+            0.0013507831635197645
+          ]
+        },
+        {
+          "temperature_K": 0.095,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.555780269025554,
+          "group_variances_K2": [
+            0.0010622231689202538,
+            0.01928749051277489,
+            0.01015442176755731,
+            0.008846619345976633,
+            0.013475714751530407,
+            0.0013387255893794428,
+            0.0013549708334982707
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.1127016653792583,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5534462249966551,
+          "group_variances_K2": [
+            0.0009260521540175714,
+            0.018837483939571895,
+            0.01038665060659078,
+            0.008819472180875866,
+            0.01359617268375473,
+            0.0013435092703299207,
+            0.0013455620391780267
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.5,
+          "quadrature_weight": 0.4444444444444444,
+          "sum_group_standard_deviations_K": 0.5551194106190337,
+          "group_variances_K2": [
+            0.0010518701229133617,
+            0.019019982156414535,
+            0.010254577474208234,
+            0.008820080274905016,
+            0.013514127558983902,
+            0.0013402844542636239,
+            0.0013493549051975802
+          ]
+        },
+        {
+          "temperature_K": 0.10500000000000001,
+          "lambda": 0.8872983346207417,
+          "quadrature_weight": 0.27777777777777785,
+          "sum_group_standard_deviations_K": 0.5566906599998606,
+          "group_variances_K2": [
+            0.0011702428838867313,
+            0.019213858273297756,
+            0.010129174524032003,
+            0.008824127012045779,
+            0.013439654967000067,
+            0.0013373214696264359,
+            0.0013533737087041546
+          ]
+        }
+      ]
+    }
+  ],
+  "scope_limits": [
+    "Budgets assume exact Gibbs/QMETTS state preparation and optimal shot allocation.",
+    "State-preparation error, QMETTS autocorrelation, calibration, readout and routing overhead are excluded.",
+    "Group variances use the exact thermal mixed state; a finite METTS ensemble can require more shots.",
+    "The CX product uses the optimistic all-to-all weight-2 QITE projection and is not a hardware runtime estimate.",
+    "The square-root query scale only illustrates the precision scaling of ideal amplitude estimation; it excludes controlled state preparation, inverses, reflections and fault-tolerance overhead."
+  ],
+  "elapsed_seconds": 13.123672800138593
+}

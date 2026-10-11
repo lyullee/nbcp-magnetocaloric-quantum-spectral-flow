@@ -1,0 +1,207 @@
+{
+  "quantity": "deltaS = S(M3)-S(M0), in kB per spin",
+  "purpose": "test finite-size cancellation before combining with a bulk M0 baseline",
+  "interpretation_rule": {
+    "usable": "sign stable and N15/N18 spread small relative to the correction",
+    "not_a_confidence_interval": true,
+    "quantum_stage_authorized": false
+  },
+  "rows_csv": "deltaS_correction_size_sequence.csv",
+  "diagnostics": [
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.1,
+      "clusters": {
+        "N12": -0.014732128255722204,
+        "N15": -0.010622187288126791,
+        "N18-A": -0.009528722754579486
+      },
+      "sign_consistent_N12_to_N18": true,
+      "all_cluster_range": [
+        -0.014732128255722204,
+        -0.009528722754579486
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.010622187288126791,
+        -0.009528722754579486
+      ],
+      "largest_cluster_midpoint": -0.010075455021353139,
+      "linear_in_1_over_N_intercept": 0.0015280209233044877,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.15,
+      "clusters": {
+        "N12": 0.008620097151677497,
+        "N15": 0.008551518438550565,
+        "N18-A": 0.004758955843394405,
+        "N18-B": 0.009252330300685549
+      },
+      "sign_consistent_N12_to_N18": true,
+      "all_cluster_range": [
+        0.004758955843394405,
+        0.009252330300685549
+      ],
+      "largest_cluster_range_N15_N18": [
+        0.004758955843394405,
+        0.009252330300685549
+      ],
+      "largest_cluster_midpoint": 0.007005643072039977,
+      "linear_in_1_over_N_intercept": 0.0043689018434593975,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.09,
+      "field_T": 1.2,
+      "clusters": {
+        "N12": 0.010745452935812486,
+        "N15": 0.001386305918766137,
+        "N18-A": -0.0007287669538605795,
+        "N18-B": 0.0010676739776306343
+      },
+      "sign_consistent_N12_to_N18": false,
+      "all_cluster_range": [
+        -0.0007287669538605795,
+        0.010745452935812486
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.0007287669538605795,
+        0.001386305918766137
+      ],
+      "largest_cluster_midpoint": 0.0003287694824527787,
+      "linear_in_1_over_N_intercept": -0.022965142285107987,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.1,
+      "clusters": {
+        "N12": -0.012754665521680975,
+        "N15": -0.009464927071282603,
+        "N18-A": -0.008856668831949147
+      },
+      "sign_consistent_N12_to_N18": true,
+      "all_cluster_range": [
+        -0.012754665521680975,
+        -0.008856668831949147
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.009464927071282603,
+        -0.008856668831949147
+      ],
+      "largest_cluster_midpoint": -0.009160797951615875,
+      "linear_in_1_over_N_intercept": -0.00043505674422281,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.15,
+      "clusters": {
+        "N12": 0.006861206779922635,
+        "N15": 0.00605873844851651,
+        "N18-A": 0.0028175556452230133,
+        "N18-B": 0.0076846634823497795
+      },
+      "sign_consistent_N12_to_N18": true,
+      "all_cluster_range": [
+        0.0028175556452230133,
+        0.0076846634823497795
+      ],
+      "largest_cluster_range_N15_N18": [
+        0.0028175556452230133,
+        0.0076846634823497795
+      ],
+      "largest_cluster_midpoint": 0.005251109563786396,
+      "linear_in_1_over_N_intercept": 0.002138540130379459,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.1,
+      "field_T": 1.2,
+      "clusters": {
+        "N12": 0.010243550544824162,
+        "N15": 0.00157668243417515,
+        "N18-A": -0.00037100261744495155,
+        "N18-B": 0.0018810985801862579
+      },
+      "sign_consistent_N12_to_N18": false,
+      "all_cluster_range": [
+        -0.00037100261744495155,
+        0.010243550544824162
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.00037100261744495155,
+        0.0018810985801862579
+      ],
+      "largest_cluster_midpoint": 0.0007550479813706532,
+      "linear_in_1_over_N_intercept": -0.020178382522231707,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.1,
+      "clusters": {
+        "N12": -0.009974191769044155,
+        "N15": -0.008123110078725834,
+        "N18-A": -0.008297538767672474
+      },
+      "sign_consistent_N12_to_N18": true,
+      "all_cluster_range": [
+        -0.009974191769044155,
+        -0.008123110078725834
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.008297538767672474,
+        -0.008123110078725834
+      ],
+      "largest_cluster_midpoint": -0.008210324423199154,
+      "linear_in_1_over_N_intercept": -0.004388252574471669,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.15,
+      "clusters": {
+        "N12": 0.003957713038994948,
+        "N15": 0.0023141989056616047,
+        "N18-A": -0.0002276306440195941,
+        "N18-B": 0.005197271048195437
+      },
+      "sign_consistent_N12_to_N18": false,
+      "all_cluster_range": [
+        -0.0002276306440195941,
+        0.005197271048195437
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.0002276306440195941,
+        0.005197271048195437
+      ],
+      "largest_cluster_midpoint": 0.0024848202020879215,
+      "linear_in_1_over_N_intercept": -0.0009608197027716095,
+      "linear_fit_is_diagnostic_not_CI": true
+    },
+    {
+      "temperature_K": 0.12,
+      "field_T": 1.2,
+      "clusters": {
+        "N12": 0.008790877953838178,
+        "N15": 0.001421818946074932,
+        "N18-A": -0.0006190258332213622,
+        "N18-B": 0.0027832041402010704
+      },
+      "sign_consistent_N12_to_N18": false,
+      "all_cluster_range": [
+        -0.0006190258332213622,
+        0.008790877953838178
+      ],
+      "largest_cluster_range_N15_N18": [
+        -0.0006190258332213622,
+        0.0027832041402010704
+      ],
+      "largest_cluster_midpoint": 0.0010820891534898541,
+      "linear_in_1_over_N_intercept": -0.01614061063638723,
+      "linear_fit_is_diagnostic_not_CI": true
+    }
+  ]
+}

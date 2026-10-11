@@ -1,0 +1,84 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 18,
+  "sector_dimensions": [
+    131072,
+    131072
+  ],
+  "random_vectors_per_sector": 2,
+  "krylov_dimension": 30,
+  "exact_low_states_per_sector": 8,
+  "seed": 20261011,
+  "max_last_lanczos_beta_K": 17.810984581964505,
+  "low_energies_K_by_sector": [
+    [
+      -20.1158683170331,
+      -20.049371985456737,
+      -20.049371985456734,
+      -19.78904115339246,
+      -19.780977171420226,
+      -19.78097717141971,
+      -19.68215774599601,
+      -19.682157745995593
+    ],
+    [
+      -20.106326785545235,
+      -20.10632678554511,
+      -20.078052883462238,
+      -19.561244494478522,
+      -19.561244494478128,
+      -19.52194966194031,
+      -19.374312350558682,
+      -19.327179567131687
+    ]
+  ],
+  "elapsed_seconds": 257.5234105999116,
+  "rows": [
+    {
+      "temperature_K": 0.09,
+      "log_partition": 225.01647637442372,
+      "energy_K_total": -20.083939397943087,
+      "heat_capacity_kB_total": 0.4513308661943832,
+      "entropy_kB_total": 1.86159417505608,
+      "entropy_kB_per_spin": 0.10342189861422667
+    },
+    {
+      "temperature_K": 0.1,
+      "log_partition": 202.70358073011158,
+      "energy_K_total": -20.078925310329602,
+      "heat_capacity_kB_total": 0.554334073569862,
+      "entropy_kB_total": 1.914327626815591,
+      "entropy_kB_per_spin": 0.1063515348230884
+    },
+    {
+      "temperature_K": 0.12,
+      "log_partition": 169.24858977323083,
+      "energy_K_total": -20.06539942502593,
+      "heat_capacity_kB_total": 0.8083663317748346,
+      "entropy_kB_total": 2.0369278980147367,
+      "entropy_kB_per_spin": 0.1131626610008187
+    },
+    {
+      "temperature_K": 0.15,
+      "log_partition": 135.82833380206358,
+      "energy_K_total": -20.03420385747771,
+      "heat_capacity_kB_total": 1.288068311752492,
+      "entropy_kB_total": 2.2669747522121657,
+      "entropy_kB_per_spin": 0.12594304178956475
+    }
+  ],
+  "model": "M0",
+  "field_T": 1.2,
+  "boundary": "tin_foil",
+  "cluster_translations": [
+    [
+      4,
+      1
+    ],
+    [
+      -2,
+      4
+    ]
+  ],
+  "wall_seconds_including_operator_build": 257.9343453999609
+}

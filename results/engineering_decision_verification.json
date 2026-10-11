@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "p2_shift_stable_across_boundaries": true,
+    "p2_predeclared_gate_pass": true,
+    "p1_does_not_overclaim": true,
+    "robust_temperature_scope": true,
+    "conditional_design_grid_complete": true,
+    "design_energy_identity": true,
+    "direct_public_data_90_to_300mK": true,
+    "primary_experimental_robust_field": true,
+    "scope_limits_present": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

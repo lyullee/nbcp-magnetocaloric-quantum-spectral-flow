@@ -1,0 +1,104 @@
+{
+  "purpose": "exact QMETTS transition audit for parity trapping and alternating-basis ergodicity",
+  "cluster": {
+    "N": 6,
+    "boundary": "open 3x2 triangular patch",
+    "model": "M2"
+  },
+  "observable": "V=M2-M0",
+  "field_T": 1.45,
+  "rows": [
+    {
+      "temperature_K": 0.09,
+      "exact_thermal_mean_V_K": 0.18728338477703158,
+      "Z_ensemble_mean_error_K": -2.7755575615628914e-17,
+      "X_ensemble_mean_error_K": -8.326672684688674e-17,
+      "Z_ensemble_variance_K2": 2.0615494073083467e-07,
+      "X_ensemble_variance_K2": 1.9967337306045407e-12,
+      "Z_stationary_odd_parity_weight": 1.0404422046882942e-05,
+      "Z_only_max_cross_parity_transition": 0.0,
+      "Z_only_transition": {
+        "unit_eigenvalue_multiplicity": 2,
+        "second_eigenvalue_modulus": 0.9999999999999998,
+        "spectral_gap": 2.220446049250313e-16
+      },
+      "X_only_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 0.006243237892464557,
+        "spectral_gap": 0.9937567621075355
+      },
+      "alternating_ZX_two_step_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 9.969902263241028e-06,
+        "spectral_gap": 0.9999900300977368
+      },
+      "alternating_ZX_Z_stationary_max_error": 1.1102230246251565e-16,
+      "alternating_ZX_X_stationary_max_error": 1.3877787807814457e-17
+    },
+    {
+      "temperature_K": 0.1,
+      "exact_thermal_mean_V_K": 0.18728012359602814,
+      "Z_ensemble_mean_error_K": 5.551115123125783e-17,
+      "X_ensemble_mean_error_K": 2.7755575615628914e-17,
+      "Z_ensemble_variance_K2": 6.642214859169882e-07,
+      "X_ensemble_variance_K2": 1.9734631216736924e-11,
+      "Z_stationary_odd_parity_weight": 3.362607915913568e-05,
+      "Z_only_max_cross_parity_transition": 0.0,
+      "Z_only_transition": {
+        "unit_eigenvalue_multiplicity": 2,
+        "second_eigenvalue_modulus": 0.9999999999999996,
+        "spectral_gap": 4.440892098500626e-16
+      },
+      "X_only_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 0.011115652526713676,
+        "spectral_gap": 0.9888843474732864
+      },
+      "alternating_ZX_two_step_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 3.0902716616519024e-05,
+        "spectral_gap": 0.9999690972833835
+      },
+      "alternating_ZX_Z_stationary_max_error": 2.220446049250313e-16,
+      "alternating_ZX_X_stationary_max_error": 6.938893903907228e-18
+    },
+    {
+      "temperature_K": 0.12,
+      "exact_thermal_mean_V_K": 0.18725718784203918,
+      "Z_ensemble_mean_error_K": 2.7755575615628914e-17,
+      "X_ensemble_mean_error_K": 0.0,
+      "Z_ensemble_variance_K2": 3.875687802103416e-06,
+      "X_ensemble_variance_K2": 6.081266459898648e-10,
+      "Z_stationary_odd_parity_weight": 0.00019744239775549454,
+      "Z_only_max_cross_parity_transition": 0.0,
+      "Z_only_transition": {
+        "unit_eigenvalue_multiplicity": 2,
+        "second_eigenvalue_modulus": 0.9999999999999998,
+        "spectral_gap": 2.220446049250313e-16
+      },
+      "X_only_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 0.026400801557267775,
+        "spectral_gap": 0.9735991984427322
+      },
+      "alternating_ZX_two_step_transition": {
+        "unit_eigenvalue_multiplicity": 1,
+        "second_eigenvalue_modulus": 0.00016648875429565988,
+        "spectral_gap": 0.9998335112457043
+      },
+      "alternating_ZX_Z_stationary_max_error": 1.1102230246251565e-16,
+      "alternating_ZX_X_stationary_max_error": 6.938893903907228e-18
+    }
+  ],
+  "status": "PASS_ALTERNATING_ZX; STOP_Z_ONLY",
+  "interpretation": [
+    "Each complete Z or X METTS ensemble reproduces the exact Gibbs observable.",
+    "Z-only collapse has at least two stationary sectors because it cannot cross spin parity.",
+    "Alternating Z/X collapse has a unique stationary distribution in this N=6 test."
+  ],
+  "scope_limits": [
+    "This is an exact small-system transition audit with no QITE, shot or hardware noise.",
+    "A unique N=6 stationary distribution does not guarantee fast mixing at N=9 or N=12."
+  ],
+  "elapsed_seconds": 0.018822700018063188
+}

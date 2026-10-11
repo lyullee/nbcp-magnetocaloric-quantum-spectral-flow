@@ -1,0 +1,560 @@
+{
+  "purpose": "optimistic accumulated-QITE screen for one N=6 METTS state",
+  "cluster": {
+    "N": 6,
+    "boundary": "open 3x2 triangular patch",
+    "model": "M2"
+  },
+  "field_T": 1.45,
+  "temperature_K": 0.1,
+  "target_beta_over_2_inverse_K": 5.0,
+  "initial_states": [
+    "Z:101010",
+    "X:101010"
+  ],
+  "maximum_pauli_weight": 2,
+  "pool_size": 153,
+  "rows": [
+    {
+      "initial_product_basis_state": "Z:101010",
+      "nominal_step_inverse_K": 0.02,
+      "actual_step_inverse_K": 0.02,
+      "step_count": 250,
+      "final_infidelity": 0.01500057579566505,
+      "exact_energy_K": -9.342861725178139,
+      "qite_energy_K": -9.341195795822552,
+      "energy_error_K": 0.0016659293555871812,
+      "exact_mean_V_K": 0.04607960995086743,
+      "qite_mean_V_K": 0.046130421868170554,
+      "mean_V_error_K": 5.081191730312712e-05,
+      "max_relative_tangent_residual": 2.9157268906643418e-05,
+      "median_relative_tangent_residual": 8.016889517393949e-15,
+      "median_retained_pauli_terms": 153.0,
+      "max_resolved_condition_number": 4513263188.526448,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 128,
+          "compiled_all_to_all_depth": 68,
+          "compiled_all_to_all_two_qubit_gates": 18,
+          "compiled_operation_counts": {
+            "rz": 65,
+            "sx": 53,
+            "cx": 18
+          }
+        },
+        {
+          "step": 62,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 90,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 111,
+            "sx": 78,
+            "cx": 45,
+            "x": 3
+          }
+        },
+        {
+          "step": 125,
+          "logical_depth": 545,
+          "compiled_all_to_all_depth": 86,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 107,
+            "sx": 66,
+            "cx": 45,
+            "x": 3
+          }
+        },
+        {
+          "step": 187,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 88,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 107,
+            "sx": 65,
+            "cx": 45,
+            "x": 5
+          }
+        },
+        {
+          "step": 249,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 95,
+          "compiled_all_to_all_two_qubit_gates": 44,
+          "compiled_operation_counts": {
+            "rz": 115,
+            "sx": 74,
+            "cx": 44,
+            "x": 5
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        18,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        68,
+        95
+      ],
+      "projected_CX_range_per_METTS_state": [
+        4500,
+        11250
+      ],
+      "trajectory_wall_seconds": 5.578278000000864
+    },
+    {
+      "initial_product_basis_state": "Z:101010",
+      "nominal_step_inverse_K": 0.05,
+      "actual_step_inverse_K": 0.05,
+      "step_count": 100,
+      "final_infidelity": 0.052249197571392014,
+      "exact_energy_K": -9.342861725178139,
+      "qite_energy_K": -9.334404180982116,
+      "energy_error_K": 0.008457544196023292,
+      "exact_mean_V_K": 0.04607960995086743,
+      "qite_mean_V_K": 0.046423908006003795,
+      "mean_V_error_K": 0.0003442980551363675,
+      "max_relative_tangent_residual": 0.0002103097056528351,
+      "median_relative_tangent_residual": 8.522028708149022e-15,
+      "median_retained_pauli_terms": 153.0,
+      "max_resolved_condition_number": 46211427.84532129,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 128,
+          "compiled_all_to_all_depth": 67,
+          "compiled_all_to_all_two_qubit_gates": 18,
+          "compiled_operation_counts": {
+            "rz": 66,
+            "sx": 53,
+            "cx": 18
+          }
+        },
+        {
+          "step": 25,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 93,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 112,
+            "sx": 80,
+            "cx": 45
+          }
+        },
+        {
+          "step": 50,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 87,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 107,
+            "sx": 66,
+            "cx": 45,
+            "x": 1
+          }
+        },
+        {
+          "step": 75,
+          "logical_depth": 546,
+          "compiled_all_to_all_depth": 86,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 106,
+            "sx": 71,
+            "cx": 45
+          }
+        },
+        {
+          "step": 99,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 86,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 107,
+            "sx": 68,
+            "cx": 45,
+            "x": 3
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        18,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        67,
+        93
+      ],
+      "projected_CX_range_per_METTS_state": [
+        1800,
+        4500
+      ],
+      "trajectory_wall_seconds": 2.3911971000488847
+    },
+    {
+      "initial_product_basis_state": "Z:101010",
+      "nominal_step_inverse_K": 0.1,
+      "actual_step_inverse_K": 0.1,
+      "step_count": 50,
+      "final_infidelity": 0.09737680721386632,
+      "exact_energy_K": -9.342861725178139,
+      "qite_energy_K": -9.327762031441162,
+      "energy_error_K": 0.015099693736976505,
+      "exact_mean_V_K": 0.04607960995086743,
+      "qite_mean_V_K": 0.04605037289982693,
+      "mean_V_error_K": -2.9237051040499618e-05,
+      "max_relative_tangent_residual": 0.0011827424059596085,
+      "median_relative_tangent_residual": 2.4552831977748665e-14,
+      "median_retained_pauli_terms": 81.0,
+      "max_resolved_condition_number": 1443597.7409618716,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 128,
+          "compiled_all_to_all_depth": 66,
+          "compiled_all_to_all_two_qubit_gates": 18,
+          "compiled_operation_counts": {
+            "rz": 62,
+            "sx": 53,
+            "cx": 18
+          }
+        },
+        {
+          "step": 12,
+          "logical_depth": 298,
+          "compiled_all_to_all_depth": 93,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 108,
+            "sx": 74,
+            "cx": 45,
+            "x": 5
+          }
+        },
+        {
+          "step": 25,
+          "logical_depth": 298,
+          "compiled_all_to_all_depth": 92,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 112,
+            "sx": 82,
+            "cx": 45,
+            "x": 1
+          }
+        },
+        {
+          "step": 37,
+          "logical_depth": 298,
+          "compiled_all_to_all_depth": 90,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 106,
+            "sx": 74,
+            "cx": 45,
+            "x": 2
+          }
+        },
+        {
+          "step": 49,
+          "logical_depth": 298,
+          "compiled_all_to_all_depth": 92,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 116,
+            "sx": 84,
+            "cx": 45,
+            "x": 1
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        18,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        66,
+        93
+      ],
+      "projected_CX_range_per_METTS_state": [
+        900,
+        2250
+      ],
+      "trajectory_wall_seconds": 1.0732468001078814
+    },
+    {
+      "initial_product_basis_state": "X:101010",
+      "nominal_step_inverse_K": 0.02,
+      "actual_step_inverse_K": 0.02,
+      "step_count": 250,
+      "final_infidelity": 6.994372923063708e-07,
+      "exact_energy_K": -10.382974133387796,
+      "qite_energy_K": -10.382991019734508,
+      "energy_error_K": -1.68863467120417e-05,
+      "exact_mean_V_K": 0.18726959179476493,
+      "qite_mean_V_K": 0.18727188532469866,
+      "mean_V_error_K": 2.293529933722338e-06,
+      "max_relative_tangent_residual": 4.307685805082372e-13,
+      "median_relative_tangent_residual": 1.4006835322166365e-14,
+      "median_retained_pauli_terms": 153.0,
+      "max_resolved_condition_number": 622502913.9744209,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 344,
+          "compiled_all_to_all_depth": 102,
+          "compiled_all_to_all_two_qubit_gates": 39,
+          "compiled_operation_counts": {
+            "rz": 145,
+            "sx": 100,
+            "cx": 39
+          }
+        },
+        {
+          "step": 62,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 125,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 187,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 43,
+          "compiled_operation_counts": {
+            "rz": 147,
+            "sx": 97,
+            "cx": 43,
+            "x": 2
+          }
+        },
+        {
+          "step": 249,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 27,
+          "compiled_all_to_all_two_qubit_gates": 12,
+          "compiled_operation_counts": {
+            "rz": 50,
+            "sx": 34,
+            "cx": 12
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        12,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        27,
+        104
+      ],
+      "projected_CX_range_per_METTS_state": [
+        3000,
+        11250
+      ],
+      "trajectory_wall_seconds": 5.661418299889192
+    },
+    {
+      "initial_product_basis_state": "X:101010",
+      "nominal_step_inverse_K": 0.05,
+      "actual_step_inverse_K": 0.05,
+      "step_count": 100,
+      "final_infidelity": 6.918987053627923e-06,
+      "exact_energy_K": -10.382974133387796,
+      "qite_energy_K": -10.383023413152713,
+      "energy_error_K": -4.927976491764241e-05,
+      "exact_mean_V_K": 0.18726959179476493,
+      "qite_mean_V_K": 0.18727629401843127,
+      "mean_V_error_K": 6.702223666332774e-06,
+      "max_relative_tangent_residual": 4.48431694480989e-13,
+      "median_relative_tangent_residual": 1.5149366711961265e-14,
+      "median_retained_pauli_terms": 153.0,
+      "max_resolved_condition_number": 12945983.000172488,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 344,
+          "compiled_all_to_all_depth": 102,
+          "compiled_all_to_all_two_qubit_gates": 39,
+          "compiled_operation_counts": {
+            "rz": 145,
+            "sx": 100,
+            "cx": 39
+          }
+        },
+        {
+          "step": 25,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 50,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 75,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 151,
+            "sx": 101,
+            "cx": 45
+          }
+        },
+        {
+          "step": 99,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 80,
+          "compiled_all_to_all_two_qubit_gates": 30,
+          "compiled_operation_counts": {
+            "rz": 116,
+            "sx": 76,
+            "cx": 30,
+            "x": 4
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        30,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        80,
+        104
+      ],
+      "projected_CX_range_per_METTS_state": [
+        3000,
+        4500
+      ],
+      "trajectory_wall_seconds": 2.6950473999604583
+    },
+    {
+      "initial_product_basis_state": "X:101010",
+      "nominal_step_inverse_K": 0.1,
+      "actual_step_inverse_K": 0.1,
+      "step_count": 50,
+      "final_infidelity": 2.8823596232019355e-06,
+      "exact_energy_K": -10.382974133387796,
+      "qite_energy_K": -10.382938947271674,
+      "energy_error_K": 3.518611612207678e-05,
+      "exact_mean_V_K": 0.18726959179476493,
+      "qite_mean_V_K": 0.18729051820392323,
+      "mean_V_error_K": 2.0926409158295023e-05,
+      "max_relative_tangent_residual": 7.811431923079915e-13,
+      "median_relative_tangent_residual": 3.677909436736824e-14,
+      "median_retained_pauli_terms": 153.0,
+      "max_resolved_condition_number": 770580.559924625,
+      "resource_samples": [
+        {
+          "step": 0,
+          "logical_depth": 344,
+          "compiled_all_to_all_depth": 102,
+          "compiled_all_to_all_two_qubit_gates": 39,
+          "compiled_operation_counts": {
+            "rz": 145,
+            "sx": 100,
+            "cx": 39
+          }
+        },
+        {
+          "step": 12,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 25,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 37,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        },
+        {
+          "step": 49,
+          "logical_depth": 552,
+          "compiled_all_to_all_depth": 104,
+          "compiled_all_to_all_two_qubit_gates": 45,
+          "compiled_operation_counts": {
+            "rz": 153,
+            "sx": 102,
+            "cx": 45
+          }
+        }
+      ],
+      "sampled_CX_range_per_step": [
+        39,
+        45
+      ],
+      "sampled_depth_range_per_step": [
+        102,
+        104
+      ],
+      "projected_CX_range_per_METTS_state": [
+        1950,
+        2250
+      ],
+      "trajectory_wall_seconds": 1.447946700034663
+    }
+  ],
+  "scope_limits": [
+    "Every QITE generator is fitted from the exact statevector, with no shot or hardware noise.",
+    "Only one product-state trajectory is tested; QMETTS burn-in and autocorrelation are absent.",
+    "CX counts assume all-to-all connectivity and sample only five steps per trajectory.",
+    "The N=6 M2 patch is a circuit-development test, not the N=9 M3 scientific benchmark."
+  ],
+  "elapsed_seconds": 18.8909104000777
+}

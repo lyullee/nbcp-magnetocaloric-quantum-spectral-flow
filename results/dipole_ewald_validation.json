@@ -1,0 +1,33 @@
+{
+  "prefactor_microeV_angstrom3": 53.68151120621697,
+  "nearest_neighbor_Kd_microeV": 0.3581381073948404,
+  "nearest_neighbor_spin_tensor_microeV": [
+    [
+      -12.635112428889974,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.317556214444986,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      7.965226447059702
+    ]
+  ],
+  "expected_NN_diagonal_microeV": [
+    -12.63511242888997,
+    6.317556214444985,
+    7.9652264470597025
+  ],
+  "ewald_alpha_values_per_angstrom": [
+    0.16,
+    0.22,
+    0.3
+  ],
+  "ewald_pair_tensor_max_alpha_spread_per_angstrom3": 4.163336342344337e-17,
+  "ewald_boundary": "tin_foil"
+}

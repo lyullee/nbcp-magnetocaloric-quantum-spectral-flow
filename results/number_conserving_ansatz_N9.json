@@ -1,0 +1,118 @@
+{
+  "purpose": "physics-informed N=9 low-energy state-preparation screen",
+  "condition": {
+    "N": 9,
+    "translations": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "field_T": 1.45,
+    "lambda": 0.5,
+    "target_level": 0
+  },
+  "ansatz": "triangular-bond Givens mixers plus RZ and RZZ phases",
+  "dominant_up_spin_sector": 7,
+  "dominant_sector_weight": 0.9998566512913096,
+  "initial_computational_basis_index": 415,
+  "edge_count": 27,
+  "settings": {
+    "layers": [
+      1,
+      2,
+      3
+    ],
+    "restarts": 3,
+    "maxiter": 500,
+    "seed": 20261012
+  },
+  "runs": [
+    {
+      "layers": 1,
+      "parameter_count": 63,
+      "best_sector_fidelity": 0.9083067508453239,
+      "best_full_state_fidelity": 0.9081765462454955,
+      "qiskit_sector_fidelity": 0.9083067508453239,
+      "optimizer": {
+        "sector_fidelity": 0.9083067508453239,
+        "full_state_fidelity": 0.9081765462454955,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 165,
+        "function_gradient_evaluations": 190
+      },
+      "all_to_all": {
+        "cx_count": 54,
+        "depth": 161,
+        "operation_count": 398
+      },
+      "fake_sherbrooke": {
+        "ecr_count": 131,
+        "depth": 374,
+        "operation_count": 915
+      }
+    },
+    {
+      "layers": 2,
+      "parameter_count": 126,
+      "best_sector_fidelity": 0.9999999999995233,
+      "best_full_state_fidelity": 0.999856651290833,
+      "qiskit_sector_fidelity": 0.9999999999995242,
+      "optimizer": {
+        "sector_fidelity": 0.9999999999995233,
+        "full_state_fidelity": 0.999856651290833,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 135,
+        "function_gradient_evaluations": 141
+      },
+      "all_to_all": {
+        "cx_count": 214,
+        "depth": 419,
+        "operation_count": 956
+      },
+      "fake_sherbrooke": {
+        "ecr_count": 512,
+        "depth": 1392,
+        "operation_count": 3452
+      }
+    },
+    {
+      "layers": 3,
+      "parameter_count": 189,
+      "best_sector_fidelity": 0.999999999999835,
+      "best_full_state_fidelity": 0.9998566512911446,
+      "qiskit_sector_fidelity": 0.9999999999998348,
+      "optimizer": {
+        "sector_fidelity": 0.999999999999835,
+        "full_state_fidelity": 0.9998566512911446,
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 101,
+        "function_gradient_evaluations": 111
+      },
+      "all_to_all": {
+        "cx_count": 321,
+        "depth": 621,
+        "operation_count": 1424
+      },
+      "fake_sherbrooke": {
+        "ecr_count": 777,
+        "depth": 2059,
+        "operation_count": 5241
+      }
+    }
+  ],
+  "scope_limits": [
+    "Only the ground state at the central lambda node is fitted; spectral flow needs several excited states and all three nodes.",
+    "Fidelity is optimized in the dominant fixed-up-spin sector, with full-state fidelity reduced by omitted M3 sector mixing.",
+    "Exact target amplitudes are used for local fitting and do not constitute a scalable state-discovery method.",
+    "FakeSherbrooke compilation is topology-aware but excludes noise and optimizer measurements."
+  ],
+  "elapsed_seconds": 16.440475800074637
+}

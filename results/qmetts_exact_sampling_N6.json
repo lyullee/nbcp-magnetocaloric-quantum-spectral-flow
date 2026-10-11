@@ -1,0 +1,105 @@
+{
+  "purpose": "exact QMETTS Markov-chain and collapse-basis benchmark",
+  "cluster": {
+    "N": 6,
+    "boundary": "open 3x2 triangular patch",
+    "model": "M2"
+  },
+  "observable": "V=M2-M0",
+  "field_T": 1.45,
+  "burn_in": 500,
+  "samples_per_chain": 20000,
+  "rows": [
+    {
+      "sample_mean_K": 0.046550241880683775,
+      "sample_standard_deviation_K": 0.0017247160117074597,
+      "integrated_autocorrelation_time": 0.9514409082009749,
+      "effective_sample_count": 10510.374226927479,
+      "standard_error_K": 1.6823196027586912e-05,
+      "Z_collapse_even_fraction": 0.0,
+      "temperature_K": 0.09,
+      "strategy": "Z_only",
+      "exact_thermal_mean_V_K": 0.1872833847770319,
+      "bias_K": -0.14073314289634814,
+      "bias_per_spin_K": -0.023455523816058022,
+      "z_score": -8365.422519334137
+    },
+    {
+      "sample_mean_K": 0.1872841140733066,
+      "sample_standard_deviation_K": 1.2441000039514422e-06,
+      "integrated_autocorrelation_time": 0.5,
+      "effective_sample_count": 20000.0,
+      "standard_error_K": 8.797115492682753e-09,
+      "Z_collapse_even_fraction": 1.0,
+      "temperature_K": 0.09,
+      "strategy": "alternating_ZX",
+      "exact_thermal_mean_V_K": 0.1872833847770319,
+      "bias_K": 7.292962747040832e-07,
+      "bias_per_spin_K": 1.215493791173472e-07,
+      "z_score": 82.90175061481185
+    },
+    {
+      "sample_mean_K": 0.18728484923799565,
+      "sample_standard_deviation_K": 1.3722793329007363e-09,
+      "integrated_autocorrelation_time": 0.5,
+      "effective_sample_count": 20000.0,
+      "standard_error_K": 9.703480219762623e-12,
+      "Z_collapse_even_fraction": 1.0,
+      "temperature_K": 0.1,
+      "strategy": "Z_only",
+      "exact_thermal_mean_V_K": 0.18728012359602847,
+      "bias_K": 4.725641967184835e-06,
+      "bias_per_spin_K": 7.876069945308058e-07,
+      "z_score": 487004.8539451177
+    },
+    {
+      "sample_mean_K": 0.18728248488088953,
+      "sample_standard_deviation_K": 3.918211958044935e-06,
+      "integrated_autocorrelation_time": 0.5,
+      "effective_sample_count": 20000.0,
+      "standard_error_K": 2.7705942456597936e-08,
+      "Z_collapse_even_fraction": 1.0,
+      "temperature_K": 0.1,
+      "strategy": "alternating_ZX",
+      "exact_thermal_mean_V_K": 0.18728012359602847,
+      "bias_K": 2.3612848610576886e-06,
+      "bias_per_spin_K": 3.935474768429481e-07,
+      "z_score": 85.22665723271105
+    },
+    {
+      "sample_mean_K": 0.04718387085648905,
+      "sample_standard_deviation_K": 0.0023888685618427136,
+      "integrated_autocorrelation_time": 1.028261036566148,
+      "effective_sample_count": 9725.156982894878,
+      "standard_error_K": 2.422389329870005e-05,
+      "Z_collapse_even_fraction": 0.0,
+      "temperature_K": 0.12,
+      "strategy": "Z_only",
+      "exact_thermal_mean_V_K": 0.1872571878420395,
+      "bias_K": -0.14007331698555048,
+      "bias_per_spin_K": -0.02334555283092508,
+      "z_score": -5782.4444344405765
+    },
+    {
+      "sample_mean_K": 0.18726392386449506,
+      "sample_standard_deviation_K": 0.0009946283189465135,
+      "integrated_autocorrelation_time": 0.500166440391489,
+      "effective_sample_count": 19993.34459979527,
+      "standard_error_K": 7.034254782774847e-06,
+      "Z_collapse_even_fraction": 0.9999,
+      "temperature_K": 0.12,
+      "strategy": "alternating_ZX",
+      "exact_thermal_mean_V_K": 0.1872571878420395,
+      "bias_K": 6.73602245554461e-06,
+      "bias_per_spin_K": 1.122670409257435e-06,
+      "z_score": 0.957602853971037
+    }
+  ],
+  "decision_rule": "alternating Z/X must remove parity trapping and agree with the exact Gibbs mean within 3 autocorrelation-adjusted standard errors",
+  "scope_limits": [
+    "Imaginary-time propagation is exact; QITE, shot and hardware errors are absent.",
+    "The standard error uses a positive-sequence autocorrelation estimate from one chain.",
+    "N=6 M2 is a sampling unit test; the scientific target remains N=9 periodic M3."
+  ],
+  "elapsed_seconds": 59.23705489980057
+}

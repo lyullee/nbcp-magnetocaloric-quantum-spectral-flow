@@ -1,0 +1,170 @@
+{
+  "purpose": "N=9 executable state-preparation field scan across both entropy-change signs and the zero crossing",
+  "fields_T": [
+    1.4,
+    1.45,
+    1.5
+  ],
+  "temperatures_K": [
+    0.09,
+    0.1,
+    0.12
+  ],
+  "field_summaries": [
+    {
+      "field_T": 1.4,
+      "low_energy_levels": 7,
+      "distinct_state_circuits": 12,
+      "minimum_qiskit_fidelity": 0.9763641492782822,
+      "maximum_abs_V_error_K": 0.005982807937236684,
+      "maximum_all_to_all_CX": 156,
+      "maximum_fake_sherbrooke_ECR": 374,
+      "maximum_absolute_total_delta_S_error_kB_per_spin": 0.0006154231398369046,
+      "maximum_error_to_target_ratio": 0.6154231398369046,
+      "all_targets_pass": true,
+      "all_signs_match": true
+    },
+    {
+      "field_T": 1.45,
+      "low_energy_levels": 5,
+      "distinct_state_circuits": 9,
+      "minimum_qiskit_fidelity": 0.9993505698068735,
+      "maximum_abs_V_error_K": 0.005577780729395909,
+      "maximum_all_to_all_CX": 156,
+      "maximum_fake_sherbrooke_ECR": 374,
+      "maximum_absolute_total_delta_S_error_kB_per_spin": 0.00015127450713069298,
+      "maximum_error_to_target_ratio": 0.3500073796623861,
+      "all_targets_pass": true,
+      "all_signs_match": true
+    },
+    {
+      "field_T": 1.5,
+      "low_energy_levels": 5,
+      "distinct_state_circuits": 9,
+      "minimum_qiskit_fidelity": 0.9980592325313343,
+      "maximum_abs_V_error_K": 0.005227233941993592,
+      "maximum_all_to_all_CX": 156,
+      "maximum_fake_sherbrooke_ECR": 374,
+      "maximum_absolute_total_delta_S_error_kB_per_spin": 0.0005668274411814427,
+      "maximum_error_to_target_ratio": 0.5668274411814427,
+      "all_targets_pass": true,
+      "all_signs_match": true
+    }
+  ],
+  "thermodynamic_rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": -0.014294966834567003,
+      "exact_low_rank_flow_delta_S_kB_per_spin": -0.014318339092909312,
+      "circuit_prepared_delta_S_kB_per_spin": -0.014910389974403908,
+      "state_preparation_incremental_error_kB_per_spin": -0.0005920508814945963,
+      "total_error_kB_per_spin": -0.0006154231398369046,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": -0.012036711571047156,
+      "exact_low_rank_flow_delta_S_kB_per_spin": -0.01208734755215124,
+      "circuit_prepared_delta_S_kB_per_spin": -0.012607307865848207,
+      "state_preparation_incremental_error_kB_per_spin": -0.0005199603136969676,
+      "total_error_kB_per_spin": -0.0005705962948010512,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": -0.00826495612420233,
+      "exact_low_rank_flow_delta_S_kB_per_spin": -0.008421485468882932,
+      "circuit_prepared_delta_S_kB_per_spin": -0.008804743650739712,
+      "state_preparation_incremental_error_kB_per_spin": -0.00038325818185678054,
+      "total_error_kB_per_spin": -0.000539787526537383,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "target_error_kB_per_spin": 0.0002,
+      "exact_full_delta_S_kB_per_spin": 0.0006669278613424318,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.0006438260509811469,
+      "circuit_prepared_delta_S_kB_per_spin": 0.0005969263854099546,
+      "state_preparation_incremental_error_kB_per_spin": -4.689966557119233e-05,
+      "total_error_kB_per_spin": -7.000147593247722e-05,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": 0.0010742771787824888,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.0010202632468575186,
+      "circuit_prepared_delta_S_kB_per_spin": 0.0010161127519922658,
+      "state_preparation_incremental_error_kB_per_spin": -4.150494865252799e-06,
+      "total_error_kB_per_spin": -5.816442679022304e-05,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": 0.0014688172848644025,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.0012817312738335998,
+      "circuit_prepared_delta_S_kB_per_spin": 0.0013175427777337096,
+      "state_preparation_incremental_error_kB_per_spin": 3.581150390010975e-05,
+      "total_error_kB_per_spin": -0.00015127450713069298,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": 0.01150273255798822,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.011505771323525494,
+      "circuit_prepared_delta_S_kB_per_spin": 0.012069559999169662,
+      "state_preparation_incremental_error_kB_per_spin": 0.0005637886756441682,
+      "total_error_kB_per_spin": 0.0005668274411814427,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": 0.010934971367497992,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.010938776369221668,
+      "circuit_prepared_delta_S_kB_per_spin": 0.011468747795481175,
+      "state_preparation_incremental_error_kB_per_spin": 0.0005299714262595075,
+      "total_error_kB_per_spin": 0.0005337764279831833,
+      "sign_matches_exact": true,
+      "passes_target": true
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "target_error_kB_per_spin": 0.001,
+      "exact_full_delta_S_kB_per_spin": 0.009564483331694426,
+      "exact_low_rank_flow_delta_S_kB_per_spin": 0.00955413009818863,
+      "circuit_prepared_delta_S_kB_per_spin": 0.010010786073586322,
+      "state_preparation_incremental_error_kB_per_spin": 0.0004566559753976917,
+      "total_error_kB_per_spin": 0.000446302741891896,
+      "sign_matches_exact": true,
+      "passes_target": true
+    }
+  ],
+  "status": "PASS",
+  "interpretation": [
+    "The same physics-informed circuit family passes at negative, near-zero and positive entropy-change fields.",
+    "The 1.40 T rank-7 states include a harder excited doublet with lower full-state fidelity, but the V observable and final entropy remain within the predeclared tolerance.",
+    "This validates circuit expressibility and observable bias using exact classical targets; it is not a scalable eigensolver or a noisy-device accuracy claim."
+  ]
+}

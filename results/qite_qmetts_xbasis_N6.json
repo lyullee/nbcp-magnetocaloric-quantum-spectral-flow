@@ -1,0 +1,49 @@
+{
+  "purpose": "all-state ideal QITE-QMETTS X-basis benchmark",
+  "cluster": {
+    "N": 6,
+    "boundary": "open 3x2 triangular patch",
+    "model": "M2"
+  },
+  "observable": "V=M2-M0",
+  "field_T": 1.45,
+  "temperature_K": 0.1,
+  "beta_over_2_inverse_K": 5.0,
+  "imaginary_step_inverse_K": 0.1,
+  "step_count_per_METTS_state": 50,
+  "maximum_pauli_weight": 2,
+  "pool_size": 153,
+  "exact_thermal_mean_V_K": 0.18728012359602814,
+  "best_case_exact_weight_QITE_mean_V_K": 0.18728319937664734,
+  "best_case_bias_K": 3.075780619199442e-06,
+  "best_case_bias_K_per_spin": 5.12630103199907e-07,
+  "QITE_transition_stationary_mean_V_K": 0.18728319969418677,
+  "end_to_end_bias_K": 3.0760981586386293e-06,
+  "end_to_end_bias_K_per_spin": 5.126830264397716e-07,
+  "stationary_probability_L1_error": 7.552247806392326e-05,
+  "transition_spectral_summary": {
+    "unit_eigenvalue_error": 0.0,
+    "second_eigenvalue_modulus": 0.011360563224504143,
+    "spectral_gap": 0.9886394367754958,
+    "stationary_residual": 4.5102810375396984e-17
+  },
+  "statewise": {
+    "minimum_fidelity": 0.9998613725176133,
+    "median_infidelity": 1.1792180295566723e-06,
+    "maximum_abs_V_error_K": 6.226492068434064e-05,
+    "exact_probability_weighted_RMSE_V_K": 1.7638207663492796e-05,
+    "maximum_tangent_residual": 1.108727230713032e-11,
+    "median_retained_pauli_terms": 153.0
+  },
+  "acceptance": {
+    "provisional_V_bias_limit_K_per_spin": 0.0001,
+    "passes_provisional_V_bias": true
+  },
+  "scope_limits": [
+    "QITE coefficients use exact statevectors; measurement and linear-system noise are absent.",
+    "Observable shots and QMETTS finite-chain variance are absent because the stationary transition matrix is solved exactly.",
+    "This tests one temperature, field and lambda endpoint on N=6 M2; it does not yet establish delta-F or delta-S accuracy.",
+    "The scientific target remains N=9 periodic M3."
+  ],
+  "elapsed_seconds": 81.30747399991378
+}

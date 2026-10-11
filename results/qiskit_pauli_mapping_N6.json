@@ -1,0 +1,126 @@
+{
+  "purpose": "N=6 open-patch circuit-development unit test; not a material or bulk result",
+  "runtime": {
+    "qiskit": "2.5.2",
+    "simulator": "qiskit.quantum_info.Statevector"
+  },
+  "cluster": {
+    "N": 6,
+    "coordinates": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "directional_edges": [
+      [
+        0,
+        1,
+        0.0
+      ],
+      [
+        0,
+        3,
+        1.0471975511965976
+      ],
+      [
+        1,
+        2,
+        0.0
+      ],
+      [
+        1,
+        4,
+        1.0471975511965976
+      ],
+      [
+        2,
+        5,
+        1.0471975511965976
+      ],
+      [
+        3,
+        4,
+        0.0
+      ],
+      [
+        3,
+        1,
+        -1.0471975511965976
+      ],
+      [
+        4,
+        5,
+        0.0
+      ],
+      [
+        4,
+        2,
+        -1.0471975511965976
+      ]
+    ]
+  },
+  "field_T": 1.45,
+  "field_K": 4.593313414041066,
+  "basis_mapping": {
+    "Sx": "X/2",
+    "Sy": "-Y/2",
+    "Sz": "-Z/2"
+  },
+  "models": {
+    "M0": {
+      "bond_count": 9,
+      "pauli_term_count": 33,
+      "global_commuting_group_count": 5,
+      "qubitwise_commuting_group_count": 3,
+      "dense_matrix_max_abs_error_K": 3.552713678800501e-15,
+      "random_state_expectation_K": 0.3921174901234621,
+      "random_state_expectation_abs_error_K": 6.106226635438361e-16
+    },
+    "M2": {
+      "bond_count": 9,
+      "pauli_term_count": 43,
+      "global_commuting_group_count": 7,
+      "qubitwise_commuting_group_count": 5,
+      "dense_matrix_max_abs_error_K": 3.552713678800501e-15,
+      "random_state_expectation_K": 0.39538523165017214,
+      "random_state_expectation_abs_error_K": 1.0547118733938987e-15
+    }
+  },
+  "correction_M2_minus_M0": {
+    "pauli_term_count": 37,
+    "global_commuting_group_count": 7,
+    "qubitwise_commuting_group_count": 5,
+    "dense_matrix_max_abs_error_K": 4.996003610813204e-16,
+    "random_state_expectation_K": 0.003267741526709755,
+    "random_state_expectation_abs_error_K": 1.2266347333466993e-17
+  },
+  "acceptance_tolerance_K": 1e-12,
+  "status": "PASS",
+  "scope_limits": [
+    "The open N=6 patch uses M2 nearest-neighbour corrections because periodic M3 is ill-defined at N=6.",
+    "The scientific algorithm benchmark remains the N=9 periodic M0-to-M3 target.",
+    "Statevector expectation agreement validates mapping only, not thermal-state preparation."
+  ],
+  "elapsed_seconds": 0.01593490014784038
+}

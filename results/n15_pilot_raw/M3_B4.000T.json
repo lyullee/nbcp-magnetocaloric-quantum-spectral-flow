@@ -1,0 +1,28 @@
+{
+  "method": "low-energy-corrected FTLM",
+  "spins": 15,
+  "sector_dimensions": [
+    16384,
+    16384
+  ],
+  "random_vectors_per_sector": 4,
+  "krylov_dimension": 40,
+  "exact_low_states_per_sector": 8,
+  "seed": 20261011,
+  "max_lanczos_residual_K": 36.69471497831714,
+  "elapsed_seconds": 23.101396600017324,
+  "rows": [
+    {
+      "temperature_K": 2.0,
+      "log_partition": 39.59051619595698,
+      "energy_K_total": -76.82500230562493,
+      "heat_capacity_kB_total": 3.5895307442731337,
+      "entropy_kB_total": 1.1780150431445136,
+      "entropy_kB_per_spin": 0.07853433620963424
+    }
+  ],
+  "model": "M3",
+  "model_name": "M1 plus full 3D-periodic Ewald dipoles",
+  "field_T": 4.0,
+  "boundary": "tin_foil"
+}

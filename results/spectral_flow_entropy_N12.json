@@ -1,0 +1,262 @@
+{
+  "purpose": "N=12 size-extension of low-energy spectral-flow entropy reconstruction",
+  "cluster": {
+    "N": 12,
+    "translations": [
+      [
+        2,
+        2
+      ],
+      [
+        -2,
+        4
+      ]
+    ],
+    "boundary": "periodic; M3 tin-foil Ewald"
+  },
+  "settings": {
+    "low_eigenpairs_per_parity": 48,
+    "quadrature": "3-point Gauss-Legendre",
+    "eigsh_tolerance": 1e-10
+  },
+  "observable": {
+    "pauli_term_count": 270,
+    "qwc_group_count": 5,
+    "coefficient_l1_K": 4.076781215195659
+  },
+  "rows": [
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "low_energy_rank": 6,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": 0.00585307190390949,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 6.346176776013682e-12,
+      "exact_truncated_delta_S_kB_per_spin": 0.005847363842173367,
+      "reconstructed_delta_S_kB_per_spin": 0.0061136323581289,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": 0.00026056045421940944,
+      "maximum_selected_level_energy_error_K": 0.015383894268722997,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 87844,
+      "weighted_measurement_amplitude": 0.29638362779027877,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 6.600736918983129e-13,
+          "entropy_kB_error_upper_bound": 2.466291227570971e-11
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 1.4065810481346448e-12,
+          "entropy_kB_error_upper_bound": 5.149120903645447e-11
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "low_energy_rank": 8,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": 0.006756836106169163,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 1.9749838286538646e-10,
+      "exact_truncated_delta_S_kB_per_spin": 0.00661024500540984,
+      "reconstructed_delta_S_kB_per_spin": 0.0068638878383257135,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": 0.00010705173215655017,
+      "maximum_selected_level_energy_error_K": 0.015383894268722997,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 112313,
+      "weighted_measurement_amplitude": 0.3351308317312179,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 2.4021220701331058e-11,
+          "entropy_kB_error_upper_bound": 8.111871548998652e-10
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 4.7098724861117104e-11,
+          "entropy_kB_error_upper_bound": 1.5587934394847725e-09
+        }
+      }
+    },
+    {
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "low_energy_rank": 15,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": 0.0075841429715842274,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 3.2529245328176015e-08,
+      "exact_truncated_delta_S_kB_per_spin": 0.007438678373094716,
+      "reconstructed_delta_S_kB_per_spin": 0.007627681072448693,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": 4.35381008644653e-05,
+      "maximum_selected_level_energy_error_K": 0.015383894268722997,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 135794,
+      "weighted_measurement_amplitude": 0.36850220356826313,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 5.0997895095736636e-09,
+          "entropy_kB_error_upper_bound": 1.448931212812703e-07
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 8.80881072923744e-09,
+          "entropy_kB_error_upper_bound": 2.454578226568419e-07
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "low_energy_rank": 10,
+      "target_delta_S_error_kB_per_spin": 0.0002,
+      "reference_delta_S_kB_per_spin": 0.0006191049918802168,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 2.530591064686842e-12,
+      "exact_truncated_delta_S_kB_per_spin": 0.0006003946721912559,
+      "reconstructed_delta_S_kB_per_spin": 0.0006003947453669343,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -1.8710246513282567e-05,
+      "maximum_selected_level_energy_error_K": 1.2964243012447696e-09,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 726487,
+      "weighted_measurement_amplitude": 0.170468317076099,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 3.8205628630636597e-13,
+          "entropy_kB_error_upper_bound": 1.4484004342245467e-11
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 4.2000984805393504e-13,
+          "entropy_kB_error_upper_bound": 1.5883088433996635e-11
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "low_energy_rank": 8,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": 0.0010707256047590614,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 8.862238002548589e-11,
+      "exact_truncated_delta_S_kB_per_spin": 0.000976743721294702,
+      "reconstructed_delta_S_kB_per_spin": 0.0009767438102980068,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -9.39817944610546e-05,
+      "maximum_selected_level_energy_error_K": 1.2964243012447696e-09,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 45638,
+      "weighted_measurement_amplitude": 0.2136285740185237,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 1.4891693297836313e-11,
+          "entropy_kB_error_upper_bound": 5.100067837212637e-10
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 1.620037887381939e-11,
+          "entropy_kB_error_upper_bound": 5.534617765845668e-10
+        }
+      }
+    },
+    {
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "low_energy_rank": 13,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": 0.0020317903051882504,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 1.7487256180632607e-08,
+      "exact_truncated_delta_S_kB_per_spin": 0.001935878234501633,
+      "reconstructed_delta_S_kB_per_spin": 0.0019360405085916133,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -9.574979659663719e-05,
+      "maximum_selected_level_energy_error_K": 0.00017853767436726287,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 81982,
+      "weighted_measurement_amplitude": 0.2863248112330708,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 3.5277022546406594e-09,
+          "entropy_kB_error_upper_bound": 1.0152776860531832e-07
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 3.772475632701687e-09,
+          "entropy_kB_error_upper_bound": 1.0831930556227296e-07
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "low_energy_rank": 7,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": -0.0018349569174163638,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 2.675653906139415e-13,
+      "exact_truncated_delta_S_kB_per_spin": -0.0020062638343165476,
+      "reconstructed_delta_S_kB_per_spin": -0.002006263793037801,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -0.0001713068756214373,
+      "maximum_selected_level_energy_error_K": 9.952394464107783e-10,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 21506,
+      "weighted_measurement_amplitude": 0.14664633219457676,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 3.9913371211201815e-14,
+          "entropy_kB_error_upper_bound": 1.6033582952211579e-12
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 4.001995447357783e-14,
+          "entropy_kB_error_upper_bound": 1.6074263921461403e-12
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "low_energy_rank": 8,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": -0.002203994061279709,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 1.1813041117448485e-11,
+      "exact_truncated_delta_S_kB_per_spin": -0.0022745266465210023,
+      "reconstructed_delta_S_kB_per_spin": -0.0022745265949916937,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -7.053253371198465e-05,
+      "maximum_selected_level_energy_error_K": 9.952394464107783e-10,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 36291,
+      "weighted_measurement_amplitude": 0.19050112628036672,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 1.9489830195115465e-12,
+          "entropy_kB_error_upper_bound": 7.071152522978396e-11
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 1.958435098277889e-12,
+          "entropy_kB_error_upper_bound": 7.104496817959784e-11
+        }
+      }
+    },
+    {
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "low_energy_rank": 13,
+      "target_delta_S_error_kB_per_spin": 0.001,
+      "reference_delta_S_kB_per_spin": -0.002420905431176142,
+      "reference_tail_delta_S_error_bound_kB_per_spin": 3.303086933071728e-09,
+      "exact_truncated_delta_S_kB_per_spin": -0.0024611462256698504,
+      "reconstructed_delta_S_kB_per_spin": -0.002461145977535615,
+      "low_rank_plus_quadrature_error_vs_reference_kB_per_spin": -4.0240546359472835e-05,
+      "maximum_selected_level_energy_error_K": 1.359160961555972e-07,
+      "sign_matches_reference": true,
+      "optimistic_optimal_V_measurement_shots": 69705,
+      "weighted_measurement_amplitude": 0.26401637199477773,
+      "tail_bounds": {
+        "M0": {
+          "omitted_probability_upper_bound": 6.475517540214301e-10,
+          "entropy_kB_error_upper_bound": 1.9734362751730537e-08
+        },
+        "M3": {
+          "omitted_probability_upper_bound": 6.532630628496368e-10,
+          "entropy_kB_error_upper_bound": 1.9902680445130197e-08
+        }
+      }
+    }
+  ],
+  "scope_limits": [
+    "The endpoint reference uses 96 low levels and a worst-case omitted-tail/Fannes-Audenaert error bound, not full N=12 diagonalization.",
+    "Exact eigsh eigenvectors stand in for a future quantum eigensolver, so shot counts omit the dominant state-preparation/optimization risk.",
+    "The classical M0 low-energy spectrum is treated as an available baseline.",
+    "Routing, noise, mitigation, overlap penalties and optimizer repetitions are excluded.",
+    "N=12 is a finite cluster and does not establish thermodynamic-limit quantum resource scaling."
+  ],
+  "elapsed_seconds": 148.9324831000995
+}

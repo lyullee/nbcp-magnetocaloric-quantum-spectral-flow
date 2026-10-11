@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "manuscript_exists": true,
+    "m0_field": true,
+    "m1_field": true,
+    "m2_field": true,
+    "m3_tin_field": true,
+    "m3_sphere_field": true,
+    "m4_tin_field": true,
+    "m4_sphere_field": true,
+    "p2_delta_gate": true,
+    "p2_regret_gate": true,
+    "experimental_robust_field": true,
+    "candidate_schedule": true,
+    "all_stateprep_targets_pass": true,
+    "two_qpu_jobs": true,
+    "qpu_ids_present": true,
+    "qpu_usage_71s": true,
+    "scope_no_quantum_advantage": true,
+    "scope_qpu_quantitative_hold": true,
+    "authors_and_orcids": true,
+    "all_linked_figures_exist": true,
+    "minimum_reference_count": true
+  },
+  "failed": [],
+  "linked_figures": [
+    "../figures/bulk_bridge_engineering_screen.png",
+    "../figures/interlayer_engineering_scenarios.png",
+    "../figures/spectral_flow_stateprep_N9_field_scan.png",
+    "../figures/open_plan_qpu_pilot_N6.png"
+  ],
+  "status": "PASS"
+}

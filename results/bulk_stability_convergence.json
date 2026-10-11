@@ -1,0 +1,123 @@
+{
+  "model": "M4",
+  "convergence_rows": [
+    {
+      "alpha": 0.18,
+      "real_cutoff": 42.0,
+      "reciprocal_cutoff": 8.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.22,
+      "real_cutoff": 36.0,
+      "reciprocal_cutoff": 8.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.22,
+      "real_cutoff": 42.0,
+      "reciprocal_cutoff": 6.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.22,
+      "real_cutoff": 42.0,
+      "reciprocal_cutoff": 8.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.22,
+      "real_cutoff": 42.0,
+      "reciprocal_cutoff": 10.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.22,
+      "real_cutoff": 50.0,
+      "reciprocal_cutoff": 8.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "alpha": 0.28,
+      "real_cutoff": 42.0,
+      "reciprocal_cutoff": 8.0,
+      "boundary": "tin_foil",
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    }
+  ],
+  "optimizer_seed_rows": [
+    {
+      "seed": 1,
+      "critical_field_T": 1.8676712357447809,
+      "critical_wavevector_rlu": [
+        0.7163194821263821,
+        0.35815974372258996,
+        0.665711338277829
+      ]
+    },
+    {
+      "seed": 260711,
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.7163194848294215,
+        0.3581597455048953,
+        0.6657113883876482
+      ]
+    },
+    {
+      "seed": 999983,
+      "critical_field_T": 1.8676712357447807,
+      "critical_wavevector_rlu": [
+        0.28368051808645806,
+        0.6418402582752372,
+        0.3342885953365034
+      ]
+    }
+  ],
+  "ewald_field_spread_T": 0.0,
+  "optimizer_seed_field_spread_T": 2.220446049250313e-16,
+  "base_field_T": 1.8676712357447807,
+  "reported_reference_T": 1.86,
+  "base_minus_reported_T": 0.007671235744780569
+}

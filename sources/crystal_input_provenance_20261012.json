@@ -1,0 +1,67 @@
+{
+  "material": "Na2BaCo(PO4)2",
+  "purpose": "Equivalent magnetic-lattice input for the M0-M4 spin models; a full atomic CIF is not required because only Co magnetic-site displacement vectors enter the spin Hamiltonian and dipolar Ewald sum.",
+  "public_source": {
+    "title": "Field-tuned incommensurate fan phase in an Ising-like triangular antiferromagnet",
+    "authors": [
+      "D. Flavian",
+      "R. Okuma",
+      "P. Manuel",
+      "Q. Huang",
+      "H. Zhou",
+      "R. Coldea"
+    ],
+    "identifier": "arXiv:2607.23173v1",
+    "doi": "10.48550/arXiv.2607.23173",
+    "url": "https://arxiv.org/abs/2607.23173v1",
+    "accessed": "2026-10-12",
+    "local_source": "raw/arxiv_2607.23173_source/main.tex",
+    "local_source_sha256": "1b758155bd462010c00c71a6991d9e829dd1d587d5bcc212ddbd044193f44b8b",
+    "source_archive": "raw/arxiv_2607.23173_source.tar",
+    "source_archive_sha256": "8e6b98abf97340684470416ab4f3229993548c10677cf66b3a047eaa17881b13"
+  },
+  "source_locations": {
+    "space_group_and_lattice_parameters": "main.tex lines 63 and 78",
+    "triangular_Co_magnetic_sublattice": "main.tex lines 63 and 67",
+    "actual_P_minus_3_symmetry_and_exchange_constraints": "main.tex lines 363-402",
+    "interlayer_bond_convention": "main.tex Fig. 9 and Eq. for interplane exchange; implemented and unit-tested in stacked_lattice.py"
+  },
+  "magnetic_lattice": {
+    "space_group": "P-3 (No. 147)",
+    "stacking": "AA-stacked triangular Co layers",
+    "lattice_parameters_angstrom": {
+      "a": 5.312,
+      "c": 6.983
+    },
+    "primitive_vectors_cartesian_angstrom_columns": [
+      [5.312, 2.656, 0.0],
+      [0.0, 4.600966688860591, 0.0],
+      [0.0, 0.0, 6.983]
+    ],
+    "magnetic_sites_fractional": [
+      [0.0, 0.0, 0.0]
+    ],
+    "origin_convention": "Origin placed on Co; translations generate the complete magnetic sublattice.",
+    "intralayer_positive_bond_displacements_primitive": [
+      [1, 0, 0],
+      [0, 1, 0],
+      [1, -1, 0]
+    ],
+    "interlayer_displacements_primitive": {
+      "J2": [[0, 0, 1]],
+      "Ja": [[1, 0, 1], [0, 1, 1], [1, -1, 1]],
+      "Jb": [[-1, 0, 1], [0, -1, 1], [-1, 1, 1]]
+    }
+  },
+  "cif_status": {
+    "public_CIF_found_in_preserved_archives": false,
+    "note": "The preserved Oxford ORA archive contains figure-level diffraction data and calculations but no CIF. The explicit magnetic-lattice representation above is the equivalent input required by the frozen model specification."
+  },
+  "implementation_links": [
+    "../model_specification_v1.json",
+    "../dipole_ewald.py",
+    "../stacked_lattice.py",
+    "../test_dipole_ewald.py",
+    "../test_stacked_lattice.py"
+  ]
+}

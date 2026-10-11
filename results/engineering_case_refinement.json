@@ -1,0 +1,479 @@
+{
+  "hot_state": {
+    "T_K": 2.0,
+    "B_T": 4.0,
+    "S_mJ_per_cm3_K": 6.687726300709299
+  },
+  "comparisons": [
+    {
+      "T_cold_K": 0.09,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 8.486990320048736,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.16193376174054938
+    },
+    {
+      "T_cold_K": 0.09,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 5.678270080404029,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": -0.09085105982747431
+    },
+    {
+      "T_cold_K": 0.09,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 12.672467960649803,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.5386267493946453
+    },
+    {
+      "T_cold_K": 0.09,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 9.1158425014085,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.21853045806292803
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 9.315684305185728,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.26279580044764295
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 6.986590091605752,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.02988637908964531
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 13.910555551572754,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.7222829250863456
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 9.810908065033873,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.3123181764324574
+    },
+    {
+      "T_cold_K": 0.12,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 11.374293965250809,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.5623881197449812
+    },
+    {
+      "T_cold_K": 0.12,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 14.964028298012042,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.9931562396763292
+    },
+    {
+      "T_cold_K": 0.12,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 15.283396131733657,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 1.0314803797229228
+    },
+    {
+      "T_cold_K": 0.12,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 11.066162012747489,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.5254122854445827
+    },
+    {
+      "T_cold_K": 0.15,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 14.972628476922223,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 1.2427353264319385
+    },
+    {
+      "T_cold_K": 0.15,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 17.258673639555436,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 1.5856421008269206
+    },
+    {
+      "T_cold_K": 0.15,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 16.835926435792505,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 1.5222300202624808
+    },
+    {
+      "T_cold_K": 0.15,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 12.643010525832947,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 0.8932926337685473
+    },
+    {
+      "T_cold_K": 0.2,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 19.30126350647146,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 2.5227074411524324
+    },
+    {
+      "T_cold_K": 0.2,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 19.691434615512062,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 2.600741662960553
+    },
+    {
+      "T_cold_K": 0.2,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 18.739227993553445,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 2.4103003385688293
+    },
+    {
+      "T_cold_K": 0.2,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 14.651621795531666,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 1.5927790989644734
+    },
+    {
+      "T_cold_K": 0.25,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 22.341571850738088,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 3.9134613875071973
+    },
+    {
+      "T_cold_K": 0.25,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 21.566674682486564,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 3.7197370954443163
+    },
+    {
+      "T_cold_K": 0.25,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 20.291567118269313,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 3.4009602043900036
+    },
+    {
+      "T_cold_K": 0.25,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 16.314381306747432,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 2.4066637515095333
+    },
+    {
+      "T_cold_K": 0.3,
+      "B_end_T": 0.0,
+      "S_cold_mJ_per_cm3_K": 24.81400299683634,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 5.437883008838113
+    },
+    {
+      "T_cold_K": 0.3,
+      "B_end_T": 1.3,
+      "S_cold_mJ_per_cm3_K": 23.129971522964084,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 4.932673566676435
+    },
+    {
+      "T_cold_K": 0.3,
+      "B_end_T": 1.5,
+      "S_cold_mJ_per_cm3_K": 21.634710909165154,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 4.484095382536756
+    },
+    {
+      "T_cold_K": 0.3,
+      "B_end_T": 1.66,
+      "S_cold_mJ_per_cm3_K": 17.765722767443286,
+      "Q_magnetic_entropy_budget_mJ_per_cm3": 3.323398940020196
+    }
+  ],
+  "rankings": [
+    {
+      "T_cold_K": 0.09,
+      "best_candidate_B_T": 1.5,
+      "runner_up_B_T": 1.66,
+      "gap_Q_mJ_per_cm3": 0.32009629133171724,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.022207356325760083,
+      "candidates_within_5_percent_of_best_Q_T": [
+        1.5
+      ],
+      "runner_up_relative_Q_loss_percent": 59.42822031981678
+    },
+    {
+      "T_cold_K": 0.1,
+      "best_candidate_B_T": 1.5,
+      "runner_up_B_T": 1.66,
+      "gap_Q_mJ_per_cm3": 0.4099647486538882,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.025597953337205423,
+      "candidates_within_5_percent_of_best_Q_T": [
+        1.5
+      ],
+      "runner_up_relative_Q_loss_percent": 56.759579164200616
+    },
+    {
+      "T_cold_K": 0.12,
+      "best_candidate_B_T": 1.5,
+      "runner_up_B_T": 1.3,
+      "gap_Q_mJ_per_cm3": 0.03832414004659368,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.0019941136236355087,
+      "candidates_within_5_percent_of_best_Q_T": [
+        1.5,
+        1.3
+      ],
+      "runner_up_relative_Q_loss_percent": 3.7154502208649225
+    },
+    {
+      "T_cold_K": 0.15,
+      "best_candidate_B_T": 1.3,
+      "runner_up_B_T": 1.5,
+      "gap_Q_mJ_per_cm3": 0.06341208056443981,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.002639608217752791,
+      "candidates_within_5_percent_of_best_Q_T": [
+        1.3,
+        1.5
+      ],
+      "runner_up_relative_Q_loss_percent": 3.9991420845454395
+    },
+    {
+      "T_cold_K": 0.2,
+      "best_candidate_B_T": 1.3,
+      "runner_up_B_T": 0.0,
+      "gap_Q_mJ_per_cm3": 0.07803422180812047,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.0024362050336135172,
+      "candidates_within_5_percent_of_best_Q_T": [
+        1.3,
+        0.0
+      ],
+      "runner_up_relative_Q_loss_percent": 3.000460327124158
+    },
+    {
+      "T_cold_K": 0.25,
+      "best_candidate_B_T": 0.0,
+      "runner_up_B_T": 1.3,
+      "gap_Q_mJ_per_cm3": 0.193724292062881,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.004838411502248805,
+      "candidates_within_5_percent_of_best_Q_T": [
+        0.0,
+        1.3
+      ],
+      "runner_up_relative_Q_loss_percent": 4.950203231372107
+    },
+    {
+      "T_cold_K": 0.3,
+      "best_candidate_B_T": 0.0,
+      "runner_up_B_T": 1.3,
+      "gap_Q_mJ_per_cm3": 0.5052094421616777,
+      "conditional_equal_entropy_error_bound_kB_per_spin": 0.010514991649431057,
+      "candidates_within_5_percent_of_best_Q_T": [
+        0.0
+      ],
+      "runner_up_relative_Q_loss_percent": 9.290553719904752
+    }
+  ],
+  "candidate_crossings": [
+    {
+      "fields_T": [
+        0.0,
+        1.3
+      ],
+      "T_K": 0.10772942373000521,
+      "both_on_central_value_best_candidate_envelope": false
+    },
+    {
+      "fields_T": [
+        0.0,
+        1.3
+      ],
+      "T_K": 0.21512010977221033,
+      "both_on_central_value_best_candidate_envelope": true
+    },
+    {
+      "fields_T": [
+        0.0,
+        1.5
+      ],
+      "T_K": 0.18530924990528186,
+      "both_on_central_value_best_candidate_envelope": false
+    },
+    {
+      "fields_T": [
+        0.0,
+        1.66
+      ],
+      "T_K": 0.11406780291795955,
+      "both_on_central_value_best_candidate_envelope": false
+    },
+    {
+      "fields_T": [
+        1.3,
+        1.5
+      ],
+      "T_K": 0.12764204902271972,
+      "both_on_central_value_best_candidate_envelope": true
+    },
+    {
+      "fields_T": [
+        1.3,
+        1.66
+      ],
+      "T_K": 0.10810833216034249,
+      "both_on_central_value_best_candidate_envelope": false
+    }
+  ],
+  "published_classical_reference_decisions": [
+    {
+      "T_cold_K": 0.09,
+      "published_XTRG_selected_B_T": 1.5,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.5,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 0.5386267493946453,
+      "observed_best_Q_budget_mJ_per_cm3": 0.5386267493946453,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.1,
+      "published_XTRG_selected_B_T": 1.5,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.5,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 0.7222829250863456,
+      "observed_best_Q_budget_mJ_per_cm3": 0.7222829250863456,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.12,
+      "published_XTRG_selected_B_T": 1.5,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.5,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 1.0314803797229228,
+      "observed_best_Q_budget_mJ_per_cm3": 1.0314803797229228,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.15,
+      "published_XTRG_selected_B_T": 1.5,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.3,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 1.5222300202624808,
+      "observed_best_Q_budget_mJ_per_cm3": 1.5856421008269206,
+      "choice_regret_Q_percent": 3.9991420845454395,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.2,
+      "published_XTRG_selected_B_T": 1.3,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.3,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 2.600741662960553,
+      "observed_best_Q_budget_mJ_per_cm3": 2.600741662960553,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.25,
+      "published_XTRG_selected_B_T": 1.3,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.3,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 3.7197370954443163,
+      "observed_best_Q_budget_mJ_per_cm3": 3.7197370954443163,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    },
+    {
+      "T_cold_K": 0.3,
+      "published_XTRG_selected_B_T": 1.3,
+      "experiment_based_selected_B_among_same_three_fields_T": 1.3,
+      "observed_Q_budget_of_XTRG_choice_mJ_per_cm3": 4.932673566676435,
+      "observed_best_Q_budget_mJ_per_cm3": 4.932673566676435,
+      "choice_regret_Q_percent": 0.0,
+      "scope": "Existing literature model vs experimental central values; NOT algorithm error of XTRG or quantum advantage."
+    }
+  ],
+  "design_scenarios": [
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 0.0,
+      "assumed_total_cold_load_uW": 0.1,
+      "required_hold_minutes": 60,
+      "required_heat_absorption_mJ": 0.36000000000000004,
+      "conditional_magnetic_only_material_volume_cm3": 1.3698849045029666,
+      "conditional_hold_minutes_for_0p4_cm3": 17.519720029842862
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.3,
+      "assumed_total_cold_load_uW": 0.1,
+      "required_hold_minutes": 60,
+      "required_heat_absorption_mJ": 0.36000000000000004,
+      "conditional_magnetic_only_material_volume_cm3": 12.045621148020862,
+      "conditional_hold_minutes_for_0p4_cm3": 1.9924252726430207
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.5,
+      "assumed_total_cold_load_uW": 0.1,
+      "required_hold_minutes": 60,
+      "required_heat_absorption_mJ": 0.36000000000000004,
+      "conditional_magnetic_only_material_volume_cm3": 0.498419646230684,
+      "conditional_hold_minutes_for_0p4_cm3": 48.152195005756376
+    },
+    {
+      "T_cold_K": 0.1,
+      "B_end_T": 1.66,
+      "assumed_total_cold_load_uW": 0.1,
+      "required_hold_minutes": 60,
+      "required_heat_absorption_mJ": 0.36000000000000004,
+      "conditional_magnetic_only_material_volume_cm3": 1.152670664615815,
+      "conditional_hold_minutes_for_0p4_cm3": 20.821211762163827
+    }
+  ],
+  "magnetic_isentrope_endpoint_checks": [
+    {
+      "B_T": 0.0,
+      "T_bounds_K": [
+        0.08641,
+        11.786919
+      ],
+      "S_bounds_mJ_per_cm3_K": [
+        8.21008207534575,
+        55.2781809385583
+      ],
+      "roots_S_equals_hot_T_K": [],
+      "scope": "Magnetic-only isentropic endpoints within measured temperature range. Not full-cycle path validation."
+    },
+    {
+      "B_T": 1.3,
+      "T_bounds_K": [
+        0.07991,
+        11.799454
+      ],
+      "S_bounds_mJ_per_cm3_K": [
+        4.96114238877134,
+        53.8268021286889
+      ],
+      "roots_S_equals_hot_T_K": [
+        0.09830991093997023
+      ],
+      "scope": "Magnetic-only isentropic endpoints within measured temperature range. Not full-cycle path validation."
+    },
+    {
+      "B_T": 1.5,
+      "T_bounds_K": [
+        0.060872532,
+        11.808374
+      ],
+      "S_bounds_mJ_per_cm3_K": [
+        3.63816816500236,
+        53.3430091920658
+      ],
+      "roots_S_equals_hot_T_K": [
+        0.06974608545875761
+      ],
+      "scope": "Magnetic-only isentropic endpoints within measured temperature range. Not full-cycle path validation."
+    },
+    {
+      "B_T": 1.66,
+      "T_bounds_K": [
+        0.07017,
+        11.79384
+      ],
+      "S_bounds_mJ_per_cm3_K": [
+        7.83534616518676,
+        51.8916303821964
+      ],
+      "roots_S_equals_hot_T_K": [],
+      "scope": "Magnetic-only isentropic endpoints within measured temperature range. Not full-cycle path validation."
+    }
+  ],
+  "scope": [
+    "Published central-value curves; no experimental confidence intervals assigned.",
+    "Twelve repeated temperature/entropy pairs in Fig4h agree within 1e-9; retained one copy in the derived curve. Source workbook unchanged.",
+    "No interpolation across magnetic fields. Candidate rankings only.",
+    "Magnetic entropy budgets only; nuclear, lattice, heat-switch and thermal-contact effects need separate modelling.",
+    "Device size and hold time are conditional design scenarios, not measured performance.",
+    "No quantum hardware or quantum circuit simulation."
+  ]
+}

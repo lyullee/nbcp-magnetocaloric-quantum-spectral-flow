@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, data, or workflow, please cite the archived release and the associated manuscript."
+title: "NBCP magnetocaloric model risk and quantum spectral flow"
+type: software
+version: 0.1.0
+date-released: 2026-10-12
+authors:
+  - family-names: Lee
+    given-names: Ugwiyeon
+    orcid: "https://orcid.org/0009-0008-8976-5363"
+    email: "lyullee@kgs.or.kr"
+    affiliation: "Korea Gas Safety Corporation"
+  - family-names: Bae
+    given-names: Seong-Yun
+    orcid: "https://orcid.org/0009-0003-8731-428X"
+    affiliation: "Korea Gas Safety Corporation"
+  - family-names: Kim
+    given-names: Hakrae
+    orcid: "https://orcid.org/0009-0002-5048-3568"
+    affiliation: "Korea Gas Safety Corporation"
+  - family-names: Lee
+    given-names: Jungsu
+    orcid: "https://orcid.org/0009-0006-9347-453X"
+    affiliation: "Korea Gas Safety Corporation"
+keywords:
+  - magnetic refrigeration
+  - frustrated quantum magnet
+  - Na2BaCo(PO4)2
+  - model uncertainty
+  - quantum simulation
+  - spectral flow
+license: MIT
+repository-code: "https://github.com/lyullee/nbcp-magnetocaloric-quantum-spectral-flow"
+abstract: >-
+  Public-data calculations of model-risk-aware sub-kelvin magnetic-refrigeration
+  operating fields in Na2BaCo(PO4)2, with N=6/9/12 quantum spectral-flow
+  validation and a scoped IBM Open Plan hardware pilot.

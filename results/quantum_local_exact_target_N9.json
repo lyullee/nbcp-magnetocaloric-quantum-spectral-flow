@@ -1,0 +1,518 @@
+{
+  "purpose": "exact target for local quantum-algorithm screening; no quantum circuit or QPU",
+  "hamiltonian_path": "M0 + lambda*(M3-M0)",
+  "units": "Hamiltonian divided by k_B, in kelvin",
+  "fields_T": [
+    1.4,
+    1.45,
+    1.5
+  ],
+  "temperatures_K": [
+    0.09,
+    0.1,
+    0.12
+  ],
+  "quadrature_orders": [
+    3,
+    5
+  ],
+  "field_metadata": [
+    {
+      "field_T": 1.4,
+      "parity_block_dimensions": [
+        256,
+        256
+      ],
+      "V_spectral_norm_K_by_block": [
+        0.6874074509819192,
+        0.6874074509819275
+      ]
+    },
+    {
+      "field_T": 1.45,
+      "parity_block_dimensions": [
+        256,
+        256
+      ],
+      "V_spectral_norm_K_by_block": [
+        0.6874074509819196,
+        0.6874074509819262
+      ]
+    },
+    {
+      "field_T": 1.5,
+      "parity_block_dimensions": [
+        256,
+        256
+      ],
+      "V_spectral_norm_K_by_block": [
+        0.6874074509819197,
+        0.6874074509819248
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.011966360098348394,
+      "integrated_delta_F_K_per_spin": 0.01196636035582935,
+      "delta_F_error_K_per_spin": 2.5748095495992107e-10,
+      "exact_delta_S_kB_per_spin": -0.014294966834527467,
+      "M0_entropy_kB_per_spin": 0.13953500034747984,
+      "M3_entropy_kB_per_spin": 0.12524003351295238,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.012729862273937045,
+        0.011944799245949829,
+        0.011237356213528883
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.09,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.011966360098348394,
+      "integrated_delta_F_K_per_spin": 0.011966360098345544,
+      "delta_F_error_K_per_spin": -2.850150671029894e-15,
+      "exact_delta_S_kB_per_spin": -0.014294966834527467,
+      "M0_entropy_kB_per_spin": 0.13953500034747984,
+      "M3_entropy_kB_per_spin": 0.12524003351295238,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.012873320117179697,
+        0.012480392360684059,
+        0.011944799245949829,
+        0.01144654941625577,
+        0.011122843477766783
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.012097829735875587,
+      "integrated_delta_F_K_per_spin": 0.012097829960643356,
+      "delta_F_error_K_per_spin": 2.2476776863344927e-10,
+      "exact_delta_S_kB_per_spin": -0.012036711571013547,
+      "M0_entropy_kB_per_spin": 0.14744424557133545,
+      "M3_entropy_kB_per_spin": 0.1354075340003219,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.012880211358939558,
+        0.012077435793379386,
+        0.011348079229969495
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.1,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.012097829735875587,
+      "integrated_delta_F_K_per_spin": 0.012097829735873158,
+      "delta_F_error_K_per_spin": -2.42861286636753e-15,
+      "exact_delta_S_kB_per_spin": -0.012036711571013547,
+      "M0_entropy_kB_per_spin": 0.14744424557133545,
+      "M3_entropy_kB_per_spin": 0.1354075340003219,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.013025949826352037,
+        0.012626028764489459,
+        0.012077435793379386,
+        0.01156420169820146,
+        0.011229645294606457
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.012299186493036185,
+      "integrated_delta_F_K_per_spin": 0.01229918664547574,
+      "delta_F_error_K_per_spin": 1.524395557700453e-10,
+      "exact_delta_S_kB_per_spin": -0.008264956124178241,
+      "M0_entropy_kB_per_spin": 0.1583752363699523,
+      "M3_entropy_kB_per_spin": 0.15011028024577405,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.013107306341604107,
+        0.012281421370948432,
+        0.011519491388591062
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.4,
+      "temperature_K": 0.12,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.012299186493036185,
+      "integrated_delta_F_K_per_spin": 0.012299186493035127,
+      "delta_F_error_K_per_spin": -1.0581813203458523e-15,
+      "exact_delta_S_kB_per_spin": -0.008264956124178241,
+      "M0_entropy_kB_per_spin": 0.1583752363699523,
+      "M3_entropy_kB_per_spin": 0.15011028024577405,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.01325556803306372,
+        0.012847446964867127,
+        0.012281421370948432,
+        0.011746236263160147,
+        0.011394935099481987
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.013768352561672748,
+      "integrated_delta_F_K_per_spin": 0.01376835258590603,
+      "delta_F_error_K_per_spin": 2.4233282047703142e-11,
+      "exact_delta_S_kB_per_spin": 0.0006669278613436191,
+      "M0_entropy_kB_per_spin": 0.1556800006446183,
+      "M3_entropy_kB_per_spin": 0.1563469285059619,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.014936390962908185,
+        0.013738800957228339,
+        0.012647596814788173
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.09,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.013768352561672748,
+      "integrated_delta_F_K_per_spin": 0.01376835256168115,
+      "delta_F_error_K_per_spin": 8.403000517631654e-15,
+      "exact_delta_S_kB_per_spin": 0.0006669278613436191,
+      "M0_entropy_kB_per_spin": 0.1556800006446183,
+      "M3_entropy_kB_per_spin": 0.1563469285059619,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.015150990440986365,
+        0.01455946893426315,
+        0.013738800957228339,
+        0.012969755382351752,
+        0.012471783884716472
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.013759457822285937,
+      "integrated_delta_F_K_per_spin": 0.013759457876651926,
+      "delta_F_error_K_per_spin": 5.436598914110302e-11,
+      "exact_delta_S_kB_per_spin": 0.0010742771787832506,
+      "M0_entropy_kB_per_spin": 0.15884714890754417,
+      "M3_entropy_kB_per_spin": 0.15992142608632742,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.014895753705954414,
+        0.013733297395286594,
+        0.012665018817533959
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.1,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.013759457822285937,
+      "integrated_delta_F_K_per_spin": 0.01375945782228997,
+      "delta_F_error_K_per_spin": 4.0332320816460765e-15,
+      "exact_delta_S_kB_per_spin": 0.0010742771787832506,
+      "M0_entropy_kB_per_spin": 0.15884714890754417,
+      "M3_entropy_kB_per_spin": 0.15992142608632742,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.015103239713814418,
+        0.014530800119100597,
+        0.013733297395286594,
+        0.012981464585220688,
+        0.012491926065654586
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.013733465992139315,
+      "integrated_delta_F_K_per_spin": 0.013733466051036397,
+      "delta_F_error_K_per_spin": 5.889708165618401e-11,
+      "exact_delta_S_kB_per_spin": 0.0014688172848645598,
+      "M0_entropy_kB_per_spin": 0.16384123431957806,
+      "M3_entropy_kB_per_spin": 0.16531005160444262,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.014820670121536601,
+        0.013712400326525364,
+        0.012679967139753843
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.45,
+      "temperature_K": 0.12,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.013733465992139315,
+      "integrated_delta_F_K_per_spin": 0.013733465992140436,
+      "delta_F_error_K_per_spin": 1.1206313654810174e-15,
+      "exact_delta_S_kB_per_spin": 0.0014688172848645598,
+      "M0_entropy_kB_per_spin": 0.16384123431957806,
+      "M3_entropy_kB_per_spin": 0.16531005160444262,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.01501716510483154,
+        0.014474173123782642,
+        0.013712400326525364,
+        0.012987372100846252,
+        0.012511230063387004
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.015474013743917547,
+      "integrated_delta_F_K_per_spin": 0.015474013612121397,
+      "delta_F_error_K_per_spin": -1.3179615038216852e-10,
+      "exact_delta_S_kB_per_spin": 0.01150273255798731,
+      "M0_entropy_kB_per_spin": 0.11556942564089481,
+      "M3_entropy_kB_per_spin": 0.12707215819888212,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.016730555093677574,
+        0.015468204534724882,
+        0.01422676665439964
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.09,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.015474013743917547,
+      "integrated_delta_F_K_per_spin": 0.015474013743916461,
+      "delta_F_error_K_per_spin": -1.0859368959614812e-15,
+      "exact_delta_S_kB_per_spin": 0.01150273255798731,
+      "M0_entropy_kB_per_spin": 0.11556942564089481,
+      "M3_entropy_kB_per_spin": 0.12707215819888212,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.016946393772697174,
+        0.01634406451052755,
+        0.015468204534724882,
+        0.014602539346568362,
+        0.014018458251736206
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.015361703471473254,
+      "integrated_delta_F_K_per_spin": 0.015361703348005244,
+      "delta_F_error_K_per_spin": -1.2346801012141917e-10,
+      "exact_delta_S_kB_per_spin": 0.010934971367496105,
+      "M0_entropy_kB_per_spin": 0.1218026588925403,
+      "M3_entropy_kB_per_spin": 0.1327376302600364,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.016601662728178604,
+        0.01535479369804165,
+        0.014132799407773634
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.1,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.015361703471473254,
+      "integrated_delta_F_K_per_spin": 0.015361703471472542,
+      "delta_F_error_K_per_spin": -7.112366251504909e-16,
+      "exact_delta_S_kB_per_spin": 0.010934971367496105,
+      "M0_entropy_kB_per_spin": 0.1218026588925403,
+      "M3_entropy_kB_per_spin": 0.1327376302600364,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.01681540483461547,
+        0.016219353261260814,
+        0.01535479369804165,
+        0.014502345922771949,
+        0.013928043209643146
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "quadrature_order": 3,
+      "exact_delta_F_K_per_spin": 0.015156497302011518,
+      "integrated_delta_F_K_per_spin": 0.01515649721189558,
+      "delta_F_error_K_per_spin": -9.011593728180944e-11,
+      "exact_delta_S_kB_per_spin": 0.009564483331691548,
+      "M0_entropy_kB_per_spin": 0.13271835317018157,
+      "M3_entropy_kB_per_spin": 0.14228283650187312,
+      "lambda_nodes": [
+        0.1127016653792583,
+        0.5,
+        0.8872983346207417
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.01636082645655063,
+        0.015148356262955945,
+        0.013965193485543937
+      ]
+    },
+    {
+      "N": 9,
+      "boundary": "3x3 periodic, M3 tin-foil Ewald",
+      "field_T": 1.5,
+      "temperature_K": 0.12,
+      "quadrature_order": 5,
+      "exact_delta_F_K_per_spin": 0.015156497302011518,
+      "integrated_delta_F_K_per_spin": 0.015156497302011226,
+      "delta_F_error_K_per_spin": -2.914335439641036e-16,
+      "exact_delta_S_kB_per_spin": 0.009564483331691548,
+      "M0_entropy_kB_per_spin": 0.13271835317018157,
+      "M3_entropy_kB_per_spin": 0.14228283650187312,
+      "lambda_nodes": [
+        0.04691007703066802,
+        0.23076534494715845,
+        0.5,
+        0.7692346550528415,
+        0.9530899229693319
+      ],
+      "mean_V_K_per_spin_at_nodes": [
+        0.016569426323705175,
+        0.015988317331912045,
+        0.015148356262955945,
+        0.014322640959595213,
+        0.013767229521687595
+      ]
+    }
+  ],
+  "acceptance_criteria": {
+    "delta_S_absolute_error_kB_per_spin_max": 0.001,
+    "sign_must_match": true,
+    "propagated_field_uncertainty_T_max": 0.02,
+    "qpu_submission": "forbidden until ideal and noisy local simulations pass"
+  },
+  "scope_limits": [
+    "N=9 is a finite periodic cluster and is not a bulk prediction.",
+    "The target validates an observable route, not quantum advantage.",
+    "The experimental critical-field discrepancy is not attributed to M3 alone."
+  ],
+  "elapsed_seconds": 14.58574889996089
+}
