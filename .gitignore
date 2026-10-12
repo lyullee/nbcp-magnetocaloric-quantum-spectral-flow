@@ -32,3 +32,5 @@ results/n18_stacked_common_bonds.pkl
 Thumbs.db
 .vscode/
 .idea/
+
+results/adaptive_n6_qpu_complete_dry_run.json
