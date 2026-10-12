@@ -1,5 +1,7 @@
 # NBCP magnetocaloric model risk and quantum spectral flow
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23325918.svg)](https://doi.org/10.5281/zenodo.23325918)
+
 This repository contains a public-data study of how weak interactions in the frustrated quantum refrigerant Na2BaCo(PO4)2 change sub-kelvin magnetic-refrigeration decisions, followed by a resource-gated quantum-algorithm validation.
 
 The study asks whether long-range dipolar coupling, bond-dependent exchange, and interlayer exchange move the optimal terminal field enough to matter in a refrigerator. Quantum circuits are tested only after the classical engineering gate is passed.
