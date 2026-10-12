@@ -1,0 +1,69 @@
+{
+  "status": "curated primary-source definitions for a common-basis refrigerant comparison",
+  "created_utc": "2026-10-12",
+  "primary_source": {
+    "citation": "J. Xiang et al., Nature 625, 270-275 (2024)",
+    "doi": "10.1038/s41586-023-06885-w",
+    "public_full_text": "https://arxiv.org/html/2504.11298",
+    "public_source_workbook": "sources/extended_figure_6.xlsx"
+  },
+  "metric_definitions": {
+    "sample_volume_cm3": "reported sample volume in Extended Data Figure 6; the three samples are approximately volume matched",
+    "observed_minimum_in_sheet_d_K": "minimum sampled temperature in the independently labelled Extended Data Figure 6d time trace",
+    "below_1K_observed_span_min": "time between the first and last sampled sheet-d values below 1 K; not a fitted time constant",
+    "magnetic_entropy_density_mJ_K_cm3": "source-reported volumetric magnetic entropy density",
+    "heat_absorption_mJ_cm3": "source-reported volumetric heat absorption; FAA and CPA values are reported by Xiang et al. from Wolf et al.",
+    "cycle_efficiency_percent": "source definition eta = heat absorption during the cold process divided by heat release during magnetization at the environment temperature"
+  },
+  "common_basis_rows": [
+    {
+      "material": "NBCP",
+      "formula": "Na2BaCo(PO4)2",
+      "material_class": "frustrated quantum magnet",
+      "sample_mass_g": 1.65,
+      "sample_volume_cm3": 0.395,
+      "magnetic_entropy_density_mJ_K_cm3": 56.0,
+      "heat_absorption_mJ_cm3": 19.0,
+      "cycle_efficiency_percent": 23.0,
+      "vacuum_note": "source reports good chemical stability in high vacuum"
+    },
+    {
+      "material": "FAA",
+      "formula": "Fe(SO4)2(NH4)2·6H2O",
+      "material_class": "hydrate paramagnetic salt",
+      "sample_mass_g": 0.70,
+      "sample_volume_cm3": 0.409,
+      "magnetic_entropy_density_mJ_K_cm3": 53.0,
+      "heat_absorption_mJ_cm3": 3.0,
+      "cycle_efficiency_percent": 9.0,
+      "vacuum_note": "hydrate salt; no vacuum-stability equivalence claimed"
+    },
+    {
+      "material": "CPA",
+      "formula": "CrK(SO4)2·12H2O",
+      "material_class": "hydrate paramagnetic salt",
+      "sample_mass_g": 0.76,
+      "sample_volume_cm3": 0.421,
+      "magnetic_entropy_density_mJ_K_cm3": 42.0,
+      "heat_absorption_mJ_cm3": 3.1,
+      "cycle_efficiency_percent": 11.0,
+      "vacuum_note": "hydrate salt; no vacuum-stability equivalence claimed"
+    }
+  ],
+  "separate_context_rows": [
+    {
+      "material": "GGG",
+      "formula": "Gd3Ga5O12",
+      "sample_mass_g": 50.0,
+      "reported_minimum_temperature_K": 0.365,
+      "initial_field_T": 4.0,
+      "usage": "different-mass context only; excluded from the common-volume ranking because no matched volume or sheet-d hold trace is available"
+    }
+  ],
+  "scope": [
+    "Only NBCP, FAA and CPA enter the common-basis table because they have approximately matched volumes and independently labelled time traces.",
+    "The workbook sheet-a/b curve labels are excluded because they conflict with the identifiable 94 mK NBCP caption point.",
+    "The table establishes the material-screening premise and does not predict an ADR stage, terminal field or device hold time.",
+    "The source-reported efficiency is not a full refrigerator coefficient of performance."
+  ]
+}

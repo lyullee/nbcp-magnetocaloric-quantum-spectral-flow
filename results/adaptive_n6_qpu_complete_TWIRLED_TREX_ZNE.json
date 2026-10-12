@@ -1,0 +1,489 @@
+{
+  "purpose": "complete live-QPU N=6 spectral-flow entropy reconstruction",
+  "created_utc": "2026-10-12T14:31:58.643397+00:00",
+  "submission_requested": true,
+  "open_plan_only_guard_passed": true,
+  "account_name": "psa_open",
+  "backend": "ibm_kingston",
+  "usage_before": {
+    "usage_consumed_seconds": 233,
+    "usage_consumed_ru": 3.7826,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 367,
+    "usage_period": {
+      "start_time": "2026-09-14T14:31:56.939Z",
+      "end_time": "2026-10-12T14:31:56.939Z"
+    }
+  },
+  "condition": {
+    "N": 6,
+    "field_T": 1.05,
+    "temperature_K": 0.1,
+    "path": "M0 + lambda*(M2-M0)",
+    "low_energy_rank": 3
+  },
+  "observable": {
+    "name": "V=M2-M0",
+    "pauli_term_count": 37,
+    "qwc_group_count": 5
+  },
+  "target_precision_K": 0.02,
+  "mitigation": {
+    "resilience_level": 2,
+    "TREX_measurement_mitigation": true,
+    "gate_twirling": true,
+    "dynamical_decoupling": "XpXm",
+    "ZNE": true
+  },
+  "circuits": [
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.053909097242033424,
+      "prepared_V_expectation_K": 0.05453529002577259,
+      "local_stateprep_V_error_K": 0.0006261927837391684,
+      "compiled_depth": 134,
+      "compiled_size": 491,
+      "two_qubit_gate_count": 55,
+      "operation_counts": {
+        "delay": 179,
+        "sx": 140,
+        "rz": 110,
+        "cz": 55,
+        "x": 7
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.20408212978533125,
+      "prepared_V_expectation_K": 0.20482432358526276,
+      "local_stateprep_V_error_K": 0.000742193799931512,
+      "compiled_depth": 175,
+      "compiled_size": 546,
+      "two_qubit_gate_count": 61,
+      "operation_counts": {
+        "delay": 184,
+        "sx": 162,
+        "rz": 128,
+        "cz": 61,
+        "x": 11
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.06686647642910186,
+      "prepared_V_expectation_K": 0.0676325400733466,
+      "local_stateprep_V_error_K": 0.0007660636442447383,
+      "compiled_depth": 138,
+      "compiled_size": 492,
+      "two_qubit_gate_count": 53,
+      "operation_counts": {
+        "delay": 179,
+        "sx": 143,
+        "rz": 110,
+        "cz": 53,
+        "x": 7
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 0,
+      "exact_V_expectation_K": 0.04873698301609772,
+      "prepared_V_expectation_K": 0.04940648317748339,
+      "local_stateprep_V_error_K": 0.0006695001613856721,
+      "compiled_depth": 172,
+      "compiled_size": 585,
+      "two_qubit_gate_count": 69,
+      "operation_counts": {
+        "delay": 187,
+        "sx": 176,
+        "rz": 141,
+        "cz": 69,
+        "x": 12
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 1,
+      "exact_V_expectation_K": 0.18583755150729986,
+      "prepared_V_expectation_K": 0.18664858030747972,
+      "local_stateprep_V_error_K": 0.0008110288001798582,
+      "compiled_depth": 249,
+      "compiled_size": 703,
+      "two_qubit_gate_count": 94,
+      "operation_counts": {
+        "sx": 224,
+        "delay": 200,
+        "rz": 166,
+        "cz": 94,
+        "x": 19
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 2,
+      "exact_V_expectation_K": 0.06116469314156803,
+      "prepared_V_expectation_K": 0.061271103018682535,
+      "local_stateprep_V_error_K": 0.00010640987711450778,
+      "compiled_depth": 149,
+      "compiled_size": 546,
+      "two_qubit_gate_count": 64,
+      "operation_counts": {
+        "delay": 182,
+        "sx": 163,
+        "rz": 129,
+        "cz": 64,
+        "x": 8
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.043563984208399055,
+      "prepared_V_expectation_K": 0.04356362265322699,
+      "local_stateprep_V_error_K": -3.6155517206537535e-07,
+      "compiled_depth": 174,
+      "compiled_size": 593,
+      "two_qubit_gate_count": 71,
+      "operation_counts": {
+        "delay": 188,
+        "sx": 179,
+        "rz": 143,
+        "cz": 71,
+        "x": 12
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.16585340869139822,
+      "prepared_V_expectation_K": 0.16658237320774905,
+      "local_stateprep_V_error_K": 0.0007289645163508218,
+      "compiled_depth": 253,
+      "compiled_size": 718,
+      "two_qubit_gate_count": 96,
+      "operation_counts": {
+        "sx": 225,
+        "delay": 198,
+        "rz": 177,
+        "cz": 96,
+        "x": 22
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.055409151504825754,
+      "prepared_V_expectation_K": 0.0563090520862074,
+      "local_stateprep_V_error_K": 0.0008999005813816463,
+      "compiled_depth": 180,
+      "compiled_size": 609,
+      "two_qubit_gate_count": 74,
+      "operation_counts": {
+        "delay": 190,
+        "sx": 188,
+        "rz": 144,
+        "cz": 74,
+        "x": 13
+      }
+    }
+  ],
+  "scope": "complete N=6 method benchmark; no N=18 or bulk-material inference",
+  "job_submitted": true,
+  "job_id": "db6eurqmb58s738bmisg",
+  "status_after_submission": "QUEUED",
+  "completed_utc": "2026-10-12T14:34:40.516409+00:00",
+  "status": "DONE",
+  "observations": [
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.053909097242033424,
+      "prepared_V_expectation_K": 0.05453529002577259,
+      "hardware_V_expectation_K": 0.05069062805377061,
+      "reported_standard_error_K": 0.008191317397826582,
+      "hardware_minus_exact_K": -0.0032184691882628166,
+      "hardware_minus_prepared_K": -0.003844661972001985,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.1127016653792583,
+          "level": 0
+        }
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.20408212978533125,
+      "prepared_V_expectation_K": 0.20482432358526276,
+      "hardware_V_expectation_K": 0.1515842208301204,
+      "reported_standard_error_K": 0.02140234755754646,
+      "hardware_minus_exact_K": -0.05249790895521084,
+      "hardware_minus_prepared_K": -0.05324010275514235,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.1127016653792583,
+          "level": 1
+        }
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.06686647642910186,
+      "prepared_V_expectation_K": 0.0676325400733466,
+      "hardware_V_expectation_K": 0.06344725205858905,
+      "reported_standard_error_K": 0.007428665304491143,
+      "hardware_minus_exact_K": -0.0034192243705128134,
+      "hardware_minus_prepared_K": -0.004185288014757552,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.1127016653792583,
+          "level": 2
+        }
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 0,
+      "exact_V_expectation_K": 0.04873698301609772,
+      "prepared_V_expectation_K": 0.04940648317748339,
+      "hardware_V_expectation_K": 0.03254623511474872,
+      "reported_standard_error_K": 0.008972375064047496,
+      "hardware_minus_exact_K": -0.016190747901349,
+      "hardware_minus_prepared_K": -0.016860248062734673,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.5,
+          "level": 0
+        }
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 1,
+      "exact_V_expectation_K": 0.18583755150729986,
+      "prepared_V_expectation_K": 0.18664858030747972,
+      "hardware_V_expectation_K": 0.1278212318225768,
+      "reported_standard_error_K": 0.04268344301420423,
+      "hardware_minus_exact_K": -0.05801631968472307,
+      "hardware_minus_prepared_K": -0.058827348484902925,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.5,
+          "level": 1
+        }
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 2,
+      "exact_V_expectation_K": 0.06116469314156803,
+      "prepared_V_expectation_K": 0.061271103018682535,
+      "hardware_V_expectation_K": 0.04775871962196448,
+      "reported_standard_error_K": 0.017046586152131376,
+      "hardware_minus_exact_K": -0.01340597351960355,
+      "hardware_minus_prepared_K": -0.013512383396718057,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.5,
+          "level": 2
+        }
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.043563984208399055,
+      "prepared_V_expectation_K": 0.04356362265322699,
+      "hardware_V_expectation_K": 0.03768798364903383,
+      "reported_standard_error_K": 0.007474017472279,
+      "hardware_minus_exact_K": -0.005876000559365227,
+      "hardware_minus_prepared_K": -0.005875639004193162,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.8872983346207417,
+          "level": 0
+        }
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.16585340869139822,
+      "prepared_V_expectation_K": 0.16658237320774905,
+      "hardware_V_expectation_K": 0.10713091838535846,
+      "reported_standard_error_K": 0.011274880983172055,
+      "hardware_minus_exact_K": -0.058722490306039765,
+      "hardware_minus_prepared_K": -0.05945145482239059,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.8872983346207417,
+          "level": 1
+        }
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.055409151504825754,
+      "prepared_V_expectation_K": 0.0563090520862074,
+      "hardware_V_expectation_K": 0.03311337890404509,
+      "reported_standard_error_K": 0.007216238207050834,
+      "hardware_minus_exact_K": -0.022295772600780667,
+      "hardware_minus_prepared_K": -0.023195673182162313,
+      "metadata": {
+        "compilation": [
+          {},
+          {},
+          {}
+        ],
+        "resilience": {
+          "zne": {
+            "extrapolators": "multiple"
+          }
+        },
+        "circuit_metadata": {
+          "lambda": 0.8872983346207417,
+          "level": 2
+        }
+      }
+    }
+  ],
+  "thermodynamics": {
+    "exact_full_delta_S_kB_per_spin": -0.041611185392003903,
+    "exact_low_rank_flow_delta_S_kB_per_spin": -0.04161286262618765,
+    "prepared_low_rank_delta_S_kB_per_spin": -0.04170652289337362,
+    "hardware_low_rank_delta_S_kB_per_spin": -0.02682232988297419,
+    "hardware_minus_exact_full_kB_per_spin": 0.014788855509029714,
+    "hardware_sign_matches_exact": true,
+    "reported_uncertainty_propagation": {
+      "method": "100000 independent normal draws from Estimator-reported standard errors",
+      "seed": 20261013,
+      "mean_kB_per_spin": -0.026763503965977656,
+      "standard_deviation_kB_per_spin": 0.006919565406381778,
+      "95_percent_interval_kB_per_spin": [
+        -0.04029987829315572,
+        -0.01319279527087952
+      ],
+      "covers_exact_full": false,
+      "does_not_cover_zero": true,
+      "limitation": "propagates reported statistical errors only; residual hardware bias is assessed against the known N=6 exact benchmark"
+    }
+  },
+  "usage_after": {
+    "usage_consumed_seconds": 346,
+    "usage_consumed_ru": 5.6514,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 254,
+    "usage_period": {
+      "start_time": "2026-09-14T14:34:44.879Z",
+      "end_time": "2026-10-12T14:34:44.879Z"
+    }
+  },
+  "elapsed_seconds": 170.47188399999868
+}

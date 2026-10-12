@@ -1,0 +1,69 @@
+{
+  "status": "independent public-device heat-balance validation",
+  "source_archive_sha256_verified": "DC42ADBDEA8159967B0A09F35010F90F04C0A9EE4EEFAD41AE47D61D0342997C",
+  "protocol": {
+    "temperature_reference_K": 0.21,
+    "calibration_upper_temperature_K": 0.25,
+    "holdout_upper_temperature_K": 0.28,
+    "calibration_role": "fit one common effective refrigerant mass and one common steady parasitic heat load from both load curves",
+    "holdout_role": "test the fitted parameters at temperatures not used for fitting",
+    "energy_identity": "(applied load + parasitic load) * elapsed time = (effective mass / molar mass) * integral(C_elec + C_n) dT",
+    "interpretation_limit": "This validates the lumped heat-balance translation on an independent material and device. It does not validate NBCP-specific heat-switch, contact, ramp, or addenda losses."
+  },
+  "model": {
+    "identity": "(P_applied + P_parasitic) dt = (m_eff/M) integral(C_elec + alpha/T^2) dT",
+    "molar_mass_g_per_mol_Yb": 385.66443999999996,
+    "zero_field_nuclear_alpha_J_K_per_mol_Yb": 0.0044,
+    "load_curves_uW": [
+      2.5,
+      5.0
+    ]
+  },
+  "fit": {
+    "calibration_interval_K": [
+      0.21,
+      0.25
+    ],
+    "effective_mass_g": 15.221559624354356,
+    "published_approximate_mass_g": 15.0,
+    "relative_mass_difference_vs_15g": 0.014770641623623721,
+    "parasitic_load_uW": 0.25399304280614954,
+    "published_parasitic_upper_bound_uW": 0.4
+  },
+  "calibration_metrics": {
+    "row_count": 162,
+    "rmse_mJ": 0.041689049583106264,
+    "nrmse_vs_full_interval_enthalpy": 0.00638551656133182,
+    "maximum_absolute_error_mJ": 0.10555664723001756,
+    "maximum_absolute_error_fraction_of_full_interval_enthalpy": 0.01616812390271132
+  },
+  "holdout_metrics": {
+    "row_count": 120,
+    "rmse_mJ": 0.03863366055489168,
+    "nrmse_vs_full_interval_enthalpy": 0.0059175222693995345,
+    "maximum_absolute_error_mJ": 0.08313768880688865,
+    "maximum_absolute_error_fraction_of_full_interval_enthalpy": 0.012734209440034032
+  },
+  "cross_load_energy_collapse": {
+    "rmse_mJ": 0.04974111344448655,
+    "nrmse_vs_full_interval_enthalpy": 0.007618852117165189,
+    "maximum_absolute_difference_mJ": 0.14110515601296125,
+    "maximum_absolute_difference_fraction_of_full_interval_enthalpy": 0.021613093117267904
+  },
+  "nuclear_heat_capacity_ablation": {
+    "effective_mass_g_without_Cn": 15.806960697075636,
+    "parasitic_load_uW_without_Cn": 0.2529814415576356,
+    "holdout_nrmse_without_Cn": 0.0076124650163254814,
+    "holdout_nrmse_with_Cn": 0.0059175222693995345
+  },
+  "validation_gates": {
+    "fitted_mass_within_10_percent_of_approximately_15g": true,
+    "fitted_parasitic_within_published_less_than_0p4uW": true,
+    "holdout_nrmse_below_2_percent": true,
+    "holdout_maximum_error_below_5_percent": true,
+    "cross_load_collapse_nrmse_below_2_percent": true,
+    "nuclear_term_improves_holdout_nrmse": true
+  },
+  "interpretation": "The independent device reproduces the lumped heat-balance identity and recovers its separately reported approximate mass and heat-leak bound. This validates thermodynamic-to-stage translation, not NBCP-specific package losses or the M4 entropy surrogate.",
+  "all_validation_gates_pass": true
+}

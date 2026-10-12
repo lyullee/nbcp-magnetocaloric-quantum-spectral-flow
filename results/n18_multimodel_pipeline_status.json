@@ -1,0 +1,18 @@
+{
+  "stage": "complete",
+  "status": "passed",
+  "updated_at": "2026-10-12T21:30:12.3097408+09:00",
+  "details": {
+    "summary": "results/n18_multimodel_cover_summary.json",
+    "verification": "results/n18_multimodel_cover_verification.json",
+    "figure": "figures/n18_multimodel_cover.png",
+    "design_summary": "results/n18_multimodel_design_stress_summary.json",
+    "design_verification": "results/n18_multimodel_design_stress_verification.json",
+    "design_figure": "figures/n18_multimodel_design_stress.png",
+    "manuscript_integration": "results/n18_multimodel_manuscript_integration.json",
+    "manuscript_verification": "results/manuscript_claim_verification.json",
+    "submission_verification": "results/cryogenics_submission_verification.json",
+    "targeted_tests": "results/n18_multimodel_targeted_tests_stdout.log",
+    "manifest": "results/bulk_path_manifest_20261011.json"
+  }
+}

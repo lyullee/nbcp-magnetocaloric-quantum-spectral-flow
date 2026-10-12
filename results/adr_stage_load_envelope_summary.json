@@ -1,0 +1,122 @@
+{
+  "status": "steady-hold stage-load sensitivity envelope",
+  "model": {
+    "required_heat_mJ": "(payload_uW + steady_parasitic_uW) * 1e-3 * hold_s",
+    "required_volume_cm3": "required_heat_mJ / worst_case_Q_mJ_per_cm3",
+    "mass_multiplier": "1 + steady_parasitic_uW / payload_uW"
+  },
+  "rows": 240,
+  "temperature_K": [
+    0.09,
+    0.1,
+    0.12,
+    0.15
+  ],
+  "payload_load_uW": [
+    0.05,
+    0.1,
+    0.5
+  ],
+  "steady_parasitic_load_uW": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    0.97,
+    1.0,
+    2.0,
+    5.0,
+    13.14
+  ],
+  "hold_minutes": [
+    30,
+    60
+  ],
+  "canonical_90mK_payload_0p10uW_hold_60min": [
+    {
+      "payload_load_uW": 0.1,
+      "steady_parasitic_load_uW": 0.0,
+      "total_steady_load_uW": 0.1,
+      "hold_minutes": 60,
+      "conditional_NBCP_mass_g": 3.9582202162443876,
+      "mass_multiplier_vs_payload_only": 1.0,
+      "public_1p65g_conditional_hold_minutes": 25.011241060744346
+    },
+    {
+      "payload_load_uW": 0.1,
+      "steady_parasitic_load_uW": 0.2,
+      "total_steady_load_uW": 0.30000000000000004,
+      "hold_minutes": 60,
+      "conditional_NBCP_mass_g": 11.874660648733164,
+      "mass_multiplier_vs_payload_only": 3.0000000000000004,
+      "public_1p65g_conditional_hold_minutes": 8.337080353581449
+    },
+    {
+      "payload_load_uW": 0.1,
+      "steady_parasitic_load_uW": 0.97,
+      "total_steady_load_uW": 1.07,
+      "hold_minutes": 60,
+      "conditional_NBCP_mass_g": 42.352956313814936,
+      "mass_multiplier_vs_payload_only": 10.7,
+      "public_1p65g_conditional_hold_minutes": 2.3374991645555467
+    },
+    {
+      "payload_load_uW": 0.1,
+      "steady_parasitic_load_uW": 13.14,
+      "total_steady_load_uW": 13.24,
+      "hold_minutes": 60,
+      "conditional_NBCP_mass_g": 524.068356630757,
+      "mass_multiplier_vs_payload_only": 132.4,
+      "public_1p65g_conditional_hold_minutes": 0.18890665453734404
+    }
+  ],
+  "published_context_anchors": [
+    {
+      "id": "schuessler_2026_compact_cadr",
+      "system": "compact cryogen-free four-stage cADR sample stage",
+      "refrigerant": "CPA in the two lowest stages",
+      "operating_temperature_K": 0.0225,
+      "parasitic_load_uW": 0.2,
+      "reported_hold_or_observation_s": 36000,
+      "source_kind": "peer-reviewed primary article",
+      "doi_or_url": "10.1063/5.0302131",
+      "usage": "context anchor only; not transferred as an NBCP prediction"
+    },
+    {
+      "id": "tophat_faa_adr",
+      "system": "MSAM/Tophat single-stage FAA ADR",
+      "refrigerant": "FAA",
+      "operating_temperature_K": 0.1,
+      "parasitic_load_uW": 0.97,
+      "reported_hold_or_observation_s": 138000,
+      "source_kind": "official NASA mission technical page",
+      "doi_or_url": "https://lambda.gsfc.nasa.gov/product/suborbit/TOPHAT/topweb.gsfc.nasa.gov/adr.html",
+      "usage": "context anchor only; not transferred as an NBCP prediction"
+    },
+    {
+      "id": "bartlett_2015_miniature_adr",
+      "system": "fast-response miniature CPA ADR",
+      "refrigerant": "CPA",
+      "operating_temperature_K": 0.2,
+      "parasitic_load_uW": 13.14,
+      "reported_hold_or_observation_s": 180,
+      "source_kind": "peer-reviewed open-access primary article",
+      "doi_or_url": "10.1016/j.cryogenics.2015.10.004",
+      "usage": "context anchor only; not transferred as an NBCP prediction"
+    }
+  ],
+  "source_crosscheck": {
+    "tophat_reported_capacity_mJ": 134.0,
+    "tophat_load_times_hold_mJ": 133.85999999999999,
+    "relative_difference": 0.0010447761194030953
+  },
+  "scope": [
+    "These are published system-level examples, not NBCP device assumptions or a statistical distribution.",
+    "Temperatures, architectures, refrigerants, and thermal interfaces differ, so the loads must not be transferred as performance predictions.",
+    "Only steady or experimentally inferred parasitic loads are used as plot anchors; transient regeneration and ramp losses remain unmodelled.",
+    "The envelope covers an isothermal steady hold only.",
+    "Addenda and ramp losses require transient heat capacities and a cycle model and are not represented by a fabricated number.",
+    "The worst-case magnetic budget comes from the declared NBCP thermodynamic shape envelope."
+  ]
+}

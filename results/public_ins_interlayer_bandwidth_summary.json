@@ -1,0 +1,143 @@
+{
+  "status": "independent public-INS sensitivity audit; not a confidence filter",
+  "source": {
+    "paper": "Phys. Rev. B 112, 104413 (2025)",
+    "paper_doi": "10.1103/1pvl-kzjm",
+    "data_doi": "10.5287/ora-qrd6mzojz",
+    "field_T": 3.5,
+    "experimental_path_hkl": "(-2/3, 1/3, l)",
+    "resolution_fwhm_meV": 0.027,
+    "source_simplified_Jb_microeV": 3.0,
+    "source_language": "indicative upper bound",
+    "public_branch_bandwidths_microeV": [
+      18.04800000000001,
+      18.04800000000001
+    ],
+    "declared_sensitivity_threshold_microeV": 18.04800000000001,
+    "source_formula_max_abs_error_meV_after_branch_permutation": 3.70852834506441e-05,
+    "linewidth_model_vs_data": {
+      "point_count": 11,
+      "chi_square_no_refit": 28.350471890331256,
+      "chi_square_per_point_descriptive": 2.5773156263937507,
+      "mae_meV": 0.0038430909090909084,
+      "rmse_meV": 0.004165261161734585,
+      "interpretation": "The source model is an approximate upper-reference, not a statistically calibrated acceptance model."
+    },
+    "linewidth_proxy_reproduction": {
+      "form": "FWHM^2 = resolution^2 + c * twin_separation^2",
+      "equal_twin_coefficient": 1.6542236036508735,
+      "source_curve_rmse_meV": 0.00014109275797480385,
+      "source_curve_max_abs_error_meV": 0.000223066252457136,
+      "source_proxy_chi_square_at_11_data_points": 28.310779005783573
+    }
+  },
+  "implementation_cross_check": {
+    "representative_M4_axial_Gamma_bandwidth_microeV": 4.384108221089946,
+    "published_2026_value_microeV": 4.4,
+    "absolute_difference_microeV": 0.015891778910054555
+  },
+  "screen": {
+    "input_model_count": 69,
+    "path_mapping": "source (h,k)=(-2/3,1/3) -> code (u,v)=(1/3,2/3)",
+    "structural_domain_rule": "maximum bandwidth over two K-domain paths",
+    "central_pass_count": 30,
+    "central_rejected_count": 39,
+    "central_bandwidth_range_microeV": [
+      10.176674115537764,
+      29.829845174677587
+    ],
+    "central_pass_shift_range_T": [
+      0.033403908987329034,
+      0.14757413094718363
+    ],
+    "robust_all_1sigma_corners_pass_count": 30,
+    "robust_all_1sigma_corners_shift_range_T": [
+      0.033403908987329034,
+      0.14757413094718363
+    ],
+    "source_threshold_range_over_1sigma_corners_microeV": [
+      18.043720635778914,
+      18.05091149137972
+    ],
+    "spearman_bandwidth_vs_critical_field_shift": 0.8816952868103765,
+    "spearman_pvalue_descriptive_only": 1.5245759480227858e-23
+  },
+  "linewidth_twin_profile_audit": {
+    "status": "direct public-linewidth nuisance audit; does not define a confidence filter",
+    "fixed_resolution_fwhm_meV": 0.027,
+    "profiled_nuisance": "effective structural-domain mixture coefficient between single-domain and source equal-twin limits",
+    "equal_twin_chi_square_range": [
+      21.363177090272192,
+      31.68312951191113
+    ],
+    "equal_twin_models_no_worse_than_source_count": 66,
+    "profile_chi_square_range": [
+      21.36114259654802,
+      26.74053699872553
+    ],
+    "profile_models_no_worse_than_source_count": 69,
+    "profile_no_worse_shift_range_T": [
+      0.033403908987329034,
+      0.20210652482768032
+    ],
+    "effective_minor_domain_fraction_proxy_range": [
+      0.11871198713244197,
+      0.49993851682952095
+    ],
+    "maximum_profile_delta_chi_square_across_models": 5.37939440217751,
+    "spearman_profile_chi_square_vs_critical_field_shift": -0.27603215199123127,
+    "spearman_pvalue_descriptive_only": 0.021686923696415776,
+    "source_chi_square_per_point_overdispersion": 2.5773156263937507,
+    "source_scaled_95pct_profile_diagnostic_threshold": 47.18301524769107,
+    "models_below_source_scaled_95pct_profile_diagnostic": 69,
+    "interpretation": "The direct linewidth comparison does not support converting the 30-model bandwidth sensitivity set into a calibrated rejection. Profiling the unresolved domain mixture leaves all 69 models no worse than the source reference chi-square."
+  },
+  "engineering_consequence": {
+    "full_69_shift_range_T": [
+      0.033403908987329034,
+      0.20210652482768032
+    ],
+    "central_sensitivity_subset_90mK": {
+      "scenario_count": 120,
+      "both_gate_pass_count": 68,
+      "delta_B_star_range_T": [
+        0.028573221465173715,
+        0.14757413094718363
+      ],
+      "regret_range_percent": [
+        1.8640994446229073,
+        18.329070325753893
+      ]
+    },
+    "central_sensitivity_subset_shape_stress_90mK": {
+      "scenario_count": 120,
+      "both_gate_pass_count": 4,
+      "fraction_passing_both_descriptive_not_probability": 0.03333333333333333
+    },
+    "robust_1sigma_subset_90mK": {
+      "scenario_count": 120,
+      "both_gate_pass_count": 68,
+      "delta_B_star_range_T": [
+        0.028573221465173715,
+        0.14757413094718363
+      ],
+      "regret_range_percent": [
+        1.8640994446229073,
+        18.329070325753893
+      ]
+    },
+    "robust_1sigma_subset_shape_stress_90mK": {
+      "scenario_count": 120,
+      "both_gate_pass_count": 4,
+      "fraction_passing_both_descriptive_not_probability": 0.03333333333333333
+    }
+  },
+  "interpretation_limits": [
+    "The 18.048 microeV threshold is read from the source's Jb=3 microeV calculation; the source calls that coupling an indicative upper bound.",
+    "The source linewidth model is approximate and its calculated energy modulation was not resolved experimentally.",
+    "The M4 Ja/Jb/J2 geometry is more general than the source's Jb-only model, so this is an equivalent observable-bandwidth comparison, not a direct parameter bound.",
+    "The spectroscopy-compatible subsets are sensitivity envelopes, not posterior or confidence sets; the authoritative engineering envelope remains all 69 models.",
+    "A calibrated proxy reproduces the source linewidth curve, but profiling the unresolved structural-domain mixture leaves all 69 models no worse than the source reference; the public linewidth points therefore do not validate a 39-model rejection.",
+    "Linear spin-wave theory is used only in the 3.5 T polarized phase where the source reports sharp, resolution-limited magnons."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "row_count_matches_summary": true,
+    "boundary_row_count_matches_summary": true,
+    "loss_components_sum": true,
+    "hold_energy_identity": true,
+    "gross_capacity_identity": true,
+    "component_energy_identity": true,
+    "mass_and_volume_identity": true,
+    "mass_multiplier_identity": true,
+    "duty_identity": true,
+    "average_payload_identity": true,
+    "cadence_identity": true,
+    "zero_loss_reproduces_steady_envelope": true,
+    "mass_cap_boundary_identity": true,
+    "bartlett_source_crosscheck": true,
+    "canonical_mass_multipliers": true
+  },
+  "rows_checked": 2688,
+  "boundary_rows_checked": 35,
+  "max_density_spread_g_cm3": 0.0
+}

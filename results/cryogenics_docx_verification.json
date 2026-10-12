@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": {
+    "documents_exist": true,
+    "main_has_all_figures": true,
+    "si_has_all_figures": true,
+    "main_tables_present": true,
+    "si_tables_present": true,
+    "native_math_present": true,
+    "qpu_evidence_present_in_both": true,
+    "frozen_qpu_decision_in_si": true,
+    "authors_and_correspondence_present": true,
+    "no_raw_markdown_or_tex": true,
+    "title_style_has_no_border": true,
+    "reasonable_file_sizes": true
+  },
+  "failed": [],
+  "main": {
+    "bytes": 4299676,
+    "tables": 5,
+    "equations": 198,
+    "drawings": 11,
+    "raw_markup_counts": {
+      "\\\\frac": 0,
+      "\\\\Delta": 0,
+      "\\\\(": 0,
+      "\\\\[": 0,
+      "**": 0,
+      "![": 0
+    },
+    "title_has_border": false
+  },
+  "supplement": {
+    "bytes": 1170210,
+    "tables": 13,
+    "equations": 181,
+    "drawings": 4,
+    "raw_markup_counts": {
+      "\\\\frac": 0,
+      "\\\\Delta": 0,
+      "\\\\(": 0,
+      "\\\\[": 0,
+      "**": 0,
+      "![": 0
+    },
+    "title_has_border": false
+  },
+  "visual_qa": {
+    "renderer": "Microsoft Word 16 fixed-layout PDF and Chrome PDF viewer screenshots",
+    "main_pages": 22,
+    "supplement_pages": 19,
+    "inspection": "all pages inspected; no clipping, overlap, missing figure, or broken table observed"
+  }
+}

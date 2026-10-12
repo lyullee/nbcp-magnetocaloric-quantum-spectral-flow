@@ -1,0 +1,32 @@
+﻿[
+    {
+        "model":  "M3",
+        "pid":  20852,
+        "stdout":  "results\\n18_M3_convergence_stdout.log",
+        "stderr":  "results\\n18_M3_convergence_stderr.log"
+    },
+    {
+        "model":  "M4-00",
+        "pid":  1908,
+        "stdout":  "results\\n18_M400_convergence_stdout.log",
+        "stderr":  "results\\n18_M400_convergence_stderr.log"
+    },
+    {
+        "model":  "M4-02",
+        "pid":  19008,
+        "stdout":  "results\\n18_M402_convergence_stdout.log",
+        "stderr":  "results\\n18_M402_convergence_stderr.log"
+    },
+    {
+        "model":  "M4-03",
+        "pid":  26112,
+        "stdout":  "results\\n18_M403_convergence_stdout.log",
+        "stderr":  "results\\n18_M403_convergence_stderr.log"
+    },
+    {
+        "model":  "M4-01",
+        "pid":  27920,
+        "stdout":  "results\\n18_M401_convergence_stdout.log",
+        "stderr":  "results\\n18_M401_convergence_stderr.log"
+    }
+]

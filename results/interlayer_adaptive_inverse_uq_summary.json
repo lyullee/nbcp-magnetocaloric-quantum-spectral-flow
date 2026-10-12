@@ -1,0 +1,254 @@
+{
+  "status": "adaptive exact set-valued inverse stress audit",
+  "scope": "Surrogate-guided acquisition with exact multistart M4 decisions; not a posterior and not a proof of continuous global coverage.",
+  "declared_parameter_bounds": {
+    "j2_microev": [
+      0.0,
+      5.6
+    ],
+    "ja_microev": [
+      -4.2,
+      4.2
+    ],
+    "jb_microev": [
+      1.975,
+      13.825
+    ],
+    "delta_c": [
+      0.02,
+      0.14
+    ]
+  },
+  "public_q_constraints": {
+    "delta_inplane_rlu": [
+      0.021,
+      0.033
+    ],
+    "qz_folded_rlu": [
+      0.322,
+      0.3373333333333333
+    ],
+    "km_line_residual_max_rlu": 0.003
+  },
+  "design": {
+    "initial_exact_count": 631,
+    "adaptive_rounds": 3,
+    "exact_points_per_round": 64,
+    "adaptive_exact_count": 192,
+    "total_exact_count": 823,
+    "pool_count_per_round": 32768,
+    "acquisition_roles": [
+      "predicted_feasible_coverage",
+      "predicted_feasible_max_shift",
+      "predicted_feasible_min_shift",
+      "public_q_boundary",
+      "space_filling"
+    ],
+    "multistart_count_per_new_point": 3
+  },
+  "cross_validation": {
+    "role": "acquisition-surrogate diagnostic only",
+    "train_count": 567,
+    "holdout_count": 64,
+    "holdout_feasible_count": 8,
+    "observable_mae": {
+      "delta_inplane_rlu": 0.00034360710728831485,
+      "qz_folded_rlu": 0.0098614036472757,
+      "km_line_residual_rlu": 1.0550820388427957e-09,
+      "critical_field_shift_vs_M3_T": 4.813028074955025e-05
+    },
+    "classification": {
+      "true_positive": 4,
+      "false_positive": 0,
+      "false_negative": 4,
+      "true_negative": 56
+    },
+    "interpretation": "This split diagnoses acquisition quality only. Every final label and extremum comes from an exact multistart M4 evaluation."
+  },
+  "acquisition_diagnostics": [
+    {
+      "pool_count": 32768,
+      "predicted_feasible_pool_count": 752,
+      "selected_nearest_existing_distance_range_normalized": [
+        0.08887337694954209,
+        0.3622078814480909
+      ],
+      "selected_predicted_violation_range": [
+        -0.3686243029299748,
+        18.915870109484658
+      ],
+      "round": 1
+    },
+    {
+      "pool_count": 32768,
+      "predicted_feasible_pool_count": 741,
+      "selected_nearest_existing_distance_range_normalized": [
+        0.033232543972153084,
+        0.3137156179916735
+      ],
+      "selected_predicted_violation_range": [
+        -0.35950828075013436,
+        11.37191940383097
+      ],
+      "round": 2
+    },
+    {
+      "pool_count": 32768,
+      "predicted_feasible_pool_count": 689,
+      "selected_nearest_existing_distance_range_normalized": [
+        0.025447478665150788,
+        0.2950107429627797
+      ],
+      "selected_predicted_violation_range": [
+        -0.3668309522183409,
+        20.00974479923096
+      ],
+      "round": 3
+    }
+  ],
+  "convergence": [
+    {
+      "round": 0,
+      "evaluated_count": 631,
+      "retained_count": 16,
+      "retained_shift_range_T": [
+        0.05364571563568066,
+        0.16364951448344
+      ],
+      "retained_qz_range_rlu": [
+        0.32366891616732407,
+        0.3368779629100693
+      ]
+    },
+    {
+      "round": 1,
+      "evaluated_count": 695,
+      "retained_count": 26,
+      "retained_shift_range_T": [
+        0.03637860338460008,
+        0.189499400790774
+      ],
+      "retained_qz_range_rlu": [
+        0.32366891616732407,
+        0.3368779629100693
+      ]
+    },
+    {
+      "round": 2,
+      "evaluated_count": 759,
+      "retained_count": 47,
+      "retained_shift_range_T": [
+        0.03568039888525498,
+        0.20132904941579066
+      ],
+      "retained_qz_range_rlu": [
+        0.3221278368513204,
+        0.3372406527496986
+      ]
+    },
+    {
+      "round": 3,
+      "evaluated_count": 823,
+      "retained_count": 69,
+      "retained_shift_range_T": [
+        0.033403908987329034,
+        0.20210652482768032
+      ],
+      "retained_qz_range_rlu": [
+        0.3221278368513204,
+        0.3372406527496986
+      ]
+    }
+  ],
+  "last_round_extremum_change": {
+    "minimum_shift_change_T": -0.0022764898979259485,
+    "maximum_shift_change_T": 0.000777475411889661
+  },
+  "retained": {
+    "initial_count": 16,
+    "adaptive_new_count": 53,
+    "total_count": 69,
+    "outside_original_box_count": 52,
+    "critical_field_shift_range_T": [
+      0.033403908987329034,
+      0.20210652482768032
+    ],
+    "delta_range_rlu": [
+      0.024148131265179895,
+      0.025376772075157428
+    ],
+    "qz_range_rlu": [
+      0.3221278368513204,
+      0.3372406527496986
+    ],
+    "out_of_plane_bandwidth_range_microeV": [
+      2.556122014629761,
+      7.163162025477951
+    ],
+    "minimum_shift_model": {
+      "j2_microev": 0.008018729090690612,
+      "ja_microev": -2.456390716508031,
+      "jb_microev": 5.570390689605847,
+      "delta_c": 0.12898443758487702,
+      "critical_field_T": 1.8058013357768878,
+      "critical_field_shift_vs_M3_T": 0.033403908987329034,
+      "q_u_rlu": 0.2849411693654593,
+      "q_v_rlu": 0.6424705839505349,
+      "q_w_rlu": 0.3303167398916218,
+      "delta_inplane_rlu": 0.02419608213037594,
+      "qz_folded_rlu": 0.3303167398916218,
+      "km_line_residual_rlu": 6.548948680340762e-10,
+      "out_of_plane_bandwidth_microeV": 2.556122014629761,
+      "propagation_vector_pass": true,
+      "multistart_selected_seed": 271,
+      "multistart_min_field_T": 1.8058013357768874,
+      "multistart_field_spread_T": 4.440892098500626e-16,
+      "source_design": "adaptive_exact",
+      "adaptive_round": 3,
+      "acquisition_role": "predicted_feasible_min_shift",
+      "sample_id": 761
+    },
+    "maximum_shift_model": {
+      "j2_microev": 4.5861779235303395,
+      "ja_microev": 3.4409039821475744,
+      "jb_microev": 13.63851090040989,
+      "delta_c": 0.03836957771331072,
+      "critical_field_T": 1.9745039516172391,
+      "critical_field_shift_vs_M3_T": 0.20210652482768032,
+      "q_u_rlu": 0.28295199540442595,
+      "q_v_rlu": 0.6414759942536981,
+      "q_w_rlu": 0.3328909965353879,
+      "delta_inplane_rlu": 0.02519066965415666,
+      "qz_folded_rlu": 0.3328909965353879,
+      "km_line_residual_rlu": 3.084445486464986e-09,
+      "out_of_plane_bandwidth_microeV": 4.428027261382732,
+      "propagation_vector_pass": true,
+      "multistart_selected_seed": 274027,
+      "multistart_min_field_T": 1.9745039516172391,
+      "multistart_field_spread_T": 0.0,
+      "source_design": "adaptive_exact",
+      "adaptive_round": 3,
+      "acquisition_role": "predicted_feasible_max_shift",
+      "sample_id": 773
+    }
+  },
+  "central_90mK_engineering_gate": {
+    "scenario_count": 276,
+    "both_gates_pass_count": 224,
+    "all_pass": false,
+    "delta_B_star_range_T": [
+      0.028573221465173715,
+      0.20210652482768032
+    ],
+    "regret_range_percent": [
+      1.8640994446229073,
+      27.405115172302157
+    ]
+  },
+  "interpretation_limits": [
+    "The acquisition surrogate selects calculations but never supplies a reported physical value.",
+    "A finite adaptive audit cannot prove that no disconnected admissible island exists in the continuum.",
+    "Retained fractions are deterministic coverage counts and are not probabilities.",
+    "The near-saturation propagation vector does not validate the finite-temperature entropy surrogate."
+  ]
+}

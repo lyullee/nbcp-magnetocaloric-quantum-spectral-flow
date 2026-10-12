@@ -1,0 +1,47 @@
+{
+  "status": "one-step outward boundary audit; not a full expanded grid",
+  "original_grid_size": 375,
+  "original_retained_size": 12,
+  "constraint_attribution_counts": {
+    "delta_only": 338,
+    "qz_only": 12,
+    "km_only": 375,
+    "delta_and_qz": 12,
+    "delta_and_km": 338,
+    "qz_and_km": 12,
+    "all_three": 12
+  },
+  "outward_candidates": 18,
+  "outward_candidates_retained": 0,
+  "retained_outward_parameter_counts": {
+    "j2_microev": 0,
+    "ja_microev": 0,
+    "jb_microev": 0,
+    "delta_c": 0
+  },
+  "retained_outward_shift_range_T": null,
+  "audit_bounds": {
+    "j2_microev": {
+      "1.4": 0.0,
+      "4.2": 5.6
+    },
+    "ja_microev": {
+      "-2.8": -4.2,
+      "2.8": 4.2
+    },
+    "jb_microev": {
+      "3.95": 1.975,
+      "11.85": 13.825
+    },
+    "delta_c": {
+      "0.04": 0.02,
+      "0.12": 0.14
+    }
+  },
+  "interpretation": "No one-step outward neighbor retained all public-q constraints; the retained set closes at the tested local boundary.",
+  "limitations": [
+    "Only one coordinate is extended at a time.",
+    "A disconnected admissible region or a combination of multiple outward moves is not tested.",
+    "Constraint counts describe this designed grid and are not probabilities or parameter confidence intervals."
+  ]
+}

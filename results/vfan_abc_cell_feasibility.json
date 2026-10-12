@@ -1,0 +1,53 @@
+{
+  "status": "one-point 3-layer ABC-cell feasibility test",
+  "field_ratio": 0.855,
+  "polarized_fourier_normalization_error_K": 4.440892098500626e-16,
+  "fan_energy_K_per_spin": -1.4203352814414838,
+  "v_energy_K_per_spin": -1.4195970276677325,
+  "unrestricted_abc_v_energy_K_per_spin": -1.4195970276677325,
+  "unrestricted_minus_coplanar_v_microeV": 0.0,
+  "fan_minus_v_microeV": -0.06361778800450862,
+  "fan_delta_rlu": 0.018000000000000002,
+  "fan_xi": 0.7934218447030075,
+  "exact_angle_fan_energy_K_per_spin": -1.419924266534174,
+  "exact_angle_fan_minus_v_microeV": -0.028199263684528627,
+  "exact_angle_fan_delta_rlu": 0.018,
+  "exact_angle_fan_xi": 0.7860194264084155,
+  "optimizer_success": true,
+  "optimized_theta_rad": [
+    -0.3597468175948665,
+    0.8679704088615501,
+    -0.359747009279186,
+    -0.3597469397065466,
+    -0.3597468915595118,
+    0.8679705340175236,
+    0.8679705057007319,
+    -0.35974686306654813,
+    -0.35974697099838027
+  ],
+  "optimized_phi_rad": -3.096641028789917,
+  "unrestricted_optimizer_success": true,
+  "unrestricted_theta_rad": [
+    -0.3597468193109842,
+    0.8679704054293147,
+    -0.3597470127114214,
+    -0.35974694313878197,
+    -0.35974689499174717,
+    0.8679705305852882,
+    0.8679705022684965,
+    -0.3597468664987835,
+    -0.35974697786285104
+  ],
+  "unrestricted_phi_rad": [
+    -3.096641030506035,
+    -3.096641030506035,
+    -3.096641030506035,
+    -3.096641030506035,
+    -3.096641030506035,
+    -3.096641030506035,
+    -3.096641028789917,
+    -3.096641030506035,
+    -3.096641030506035
+  ],
+  "interpretation": "The public representative transition is visually near 0.855 Hc, so a faithful V reconstruction should give a near-zero energy difference."
+}

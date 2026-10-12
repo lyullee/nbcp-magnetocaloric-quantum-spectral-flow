@@ -1,0 +1,204 @@
+{
+  "status": "pilot only; not yet propagated over the retained M4 set",
+  "source": "arXiv:2607.23173v1 Eqs. (6)-(7) and source-vector Figure 7d",
+  "representative_parameters_microeV": {
+    "j2_microev": 2.8,
+    "ja_microev": 0.0,
+    "jb_microev": 7.9,
+    "delta_c": 0.08
+  },
+  "model_critical_field_T": 1.8676712357447807,
+  "critical_mode_delta_rlu": 0.024826409699414364,
+  "fan_delta_at_0p999_Hc_rlu": 0.02475,
+  "near_hc_internal_consistency_abs_rlu": 7.640969941436274e-05,
+  "monotone_delta_above_0p86_Hc": true,
+  "experimental_holdout": {
+    "field_T": [
+      1.35,
+      1.4,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.65
+    ],
+    "field_ratio": [
+      0.8181818181818182,
+      0.8484848484848485,
+      0.8787878787878788,
+      0.9090909090909092,
+      0.9393939393939394,
+      0.9696969696969698,
+      1.0
+    ],
+    "digitized_delta_rlu": [
+      0.0,
+      0.0,
+      0.009,
+      0.0138,
+      0.019,
+      0.0226,
+      0.027
+    ],
+    "comparison_mask_field_at_least_1p45T": [
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "predicted_delta_rlu": [
+      0.018829545454545453,
+      0.019965909090909097,
+      0.021344696969696975,
+      0.022981060606060616,
+      0.02475
+    ],
+    "residual_rlu": [
+      0.009829545454545454,
+      0.006165909090909097,
+      0.0023446969696969758,
+      0.0003810606060606174,
+      -0.0022499999999999985
+    ],
+    "mae_rlu": 0.0041942424242424284,
+    "source_near_Hc_quoted_uncertainty_rlu": 0.002
+  },
+  "curve": [
+    {
+      "field_ratio": 0.84,
+      "field_T": 1.5688438380256158,
+      "delta_opt_rlu": 0.0175,
+      "xi_opt": 0.8342230404088118,
+      "energy_K_per_spin": -1.3833139011432962
+    },
+    {
+      "field_ratio": 0.85,
+      "field_T": 1.5875205503830636,
+      "delta_opt_rlu": 0.017750000000000002,
+      "xi_opt": 0.8072552254507086,
+      "energy_K_per_spin": -1.407912978617937
+    },
+    {
+      "field_ratio": 0.86,
+      "field_T": 1.6061972627405114,
+      "delta_opt_rlu": 0.018125,
+      "xi_opt": 0.7793901574879217,
+      "energy_K_per_spin": -1.432839304760298
+    },
+    {
+      "field_ratio": 0.87,
+      "field_T": 1.6248739750979593,
+      "delta_opt_rlu": 0.0185,
+      "xi_opt": 0.7505618274119661,
+      "energy_K_per_spin": -1.458092122396479
+    },
+    {
+      "field_ratio": 0.88,
+      "field_T": 1.643550687455407,
+      "delta_opt_rlu": 0.018875,
+      "xi_opt": 0.7206552043323479,
+      "energy_K_per_spin": -1.483670693672643
+    },
+    {
+      "field_ratio": 0.89,
+      "field_T": 1.6622273998128547,
+      "delta_opt_rlu": 0.01925,
+      "xi_opt": 0.6895304052280304,
+      "energy_K_per_spin": -1.5095742667302021
+    },
+    {
+      "field_ratio": 0.8999999999999999,
+      "field_T": 1.6809041121703023,
+      "delta_opt_rlu": 0.019625,
+      "xi_opt": 0.6570149852083221,
+      "energy_K_per_spin": -1.5358020756113058
+    },
+    {
+      "field_ratio": 0.9099999999999999,
+      "field_T": 1.6995808245277502,
+      "delta_opt_rlu": 0.02,
+      "xi_opt": 0.6228917600016907,
+      "energy_K_per_spin": -1.5623533401739096
+    },
+    {
+      "field_ratio": 0.9199999999999999,
+      "field_T": 1.718257536885198,
+      "delta_opt_rlu": 0.0205,
+      "xi_opt": 0.5868563000134767,
+      "energy_K_per_spin": -1.589227286540181
+    },
+    {
+      "field_ratio": 0.9299999999999999,
+      "field_T": 1.7369342492426458,
+      "delta_opt_rlu": 0.020875,
+      "xi_opt": 0.5485887489885968,
+      "energy_K_per_spin": -1.61642309428268
+    },
+    {
+      "field_ratio": 0.94,
+      "field_T": 1.7556109616000937,
+      "delta_opt_rlu": 0.021375,
+      "xi_opt": 0.5075314993099477,
+      "energy_K_per_spin": -1.6439399609605427
+    },
+    {
+      "field_ratio": 0.95,
+      "field_T": 1.7742876739575415,
+      "delta_opt_rlu": 0.021875000000000002,
+      "xi_opt": 0.46297600631741,
+      "energy_K_per_spin": -1.6717770349895202
+    },
+    {
+      "field_ratio": 0.96,
+      "field_T": 1.7929643863149893,
+      "delta_opt_rlu": 0.022375,
+      "xi_opt": 0.4137955943630731,
+      "energy_K_per_spin": -1.6999334564267765
+    },
+    {
+      "field_ratio": 0.97,
+      "field_T": 1.8116410986724372,
+      "delta_opt_rlu": 0.023,
+      "xi_opt": 0.3580754341701612,
+      "energy_K_per_spin": -1.7284083426976273
+    },
+    {
+      "field_ratio": 0.98,
+      "field_T": 1.830317811029885,
+      "delta_opt_rlu": 0.0235,
+      "xi_opt": 0.2921479357222929,
+      "energy_K_per_spin": -1.7572007692753615
+    },
+    {
+      "field_ratio": 0.99,
+      "field_T": 1.8489945233873328,
+      "delta_opt_rlu": 0.024125,
+      "xi_opt": 0.20641232850455907,
+      "energy_K_per_spin": -1.7863097879732008
+    },
+    {
+      "field_ratio": 0.995,
+      "field_T": 1.8583328795660568,
+      "delta_opt_rlu": 0.0245,
+      "xi_opt": 0.1458921234410228,
+      "energy_K_per_spin": -1.800982709559976
+    },
+    {
+      "field_ratio": 0.999,
+      "field_T": 1.8658035645090358,
+      "delta_opt_rlu": 0.02475,
+      "xi_opt": 0.06522295453909768,
+      "energy_K_per_spin": -1.8127777677049086
+    }
+  ],
+  "pilot_gates": {
+    "near_hc_matches_soft_mode_within_0p002_rlu": true,
+    "delta_increases_monotonically_in_fan_window": true,
+    "reproduces_source_reported_underresponse": true
+  },
+  "interpretation": "Passing the internal and qualitative gates only establishes that the published fan calculation can be reconstructed.  A major extension requires exact evaluation of all retained M4 models and joint constraints from delta(H), qz(H), transition fields, and the out-of-plane bandwidth.",
+  "pilot_pass": true
+}

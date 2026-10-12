@@ -1,0 +1,65 @@
+{
+  "status": "FAIL: the previous N=12 robust field does not transfer; its two-point panel remains sufficient at the declared error but is no longer optimal",
+  "scope": "adversarial 90 mK cluster-size sensitivity, not a bulk prediction or confidence interval",
+  "scenario_count": 56,
+  "scenario_definition": "52 N=12-calibrated scenarios plus four correlated N=18 size-stress scenarios",
+  "N18_template": {
+    "model_label": "M4-01-N18-size-stress",
+    "residual_peak_shift_after_bulk_alignment_T": 0.2233247410042669,
+    "heat_scale_to_M3": 0.5370380181109364,
+    "left_width_scale_to_M3": 0.9088637626901229,
+    "right_width_scale_to_M3": 0.9088637626901372,
+    "template_origin": "N18_size_stress"
+  },
+  "peak_support_T": [
+    1.2942982936816978,
+    1.6774801965595245
+  ],
+  "baseline_N12_only": {
+    "field_T": 1.366,
+    "worst_regret_percent": 9.423091560842781
+  },
+  "augmented_N12_plus_N18": {
+    "field_T": 1.4795,
+    "worst_regret_percent": 32.322698864834656
+  },
+  "measurement_grid": {
+    "start_T": 1.292,
+    "stop_T": 1.68,
+    "spacing_T": 0.004,
+    "count": 98
+  },
+  "per_reading_error_fraction_of_median_Qmax": 0.025,
+  "best_single": {
+    "field_T": 1.432,
+    "worst_regret_percent": 5.091985543141825,
+    "maximum_remaining_scenarios": 27
+  },
+  "exact_best_pair": {
+    "search_space_pairs": 4753,
+    "fields_T": [
+      1.324,
+      1.404
+    ],
+    "worst_regret_percent": 4.293179927509632,
+    "maximum_remaining_scenarios": 23
+  },
+  "former_N12_optimized_pair_retest": {
+    "fields_T": [
+      1.296,
+      1.42
+    ],
+    "worst_regret_percent": 4.32740442708799,
+    "maximum_remaining_scenarios": 22,
+    "still_below_5percent_gate": true
+  },
+  "full_sweep": {
+    "worst_regret_percent": 2.6771539346084063,
+    "maximum_remaining_scenarios": 7
+  },
+  "engineering_decision": {
+    "former_1p366T_field": "rejected as a final set point; retained only as an N=12-conditional example",
+    "former_1p296_1p420T_pair": "still closes the 5% regret gate at the declared 2.5% reading bound, but loses exact optimality to 1.324/1.404 T",
+    "required_next_step": "measure the expanded 90 mK heat-profile field support or obtain a bulk-converged M4 thermodynamic surface"
+  }
+}

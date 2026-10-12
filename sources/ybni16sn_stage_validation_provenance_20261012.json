@@ -1,0 +1,44 @@
+{
+  "analysis": "Independent device-level heat-balance validation using public YbNi1.6Sn data",
+  "article": {
+    "title": "Metallic local-moment magnetocalorics as a route to cryogenic refrigeration",
+    "doi": "10.1038/s43246-024-00494-4",
+    "url": "https://www.nature.com/articles/s43246-024-00494-4",
+    "reported_device_facts": {
+      "functional_refrigerant_mass_g": "approximately 15",
+      "zero_field_parasitic_heat_load_uW": "less than 0.4",
+      "device_description": "pressed YbNi1.6Sn powder in a thin-wall brass can with RuO2 thermometer and thin-film heater"
+    }
+  },
+  "supplement": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art:10.1038/s43246-024-00494-4/MediaObjects/43246_2024_494_MOESM1_ESM.pdf",
+    "zero_field_nuclear_heat_capacity_coefficient_J_K_per_mol_Yb": 0.0044,
+    "relation": "C_n(T) = alpha_0 / T^2",
+    "basis": "Supplementary Note 6 reports alpha_0T = 4.4 mJ K mol^-1 Yb for C_n/T = alpha T^-3."
+  },
+  "dataset": {
+    "title": "Supporting data for Metallic local-moment magnetocalorics, a new route to cryogenic refrigeration",
+    "doi": "10.17863/CAM.106770",
+    "landing_page": "https://www.repository.cam.ac.uk/items/75f9c221-70d7-4249-bddb-ffb126183f11",
+    "bitstream_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/fe2ed025-5851-4750-881d-f0b5c31f53fd/content",
+    "archive_name": "Supporting data.zip",
+    "archive_sha256": "DC42ADBDEA8159967B0A09F35010F90F04C0A9EE4EEFAD41AE47D61D0342997C",
+    "archive_size_bytes": 277226,
+    "license_reported_by_repository": "CC BY-NC-ND 4.0",
+    "raw_data_redistributed": false,
+    "files_used": {
+      "Fig02_0p0T.dat": "zero-field electronic molar heat capacity and entropy",
+      "Fig04b_172mK.dat": "warm-up curve labelled 9 T initial field and 2.5 microW heat input",
+      "Fig04b_192mK.dat": "warm-up curve labelled 9 T initial field and 5 microW heat input"
+    }
+  },
+  "declared_analysis_protocol": {
+    "temperature_reference_K": 0.21,
+    "calibration_upper_temperature_K": 0.25,
+    "holdout_upper_temperature_K": 0.28,
+    "calibration_role": "fit one common effective refrigerant mass and one common steady parasitic heat load from both load curves",
+    "holdout_role": "test the fitted parameters at temperatures not used for fitting",
+    "energy_identity": "(applied load + parasitic load) * elapsed time = (effective mass / molar mass) * integral(C_elec + C_n) dT",
+    "interpretation_limit": "This validates the lumped heat-balance translation on an independent material and device. It does not validate NBCP-specific heat-switch, contact, ramp, or addenda losses."
+  }
+}

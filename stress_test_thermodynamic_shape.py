@@ -28,9 +28,14 @@ FIGURES = ROOT / "figures"
 TEMPERATURES = (0.09, 0.10, 0.12, 0.15)
 EXPERIMENTAL_HC = (1.65, 1.70)
 METHODS = ("reduced_field", "critical_offset")
-PEAK_SHIFT_T = (-0.02, 0.0, 0.02)
-LEFT_WIDTH_SCALE = (0.8, 1.0, 1.2)
-RIGHT_WIDTH_SCALE = (0.8, 1.0, 1.2)
+# The original size-only bounds were +/-0.02 T and 0.8--1.2 in width.
+# An explicit 3 x 2 x 2 M4 finite-temperature audit showed a reproducible
+# +0.10 T differential optimum shift and a 1.46--2.05 total W95 expansion
+# for the strongest retained model.  The wider coordinates below contain the
+# full 12-model coverage audit plus the three-seed common-random verification.
+PEAK_SHIFT_T = (-0.12, 0.0, 0.12)
+LEFT_WIDTH_SCALE = (0.5, 1.0, 1.7)
+RIGHT_WIDTH_SCALE = (0.5, 1.0, 2.5)
 HEAT_SCALE = (0.9, 1.0, 1.1)
 
 
@@ -59,9 +64,19 @@ def profile_at_temperature(profile, temperature):
 
 
 def main() -> None:
+    microscopic = json.loads((
+        RESULTS / "m4_finite_temperature_cluster_summary.json"
+    ).read_text(encoding="utf-8"))
+    microscopic_verification = json.loads((
+        RESULTS / "m4_finite_temperature_cluster_verification.json"
+    ).read_text(encoding="utf-8"))
+    adaptive_path = RESULTS / "interlayer_adaptive_inverse_uq_retained.csv"
+    ensemble_path = (
+        adaptive_path if adaptive_path.exists()
+        else RESULTS / "interlayer_parameter_ensemble_retained.csv"
+    )
     ensemble = list(csv.DictReader(
-        (RESULTS / "interlayer_parameter_ensemble_retained.csv").open(
-            encoding="utf-8-sig")))
+        ensemble_path.open(encoding="utf-8-sig")))
     if not ensemble:
         raise RuntimeError("the public-q constrained interlayer set is empty")
     shifts = sorted({float(row["critical_field_shift_vs_M3_T"])
@@ -122,7 +137,7 @@ def main() -> None:
         # and all deformation coordinates.  Interlayer shift is absent here
         # because measured Hc already contains the real interactions.
         scenarios = []
-        grid = np.linspace(1.25, 1.60, 7001)
+        grid = np.linspace(1.05, 1.75, 14001)
         for anchor, method, deformation in itertools.product(
                 EXPERIMENTAL_HC, METHODS, deformation_grid):
             peak_shift, left_scale, right_scale, heat_scale = deformation
@@ -144,7 +159,7 @@ def main() -> None:
             })
             if temperature == 0.09 and heat_scale == 1.0:
                 for b, q in zip(warped_fields, warped_heat):
-                    if 1.25 <= b <= 1.60:
+                    if 1.05 <= b <= 1.75:
                         curve_rows_90.append({
                             "experimental_Hc_anchor_T": anchor,
                             "mapping_method": method,
@@ -210,8 +225,13 @@ def main() -> None:
                and row["left_width_scale"] == 1.0
                and row["right_width_scale"] == 1.0
                and row["heat_scale"] == 1.0]
+    shifts_all_pass = [
+        row["critical_field_shift_vs_M3_T"] for row in by_shift
+        if row["all_shape_scenarios_pass"]]
     summary = {
-        "status": "declared shape-deformation stress test; not a finite-temperature M4 solution",
+        "status": "finite-cluster-calibrated shape-deformation stress test; not a converged bulk M4 solution",
+        "interlayer_ensemble_source": ensemble_path.name,
+        "interlayer_model_count": len(ensemble),
         "basis_for_bounds": {
             "N9_vs_N12_90mK_Qmax_ratio": 0.4971378441231503 / 0.4593937417224646,
             "N9_vs_N12_90mK_W95_width_ratio": 0.08 / 0.07,
@@ -219,7 +239,17 @@ def main() -> None:
             "left_width_scale": list(LEFT_WIDTH_SCALE),
             "right_width_scale": list(RIGHT_WIDTH_SCALE),
             "residual_peak_shift_T": list(PEAK_SHIFT_T),
-            "note": "The 10% heat and 20% width bands cover the N9/N12 reconstruction spread; the +/-0.02 T residual displacement is twice the 0.01 T field pixel and twice the observed N9/N12 peak-location spread at 120 mK.",
+            "previous_size_only_bounds": {
+                "heat_scale": [0.9, 1.0, 1.1],
+                "left_width_scale": [0.8, 1.0, 1.2],
+                "right_width_scale": [0.8, 1.0, 1.2],
+                "residual_peak_shift_T": [-0.02, 0.0, 0.02],
+            },
+            "microscopic_cluster_status": microscopic["status"],
+            "microscopic_90mK_ranges": microscopic["90mK_differential_ranges"],
+            "common_random_verification_status": microscopic_verification["status"],
+            "common_random_verification_summary": microscopic_verification["summary"],
+            "note": "The heat scale remains 0.9--1.1 because all 12 coverage models and all three common-random repeats remain inside it. Width and residual-shift coordinates are enlarged to contain the N=12 M4 sensitivity and its repeated worst-model audit.",
         },
         "public_q_constrained_interlayer_shift_range_T":
             [min(shifts), max(shifts)],
@@ -244,8 +274,9 @@ def main() -> None:
                 / len(finite90),
             "by_interlayer_shift": by_shift,
             "minimum_interlayer_shift_with_all_shape_scenarios_passing_T":
-                min(row["critical_field_shift_vs_M3_T"] for row in by_shift
-                    if row["all_shape_scenarios_pass"]),
+                min(shifts_all_pass) if shifts_all_pass else None,
+            "any_interlayer_model_all_shape_scenarios_passing":
+                bool(shifts_all_pass),
             "central_shape_all_interlayer_models_pass_both":
                 all(passed(row) for row in central),
             "central_shape_minimum_delta_B_star_T":
@@ -256,6 +287,7 @@ def main() -> None:
         "actual_material_robust_decisions": robust_rows,
         "limitations": [
             "The deformation coordinates are deterministic stress bounds, not statistical confidence intervals.",
+            "The microscopic calibration is a 3 x 2 x 2 finite-cluster sensitivity with a short-circumference seam, not a converged bulk M4 thermodynamic solution.",
             "The envelope tests peak displacement, asymmetric width and heat-scale changes but cannot represent every entropy redistribution allowed by M4.",
             "The P2-P0 gate treats the deformation as differential uncertainty on P2; the actual-material recommendation uses measured Hc and does not require a counterfactual P0 model.",
             "All heat and volume values remain magnetic-only conditional budgets.",
@@ -263,10 +295,10 @@ def main() -> None:
     }
 
     RESULTS.mkdir(exist_ok=True)
-    write_csv(RESULTS / "thermodynamic_shape_gate_stress.csv", gate_rows)
-    write_csv(RESULTS / "thermodynamic_shape_90mK_curves.csv", curve_rows_90)
-    write_csv(RESULTS / "thermodynamic_shape_robust_decisions.csv", robust_rows)
-    (RESULTS / "thermodynamic_shape_stress_summary.json").write_text(
+    write_csv(RESULTS / "thermodynamic_shape_outer_bound_gate.csv", gate_rows)
+    write_csv(RESULTS / "thermodynamic_shape_outer_bound_90mK_curves.csv", curve_rows_90)
+    write_csv(RESULTS / "thermodynamic_shape_outer_bound_decisions.csv", robust_rows)
+    (RESULTS / "thermodynamic_shape_outer_bound_summary.json").write_text(
         json.dumps(summary, indent=2), encoding="utf-8")
 
     # Compact audit figure.
@@ -305,7 +337,7 @@ def main() -> None:
     lines = axes[2].get_lines() + ax2.get_lines()
     axes[2].legend(lines, [line.get_label() for line in lines], fontsize=8)
     fig.tight_layout()
-    fig.savefig(FIGURES / "thermodynamic_shape_stress.png", dpi=220)
+    fig.savefig(FIGURES / "thermodynamic_shape_outer_bound.png", dpi=220)
     plt.close(fig)
     print(json.dumps(summary, indent=2))
 

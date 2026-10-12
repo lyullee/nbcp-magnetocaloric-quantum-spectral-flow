@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "local_complete_and_accurate": true,
+    "preflight_open_only_go": true,
+    "paired_jobs_complete": true,
+    "same_problem_and_precision": true,
+    "open_plan_guards_and_usage": true,
+    "sign_resolved": true,
+    "honest_magnitude_hold": true,
+    "zne_moves_toward_exact": true,
+    "figure_and_table_exist": true,
+    "manuscript_claims_frozen": true,
+    "no_secret_or_service_crn": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "purpose": "paired complete N=6 live-QPU spectral-flow benchmark",
+  "backend": "ibm_kingston",
+  "jobs": {
+    "twirled_TREX": "db6et9clf4us73c582f0",
+    "twirled_TREX_ZNE": "db6eurqmb58s738bmisg"
+  },
+  "qubits": 6,
+  "circuits_per_job": 9,
+  "maximum_two_qubit_gate_count": 96,
+  "target_precision_K": 0.02,
+  "local_circuit": {
+    "minimum_fidelity": 0.9999161111941343,
+    "maximum_absolute_V_error_K": 0.0008999005813816463,
+    "delta_S_error_kB_per_spin": -9.533750136971747e-05,
+    "passes_predeclared_entropy_target": true
+  },
+  "entropy_kB_per_spin": {
+    "exact_full": -0.041611185392003903,
+    "prepared_low_rank": -0.04170652289337362,
+    "twirled_TREX": -0.021679114715466113,
+    "twirled_TREX_95_interval": [
+      -0.024626534398564118,
+      -0.018727267343128788
+    ],
+    "twirled_TREX_ZNE": -0.02682232988297419,
+    "twirled_TREX_ZNE_95_interval": [
+      -0.04029987829315572,
+      -0.01319279527087952
+    ]
+  },
+  "accuracy": {
+    "twirled_TREX_absolute_bias": 0.01993207067653779,
+    "twirled_TREX_ZNE_absolute_bias": 0.014788855509029714,
+    "ZNE_bias_reduction_fraction": 0.2580371729045793,
+    "ZNE_to_TREX_reported_sd_ratio": 4.596045196498093,
+    "both_signs_match_exact": true,
+    "both_intervals_exclude_zero": true,
+    "quantitative_accuracy_pass": false
+  },
+  "open_plan_qpu_seconds": {
+    "twirled_TREX": 38,
+    "twirled_TREX_ZNE": 113
+  },
+  "decision": "PASS_SIGN_RESOLUTION_HOLD_QUANTITATIVE_MAGNITUDE",
+  "scope": "N=6 open-patch hardware method benchmark only; N=18 and bulk engineering conclusions remain classical/public-data results"
+}

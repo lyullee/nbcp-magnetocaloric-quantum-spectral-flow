@@ -1,10 +1,10 @@
 {
-  "title": "NBCP magnetocaloric model risk and quantum spectral flow",
-  "description": "Reproducible public-data analysis of how long-range dipolar coupling, bond-dependent exchange, and interlayer exchange affect sub-kelvin magnetic-refrigeration operating decisions in Na2BaCo(PO4)2. The release includes classical finite-size and thermodynamic-limit calculations, engineering decision maps, ideal N=6/9/12 quantum-algorithm validation, and a scoped IBM Open Plan hardware pilot. No quantum advantage is claimed.",
+  "title": "Finite-size, quantum-hardware accuracy, and package-shape gates for a sub-kelvin Na2BaCo(PO4)2 magnetic-refrigerator stage",
+  "description": "Reproducible public-data analysis of how finite-size model transfer, weak magnetic interactions, quantum-hardware error, and package demagnetization affect sub-kelvin magnetic-refrigerator decisions for Na2BaCo(PO4)2. The release includes a four-model N=18 transfer gate, a complete nine-circuit IBM Kingston entropy-correction benchmark, engineering decision maps, and package and measurement specifications. The QPU resolves the correction sign but not its quantitative magnitude; no quantum advantage is claimed.",
   "upload_type": "software",
   "access_right": "open",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "creators": [
     {
       "name": "Lee, Ugwiyeon",

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "verified": {
+    "scenario_count": 68,
+    "N18_models": [
+      "M4-00",
+      "M4-02",
+      "M4-03",
+      "M4-01"
+    ],
+    "pair_count": 5671,
+    "conditional_mass_g": 6.137360913059726
+  }
+}

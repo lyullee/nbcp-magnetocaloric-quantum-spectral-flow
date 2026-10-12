@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checks": {
+    "cluster_verification_passes": true,
+    "twelve_models_at_four_temperatures": true,
+    "gate_grid_is_69_by_2_by_2": true,
+    "correlated_gate_pass_count": true,
+    "verified_peak_shift_is_0p10T": true,
+    "verified_heat_scale_remains_inside_prior_band": true,
+    "verified_width_exceeds_prior_band": true,
+    "calibrated_90mK_field": true,
+    "calibrated_90mK_regret": true,
+    "calibrated_90mK_heat": true,
+    "calibrated_90mK_volume": true,
+    "outer_bound_is_separate": true,
+    "figures_exist": true
+  },
+  "failed": [],
+  "verified_width_ratio_range": [
+    1.4597560975609774,
+    2.046875000000016
+  ],
+  "verified_heat_ratio_range": [
+    0.9114734953169183,
+    0.9269625972991652
+  ],
+  "90mK_correlated_gate_pass_count": 56
+}

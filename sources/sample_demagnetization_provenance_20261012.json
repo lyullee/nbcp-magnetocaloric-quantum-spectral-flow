@@ -1,0 +1,31 @@
+{
+  "access_date": "2026-10-12",
+  "sources": [
+    {
+      "title": "Possible itinerant excitations and quantum spin state transitions in the effective spin-1/2 triangular-lattice antiferromagnet Na2BaCo(PO4)2",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-020-18041-3",
+      "url": "https://www.nature.com/articles/s41467-020-18041-3",
+      "extracted_facts": {
+        "B_parallel_c_specific_heat_sample_dimensions_mm": [1.87, 1.16, 0.18],
+        "sample_mass_mg": 1.63,
+        "field_axis": "shortest dimension, parallel to c",
+        "reported_demagnetization_modification_upper_bound_percent": 8,
+        "g_c": 4.79
+      }
+    },
+    {
+      "title": "Giant magnetocaloric effect in spin supersolid candidate Na2BaCo(PO4)2",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06885-w",
+      "url": "https://www.nature.com/articles/s41586-023-06885-w",
+      "extracted_facts": {
+        "large_sample_mass_g": 1.65,
+        "comparison_volume_cm3": 0.395,
+        "description": "sample column",
+        "column_dimensions_reported": false
+      }
+    }
+  ],
+  "model_scope": "The equal-volume spheroid calculation is a derived engineering envelope. It does not replace an exact correction for the actual packaged refrigerant geometry and measured M(B,T)."
+}

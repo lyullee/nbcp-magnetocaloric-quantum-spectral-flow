@@ -1,0 +1,4 @@
+material,formula,material_class,sample_mass_g,sample_volume_cm3,magnetic_entropy_density_mJ_K_cm3,heat_absorption_mJ_cm3,cycle_efficiency_percent,vacuum_note,sample_mass_to_volume_g_cm3,observed_minimum_in_sheet_d_K,below_1K_observed_span_min,time_trace_points,time_trace_source_curve
+NBCP,Na2BaCo(PO4)2,frustrated quantum magnet,1.65,0.395,56.0,19.0,23.0,source reports good chemical stability in high vacuum,4.177215189873417,0.0941697551170364,95.95399,3421,NBCP
+FAA,Fe(SO4)2(NH4)2·6H2O,hydrate paramagnetic salt,0.7,0.409,53.0,3.0,9.0,hydrate salt; no vacuum-stability equivalence claimed,1.7114914425427872,0.112929485971108,32.156500000040964,656,FAA
+CPA,CrK(SO4)2·12H2O,hydrate paramagnetic salt,0.76,0.421,42.0,3.1,11.0,hydrate salt; no vacuum-stability equivalence claimed,1.8052256532066508,0.111789358546957,24.66499999997907,1627,CPA

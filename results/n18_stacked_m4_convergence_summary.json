@@ -1,0 +1,158 @@
+{
+  "status": "FAIL: the N=12 quantitative template does not transfer to the larger three-sublattice-compatible cluster",
+  "scope": "N=18 size-escalation stress test; numerical convergence within the projected calculation, not thermodynamic-limit convergence",
+  "cluster": {
+    "shape": [
+      3,
+      3,
+      2
+    ],
+    "spins": 18,
+    "boundary": "tin_foil",
+    "three_sublattice_compatible": true
+  },
+  "temperature_K": 0.09,
+  "models": {
+    "M3": {
+      "L12_grid_fields_T": [
+        1.12,
+        1.14,
+        1.16,
+        1.18,
+        1.2,
+        1.22,
+        1.24,
+        1.26,
+        1.28
+      ],
+      "L12_grid_entropy_kB_per_spin": [
+        0.12203793927706827,
+        0.1357474526586058,
+        0.14909290674272035,
+        0.15353814852516542,
+        0.14202034738454442,
+        0.1243606058087898,
+        0.10772255411437742,
+        0.09298848815475898,
+        0.08787823476121265
+      ],
+      "L32_three_point_fields_T": [
+        1.16,
+        1.18,
+        1.2
+      ],
+      "L32_three_point_entropy_kB_per_spin": [
+        0.1578956526390876,
+        0.1637000079081761,
+        0.15225100372667258
+      ],
+      "quadratic_peak_field_T": 1.1767283769120054,
+      "quadratic_peak_entropy_kB_per_spin": 0.16393084745449116,
+      "quadratic_peak_heat_entropy_difference_kB_per_spin": 0.08497338042470308,
+      "quadratic_W95_min_T": 1.1626926597390324,
+      "quadratic_W95_max_T": 1.1907640940849782,
+      "quadratic_W95_left_T": 0.014035717172973028,
+      "quadratic_W95_right_T": 0.014035717172972806,
+      "quadratic_W95_total_T": 0.028071434345945834,
+      "peak_grid_field_T": 1.18,
+      "cold_peak_convergence": {
+        "K6-7_L12": 0.15353814852516542,
+        "K8-9_L12": 0.1535280901306858,
+        "K6-7_L32": 0.1637000079081761,
+        "K8-9_L32": 0.16362765089429251
+      },
+      "hot_entropy_convergence": {
+        "K6-7": 0.07877113797484431,
+        "K8-9": 0.07459089931457125,
+        "K10-11": 0.07895746702978808
+      },
+      "converged_heat_entropy_difference_kB_per_spin": 0.08467018386450444,
+      "converged_peak_heat_mJ_per_cm3": 0.6102169804418366
+    },
+    "M4-01": {
+      "L12_grid_fields_T": [
+        1.52,
+        1.54,
+        1.56,
+        1.58,
+        1.6,
+        1.62,
+        1.64,
+        1.66,
+        1.68
+      ],
+      "L12_grid_entropy_kB_per_spin": [
+        0.08530621774401709,
+        0.09967802407188511,
+        0.11874162170802591,
+        0.13420035883271986,
+        0.14116108188444068,
+        0.1368523315142754,
+        0.124105165789159,
+        0.10877428001614121,
+        0.09552350526497533
+      ],
+      "L32_three_point_fields_T": [
+        1.58,
+        1.6,
+        1.62
+      ],
+      "L32_three_point_entropy_kB_per_spin": [
+        0.13451310164163427,
+        0.1413183253151351,
+        0.13693041804424969
+      ],
+      "quadratic_peak_field_T": 1.6021596427439526,
+      "quadratic_peak_entropy_kB_per_spin": 0.1413835820629501,
+      "quadratic_peak_heat_entropy_difference_kB_per_spin": 0.04553636776251366,
+      "quadratic_W95_min_T": 1.58940308802207,
+      "quadratic_W95_max_T": 1.6149161974658353,
+      "quadratic_W95_left_T": 0.01275655472188264,
+      "quadratic_W95_right_T": 0.01275655472188264,
+      "quadratic_W95_total_T": 0.02551310944376528,
+      "peak_grid_field_T": 1.6,
+      "cold_peak_convergence": {
+        "K6-7_L12": 0.14116108188444068,
+        "K8-9_L12": 0.1411610697566955,
+        "K6-7_L32": 0.1413183253151351,
+        "K8-9_L32": 0.1413183220361185
+      },
+      "hot_entropy_convergence": {
+        "K6-7": 0.09793010562390317,
+        "K8-9": 0.09664178565904002,
+        "K10-11": 0.09584721430043644
+      },
+      "converged_heat_entropy_difference_kB_per_spin": 0.045471107735682054,
+      "converged_peak_heat_mJ_per_cm3": 0.327709717794124
+    }
+  },
+  "comparison": {
+    "N18_quadratic_M4_minus_M3_peak_field_T": 0.42543126583194724,
+    "N18_grid_M4_minus_M3_peak_field_T": 0.42,
+    "N18_M4_to_M3_peak_heat_ratio": 0.5370380181109364,
+    "N18_M4_to_M3_W95_left_ratio": 0.9088637626901229,
+    "N18_M4_to_M3_W95_right_ratio": 0.9088637626901372,
+    "N18_M4_to_M3_W95_total_ratio": 0.90886376269013,
+    "N12_common_random_M4_minus_M3_peak_field_T": 0.10000000000000009,
+    "N12_common_random_M4_to_M3_peak_heat_ratio_mean": 0.9192300000169081,
+    "peak_shift_amplification_N18_over_N12": 4.254312658319469
+  },
+  "numerical_checks": {
+    "cold_cutoff_crosscheck_max_abs_kB_per_spin": 7.235701388358384e-05,
+    "hot_last_cutoff_change_max_abs_kB_per_spin": 0.004366567715216832,
+    "odd_xz_yz_coupling_max_to_all_ratio": 3.194848664376059e-18,
+    "peak_location_stable_under_state_count_and_cutoff": true
+  },
+  "engineering_decision": {
+    "finite_size_transfer_gate": "FAIL",
+    "former_N12_1p366T_3p96g_and_two_point_VOI_status": "conditional pre-convergence examples; not final design values",
+    "allowed_claim": "the larger compatible cluster falsifies quantitative transfer of the N=12 template and establishes finite-size uncertainty as a first-order design variable",
+    "disallowed_claim": "the N=18 values are bulk predictions",
+    "next_closure": "bulk three-dimensional M4 thermodynamics or a measured field-resolved heat profile"
+  },
+  "source_files": [
+    "results/n18_stacked_m4_work/*.json",
+    "results/n18_stacked_odd_coupling_audit.json",
+    "results/m4_finite_temperature_cluster_verification.json"
+  ]
+}

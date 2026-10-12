@@ -1,0 +1,8 @@
+{
+  "status": "frozen before completion of the new K6/K7 dense-cover calculations",
+  "trigger": "The declared K4/K5 pilot showed separated peaks. Increasing the low-state count could reorder close K6/K7 dense-grid maxima.",
+  "candidate_rule": "Retain every interior K6/K7-L12 local maximum whose entropy is within 0.01 kB/spin of the dense-grid maximum.",
+  "selection_rule": "Evaluate K6/K7-L32 at each candidate and its +/-0.02 T neighbors; select the candidate with the largest local quadratic peak entropy.",
+  "final_crosscheck": "At the selected grid center, compare K6/K7 and K8/K9 with both 12 and 32 low states per parity.",
+  "scope": "This selects the global peak inside the declared N=18 projection; it does not establish thermodynamic-limit convergence."
+}

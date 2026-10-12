@@ -1,0 +1,59 @@
+{
+  "status": "completed preregistered N=18 multimodel convergence runs",
+  "models": {
+    "M4-03": {
+      "dense_L12_peak_T": 1.54,
+      "candidate_entropy_gap_kB_per_spin": 0.02,
+      "candidate_peaks": [
+        {
+          "grid_center_T": 1.3,
+          "neighbor_fields_T": [
+            1.28,
+            1.3,
+            1.32
+          ],
+          "L32_entropy_kB_per_spin": [
+            0.12264580288743049,
+            0.13446974389981803,
+            0.12574263950820944
+          ],
+          "local_peak_field_T": 1.3015068997999604,
+          "local_peak_entropy_kB_per_spin": 0.13452807668089406,
+          "quadratic_concave_and_bracketed": true
+        },
+        {
+          "grid_center_T": 1.54,
+          "neighbor_fields_T": [
+            1.52,
+            1.54,
+            1.56
+          ],
+          "L32_entropy_kB_per_spin": [
+            0.13994673694823184,
+            0.1447536734624235,
+            0.13596105608266368
+          ],
+          "local_peak_field_T": 1.5370692561706962,
+          "local_peak_entropy_kB_per_spin": 0.14489968608247494,
+          "quadratic_concave_and_bracketed": true
+        }
+      ],
+      "selected_peak_grid_center_T": 1.54,
+      "cold_files": [
+        "M4-03_B1.2800_K6-7_L32.json",
+        "M4-03_B1.3000_K6-7_L32.json",
+        "M4-03_B1.3200_K6-7_L32.json",
+        "M4-03_B1.5200_K6-7_L32.json",
+        "M4-03_B1.5400_K6-7_L32.json",
+        "M4-03_B1.5600_K6-7_L32.json",
+        "M4-03_B1.5400_K8-9_L12.json",
+        "M4-03_B1.5400_K8-9_L32.json"
+      ],
+      "hot_entropy_kB_per_spin": {
+        "K6-7": 0.08950269852177659,
+        "K8-9": 0.08464101555487884,
+        "K10-11": 0.08861577963376265
+      }
+    }
+  }
+}

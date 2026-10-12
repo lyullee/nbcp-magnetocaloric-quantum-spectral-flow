@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": {
+    "twelve_points": true,
+    "four_fields": true,
+    "error_identity": true,
+    "absolute_error_identity": true,
+    "mae_identity": true,
+    "rmse_identity": true,
+    "maximum_identity": true,
+    "frozen_mae": true,
+    "frozen_maximum": true,
+    "declared_source_hash": true,
+    "figures_exist": true,
+    "scope_not_nbcp_surrogate_validation": true
+  },
+  "failed": []
+}

@@ -1,0 +1,208 @@
+{
+  "purpose": "complete live-QPU N=6 spectral-flow entropy reconstruction",
+  "created_utc": "2026-10-12T14:28:36.792820+00:00",
+  "submission_requested": false,
+  "open_plan_only_guard_passed": true,
+  "account_name": "psa_open",
+  "backend": "ibm_kingston",
+  "usage_before": {
+    "usage_consumed_seconds": 195,
+    "usage_consumed_ru": 3.1598,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 405,
+    "usage_period": {
+      "start_time": "2026-09-14T14:28:34.882Z",
+      "end_time": "2026-10-12T14:28:34.882Z"
+    }
+  },
+  "condition": {
+    "N": 6,
+    "field_T": 1.05,
+    "temperature_K": 0.1,
+    "path": "M0 + lambda*(M2-M0)",
+    "low_energy_rank": 3
+  },
+  "observable": {
+    "name": "V=M2-M0",
+    "pauli_term_count": 37,
+    "qwc_group_count": 5
+  },
+  "target_precision_K": 0.02,
+  "mitigation": {
+    "resilience_level": 1,
+    "TREX_measurement_mitigation": true,
+    "gate_twirling": true,
+    "dynamical_decoupling": "XpXm",
+    "ZNE": false
+  },
+  "circuits": [
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.053909097242033424,
+      "prepared_V_expectation_K": 0.05453529002577259,
+      "local_stateprep_V_error_K": 0.0006261927837391684,
+      "compiled_depth": 134,
+      "compiled_size": 491,
+      "two_qubit_gate_count": 55,
+      "operation_counts": {
+        "delay": 179,
+        "sx": 140,
+        "rz": 110,
+        "cz": 55,
+        "x": 7
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.20408212978533125,
+      "prepared_V_expectation_K": 0.20482432358526276,
+      "local_stateprep_V_error_K": 0.000742193799931512,
+      "compiled_depth": 175,
+      "compiled_size": 546,
+      "two_qubit_gate_count": 61,
+      "operation_counts": {
+        "delay": 184,
+        "sx": 162,
+        "rz": 128,
+        "cz": 61,
+        "x": 11
+      }
+    },
+    {
+      "lambda": 0.1127016653792583,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.06686647642910186,
+      "prepared_V_expectation_K": 0.0676325400733466,
+      "local_stateprep_V_error_K": 0.0007660636442447383,
+      "compiled_depth": 138,
+      "compiled_size": 492,
+      "two_qubit_gate_count": 53,
+      "operation_counts": {
+        "delay": 179,
+        "sx": 143,
+        "rz": 110,
+        "cz": 53,
+        "x": 7
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 0,
+      "exact_V_expectation_K": 0.04873698301609772,
+      "prepared_V_expectation_K": 0.04940648317748339,
+      "local_stateprep_V_error_K": 0.0006695001613856721,
+      "compiled_depth": 172,
+      "compiled_size": 585,
+      "two_qubit_gate_count": 69,
+      "operation_counts": {
+        "delay": 187,
+        "sx": 176,
+        "rz": 141,
+        "cz": 69,
+        "x": 12
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 1,
+      "exact_V_expectation_K": 0.18583755150729986,
+      "prepared_V_expectation_K": 0.18664858030747972,
+      "local_stateprep_V_error_K": 0.0008110288001798582,
+      "compiled_depth": 249,
+      "compiled_size": 703,
+      "two_qubit_gate_count": 94,
+      "operation_counts": {
+        "sx": 224,
+        "delay": 200,
+        "rz": 166,
+        "cz": 94,
+        "x": 19
+      }
+    },
+    {
+      "lambda": 0.5,
+      "weight": 0.4444444444444444,
+      "level": 2,
+      "exact_V_expectation_K": 0.06116469314156803,
+      "prepared_V_expectation_K": 0.061271103018682535,
+      "local_stateprep_V_error_K": 0.00010640987711450778,
+      "compiled_depth": 149,
+      "compiled_size": 546,
+      "two_qubit_gate_count": 64,
+      "operation_counts": {
+        "delay": 182,
+        "sx": 163,
+        "rz": 129,
+        "cz": 64,
+        "x": 8
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 0,
+      "exact_V_expectation_K": 0.043563984208399055,
+      "prepared_V_expectation_K": 0.04356362265322699,
+      "local_stateprep_V_error_K": -3.6155517206537535e-07,
+      "compiled_depth": 174,
+      "compiled_size": 593,
+      "two_qubit_gate_count": 71,
+      "operation_counts": {
+        "delay": 188,
+        "sx": 179,
+        "rz": 143,
+        "cz": 71,
+        "x": 12
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 1,
+      "exact_V_expectation_K": 0.16585340869139822,
+      "prepared_V_expectation_K": 0.16658237320774905,
+      "local_stateprep_V_error_K": 0.0007289645163508218,
+      "compiled_depth": 253,
+      "compiled_size": 718,
+      "two_qubit_gate_count": 96,
+      "operation_counts": {
+        "sx": 225,
+        "delay": 198,
+        "rz": 177,
+        "cz": 96,
+        "x": 22
+      }
+    },
+    {
+      "lambda": 0.8872983346207417,
+      "weight": 0.27777777777777785,
+      "level": 2,
+      "exact_V_expectation_K": 0.055409151504825754,
+      "prepared_V_expectation_K": 0.0563090520862074,
+      "local_stateprep_V_error_K": 0.0008999005813816463,
+      "compiled_depth": 180,
+      "compiled_size": 609,
+      "two_qubit_gate_count": 74,
+      "operation_counts": {
+        "delay": 190,
+        "sx": 188,
+        "rz": 144,
+        "cz": 74,
+        "x": 13
+      }
+    }
+  ],
+  "scope": "complete N=6 method benchmark; no N=18 or bulk-material inference",
+  "status": "LOCAL_PAYLOAD_VALIDATED",
+  "job_submitted": false,
+  "elapsed_seconds": 5.346904100002575
+}

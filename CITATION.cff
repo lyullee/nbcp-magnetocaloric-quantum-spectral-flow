@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, data, or workflow, please cite the archived release and the associated manuscript."
-title: "NBCP magnetocaloric model risk and quantum spectral flow"
+title: "Finite-size, quantum-hardware accuracy, and package-shape gates for a sub-kelvin Na2BaCo(PO4)2 magnetic-refrigerator stage"
 type: software
-version: 0.1.0
-date-released: 2026-10-12
+version: 0.2.0
+date-released: 2026-10-13
 authors:
   - family-names: Lee
     given-names: Ugwiyeon
@@ -33,5 +33,6 @@ license: MIT
 repository-code: "https://github.com/lyullee/nbcp-magnetocaloric-quantum-spectral-flow"
 abstract: >-
   Public-data calculations of model-risk-aware sub-kelvin magnetic-refrigeration
-  operating fields in Na2BaCo(PO4)2, with N=6/9/12 quantum spectral-flow
-  validation and a scoped IBM Open Plan hardware pilot.
+  operating fields in Na2BaCo(PO4)2, including a four-model N=18 size-transfer
+  gate, a complete nine-circuit IBM Kingston entropy-correction benchmark, and
+  package-demagnetization and heat-measurement specifications.

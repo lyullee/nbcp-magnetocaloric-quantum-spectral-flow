@@ -16,12 +16,16 @@ __pycache__/
 # Scratch outputs
 tmp/
 figures/_tmp_*/
+.docx_qa/
 *.log
 
 # Credentials and local IBM configuration
 .env
 *.token
 qiskit-ibm.json
+results/adaptive_n6_qpu_complete.json
+results/adaptive_n6_qpu_complete_*_dry_run.json
+results/n18_stacked_common_bonds.pkl
 
 # OS/editor files
 .DS_Store

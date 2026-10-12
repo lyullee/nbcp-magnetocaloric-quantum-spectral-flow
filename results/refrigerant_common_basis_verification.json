@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "three_common_basis_materials": true,
+    "volumes_are_matched": true,
+    "source_reported_entropy_values": true,
+    "source_reported_heat_values": true,
+    "source_reported_efficiency_values": true,
+    "safe_time_trace_values": true,
+    "nbcp_heat_ratio": true,
+    "nbcp_efficiency_ratio": true,
+    "nbcp_time_ratio": true,
+    "ggg_is_context_only": true,
+    "ambiguous_curves_excluded": true,
+    "not_a_device_prediction": true,
+    "all_figures_exist": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

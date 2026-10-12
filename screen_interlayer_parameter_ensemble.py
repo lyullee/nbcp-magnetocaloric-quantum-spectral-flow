@@ -29,6 +29,7 @@ from bulk_polarized_stability import (
     S,
     coupling_fourier,
     locate_critical_mode,
+    locate_critical_mode_multistart,
 )
 from bulk_to_engineering_surrogate import inverse_field, transform_field
 from screen_model import MU_B_OVER_KB
@@ -59,6 +60,7 @@ KM_LINE_RESIDUAL_MAX = 0.003
 EXPERIMENTAL_HC = (1.65, 1.70)
 METHODS = ("reduced_field", "critical_offset")
 TEMPERATURES = (0.09, 0.10, 0.12, 0.15)
+EXTRA_OPTIMIZER_SEEDS = (271, 27182)
 
 
 def _periodic_delta(a: np.ndarray, b: np.ndarray) -> np.ndarray:
@@ -220,8 +222,11 @@ def main() -> None:
     rows = []
     for index, values in enumerate(combinations, start=1):
         p = InterlayerParameters(**dict(zip(keys, values)))
-        result = locate_critical_mode("M4", SETTINGS, seed=260711 + index,
-                                      interlayer=p)
+        result = locate_critical_mode_multistart(
+            "M4", SETTINGS,
+            seeds=(260711 + index, *EXTRA_OPTIMIZER_SEEDS),
+            interlayer=p,
+        )
         mode = canonical_soft_mode(result["critical_wavevector_rlu"])
         q_pass = (
             DELTA_BAND[0] <= mode["delta_inplane_rlu"] <= DELTA_BAND[1]
@@ -243,6 +248,12 @@ def main() -> None:
             "out_of_plane_bandwidth_microeV":
                 out_of_plane_bandwidth_microev(p),
             "propagation_vector_pass": bool(q_pass),
+            "multistart_selected_seed": result["multistart"]["selected_seed"],
+            "multistart_min_field_T": result["multistart"]["critical_field_range_T"][0],
+            "multistart_field_spread_T": (
+                result["multistart"]["critical_field_range_T"][1]
+                - result["multistart"]["critical_field_range_T"][0]
+            ),
         }
         rows.append(row)
         if index % 25 == 0:
@@ -285,6 +296,12 @@ def main() -> None:
             "km_line_residual_max_rlu": KM_LINE_RESIDUAL_MAX,
         },
         "stress_grid": {key: list(value) for key, value in GRID.items()},
+        "optimizer_multistart": {
+            "starts_per_point": 1 + len(EXTRA_OPTIMIZER_SEEDS),
+            "point_specific_seed": "260711 + sample_id",
+            "additional_seeds": list(EXTRA_OPTIMIZER_SEEDS),
+            "selection_rule": "largest critical field (first mode to soften on lowering field)",
+        },
         "grid_size": len(rows),
         "retained_size": len(retained),
         "coverage_fraction_descriptive_not_probability": len(retained) / len(rows),

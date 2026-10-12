@@ -1,0 +1,44 @@
+{
+  "status": "frozen before completion of the five K6/K7 dense scans; conservative candidate expansion only",
+  "created_local": "2026-10-12T20:07:02.724376+09:00",
+  "trigger": "Existing M3 L12-to-L32 entropy corrections reach approximately 0.0102 kB/spin, comparable to the original 0.01 candidate gap. During the still-incomplete common-grid scan, the M4-03 local peaks at 1.30 and 1.54 T differed by approximately 0.01035 kB/spin. The original rule could therefore discard a branch within the observed state-count error.",
+  "original_candidate_gap_kB_per_spin": 0.01,
+  "amended_candidate_gap_kB_per_spin": 0.02,
+  "observed_precompletion_evidence": {
+    "M3_existing_state_count_corrections": [
+      {
+        "field_T": 1.16,
+        "L12_entropy_kB_per_spin": 0.14909290674272035,
+        "L32_entropy_kB_per_spin": 0.1578956526390876,
+        "absolute_change_kB_per_spin": 0.008802745896367259
+      },
+      {
+        "field_T": 1.18,
+        "L12_entropy_kB_per_spin": 0.15353814852516542,
+        "L32_entropy_kB_per_spin": 0.1637000079081761,
+        "absolute_change_kB_per_spin": 0.010161859383010674
+      },
+      {
+        "field_T": 1.2,
+        "L12_entropy_kB_per_spin": 0.14202034738454442,
+        "L32_entropy_kB_per_spin": 0.15225100372667258,
+        "absolute_change_kB_per_spin": 0.010230656342128164
+      }
+    ],
+    "M4-03_partial_dense_peak_gap": {
+      "1.30_T_entropy_kB_per_spin": 0.1341747131919521,
+      "1.54_T_entropy_kB_per_spin": 0.14452279074632235,
+      "absolute_gap_kB_per_spin": 0.010348077554370255
+    }
+  },
+  "unchanged": [
+    "ordered model cover",
+    "1.10-2.10 T common grid",
+    "0.02 T spacing",
+    "L32 three-point candidate calculation",
+    "largest local quadratic peak selection",
+    "reported metrics",
+    "thermodynamic-limit scope guard"
+  ],
+  "bias_guard": "The amendment only adds candidates and was recorded before any of the five 51-point dense scans completed."
+}

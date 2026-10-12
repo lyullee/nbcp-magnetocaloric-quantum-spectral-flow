@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "checks": {
+    "status_pass": true,
+    "scenario_count_52": true,
+    "candidate_grid_4_times_42": true,
+    "all_predictions_finite": true,
+    "baseline_matches_primary_robust_design": true,
+    "every_reported_panel_recomputed": true,
+    "panel_regret_is_monotone": true,
+    "panel_points_are_unique": true,
+    "one_reading_at_1pct_closes_5pct_gate": true,
+    "two_readings_at_2p5pct_close_5pct_gate": true,
+    "full_42_at_5pct_does_not_close_gate": true,
+    "five_point_multiT_beats_full_42_at_2p5pct": true,
+    "exact_pair_recomputed": true,
+    "exact_pair_is_global_over_861_panels": true,
+    "exact_pair_is_1p296_and_1p420T": true,
+    "precision_thresholds_match_scan": true,
+    "precision_curves_are_monotone": true,
+    "figures_exist": true
+  },
+  "failed": [],
+  "recomputed": {
+    "1%": {
+      "90mK_only": {
+        "selected_indices": [
+          36,
+          3,
+          23,
+          41,
+          5,
+          0
+        ],
+        "final": {
+          "worst_regret_fraction": 0.012549600929761179,
+          "median_regret_fraction": 0.0014467831295396753,
+          "decision_field_for_worst_true_T": 1.315,
+          "maximum_remaining_scenarios": 4,
+          "mean_remaining_scenarios": 2.1538461538461537
+        }
+      },
+      "multi_temperature": {
+        "selected_indices": [
+          36,
+          3,
+          64,
+          124,
+          81,
+          2
+        ],
+        "final": {
+          "worst_regret_fraction": 0.007544241316575962,
+          "median_regret_fraction": 0.0012401885949108972,
+          "decision_field_for_worst_true_T": 1.378,
+          "maximum_remaining_scenarios": 4,
+          "mean_remaining_scenarios": 1.8461538461538463
+        }
+      },
+      "full_42_point_90mK_sweep": {
+        "worst_regret_fraction": 0.012549600929761179,
+        "median_regret_fraction": 0.0006411396529082927,
+        "decision_field_for_worst_true_T": 1.315,
+        "maximum_remaining_scenarios": 4,
+        "mean_remaining_scenarios": 1.8461538461538463
+      }
+    },
+    "2.5%": {
+      "90mK_only": {
+        "selected_indices": [
+          35,
+          1,
+          18,
+          28,
+          39,
+          30
+        ],
+        "final": {
+          "worst_regret_fraction": 0.02677153934608406,
+          "median_regret_fraction": 0.019826898395210645,
+          "decision_field_for_worst_true_T": 1.349,
+          "maximum_remaining_scenarios": 20,
+          "mean_remaining_scenarios": 11.538461538461538
+        }
+      },
+      "multi_temperature": {
+        "selected_indices": [
+          35,
+          1,
+          18,
+          69,
+          164,
+          39
+        ],
+        "final": {
+          "worst_regret_fraction": 0.026591286269346932,
+          "median_regret_fraction": 0.019509801454985078,
+          "decision_field_for_worst_true_T": 1.3255,
+          "maximum_remaining_scenarios": 20,
+          "mean_remaining_scenarios": 10.423076923076923
+        }
+      },
+      "full_42_point_90mK_sweep": {
+        "worst_regret_fraction": 0.02677153934608406,
+        "median_regret_fraction": 0.017161920746661653,
+        "decision_field_for_worst_true_T": 1.349,
+        "maximum_remaining_scenarios": 18,
+        "mean_remaining_scenarios": 9.576923076923077
+      }
+    },
+    "5%": {
+      "90mK_only": {
+        "selected_indices": [
+          40,
+          31,
+          27,
+          0,
+          21,
+          41
+        ],
+        "final": {
+          "worst_regret_fraction": 0.06074199936342048,
+          "median_regret_fraction": 0.047966368356038944,
+          "decision_field_for_worst_true_T": 1.3895,
+          "maximum_remaining_scenarios": 42,
+          "mean_remaining_scenarios": 30.0
+        }
+      },
+      "multi_temperature": {
+        "selected_indices": [
+          40,
+          66,
+          32,
+          27,
+          83,
+          0
+        ],
+        "final": {
+          "worst_regret_fraction": 0.06026112523506189,
+          "median_regret_fraction": 0.0488393000280758,
+          "decision_field_for_worst_true_T": 1.356,
+          "maximum_remaining_scenarios": 43,
+          "mean_remaining_scenarios": 30.192307692307693
+        }
+      },
+      "full_42_point_90mK_sweep": {
+        "worst_regret_fraction": 0.06074199936342048,
+        "median_regret_fraction": 0.0474561874515249,
+        "decision_field_for_worst_true_T": 1.3895,
+        "maximum_remaining_scenarios": 42,
+        "mean_remaining_scenarios": 29.23076923076923
+      }
+    },
+    "10%": {
+      "90mK_only": {
+        "selected_indices": [
+          40,
+          34,
+          27,
+          19,
+          22,
+          32
+        ],
+        "final": {
+          "worst_regret_fraction": 0.09423091560842782,
+          "median_regret_fraction": 0.08946337938635712,
+          "decision_field_for_worst_true_T": 1.366,
+          "maximum_remaining_scenarios": 52,
+          "mean_remaining_scenarios": 49.03846153846154
+        }
+      },
+      "multi_temperature": {
+        "selected_indices": [
+          40,
+          34,
+          27,
+          19,
+          22,
+          32
+        ],
+        "final": {
+          "worst_regret_fraction": 0.09423091560842782,
+          "median_regret_fraction": 0.08946337938635712,
+          "decision_field_for_worst_true_T": 1.366,
+          "maximum_remaining_scenarios": 52,
+          "mean_remaining_scenarios": 49.03846153846154
+        }
+      },
+      "full_42_point_90mK_sweep": {
+        "worst_regret_fraction": 0.09423091560842782,
+        "median_regret_fraction": 0.08946337938635712,
+        "decision_field_for_worst_true_T": 1.366,
+        "maximum_remaining_scenarios": 52,
+        "mean_remaining_scenarios": 49.0
+      }
+    }
+  }
+}

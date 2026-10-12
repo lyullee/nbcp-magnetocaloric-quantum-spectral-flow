@@ -1,0 +1,150 @@
+{
+  "status": "frozen before new N=18 M4-00/M4-02/M4-03 calculations",
+  "cluster": {
+    "shape": [
+      3,
+      3,
+      2
+    ],
+    "spins": 18,
+    "boundary": "tin_foil",
+    "three_sublattice_compatible": true
+  },
+  "selection_rule": "M3 plus minimum retained bulk shift, nominal representative, median retained bulk shift with distinct coupling composition, and maximum retained bulk shift",
+  "models": {
+    "M3": {
+      "sample_id": "M3",
+      "selection_role": "common no-interlayer baseline",
+      "bulk_shift_T": 0.0,
+      "n12_shift_T": 0.0,
+      "n12_heat_ratio": 1.0,
+      "parameters": {
+        "j2_microev": 0.0,
+        "ja_microev": 0.0,
+        "jb_microev": 0.0,
+        "delta_c": 0.08
+      }
+    },
+    "M4-00": {
+      "sample_id": "761",
+      "selection_role": "minimum retained bulk critical-field shift",
+      "bulk_shift_T": 0.033403908987329034,
+      "n12_shift_T": 0.0,
+      "n12_heat_ratio": 1.0127213300003153,
+      "parameters": {
+        "j2_microev": 0.008018729090690612,
+        "ja_microev": -2.456390716508031,
+        "jb_microev": 5.570390689605847,
+        "delta_c": 0.12898443758487702
+      }
+    },
+    "M4-02": {
+      "sample_id": "188",
+      "selection_role": "nominal local-Cartesian representative",
+      "bulk_shift_T": 0.09527380895522186,
+      "n12_shift_T": 0.040000000000000036,
+      "n12_heat_ratio": 0.9943352822895036,
+      "parameters": {
+        "j2_microev": 2.8,
+        "ja_microev": 0.0,
+        "jb_microev": 7.9,
+        "delta_c": 0.08
+      }
+    },
+    "M4-03": {
+      "sample_id": "738",
+      "selection_role": "median retained bulk shift with a coupling composition distinct from the nominal and maximum-shift anchors",
+      "bulk_shift_T": 0.11555865530097242,
+      "n12_shift_T": 0.050000000000000044,
+      "n12_heat_ratio": 0.9607978595680514,
+      "parameters": {
+        "j2_microev": 0.27222977876663207,
+        "ja_microev": -2.8672347117215393,
+        "jb_microev": 13.435032871365546,
+        "delta_c": 0.04629844818264246
+      }
+    },
+    "M4-01": {
+      "sample_id": "773",
+      "selection_role": "maximum retained bulk critical-field shift",
+      "bulk_shift_T": 0.20210652482768032,
+      "n12_shift_T": 0.10000000000000009,
+      "n12_heat_ratio": 0.9192300000169081,
+      "parameters": {
+        "j2_microev": 4.5861779235303395,
+        "ja_microev": 3.4409039821475744,
+        "jb_microev": 13.63851090040989,
+        "delta_c": 0.03836957771331072
+      }
+    }
+  },
+  "numerical_protocol": {
+    "coarse": {
+      "fields_T": [
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0
+      ],
+      "even_odd_cutoffs": [
+        4,
+        5
+      ],
+      "states_per_parity": 8
+    },
+    "refine": {
+      "field_window_T": "coarse peak +/- 0.08 in 0.02 T steps",
+      "even_odd_cutoffs": [
+        6,
+        7
+      ],
+      "states_per_parity": 12
+    },
+    "peak_and_cutoff": {
+      "three_point_window_T": "refine peak +/- 0.02",
+      "states_per_parity": [
+        12,
+        32
+      ],
+      "even_odd_cutoffs": [
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    },
+    "hot_reference": {
+      "field_T": 4.0,
+      "temperature_K": 2.0,
+      "even_odd_cutoffs": [
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    }
+  },
+  "source_files": [
+    "results\\interlayer_adaptive_inverse_uq_retained.csv",
+    "results\\m4_finite_temperature_cluster_comparisons.csv"
+  ],
+  "interpretation_rule": "Report the complete ordered cover irrespective of monotonicity; do not promote N=18 to a thermodynamic-limit prediction."
+}

@@ -183,12 +183,52 @@ def locate_critical_mode(model: str, settings: EwaldSettings,
         'transverse_min_eigenvalue_K': float(np.linalg.eigvalsh(jk[:2, :2])[0]),
         'optimizer_success': bool(local.success),
         'optimizer_message': str(local.message),
+        'optimizer_seed': int(seed),
         'global_objective': float(-de.fun),
         'local_objective': h_k,
         'ewald': settings.__dict__ if model in ('M3', 'M4') else None,
         'interlayer_parameters': (interlayer or InterlayerParameters()).__dict__
             if model == 'M4' else None,
     }
+
+
+def locate_critical_mode_multistart(
+        model: str,
+        settings: EwaldSettings,
+        seeds: tuple[int, ...],
+        interlayer: InterlayerParameters | None = None) -> dict:
+    """Select the highest-field instability found across independent starts.
+
+    Several nearly degenerate M4 minima can coexist at different wavevectors.
+    The physical polarized-state instability is the mode with the largest
+    critical field, because that gap closes first as the field is lowered.
+    A single differential-evolution start can occasionally return a slightly
+    lower local maximum, so parameter screens use this explicit multistart
+    selection and retain its diagnostic spread.
+    """
+    if not seeds:
+        raise ValueError("at least one optimizer seed is required")
+    runs = [
+        locate_critical_mode(model, settings, seed=seed, interlayer=interlayer)
+        for seed in seeds
+    ]
+    ordered = sorted(runs, key=lambda row: row["critical_field_T"], reverse=True)
+    best = dict(ordered[0])
+    best["multistart"] = {
+        "seeds": list(seeds),
+        "run_count": len(runs),
+        "all_optimizer_success": all(row["optimizer_success"] for row in runs),
+        "critical_field_range_T": [
+            float(min(row["critical_field_T"] for row in runs)),
+            float(max(row["critical_field_T"] for row in runs)),
+        ],
+        "best_minus_runner_up_T": (
+            float(ordered[0]["critical_field_T"] - ordered[1]["critical_field_T"])
+            if len(ordered) > 1 else None
+        ),
+        "selected_seed": int(ordered[0]["optimizer_seed"]),
+    }
+    return best
 
 
 def analytic_m0_field() -> float:

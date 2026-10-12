@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "verified": {
+    "models": [
+      "M3",
+      "M4-00",
+      "M4-02",
+      "M4-03",
+      "M4-01"
+    ],
+    "major_change_model_count": 4,
+    "multiple_close_peak_models": [
+      "M3",
+      "M4-00",
+      "M4-02",
+      "M4-03",
+      "M4-01"
+    ],
+    "L32_reselected_peak_branch_models": [],
+    "cold_cutoff_max_abs_kB_per_spin": 7.235701388358384e-05,
+    "hot_last_cutoff_change_max_abs_kB_per_spin": 0.004366567715216832
+  }
+}

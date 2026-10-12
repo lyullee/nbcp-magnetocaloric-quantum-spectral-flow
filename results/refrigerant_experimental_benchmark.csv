@@ -1,0 +1,4 @@
+material,source_curve,mass_g,volume_cm3,below_1K_observed_span_min,minimum_temperature_K,time_trace_points
+NBCP,NBCP,1.65,0.395,95.95399,0.0941697551170364,3421
+FAA,FAA,0.7,0.409,32.156500000040964,0.112929485971108,656
+CPA,CPA,0.76,0.421,24.66499999997907,0.111789358546957,1627

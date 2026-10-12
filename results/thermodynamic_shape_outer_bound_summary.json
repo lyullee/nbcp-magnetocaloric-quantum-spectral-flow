@@ -1,0 +1,765 @@
+{
+  "status": "finite-cluster-calibrated shape-deformation stress test; not a converged bulk M4 solution",
+  "interlayer_ensemble_source": "interlayer_adaptive_inverse_uq_retained.csv",
+  "interlayer_model_count": 69,
+  "basis_for_bounds": {
+    "N9_vs_N12_90mK_Qmax_ratio": 1.0821606804201704,
+    "N9_vs_N12_90mK_W95_width_ratio": 1.1428571428571428,
+    "heat_scale": [
+      0.9,
+      1.0,
+      1.1
+    ],
+    "left_width_scale": [
+      0.5,
+      1.0,
+      1.7
+    ],
+    "right_width_scale": [
+      0.5,
+      1.0,
+      2.5
+    ],
+    "residual_peak_shift_T": [
+      -0.12,
+      0.0,
+      0.12
+    ],
+    "previous_size_only_bounds": {
+      "heat_scale": [
+        0.9,
+        1.0,
+        1.1
+      ],
+      "left_width_scale": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "right_width_scale": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "residual_peak_shift_T": [
+        -0.02,
+        0.0,
+        0.02
+      ]
+    },
+    "microscopic_cluster_status": "finite 3-D cluster thermodynamic sensitivity; not a converged bulk M4 solution",
+    "microscopic_90mK_ranges": {
+      "cluster_M4_minus_M3_B_star_T": [
+        0.0,
+        0.08000000000000007
+      ],
+      "Qmax_ratio_to_M3": [
+        0.9161718326885712,
+        1.0127213300003153
+      ],
+      "left_W95_scale_to_M3": [
+        0.0,
+        1.0
+      ],
+      "right_W95_scale_to_M3": [
+        0.0,
+        4.0
+      ]
+    },
+    "common_random_verification_status": "PASS",
+    "common_random_verification_summary": {
+      "M4_minus_M3_B_star_T": {
+        "values": [
+          0.10000000000000009,
+          0.10000000000000009,
+          0.10000000000000009
+        ],
+        "mean": 0.10000000000000009,
+        "range": [
+          0.10000000000000009,
+          0.10000000000000009
+        ]
+      },
+      "M4_to_M3_Qmax_ratio": {
+        "values": [
+          0.9269625972991652,
+          0.9114734953169183,
+          0.9192539074346411
+        ],
+        "mean": 0.9192300000169081,
+        "range": [
+          0.9114734953169183,
+          0.9269625972991652
+        ]
+      },
+      "M4_to_M3_W95_total_ratio": {
+        "values": [
+          1.4597560975609774,
+          2.046875000000016,
+          1.5672215108834795
+        ],
+        "mean": 1.6912842028148243,
+        "range": [
+          1.4597560975609774,
+          2.046875000000016
+        ]
+      },
+      "M4_to_M3_W95_left_ratio": {
+        "values": [
+          1.5940860215053783,
+          1.662686567164206,
+          1.245202558635401
+        ],
+        "mean": 1.500658382434995,
+        "range": [
+          1.245202558635401,
+          1.662686567164206
+        ]
+      },
+      "M4_to_M3_W95_right_ratio": {
+        "values": [
+          1.3482142857142874,
+          2.4688524590163934,
+          2.051282051282031
+        ],
+        "mean": 1.9561162653375705,
+        "range": [
+          1.3482142857142874,
+          2.4688524590163934
+        ]
+      }
+    },
+    "note": "The heat scale remains 0.9--1.1 because all 12 coverage models and all three common-random repeats remain inside it. Width and residual-shift coordinates are enlarged to contain the N=12 M4 sensitivity and its repeated worst-model audit."
+  },
+  "public_q_constrained_interlayer_shift_range_T": [
+    0.033403908987329034,
+    0.20210652482768032
+  ],
+  "90mK_gate_stress": {
+    "scenario_count": 22356,
+    "finite_scenario_count": 22356,
+    "delta_B_star_T_range": [
+      -0.09142677853482617,
+      0.32210652482768043
+    ],
+    "regret_percent_range": [
+      0.003050799085923316,
+      188.80880600777448
+    ],
+    "all_finite_scenarios_pass_delta_B_gate": false,
+    "all_finite_scenarios_pass_regret_gate": false,
+    "fraction_passing_both_descriptive_not_probability": 0.6123188405797102,
+    "by_interlayer_shift": [
+      {
+        "critical_field_shift_vs_M3_T": 0.033403908987329034,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.09142677853482617,
+        "minimum_regret_percent": 0.9803241593240564,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03568039888525498,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08947950194389365,
+        "minimum_regret_percent": 1.1010297131357638,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03585964858346968,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08932617434003132,
+        "minimum_regret_percent": 1.1105340092511682,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.036182089922562444,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08905036267395006,
+        "minimum_regret_percent": 1.1276307073047975,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03637860338460008,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08888226789576636,
+        "minimum_regret_percent": 1.1380503741297354,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03699377779187962,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08835605658961132,
+        "minimum_regret_percent": 1.1706685586378862,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03878632890994238,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08682273424391007,
+        "minimum_regret_percent": 1.2607795897778642,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.03975072486041653,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08599780387173506,
+        "minimum_regret_percent": 1.2931034230339813,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.039848701629829675,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08591399595775862,
+        "minimum_regret_percent": 1.2963873281104485,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.04020161612921802,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.0856121179903293,
+        "minimum_regret_percent": 1.3082160271279824,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.04214315949286984,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3333333333333333,
+        "minimum_delta_B_star_T": -0.08395134982888708,
+        "minimum_regret_percent": 1.3732910867187533,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.05364571563568066,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.3888888888888889,
+        "minimum_delta_B_star_T": -0.07411222937718187,
+        "minimum_regret_percent": 1.7588243384878708,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.06036014948223256,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5,
+        "minimum_delta_B_star_T": -0.0683687996072242,
+        "minimum_regret_percent": 2.0456703184032756,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.06497198178795038,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5,
+        "minimum_delta_B_star_T": -0.06442390483812654,
+        "minimum_regret_percent": 2.3115667027876055,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.06799762904795204,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.06183580985594017,
+        "minimum_regret_percent": 2.486011178112358,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.06832055733723608,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.06155958165969566,
+        "minimum_regret_percent": 2.5046296921527778,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.07259719075801518,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.05790141117720404,
+        "minimum_regret_percent": 2.751200098130557,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.07370885189100784,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.05695051229410408,
+        "minimum_regret_percent": 2.815293208271792,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.07972946216493226,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.05180056919081033,
+        "minimum_regret_percent": 3.1604692082397308,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.08379843808611587,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.04832002593533247,
+        "minimum_regret_percent": 3.392096712160324,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.08709012280128126,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.04550436635502342,
+        "minimum_regret_percent": 3.197046259793036,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09070853946640778,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.04240922498204358,
+        "minimum_regret_percent": 2.833416020348997,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09478110240812376,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.038925613440991436,
+        "minimum_regret_percent": 2.4241466700500793,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09527380895522186,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.03850415937425611,
+        "minimum_regret_percent": 2.3758395172660918,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09777236664500188,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.03636692920036588,
+        "minimum_regret_percent": 2.1357632319701385,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09813875098320457,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.03605352932729078,
+        "minimum_regret_percent": 2.100558845348967,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.09819292634713017,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.5555555555555556,
+        "minimum_delta_B_star_T": -0.036007188503167864,
+        "minimum_regret_percent": 2.0953533541253604,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1041426629417388,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6111111111111112,
+        "minimum_delta_B_star_T": -0.030917869721893254,
+        "minimum_regret_percent": 1.5236672706037837,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.10542760000068574,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6111111111111112,
+        "minimum_delta_B_star_T": -0.029818753113473928,
+        "minimum_regret_percent": 1.4002028746393138,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.10730382425956964,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6111111111111112,
+        "minimum_delta_B_star_T": -0.028213857971179035,
+        "minimum_regret_percent": 1.219924087282326,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.10850319707632106,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6111111111111112,
+        "minimum_delta_B_star_T": -0.027187931780165098,
+        "minimum_regret_percent": 1.1046812126797476,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1098924278176443,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6111111111111112,
+        "minimum_delta_B_star_T": -0.02599960386162392,
+        "minimum_regret_percent": 0.9711956593302908,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.11195129242036694,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6388888888888888,
+        "minimum_delta_B_star_T": -0.024238480806153984,
+        "minimum_regret_percent": 0.7733677013164354,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.11548799086432493,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.021213240019721358,
+        "minimum_regret_percent": 0.4335406770654237,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.11555865530097242,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.021152794680859843,
+        "minimum_regret_percent": 0.42675081765082234,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.12022478046867713,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.017161458581494315,
+        "minimum_regret_percent": 0.003050799085923316,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.12438037733327145,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.01360682102164823,
+        "minimum_regret_percent": 0.059452012192115364,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.12708703554525003,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.01129158466560587,
+        "minimum_regret_percent": 0.09618772347346594,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.12879122934978637,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.009833841890199979,
+        "minimum_regret_percent": 0.11931763743669686,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.13126915378890147,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.007714261101027686,
+        "minimum_regret_percent": 0.15294889400595957,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.13418610968698763,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.005219139140547613,
+        "minimum_regret_percent": 0.19253883898618956,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1359044227156525,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.0037493189846742325,
+        "minimum_regret_percent": 0.21586038399423352,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1361855210583507,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.003508871520802481,
+        "minimum_regret_percent": 0.21967554895053723,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1371988130363666,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.002642116192624666,
+        "minimum_regret_percent": 0.24267708438272192,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1382503827492907,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": -0.0017426186426570123,
+        "minimum_regret_percent": 0.1727200118478133,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.14757413094718363,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.006232780950395922,
+        "minimum_regret_percent": 0.08726042447259856,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1514502466200882,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.009548354333994258,
+        "minimum_regret_percent": 0.13367924508019058,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.15308093878524365,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.010943224868283696,
+        "minimum_regret_percent": 0.153207766277258,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.15702505819121693,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.01431696766331747,
+        "minimum_regret_percent": 0.20044097256171878,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.16364951448344,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+        "minimum_delta_B_star_T": 0.01998343193239016,
+        "minimum_regret_percent": 0.4478701117024603,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18135701825483674,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.035130174999120634,
+        "minimum_regret_percent": 1.337301821065831,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18204790555198658,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03572115001813492,
+        "minimum_regret_percent": 1.360458415388797,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18211418626201703,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.0357778455805402,
+        "minimum_regret_percent": 1.3626799579181594,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18241111264844623,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03603183212449568,
+        "minimum_regret_percent": 1.3726320932413767,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18306678411293942,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03659268402869831,
+        "minimum_regret_percent": 1.3946083521406867,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1840025633627138,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.037393136088260004,
+        "minimum_regret_percent": 1.425973034270842,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18489884084844954,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03815979890918575,
+        "minimum_regret_percent": 1.4560137286411137,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18502136380302403,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03826460327555381,
+        "minimum_regret_percent": 1.4601203526390456,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18607823860309014,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.039168638720468385,
+        "minimum_regret_percent": 1.4955438161999668,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1866294575932339,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.03964014348618794,
+        "minimum_regret_percent": 1.5140191226508606,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.1866663165534923,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.039671672108626765,
+        "minimum_regret_percent": 1.5152545310791083,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18710378097402702,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.04004587285788075,
+        "minimum_regret_percent": 1.5299171050746627,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.18828425275495086,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.04105563137573909,
+        "minimum_regret_percent": 1.569483190966426,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.189499400790774,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.04209505146138581,
+        "minimum_regret_percent": 1.610211527156683,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.19293422024178075,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.04503314642816769,
+        "minimum_regret_percent": 1.7253369910749081,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.19719058609008666,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.7777777777777778,
+        "minimum_delta_B_star_T": 0.04867398032178705,
+        "minimum_regret_percent": 1.8679983739747452,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.20100866583061938,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.8333333333333334,
+        "minimum_delta_B_star_T": 0.05193991060675218,
+        "minimum_regret_percent": 2.066478206705345,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.20132904941579066,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.8333333333333334,
+        "minimum_delta_B_star_T": 0.05221396209983875,
+        "minimum_regret_percent": 2.084950005171984,
+        "all_shape_scenarios_pass": false
+      },
+      {
+        "critical_field_shift_vs_M3_T": 0.20210652482768032,
+        "scenario_count": 324,
+        "pass_fraction_descriptive_not_probability": 0.8333333333333334,
+        "minimum_delta_B_star_T": 0.05287900334205009,
+        "minimum_regret_percent": 2.1297755511296774,
+        "all_shape_scenarios_pass": false
+      }
+    ],
+    "minimum_interlayer_shift_with_all_shape_scenarios_passing_T": null,
+    "any_interlayer_model_all_shape_scenarios_passing": false,
+    "central_shape_all_interlayer_models_pass_both": false,
+    "central_shape_minimum_delta_B_star_T": 0.028573221465173715,
+    "central_shape_minimum_regret_percent": 1.8640994446229195
+  },
+  "actual_material_robust_decisions": [
+    {
+      "temperature_K": 0.09,
+      "scenario_count": 324,
+      "robust_field_T": 1.40025,
+      "worst_case_regret_percent": 83.59567583091238,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.06782439474418876,
+      "conditional_volume_cm3_for_0p10uW_60min": 5.307824734121126
+    },
+    {
+      "temperature_K": 0.1,
+      "scenario_count": 324,
+      "robust_field_T": 1.3986,
+      "worst_case_regret_percent": 76.97372285586347,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.12179878433922361,
+      "conditional_volume_cm3_for_0p10uW_60min": 2.955694524810351
+    },
+    {
+      "temperature_K": 0.12,
+      "scenario_count": 324,
+      "robust_field_T": 1.39135,
+      "worst_case_regret_percent": 67.27647304918699,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.25764307203598463,
+      "conditional_volume_cm3_for_0p10uW_60min": 1.3972818952792152
+    },
+    {
+      "temperature_K": 0.15,
+      "scenario_count": 324,
+      "robust_field_T": 1.3881000000000001,
+      "worst_case_regret_percent": 56.457026821798706,
+      "guaranteed_W95_exists": false,
+      "guaranteed_W95_min_T": null,
+      "guaranteed_W95_max_T": null,
+      "worst_case_Q_at_robust_field_mJ_per_cm3": 0.5318433120665254,
+      "conditional_volume_cm3_for_0p10uW_60min": 0.6768910914780284
+    }
+  ],
+  "limitations": [
+    "The deformation coordinates are deterministic stress bounds, not statistical confidence intervals.",
+    "The microscopic calibration is a 3 x 2 x 2 finite-cluster sensitivity with a short-circumference seam, not a converged bulk M4 thermodynamic solution.",
+    "The envelope tests peak displacement, asymmetric width and heat-scale changes but cannot represent every entropy redistribution allowed by M4.",
+    "The P2-P0 gate treats the deformation as differential uncertainty on P2; the actual-material recommendation uses measured Hc and does not require a counterfactual P0 model.",
+    "All heat and volume values remain magnetic-only conditional budgets."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "retained_model_count": 4,
+  "fixed_seeds_plus_original_point_seed": [
+    271,
+    2718,
+    27182,
+    271828
+  ],
+  "field_cluster_tolerance_T": 2e-07,
+  "models_reclassified_outside_public_q_filter": [],
+  "model_checks": [
+    {
+      "sample_id": 87,
+      "critical_field_full_spread_T": 0.0007336957206016681,
+      "selected_global_field_T": 1.8705361777727636,
+      "selected_mode_repeat_count": 4,
+      "selected_delta_inplane_rlu": 0.024727789664336287,
+      "selected_qz_folded_rlu": 0.3251460131626669,
+      "selected_public_q_pass": true,
+      "original_single_start_public_q_pass": true,
+      "all_optimizers_successful": true,
+      "verification_pass": true
+    },
+    {
+      "sample_id": 176,
+      "critical_field_full_spread_T": 0.0010756899631299,
+      "selected_global_field_T": 1.9065835364765467,
+      "selected_mode_repeat_count": 4,
+      "selected_delta_inplane_rlu": 0.02502918884674159,
+      "selected_qz_folded_rlu": 0.3239147797741114,
+      "selected_public_q_pass": true,
+      "original_single_start_public_q_pass": true,
+      "all_optimizers_successful": true,
+      "verification_pass": true
+    },
+    {
+      "sample_id": 179,
+      "critical_field_full_spread_T": 0.001069335296460805,
+      "selected_global_field_T": 1.844994617547574,
+      "selected_mode_repeat_count": 4,
+      "selected_delta_inplane_rlu": 0.024931595845259547,
+      "selected_qz_folded_rlu": 0.3368779629100693,
+      "selected_public_q_pass": true,
+      "original_single_start_public_q_pass": true,
+      "all_optimizers_successful": true,
+      "verification_pass": true
+    },
+    {
+      "sample_id": 180,
+      "critical_field_full_spread_T": 2.220446049250313e-16,
+      "selected_global_field_T": 1.9199715577367424,
+      "selected_mode_repeat_count": 5,
+      "selected_delta_inplane_rlu": 0.025273769025646976,
+      "selected_qz_folded_rlu": 0.3250299923181341,
+      "selected_public_q_pass": true,
+      "original_single_start_public_q_pass": true,
+      "all_optimizers_successful": true,
+      "verification_pass": true
+    }
+  ]
+}

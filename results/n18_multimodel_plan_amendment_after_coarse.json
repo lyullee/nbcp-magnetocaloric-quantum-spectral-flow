@@ -1,0 +1,138 @@
+{
+  "status": "rule amended after the declared low-accuracy coarse pilot and before any new K6/K7 dense-cover calculation",
+  "trigger": "The K4/K5 pilot showed multiple separated local maxima within 75% of the largest entropy for several models. A single +/-0.08 T refinement window could therefore select the wrong global peak.",
+  "amended_refine_rule": {
+    "fields_T": [
+      1.1,
+      1.12,
+      1.14,
+      1.16,
+      1.18,
+      1.2,
+      1.22,
+      1.24,
+      1.26,
+      1.28,
+      1.3,
+      1.32,
+      1.34,
+      1.36,
+      1.38,
+      1.4,
+      1.42,
+      1.44,
+      1.46,
+      1.48,
+      1.5,
+      1.52,
+      1.54,
+      1.56,
+      1.58,
+      1.6,
+      1.62,
+      1.64,
+      1.66,
+      1.68,
+      1.7,
+      1.72,
+      1.74,
+      1.76,
+      1.78,
+      1.8,
+      1.82,
+      1.84,
+      1.86,
+      1.88,
+      1.9,
+      1.92,
+      1.94,
+      1.96,
+      1.98,
+      2.0,
+      2.02,
+      2.04,
+      2.06,
+      2.08,
+      2.1
+    ],
+    "even_odd_cutoffs": [
+      6,
+      7
+    ],
+    "states_per_parity": 12,
+    "selection": "global maximum on the common dense field grid"
+  },
+  "coarse_local_maxima_above_75_percent": {
+    "M3": [
+      {
+        "field_T": 1.2,
+        "entropy_kB_per_spin": 0.12195048573524109
+      },
+      {
+        "field_T": 1.4,
+        "entropy_kB_per_spin": 0.11055079989214164
+      },
+      {
+        "field_T": 1.8,
+        "entropy_kB_per_spin": 0.09907575777988963
+      }
+    ],
+    "M4-00": [
+      {
+        "field_T": 1.2,
+        "entropy_kB_per_spin": 0.12636280742556633
+      },
+      {
+        "field_T": 1.5,
+        "entropy_kB_per_spin": 0.12737962586619186
+      },
+      {
+        "field_T": 1.8,
+        "entropy_kB_per_spin": 0.12138616144352027
+      }
+    ],
+    "M4-02": [
+      {
+        "field_T": 1.2,
+        "entropy_kB_per_spin": 0.11316680196378386
+      },
+      {
+        "field_T": 1.5,
+        "entropy_kB_per_spin": 0.12681500959710107
+      },
+      {
+        "field_T": 1.8,
+        "entropy_kB_per_spin": 0.10012249056466928
+      }
+    ],
+    "M4-03": [
+      {
+        "field_T": 1.3,
+        "entropy_kB_per_spin": 0.11791385091271378
+      },
+      {
+        "field_T": 1.5,
+        "entropy_kB_per_spin": 0.11653874895451123
+      },
+      {
+        "field_T": 1.9,
+        "entropy_kB_per_spin": 0.10724499134699585
+      }
+    ],
+    "M4-01": [
+      {
+        "field_T": 1.3,
+        "entropy_kB_per_spin": 0.11123767228969836
+      },
+      {
+        "field_T": 1.6,
+        "entropy_kB_per_spin": 0.1353325872813972
+      },
+      {
+        "field_T": 1.9,
+        "entropy_kB_per_spin": 0.10272194787085874
+      }
+    ]
+  },
+  "interpretation_rule_unchanged": "Report the complete ordered cover irrespective of monotonicity; do not promote N=18 to a thermodynamic-limit prediction."
+}

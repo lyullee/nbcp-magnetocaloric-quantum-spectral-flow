@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_threshold_18p048_microeV": true,
+    "source_threshold_matches_summary": true,
+    "source_linewidth_chi2_matches": true,
+    "source_linewidth_mae_matches": true,
+    "linewidth_proxy_reproduces_source_curve": true,
+    "model_count_69": true,
+    "curve_grid_complete": true,
+    "central_pass_count_30": true,
+    "central_subset_ids_match": true,
+    "robust_pass_count_30": true,
+    "robust_subset_ids_match": true,
+    "central_and_robust_subsets_identical": true,
+    "central_shift_min_matches": true,
+    "central_shift_max_matches": true,
+    "robust_shift_min_matches": true,
+    "robust_shift_max_matches": true,
+    "bandwidth_min_matches": true,
+    "bandwidth_max_matches": true,
+    "spearman_matches": true,
+    "spearman_pvalue_matches": true,
+    "profile_chi2_recomputed_for_all_models": true,
+    "equal_twin_chi2_recomputed_for_all_models": true,
+    "all_69_profile_no_worse_than_source": true,
+    "equal_twin_66_no_worse_than_source": true,
+    "profile_chi2_range_matches": true,
+    "representative_axial_crosscheck_near_4p4": true,
+    "microscopic_template_count_30_times_4": true,
+    "provenance_exists": true,
+    "figure_triplet_exists": true
+  },
+  "recomputed": {
+    "source_threshold_microeV": 18.04800000000001,
+    "source_linewidth_chi_square_no_refit": 28.350471890331256,
+    "model_count": 69,
+    "central_pass_count": 30,
+    "robust_pass_count": 30,
+    "central_shift_range_T": [
+      0.033403908987329034,
+      0.14757413094718363
+    ],
+    "bandwidth_range_microeV": [
+      10.176674115537764,
+      29.829845174677587
+    ],
+    "spearman_rho": 0.8816952868103765,
+    "linewidth_proxy_source_curve_rmse_meV": 0.00014109275797480385,
+    "profile_models_no_worse_than_source_count": 69,
+    "profile_chi_square_range": [
+      21.36114259654802,
+      26.74053699872553
+    ]
+  }
+}

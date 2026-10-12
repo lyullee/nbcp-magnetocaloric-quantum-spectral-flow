@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "verified": {
+    "retained_model_count": 69,
+    "ordered_cover": [
+      "M3",
+      "M4-00",
+      "M4-02",
+      "M4-03",
+      "M4-01"
+    ],
+    "bulk_shift_anchors_T": {
+      "minimum": 0.033403908987329034,
+      "median": 0.11555865530097242,
+      "maximum": 0.20210652482768032
+    },
+    "dense_grid": {
+      "count": 51,
+      "minimum_T": 1.1,
+      "maximum_T": 2.1,
+      "step_T": 0.020000000000000018
+    },
+    "N12_metrics_checked_before_new_N18_cover": true,
+    "close_peak_L32_selection_rule_checked": true,
+    "candidate_gap_amendment_kB_per_spin": 0.02
+  }
+}

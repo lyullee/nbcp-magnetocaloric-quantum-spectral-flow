@@ -1,0 +1,5 @@
+Four preregistered M4 models are recalculated on an N=18 cluster.
+N=18 optimum shifts span 0.293–0.425 T across the model cover.
+Multimodel size stress gives 34.6% minimax regret.
+Exhaustive search selects 1.292 and 1.716 T first.
+Package c/a ≥ 2.72 limits the demagnetization bound to 0.02 T.

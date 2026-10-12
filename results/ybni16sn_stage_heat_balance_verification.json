@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_archive_hash_matches_provenance": true,
+    "profile_row_count": true,
+    "two_loads_present": true,
+    "energy_identities": true,
+    "independent_holdout_nrmse_matches_summary": true,
+    "effective_mass_matches_approximate_public_mass": true,
+    "parasitic_load_respects_public_upper_bound": true,
+    "holdout_nrmse_below_declared_gate": true,
+    "all_primary_gates_pass": true,
+    "figure_outputs_exist": true
+  },
+  "rows_checked": 282,
+  "independent_holdout_nrmse": 0.0059175222693995345
+}

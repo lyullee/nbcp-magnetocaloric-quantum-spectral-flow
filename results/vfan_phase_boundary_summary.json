@@ -1,0 +1,57 @@
+{
+  "status": "V--fan boundary holdout; interval-censored experimental comparison",
+  "source": "arXiv:2607.23173v1 Figure 10c-d and diffraction fields",
+  "retained_model_count": 69,
+  "models_with_transition_in_scanned_window": 69,
+  "field_ratio_scan": [
+    0.78,
+    0.92,
+    0.005
+  ],
+  "experimental_transition_bracket_T": [
+    1.4,
+    1.45
+  ],
+  "experimental_transition_bracket_ratio": [
+    0.8484848484848485,
+    0.8787878787878788
+  ],
+  "representative_model": {
+    "sample_id": -1,
+    "j2_microev": 2.8,
+    "ja_microev": 0.0,
+    "jb_microev": 7.9,
+    "delta_c": 0.08,
+    "critical_field_T": 1.8676712357447807,
+    "critical_field_shift_vs_M3_T": 0.0952738089552219,
+    "v_to_fan_ratio": 0.8400171198137206,
+    "v_to_fan_field_T_model_scale": 1.568875812209263,
+    "inside_experimental_ratio_bracket": false
+  },
+  "representative_public_figure_visual_ratio": 0.855,
+  "representative_absolute_visual_difference": 0.014982880186279357,
+  "all_model_transition_ratio_range": [
+    0.8290288192513245,
+    0.8457570317703432
+  ],
+  "experimental_bracket_subset": {
+    "model_count": 0,
+    "critical_field_shift_range_T": null,
+    "central_90mK_both_gates": 0,
+    "central_90mK_case_count": 0,
+    "shape_90mK_both_gates": 0,
+    "shape_90mK_case_count": 0
+  },
+  "method_checks": {
+    "exact_angle_not_cubic_fan": true,
+    "maximum_retained_transverse_harmonic": 15,
+    "representative_transition_within_0p02_Hc_of_public_figure": true,
+    "separate_abc_cell_energy_difference_microeV_at_0p855Hc": 0.0
+  },
+  "interpretation_limits": [
+    "The public transition is interval-censored by the last commensurate and first incommensurate field points.",
+    "The onset bracket and the four-point fan curve come from the same diffraction series and are not statistically independent.",
+    "This is a zero-temperature classical mean-field comparison and does not include the quantum smoothing discussed by the source authors.",
+    "A retained subset is a deterministic compatibility set, not a posterior or confidence interval."
+  ]
+}

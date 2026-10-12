@@ -1,0 +1,543 @@
+{
+  "purpose": "local-only compact N=6 state-preparation screen before additional QPU use",
+  "condition": {
+    "N": 6,
+    "field_T": 1.05,
+    "path": "M0 + lambda*(M2-M0)",
+    "low_energy_rank": 3
+  },
+  "ansatz": "local RZ, Givens and pair-mixing layers on the open triangular graph",
+  "settings": {
+    "restarts": 5,
+    "maxiter": 1200,
+    "seed": 20261012
+  },
+  "layers": [
+    {
+      "layers": 1,
+      "parameter_count": 30,
+      "minimum_fidelity": 0.9859741374069498,
+      "maximum_V_error_K": 0.020572636409433298,
+      "maximum_all_to_all_cx": 36,
+      "maximum_fake_sherbrooke_ecr": 58,
+      "reconstructed_delta_S_kB_per_spin": -0.04607097560049539,
+      "exact_delta_S_kB_per_spin": -0.041611185392003903,
+      "delta_S_error_kB_per_spin": -0.004459790208491486,
+      "passes_entropy_target": false,
+      "nodes": [
+        {
+          "lambda": 0.1127016653792583,
+          "states": [
+            {
+              "lambda": 0.1127016653792583,
+              "level": 0,
+              "initial_basis_index": 47,
+              "fidelity": 0.9859741374069498,
+              "exact_V_expectation_K": 0.053909097242033424,
+              "prepared_V_expectation_K": 0.041378993553383404,
+              "V_error_K": -0.01253010368865002,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 101,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 182,
+              "optimizer_iterations": 86,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999234460113975,
+              "exact_V_expectation_K": 0.20408212978533125,
+              "prepared_V_expectation_K": 0.20640904963670165,
+              "V_error_K": 0.0023269198513704015,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 103,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 188,
+              "optimizer_iterations": 5,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 2,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999913723837787,
+              "exact_V_expectation_K": 0.06686647642910186,
+              "prepared_V_expectation_K": 0.0676325398515164,
+              "V_error_K": 0.0007660634224145452,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 104,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 187,
+              "optimizer_iterations": 85,
+              "optimizer_success": true
+            }
+          ]
+        },
+        {
+          "lambda": 0.5,
+          "states": [
+            {
+              "lambda": 0.5,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9998804584759261,
+              "exact_V_expectation_K": 0.04873698301609772,
+              "prepared_V_expectation_K": 0.05145761102696103,
+              "V_error_K": 0.002720628010863313,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 104,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 189,
+              "optimizer_iterations": 86,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.5,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9983413253658447,
+              "exact_V_expectation_K": 0.18583755150729986,
+              "prepared_V_expectation_K": 0.19680526965819753,
+              "V_error_K": 0.01096771815089767,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 102,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 189,
+              "optimizer_iterations": 6,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.5,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.9992884452166376,
+              "exact_V_expectation_K": 0.06116469314156803,
+              "prepared_V_expectation_K": 0.06452426909137216,
+              "V_error_K": 0.0033595759498041278,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 103,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 183,
+              "optimizer_iterations": 49,
+              "optimizer_success": true
+            }
+          ]
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "states": [
+            {
+              "lambda": 0.8872983346207417,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9996265552763709,
+              "exact_V_expectation_K": 0.043563984208399055,
+              "prepared_V_expectation_K": 0.04835898499757858,
+              "V_error_K": 0.004795000789179528,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 103,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 189,
+              "optimizer_iterations": 95,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9942878227086202,
+              "exact_V_expectation_K": 0.16585340869139822,
+              "prepared_V_expectation_K": 0.18642604510083152,
+              "V_error_K": 0.020572636409433298,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 103,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 190,
+              "optimizer_iterations": 6,
+              "optimizer_success": true
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.9988218249969081,
+              "exact_V_expectation_K": 0.055409151504825754,
+              "prepared_V_expectation_K": 0.06146538111165112,
+              "V_error_K": 0.006056229606825364,
+              "parameter_count": 30,
+              "all_to_all_cx": 36,
+              "all_to_all_depth": 104,
+              "fake_sherbrooke_ecr": 58,
+              "fake_sherbrooke_depth": 183,
+              "optimizer_iterations": 52,
+              "optimizer_success": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layers": 2,
+      "parameter_count": 60,
+      "minimum_fidelity": 0.9999982769213642,
+      "maximum_V_error_K": 1.4908568895105612e-05,
+      "maximum_all_to_all_cx": 68,
+      "maximum_fake_sherbrooke_ecr": 112,
+      "reconstructed_delta_S_kB_per_spin": -0.04161530068305874,
+      "exact_delta_S_kB_per_spin": -0.041611185392003903,
+      "delta_S_error_kB_per_spin": -4.115291054838932e-06,
+      "passes_entropy_target": true,
+      "nodes": [
+        {
+          "lambda": 0.1127016653792583,
+          "states": [
+            {
+              "lambda": 0.1127016653792583,
+              "level": 0,
+              "initial_basis_index": 47,
+              "fidelity": 0.9999999095619532,
+              "exact_V_expectation_K": 0.053909097242033424,
+              "prepared_V_expectation_K": 0.053909855040443294,
+              "V_error_K": 7.57798409870003e-07,
+              "parameter_count": 60,
+              "all_to_all_cx": 66,
+              "all_to_all_depth": 188,
+              "fake_sherbrooke_ecr": 110,
+              "fake_sherbrooke_depth": 368,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999998917943305,
+              "exact_V_expectation_K": 0.20408212978533125,
+              "prepared_V_expectation_K": 0.20408476159530387,
+              "V_error_K": 2.631809972619692e-06,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 194,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 371,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 2,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999999665491092,
+              "exact_V_expectation_K": 0.06686647642910186,
+              "prepared_V_expectation_K": 0.06686871841847596,
+              "V_error_K": 2.241989374096587e-06,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 197,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 379,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        },
+        {
+          "lambda": 0.5,
+          "states": [
+            {
+              "lambda": 0.5,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999993329867198,
+              "exact_V_expectation_K": 0.04873698301609772,
+              "prepared_V_expectation_K": 0.04874026748001807,
+              "V_error_K": 3.2844639203527537e-06,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 194,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 366,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.5,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999995451121801,
+              "exact_V_expectation_K": 0.18583755150729986,
+              "prepared_V_expectation_K": 0.18584325739373517,
+              "V_error_K": 5.705886435308782e-06,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 196,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 371,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.5,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.9999997809681676,
+              "exact_V_expectation_K": 0.06116469314156803,
+              "prepared_V_expectation_K": 0.06116416391569971,
+              "V_error_K": -5.292258683162188e-07,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 194,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 367,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "states": [
+            {
+              "lambda": 0.8872983346207417,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999989488342378,
+              "exact_V_expectation_K": 0.043563984208399055,
+              "prepared_V_expectation_K": 0.0435565286597691,
+              "V_error_K": -7.455548629957398e-06,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 195,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 366,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999982769213642,
+              "exact_V_expectation_K": 0.16585340869139822,
+              "prepared_V_expectation_K": 0.16586831726029333,
+              "V_error_K": 1.4908568895105612e-05,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 197,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 367,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.999999529439756,
+              "exact_V_expectation_K": 0.055409151504825754,
+              "prepared_V_expectation_K": 0.05540968291796279,
+              "V_error_K": 5.314131370365294e-07,
+              "parameter_count": 60,
+              "all_to_all_cx": 68,
+              "all_to_all_depth": 195,
+              "fake_sherbrooke_ecr": 112,
+              "fake_sherbrooke_depth": 374,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layers": 3,
+      "parameter_count": 90,
+      "minimum_fidelity": 0.9999997770856555,
+      "maximum_V_error_K": 1.6221395545759631e-06,
+      "maximum_all_to_all_cx": 102,
+      "maximum_fake_sherbrooke_ecr": 168,
+      "reconstructed_delta_S_kB_per_spin": -0.04161284674842212,
+      "exact_delta_S_kB_per_spin": -0.041611185392003903,
+      "delta_S_error_kB_per_spin": -1.6613564182144103e-06,
+      "passes_entropy_target": true,
+      "nodes": [
+        {
+          "lambda": 0.1127016653792583,
+          "states": [
+            {
+              "lambda": 0.1127016653792583,
+              "level": 0,
+              "initial_basis_index": 47,
+              "fidelity": 0.9999999767971647,
+              "exact_V_expectation_K": 0.053909097242033424,
+              "prepared_V_expectation_K": 0.053910719381588,
+              "V_error_K": 1.6221395545759631e-06,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 286,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 560,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999999850503357,
+              "exact_V_expectation_K": 0.20408212978533125,
+              "prepared_V_expectation_K": 0.20408175704695844,
+              "V_error_K": -3.7273837280582534e-07,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 284,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 554,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.1127016653792583,
+              "level": 2,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999999907598096,
+              "exact_V_expectation_K": 0.06686647642910186,
+              "prepared_V_expectation_K": 0.06686638009057946,
+              "V_error_K": -9.633852239565588e-08,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 287,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 557,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        },
+        {
+          "lambda": 0.5,
+          "states": [
+            {
+              "lambda": 0.5,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999998978416174,
+              "exact_V_expectation_K": 0.04873698301609772,
+              "prepared_V_expectation_K": 0.04873754440905278,
+              "V_error_K": 5.61392955060469e-07,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 286,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 553,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.5,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999999358840995,
+              "exact_V_expectation_K": 0.18583755150729986,
+              "prepared_V_expectation_K": 0.1858388499531037,
+              "V_error_K": 1.2984458038489688e-06,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 289,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 551,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.5,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.9999999529834965,
+              "exact_V_expectation_K": 0.06116469314156803,
+              "prepared_V_expectation_K": 0.06116593045496302,
+              "V_error_K": 1.2373133949916681e-06,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 285,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 556,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        },
+        {
+          "lambda": 0.8872983346207417,
+          "states": [
+            {
+              "lambda": 0.8872983346207417,
+              "level": 0,
+              "initial_basis_index": 61,
+              "fidelity": 0.9999997770856555,
+              "exact_V_expectation_K": 0.043563984208399055,
+              "prepared_V_expectation_K": 0.04356438968329334,
+              "V_error_K": 4.054748942855513e-07,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 289,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 549,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 1,
+              "initial_basis_index": 63,
+              "fidelity": 0.9999998354907235,
+              "exact_V_expectation_K": 0.16585340869139822,
+              "prepared_V_expectation_K": 0.1658541988756542,
+              "V_error_K": 7.90184255972104e-07,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 285,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 552,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            },
+            {
+              "lambda": 0.8872983346207417,
+              "level": 2,
+              "initial_basis_index": 47,
+              "fidelity": 0.9999998836832056,
+              "exact_V_expectation_K": 0.055409151504825754,
+              "prepared_V_expectation_K": 0.055410452183702816,
+              "V_error_K": 1.300678877061423e-06,
+              "parameter_count": 90,
+              "all_to_all_cx": 102,
+              "all_to_all_depth": 286,
+              "fake_sherbrooke_ecr": 168,
+              "fake_sherbrooke_depth": 546,
+              "optimizer_iterations": 1200,
+              "optimizer_success": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "recommended_layer": 2,
+  "elapsed_seconds": 247.40117830000236,
+  "scope_limits": [
+    "Exact eigenvectors are fitting targets; this is circuit compression, not scalable state discovery.",
+    "Fake-backend compilation does not establish live-hardware accuracy.",
+    "No IBM service is contacted and no QPU time is consumed."
+  ]
+}

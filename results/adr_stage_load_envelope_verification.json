@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "grid_complete": true,
+    "energy_identity": true,
+    "load_decomposition": true,
+    "universal_mass_multiplier": true,
+    "zero_parasitic_matches_existing_chart": true,
+    "canonical_values": true,
+    "tophat_source_identity": true,
+    "context_not_prediction_scope": true
+  },
+  "failed": [],
+  "status": "PASS"
+}

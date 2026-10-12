@@ -1,0 +1,4 @@
+﻿id,system,refrigerant,operating_temperature_K,parasitic_load_uW,reported_hold_or_observation_s,source_kind,doi_or_url,usage
+schuessler_2026_compact_cadr,compact cryogen-free four-stage cADR sample stage,CPA in the two lowest stages,0.0225,0.2,36000,peer-reviewed primary article,10.1063/5.0302131,context anchor only; not transferred as an NBCP prediction
+tophat_faa_adr,MSAM/Tophat single-stage FAA ADR,FAA,0.1,0.97,138000,official NASA mission technical page,https://lambda.gsfc.nasa.gov/product/suborbit/TOPHAT/topweb.gsfc.nasa.gov/adr.html,context anchor only; not transferred as an NBCP prediction
+bartlett_2015_miniature_adr,fast-response miniature CPA ADR,CPA,0.2,13.14,180,peer-reviewed open-access primary article,10.1016/j.cryogenics.2015.10.004,context anchor only; not transferred as an NBCP prediction

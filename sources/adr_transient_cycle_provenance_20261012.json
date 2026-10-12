@@ -1,0 +1,127 @@
+{
+  "status": "curated public evidence and declared coordinates for a parametric ADR transient-cycle envelope",
+  "created_utc": "2026-10-12",
+  "model_boundary": [
+    "No NBCP device has been built, so no addenda, ramp, heat-switch, or regeneration loss is assigned as a measured NBCP value.",
+    "Transient losses are represented by declared fractions of gross magnetic capacity and are used only to expose design margins.",
+    "The component allocation among addenda, ramp, and switching is bookkeeping for sensitivity analysis, not a probability distribution or a transferred material property.",
+    "Published devices differ in refrigerant, temperature, geometry, thermal interfaces, and architecture; their timing and load values are context anchors only.",
+    "Warm-side heat rejection cannot be inferred from the cold magnetic budget and is reported only as a missing device-level closure quantity."
+  ],
+  "loss_scenarios": [
+    {
+      "id": "zero_loss_bound",
+      "addenda_fraction_of_gross_capacity": 0.0,
+      "ramp_fraction_of_gross_capacity": 0.0,
+      "switch_fraction_of_gross_capacity": 0.0,
+      "total_transient_fraction": 0.0,
+      "meaning": "reproduces the existing reversible steady-hold lower bound"
+    },
+    {
+      "id": "ten_percent_stress",
+      "addenda_fraction_of_gross_capacity": 0.03,
+      "ramp_fraction_of_gross_capacity": 0.02,
+      "switch_fraction_of_gross_capacity": 0.05,
+      "total_transient_fraction": 0.10,
+      "meaning": "declared low-loss sensitivity coordinate"
+    },
+    {
+      "id": "quarter_capacity_stress",
+      "addenda_fraction_of_gross_capacity": 0.10,
+      "ramp_fraction_of_gross_capacity": 0.05,
+      "switch_fraction_of_gross_capacity": 0.10,
+      "total_transient_fraction": 0.25,
+      "meaning": "declared intermediate sensitivity coordinate"
+    },
+    {
+      "id": "half_capacity_stress",
+      "addenda_fraction_of_gross_capacity": 0.20,
+      "ramp_fraction_of_gross_capacity": 0.10,
+      "switch_fraction_of_gross_capacity": 0.20,
+      "total_transient_fraction": 0.50,
+      "meaning": "declared severe sensitivity coordinate"
+    }
+  ],
+  "recycle_time_coordinates_s": [
+    {
+      "value": 82.0,
+      "kind": "measured public anchor",
+      "basis": "Bartlett et al. complete miniature-ADR recycle"
+    },
+    {
+      "value": 390.0,
+      "kind": "derived public anchor",
+      "basis": "midpoint of the published 6-7 min target recycle range for each dADR"
+    },
+    {
+      "value": 1800.0,
+      "kind": "declared sensitivity coordinate",
+      "basis": "not a published NBCP or device prediction"
+    },
+    {
+      "value": 3600.0,
+      "kind": "declared sensitivity coordinate",
+      "basis": "not a published NBCP or device prediction"
+    }
+  ],
+  "mass_cap_coordinates_g": [5.0, 10.0, 25.0, 50.0, 100.0],
+  "public_anchors": [
+    {
+      "id": "bartlett_2015_fast_miniature_adr",
+      "citation": "J. Bartlett, G. Hardy and I. D. Hepburn, Cryogenics 72, 111-121 (2015)",
+      "doi": "10.1016/j.cryogenics.2015.10.004",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1474211/",
+      "license": "CC BY 4.0",
+      "refrigerant": "CPA",
+      "bath_temperature_K": 3.6,
+      "operating_temperature_K": 0.2,
+      "complete_recycle_time_s": 82.0,
+      "hold_time_s": 180.0,
+      "paper_reported_duty_fraction": 0.67,
+      "arithmetic_hold_over_hold_plus_recycle": 0.6870229007633588,
+      "target_recycle_range_s": [360.0, 420.0],
+      "heat_switch_ratio_at_0p2K": 38800.0,
+      "conductivity_reduction_factor_within_5s": 1000.0,
+      "parasitic_load_uW_at_0p2K": 13.14,
+      "heat_switch_share_of_parasitic_load_fraction": 0.82,
+      "subsequent_cycle_total_energy_rejected_to_bath_J": 0.474,
+      "subsequent_cycle_average_heat_rejection_mW": 19.0,
+      "subsequent_cycle_peak_heat_rejection_mW": 45.0,
+      "usage": "cycle-time, switch, duty, and warm-rejection context only"
+    },
+    {
+      "id": "schuessler_2026_compact_cadr",
+      "citation": "P. Schuessler et al., Review of Scientific Instruments 97, 025214 (2026)",
+      "doi": "10.1063/5.0302131",
+      "url": "https://pubs.aip.org/aip/rsi/article/97/2/025214/3381412/A-compact-cryogen-free-continuous-adiabatic",
+      "license": "CC BY 4.0",
+      "continuous_temperature_K": 0.030,
+      "continuous_applied_load_uW": 0.6,
+      "continuous_observation_h": 24.0,
+      "net_cooling_power_uW_at_0p050K": 3.0,
+      "single_shot_first_demagnetization_h": 2.0,
+      "single_shot_warmup_h_from_0p020_to_0p025K": 10.0,
+      "inferred_base_parasitic_load_uW": 0.2,
+      "usage": "architecture and time-scale context only"
+    },
+    {
+      "id": "tophat_faa_adr",
+      "citation": "NASA GSFC LAMBDA, MSAM/Tophat Adiabatic Demagnetization Refrigerator",
+      "url": "https://lambda.gsfc.nasa.gov/product/suborbit/TOPHAT/topweb.gsfc.nasa.gov/adr.html",
+      "refrigerant": "FAA",
+      "operating_temperature_K": 0.1,
+      "hold_time_s": 138000.0,
+      "parasitic_load_uW": 0.97,
+      "reported_cooling_capacity_mJ": 134.0,
+      "usage": "long-hold context and load-times-time identity only"
+    }
+  ],
+  "required_future_measurements": [
+    "Integral of stage and package addenda heat capacity over the actual cool-down path",
+    "Time-resolved off-state heat-switch conduction during demagnetization and hold",
+    "Ramp-rate-dependent eddy-current and hysteretic heating",
+    "Magnetization, thermalization, switching, and demagnetization durations",
+    "Warm-side peak and integrated heat rejection",
+    "Thermal-boundary resistance and refrigerant packing/contact efficiency"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source_article": "https://arxiv.org/abs/2607.23173",
+  "source_eprint": "https://export.arxiv.org/e-print/2607.23173",
+  "source_version": "v1, 2026-07-25",
+  "source_elements": [
+    "Eqs. (6)-(7)",
+    "Figure 7d",
+    "Table I"
+  ],
+  "digitized_fields_T": [
+    1.35,
+    1.4,
+    1.45,
+    1.5,
+    1.55,
+    1.6,
+    1.65
+  ],
+  "digitized_delta_rlu": [
+    0.0,
+    0.0,
+    0.009,
+    0.0138,
+    0.019,
+    0.0226,
+    0.027
+  ],
+  "note": "Values were read from the vector figure.  The 1.45--1.60 T fan points are scored as holdout; the 1.65 T point is reserved for the independent near-Hc consistency check."
+}

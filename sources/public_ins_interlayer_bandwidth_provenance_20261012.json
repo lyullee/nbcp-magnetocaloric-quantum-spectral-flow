@@ -1,0 +1,14 @@
+{
+  "retrieved_utc_date": "2026-10-12",
+  "official_record_url": "https://ora.ox.ac.uk/objects/uuid:b4da68a2-fdd2-42e9-80cd-1f13120b4790",
+  "paper_url": "https://doi.org/10.1103/1pvl-kzjm",
+  "data_doi": "https://doi.org/10.5287/ora-qrd6mzojz",
+  "archive_download_url": "https://ora.ox.ac.uk/objects/uuid:b4da68a2-fdd2-42e9-80cd-1f13120b4790/files/rn870zs79x",
+  "files": {
+    "sources\\raw\\data_archive_NBCPO.zip": "C231F504EBB7773BD7A1ABFE7046B76C47425A9FBD035DF83304A7ED244D0D36",
+    "sources\\raw\\data_archive_NBCPO\\data_archive_NBCPO\\fig17b.xy": "BB7DA73AB85985A09936E863F74F8041A760AF2E10A775DE7F5F5A549AEB3169",
+    "sources\\raw\\data_archive_NBCPO\\data_archive_NBCPO\\fig17c.xye": "F43FC2F5A8A8FAC4EF2046FD64FC59162ED9AD63F594DF806188AC95C734C504",
+    "sources\\raw\\data_archive_NBCPO\\data_archive_NBCPO\\fig17c.xy": "6C576F3CC5F7A20C379701D56EBD3BA7864830C874C26DD4851292541B8BAC56"
+  },
+  "redistribution": "External source files retain their original terms and are excluded from the public release; URLs and hashes permit independent retrieval."
+}

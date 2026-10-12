@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "checks": {
+    "total_row_count": true,
+    "adaptive_row_count": true,
+    "retained_row_count": true,
+    "all_labels_recomputed": true,
+    "initial_sources_unchanged": true,
+    "minimum_matches_summary": true,
+    "maximum_matches_summary": true,
+    "minimum_extreme_independent_multistart": true,
+    "maximum_extreme_independent_multistart": true,
+    "central_engineering_gate_recomputed": true,
+    "constraints_match_declared": true,
+    "figure_outputs_exist": true
+  },
+  "rows_checked": 823,
+  "retained_rows_checked": 69,
+  "independent_minimum_check": {
+    "independent_seed_count": 5,
+    "recalculated": {
+      "critical_field_shift_vs_M3_T": 0.033403908987329034,
+      "delta_inplane_rlu": 0.024196083314144336,
+      "qz_folded_rlu": 0.3303167127024419,
+      "km_line_residual_rlu": 2.4673042034225657e-09
+    },
+    "absolute_differences": {
+      "critical_field_shift_vs_M3_T": 0.0,
+      "delta_inplane_rlu": 1.1837683958071388e-09,
+      "qz_folded_rlu": 2.7189179907516348e-08,
+      "km_line_residual_rlu": 1.8124093353884895e-09
+    },
+    "field_and_mode_match": true,
+    "still_public_q_feasible": true,
+    "multistart_field_spread_T": 0.0001542029199781414
+  },
+  "independent_maximum_check": {
+    "independent_seed_count": 5,
+    "recalculated": {
+      "critical_field_shift_vs_M3_T": 0.20210652482768054,
+      "delta_inplane_rlu": 0.025190665235419574,
+      "qz_folded_rlu": 0.332890959450411,
+      "km_line_residual_rlu": 3.821738443483591e-10
+    },
+    "absolute_differences": {
+      "critical_field_shift_vs_M3_T": 2.220446049250313e-16,
+      "delta_inplane_rlu": 4.418737088035529e-09,
+      "qz_folded_rlu": 3.708497692267443e-08,
+      "km_line_residual_rlu": 2.702271642116627e-09
+    },
+    "field_and_mode_match": true,
+    "still_public_q_feasible": true,
+    "multistart_field_spread_T": 2.220446049250313e-16
+  },
+  "recomputed_central_90mK": {
+    "scenario_count": 276,
+    "both_gates_pass_count": 224
+  }
+}

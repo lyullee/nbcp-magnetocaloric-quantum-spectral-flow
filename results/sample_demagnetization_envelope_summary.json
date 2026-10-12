@@ -1,0 +1,69 @@
+{
+  "status": "PASS: sample shape is a first-order field-coordinate requirement",
+  "model": "equal-volume spheroid, field parallel to c axis",
+  "relation": "B_internal = B_applied - N_z * mu0*M; saturation M gives the reported upper bound",
+  "material_constants": {
+    "g_c": 4.79,
+    "cell_a_A": 5.311999999999999,
+    "cell_c_A": 6.983,
+    "one_effective_spin_half_per_cell": true,
+    "mu0_Ms_T": 0.16356641642641925
+  },
+  "public_B_parallel_c_specific_heat_sample": {
+    "dimensions_mm": [
+      1.87,
+      1.16,
+      0.18
+    ],
+    "field_axis_dimension_mm": 0.18,
+    "equivalent_spheroid_aspect_c_over_a": 0.12221449208805601,
+    "equivalent_spheroid_Nz": 0.834121634515978,
+    "saturation_correction_bound_T": 0.13643428662152593,
+    "fraction_of_1p70T_percent": 8.025546271854466,
+    "source_reported_upper_modification": "<8% for B parallel c",
+    "interpretation": "the simple spheroid reproduces the published correction scale; it is not an exact rectangular-prism correction"
+  },
+  "shape_acceptance_requirements": {
+    "0.010_T": {
+      "minimum_aspect_c_over_inplane_radius": 4.678689436980013,
+      "meaning": "conservative saturation correction <= 0.010 T"
+    },
+    "0.020_T": {
+      "minimum_aspect_c_over_inplane_radius": 2.721881300941775,
+      "meaning": "conservative saturation correction <= 0.020 T"
+    },
+    "0.050_T": {
+      "minimum_aspect_c_over_inplane_radius": 1.1111232578065442,
+      "meaning": "conservative saturation correction <= 0.050 T"
+    }
+  },
+  "sphere_saturation_correction_T": 0.054522138808806415,
+  "unknown_public_1p65g_column": {
+    "mass_g": 1.65,
+    "volume_cm3_from_public_comparison": 0.395,
+    "dimensions_publicly_available": false,
+    "decision": "do not assign an exact applied-field set point until the packed-column dimensions, orientation, and magnetization curve are specified"
+  },
+  "engineering_conclusion": {
+    "0p02T_previous_stopping_band_survives_shape_unknown": false,
+    "reason": "a sphere alone gives a correction above 0.05 T and the public plate-scale bound is about 0.13 T",
+    "actionable_specification": "align the long refrigerant dimension with c and meet the reported aspect ratio requirement, or solve the measured M(B) self-consistently for the actual package geometry"
+  },
+  "sources": [
+    {
+      "citation": "Possible itinerant excitations and quantum spin state transitions in Na2BaCo(PO4)2, Nature Communications 11, 3996 (2020)",
+      "doi": "10.1038/s41467-020-18041-3",
+      "use": "1.87 x 1.16 x 0.18 mm^3 B||c heat-capacity sample and reported <8% demagnetization modification"
+    },
+    {
+      "citation": "Giant magnetocaloric effect in spin supersolid candidate Na2BaCo(PO4)2, Nature 625, 270-275 (2024)",
+      "doi": "10.1038/s41586-023-06885-w",
+      "use": "1.65 g sample-column mass and 0.395 cm^3 comparison volume; exact column dimensions are not reported"
+    }
+  ],
+  "limitations": [
+    "The spheroid is a package-design envelope rather than an exact rectangular-prism solution.",
+    "Saturation magnetization is conservative; a field-dependent correction requires public M(B,T) on the same sample and geometry.",
+    "Porosity, grains, binders, and local fields in a packed pill require an effective-medium or measured correction."
+  ]
+}

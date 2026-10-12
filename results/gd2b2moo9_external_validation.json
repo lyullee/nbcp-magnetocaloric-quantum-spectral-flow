@@ -1,0 +1,174 @@
+{
+  "status": "public second-material external thermodynamic validation",
+  "source": {
+    "citation": "Y. Zhang et al., Refrigeration down to 0.16 K using a frustrated magnet Gd2B2MoO9, Nature Communications 17, 1554 (2026)",
+    "doi": "10.1038/s41467-025-68278-z",
+    "article_url": "https://www.nature.com/articles/s41467-025-68278-z",
+    "source_data_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-68278-z/MediaObjects/41467_2025_68278_MOESM3_ESM.zip",
+    "license": "CC BY-NC-ND 4.0 as stated on the article page",
+    "local_raw_policy": "publisher ZIP and workbook are used locally and excluded from version control; only derived scalar validation results and code are included",
+    "zip_sha256": "1159ca0bc4730734a84dd4272e953d2d99f3b0c28aa493463a4e786ea801b7a9",
+    "zip_bytes": 610388,
+    "workbook_relative_path": "sources/raw/gd2b2moo9_source_data/Data-all.xlsx",
+    "workbook_sha256": "ad6fa90fcde1d60bad4a45a9a1609c6ee62c5fd1a871c1d1701a458480904983",
+    "workbook_bytes": 642609,
+    "sheet": "Fig. 6 Direct measurement",
+    "analysis_definition": {
+      "indirect_curves": "heat-capacity-derived Delta T_ad values at 0.5, 1, 2, and 5 T in workbook columns 19-28",
+      "direct_points": "directly measured Delta T_ad comparison points at the same four fields in workbook columns 32-39",
+      "prediction": "piecewise-linear interpolation of each public indirect curve at the corresponding public direct-point starting temperature",
+      "error": "indirect interpolation minus direct measurement in kelvin"
+    },
+    "scope": [
+      "This is an external thermodynamic-processing validation, not a claim that Gd2B2MoO9 and NBCP share a Hamiltonian or package architecture.",
+      "The twelve comparison points were selected by the source authors and are not an independent random test sample.",
+      "No source curve or raw workbook is redistributed by this repository."
+    ]
+  },
+  "workbook_sha256_observed": "ad6fa90fcde1d60bad4a45a9a1609c6ee62c5fd1a871c1d1701a458480904983",
+  "point_count": 12,
+  "field_T": [
+    0.5,
+    1.0,
+    2.0,
+    5.0
+  ],
+  "mean_absolute_error_K": 0.013801210383537404,
+  "root_mean_square_error_K": 0.01575794670550917,
+  "maximum_absolute_error_K": 0.02763626068590963,
+  "mean_bias_K": -0.011973863660575812,
+  "pearson_correlation": 0.9999304601991987,
+  "per_field": [
+    {
+      "field_T": 0.5,
+      "point_count": 3,
+      "mean_absolute_error_K": 0.009276592911919892,
+      "maximum_absolute_error_K": 0.011290907411209194,
+      "mean_bias_K": -0.009276592911919892
+    },
+    {
+      "field_T": 1.0,
+      "point_count": 3,
+      "mean_absolute_error_K": 0.01512094149776152,
+      "maximum_absolute_error_K": 0.0250547532811069,
+      "mean_bias_K": -0.008683907405722951
+    },
+    {
+      "field_T": 2.0,
+      "point_count": 3,
+      "mean_absolute_error_K": 0.02047628557424777,
+      "maximum_absolute_error_K": 0.02763626068590963,
+      "mean_bias_K": -0.02047628557424777
+    },
+    {
+      "field_T": 5.0,
+      "point_count": 3,
+      "mean_absolute_error_K": 0.01033102155022044,
+      "maximum_absolute_error_K": 0.016888927060765502,
+      "mean_bias_K": -0.009458668750412643
+    }
+  ],
+  "points": [
+    {
+      "field_T": 0.5,
+      "starting_temperature_K": 0.4105,
+      "direct_delta_Tad_K": -0.06651,
+      "indirect_interpolated_delta_Tad_K": -0.0735489390724462,
+      "error_indirect_minus_direct_K": -0.007038939072446196,
+      "absolute_error_K": 0.007038939072446196
+    },
+    {
+      "field_T": 0.5,
+      "starting_temperature_K": 0.2912,
+      "direct_delta_Tad_K": -0.08124,
+      "indirect_interpolated_delta_Tad_K": -0.09073993225210429,
+      "error_indirect_minus_direct_K": -0.009499932252104284,
+      "absolute_error_K": 0.009499932252104284
+    },
+    {
+      "field_T": 0.5,
+      "starting_temperature_K": 0.2368,
+      "direct_delta_Tad_K": -0.0742,
+      "indirect_interpolated_delta_Tad_K": -0.0854909074112092,
+      "error_indirect_minus_direct_K": -0.011290907411209194,
+      "absolute_error_K": 0.011290907411209194
+    },
+    {
+      "field_T": 1.0,
+      "starting_temperature_K": 0.5298,
+      "direct_delta_Tad_K": 0.05279,
+      "indirect_interpolated_delta_Tad_K": 0.027735246718893096,
+      "error_indirect_minus_direct_K": -0.0250547532811069,
+      "absolute_error_K": 0.0250547532811069
+    },
+    {
+      "field_T": 1.0,
+      "starting_temperature_K": 0.3053,
+      "direct_delta_Tad_K": -0.06714,
+      "indirect_interpolated_delta_Tad_K": -0.07779252007411981,
+      "error_indirect_minus_direct_K": -0.010652520074119806,
+      "absolute_error_K": 0.010652520074119806
+    },
+    {
+      "field_T": 1.0,
+      "starting_temperature_K": 0.2088,
+      "direct_delta_Tad_K": -0.1022,
+      "indirect_interpolated_delta_Tad_K": -0.09254444886194214,
+      "error_indirect_minus_direct_K": 0.009655551138057855,
+      "absolute_error_K": 0.009655551138057855
+    },
+    {
+      "field_T": 2.0,
+      "starting_temperature_K": 1.1491,
+      "direct_delta_Tad_K": 0.67209,
+      "indirect_interpolated_delta_Tad_K": 0.6444537393140903,
+      "error_indirect_minus_direct_K": -0.02763626068590963,
+      "absolute_error_K": 0.02763626068590963
+    },
+    {
+      "field_T": 2.0,
+      "starting_temperature_K": 0.7053,
+      "direct_delta_Tad_K": 0.33286,
+      "indirect_interpolated_delta_Tad_K": 0.3091585658914729,
+      "error_indirect_minus_direct_K": -0.023701434108527097,
+      "absolute_error_K": 0.023701434108527097
+    },
+    {
+      "field_T": 2.0,
+      "starting_temperature_K": 0.5035,
+      "direct_delta_Tad_K": 0.1925,
+      "indirect_interpolated_delta_Tad_K": 0.18240883807169342,
+      "error_indirect_minus_direct_K": -0.010091161928306586,
+      "absolute_error_K": 0.010091161928306586
+    },
+    {
+      "field_T": 5.0,
+      "starting_temperature_K": 3.1719,
+      "direct_delta_Tad_K": 2.69489,
+      "indirect_interpolated_delta_Tad_K": 2.682094391609816,
+      "error_indirect_minus_direct_K": -0.012795608390184121,
+      "absolute_error_K": 0.012795608390184121
+    },
+    {
+      "field_T": 5.0,
+      "starting_temperature_K": 2.1263,
+      "direct_delta_Tad_K": 1.75386,
+      "indirect_interpolated_delta_Tad_K": 1.7369710729392345,
+      "error_indirect_minus_direct_K": -0.016888927060765502,
+      "absolute_error_K": 0.016888927060765502
+    },
+    {
+      "field_T": 5.0,
+      "starting_temperature_K": 1.5719,
+      "direct_delta_Tad_K": 1.2609,
+      "indirect_interpolated_delta_Tad_K": 1.2622085291997116,
+      "error_indirect_minus_direct_K": 0.0013085291997116943,
+      "absolute_error_K": 0.0013085291997116943
+    }
+  ],
+  "interpretation": [
+    "Heat-capacity-derived Delta T_ad reproduces the source's twelve direct comparison points to a mean absolute error of about 0.014 K.",
+    "This supports the thermodynamic-processing step on a second frustrated refrigerant with direct demagnetization data.",
+    "It does not validate the NBCP critical-field transport surrogate, microscopic Hamiltonian, or package loss model."
+  ]
+}

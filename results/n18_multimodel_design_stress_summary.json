@@ -1,0 +1,113 @@
+{
+  "status": "preregistered four-model N=18 cover propagated into the cooling-design stress",
+  "scope": "adversarial finite-cluster size sensitivity, not a bulk prediction or confidence interval",
+  "scenario_count": 68,
+  "scenario_definition": "52 N=12-calibrated scenarios plus 16 correlated scenarios from four N=18 M4 models, two experimental anchors, and two mappings",
+  "N18_templates": [
+    {
+      "model_label": "M4-00-N18-cover",
+      "source_model": "M4-00",
+      "sample_id": "761",
+      "residual_peak_shift_after_bulk_alignment_T": 0.2594227295644267,
+      "heat_scale_to_M3": 0.8523726744140943,
+      "left_width_scale_to_M3": 1.0541552422133706,
+      "right_width_scale_to_M3": 1.0541552422133873,
+      "template_origin": "N18_multimodel_size_stress"
+    },
+    {
+      "model_label": "M4-02-N18-cover",
+      "source_model": "M4-02",
+      "sample_id": "188",
+      "residual_peak_shift_after_bulk_alignment_T": 0.24393941869305125,
+      "heat_scale_to_M3": 0.7485122649838674,
+      "left_width_scale_to_M3": 0.9931609203953119,
+      "right_width_scale_to_M3": 0.9931609203953434,
+      "template_origin": "N18_multimodel_size_stress"
+    },
+    {
+      "model_label": "M4-03-N18-cover",
+      "source_model": "M4-03",
+      "sample_id": "738",
+      "residual_peak_shift_after_bulk_alignment_T": 0.24478222395771843,
+      "heat_scale_to_M3": 0.6630188310967873,
+      "left_width_scale_to_M3": 0.9166956538656698,
+      "right_width_scale_to_M3": 0.9166956538657001,
+      "template_origin": "N18_multimodel_size_stress"
+    },
+    {
+      "model_label": "M4-01-N18-cover",
+      "source_model": "M4-01",
+      "sample_id": "773",
+      "residual_peak_shift_after_bulk_alignment_T": 0.2233247410042669,
+      "heat_scale_to_M3": 0.5370380181109364,
+      "left_width_scale_to_M3": 0.9088637626901229,
+      "right_width_scale_to_M3": 0.9088637626901372,
+      "template_origin": "N18_multimodel_size_stress"
+    }
+  ],
+  "peak_support_T": [
+    1.2942982936816978,
+    1.7135781851196843
+  ],
+  "decision_grid": {
+    "start_T": 0.366,
+    "stop_T": 1.8755,
+    "spacing_T": 0.0005,
+    "count": 3020
+  },
+  "baseline_N12_only": {
+    "field_T": 1.366,
+    "worst_regret_percent": 9.423091560842781
+  },
+  "augmented_N12_plus_multimodel_N18": {
+    "field_T": 1.489,
+    "worst_regret_percent": 34.55138474234258
+  },
+  "previous_single_N18_stress": {
+    "field_T": 1.4795,
+    "worst_regret_percent": 32.322698864834656
+  },
+  "measurement_grid": {
+    "start_T": 1.292,
+    "stop_T": 1.716,
+    "spacing_T": 0.004,
+    "count": 107
+  },
+  "per_reading_error_fraction_of_median_Qmax": 0.025,
+  "best_single": {
+    "field_T": 1.432,
+    "worst_regret_percent": 5.291034994699314,
+    "maximum_remaining_scenarios": 27
+  },
+  "exact_best_pair": {
+    "search_space_pairs": 5671,
+    "fields_T": [
+      1.292,
+      1.716
+    ],
+    "worst_regret_percent": 4.245852921151391,
+    "maximum_remaining_scenarios": 12
+  },
+  "former_N12_optimized_pair_retest": {
+    "fields_T": [
+      1.296,
+      1.42
+    ],
+    "worst_regret_percent": 4.32740442708799,
+    "maximum_remaining_scenarios": 22,
+    "still_below_5percent_gate": true
+  },
+  "full_sweep": {
+    "worst_regret_percent": 1.8196653626916743,
+    "maximum_remaining_scenarios": 7
+  },
+  "conditional_90mK_sizing": {
+    "load_uW": 0.1,
+    "hold_minutes": 60.0,
+    "required_energy_mJ": 0.36000000000000004,
+    "minimum_scenario_peak_heat_mJ_per_cm3": 0.2467119045871998,
+    "density_g_per_cm3": 4.206,
+    "magnetic_material_mass_g": 6.137360913059726,
+    "status": "finite-cluster stress value; not a package acceptance mass"
+  }
+}

@@ -49,9 +49,18 @@
       0.12
     ]
   },
+  "optimizer_multistart": {
+    "starts_per_point": 3,
+    "point_specific_seed": "260711 + sample_id",
+    "additional_seeds": [
+      271,
+      27182
+    ],
+    "selection_rule": "largest critical field (first mode to soften on lowering field)"
+  },
   "grid_size": 375,
-  "retained_size": 7,
-  "coverage_fraction_descriptive_not_probability": 0.018666666666666668,
+  "retained_size": 12,
+  "coverage_fraction_descriptive_not_probability": 0.032,
   "M3_critical_field_T": 1.7723974267895588,
   "representative_reproduction": {
     "j2_microev": 2.8,
@@ -77,89 +86,89 @@
   },
   "retained_ranges": {
     "critical_field_shift_vs_M3_T": [
-      0.06832055733723608,
+      0.05364571563568066,
       0.16364951448344
     ],
     "delta_inplane_rlu": [
-      0.024450364716528127,
+      0.024176996075286672,
       0.025245477713472388
     ],
     "qz_folded_rlu": [
-      0.3254444890623249,
-      0.3342885936128259
+      0.32366891616732407,
+      0.3357261994401597
     ],
     "out_of_plane_bandwidth_microeV": [
-      3.7381082210900543,
+      3.4841082210899548,
       5.280108221089648
     ],
     "90mK_delta_B_star_T": [
-      0.05844041834030422,
+      0.045887770622818236,
       0.16364951448344
     ],
     "90mK_regret_percent": [
-      5.131398235030843,
+      3.8133025491330033,
       20.438188499791877
     ]
   },
   "threshold_coverage": {
-    "retained_models_all_90mK_cases_delta_B_at_least_0p05T": true,
-    "retained_models_all_90mK_cases_regret_at_least_5percent": true,
-    "90mK_scenarios_above_both_gates": 28,
-    "90mK_scenario_count": 28
+    "retained_models_all_90mK_cases_delta_B_at_least_0p05T": false,
+    "retained_models_all_90mK_cases_regret_at_least_5percent": false,
+    "90mK_scenarios_above_both_gates": 42,
+    "90mK_scenario_count": 48
   },
   "descriptive_sensitivity_full_grid": {
     "critical_field_shift_vs_M3_T": {
       "j2_microev": {
-        "spearman_rho_descriptive": 0.10345291834796914,
-        "pvalue_descriptive_only": 0.04528002471737057
+        "spearman_rho_descriptive": 0.10272883842952318,
+        "pvalue_descriptive_only": 0.046816519662493145
       },
       "ja_microev": {
-        "spearman_rho_descriptive": 0.5445420132293572,
-        "pvalue_descriptive_only": 2.4480402897887438e-30
+        "spearman_rho_descriptive": 0.5433923819558258,
+        "pvalue_descriptive_only": 3.4166233448159866e-30
       },
       "jb_microev": {
-        "spearman_rho_descriptive": 0.8235192022729689,
-        "pvalue_descriptive_only": 7.386310013520332e-94
+        "spearman_rho_descriptive": 0.8244249723672663,
+        "pvalue_descriptive_only": 3.100286686363798e-94
       },
       "delta_c": {
-        "spearman_rho_descriptive": 0.005364945943146376,
-        "pvalue_descriptive_only": 0.9175299298700327
+        "spearman_rho_descriptive": 0.006061692169529023,
+        "pvalue_descriptive_only": 0.9068653177553635
       }
     },
     "qz_folded_rlu": {
       "j2_microev": {
-        "spearman_rho_descriptive": 0.13700195456929948,
-        "pvalue_descriptive_only": 0.00789067118951148
+        "spearman_rho_descriptive": 0.14000387719591198,
+        "pvalue_descriptive_only": 0.006617600153469899
       },
       "ja_microev": {
-        "spearman_rho_descriptive": -0.2104173603675592,
-        "pvalue_descriptive_only": 4.005104586395577e-05
+        "spearman_rho_descriptive": -0.22129532341629324,
+        "pvalue_descriptive_only": 1.5267319454383602e-05
       },
       "jb_microev": {
-        "spearman_rho_descriptive": -0.6793275707230801,
-        "pvalue_descriptive_only": 4.473239482050541e-52
+        "spearman_rho_descriptive": -0.685824768300186,
+        "pvalue_descriptive_only": 2.0015787871667162e-53
       },
       "delta_c": {
-        "spearman_rho_descriptive": -0.5841694548548703,
-        "pvalue_descriptive_only": 1.091337972650833e-35
+        "spearman_rho_descriptive": -0.5832724272703599,
+        "pvalue_descriptive_only": 1.469859370898019e-35
       }
     },
     "delta_inplane_rlu": {
       "j2_microev": {
-        "spearman_rho_descriptive": -0.05524126377810776,
-        "pvalue_descriptive_only": 0.2859781158377808
+        "spearman_rho_descriptive": -0.09797706953856786,
+        "pvalue_descriptive_only": 0.05802002722381648
       },
       "ja_microev": {
-        "spearman_rho_descriptive": 0.7939249063073659,
-        "pvalue_descriptive_only": 1.3049377038789602e-82
+        "spearman_rho_descriptive": 0.8597065083138148,
+        "pvalue_descriptive_only": 7.160072125968452e-111
       },
       "jb_microev": {
-        "spearman_rho_descriptive": -0.015398091603056484,
-        "pvalue_descriptive_only": 0.7663100712317337
+        "spearman_rho_descriptive": 0.028113711833909028,
+        "pvalue_descriptive_only": 0.5873298656065283
       },
       "delta_c": {
-        "spearman_rho_descriptive": -0.0038843602120832536,
-        "pvalue_descriptive_only": 0.940238998929115
+        "spearman_rho_descriptive": -0.007916779447652822,
+        "pvalue_descriptive_only": 0.8785572927487266
       }
     },
     "out_of_plane_bandwidth_microeV": {

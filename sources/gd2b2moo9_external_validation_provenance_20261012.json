@@ -1,0 +1,25 @@
+{
+  "citation": "Y. Zhang et al., Refrigeration down to 0.16 K using a frustrated magnet Gd2B2MoO9, Nature Communications 17, 1554 (2026)",
+  "doi": "10.1038/s41467-025-68278-z",
+  "article_url": "https://www.nature.com/articles/s41467-025-68278-z",
+  "source_data_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-025-68278-z/MediaObjects/41467_2025_68278_MOESM3_ESM.zip",
+  "license": "CC BY-NC-ND 4.0 as stated on the article page",
+  "local_raw_policy": "publisher ZIP and workbook are used locally and excluded from version control; only derived scalar validation results and code are included",
+  "zip_sha256": "1159ca0bc4730734a84dd4272e953d2d99f3b0c28aa493463a4e786ea801b7a9",
+  "zip_bytes": 610388,
+  "workbook_relative_path": "sources/raw/gd2b2moo9_source_data/Data-all.xlsx",
+  "workbook_sha256": "ad6fa90fcde1d60bad4a45a9a1609c6ee62c5fd1a871c1d1701a458480904983",
+  "workbook_bytes": 642609,
+  "sheet": "Fig. 6 Direct measurement",
+  "analysis_definition": {
+    "indirect_curves": "heat-capacity-derived Delta T_ad values at 0.5, 1, 2, and 5 T in workbook columns 19-28",
+    "direct_points": "directly measured Delta T_ad comparison points at the same four fields in workbook columns 32-39",
+    "prediction": "piecewise-linear interpolation of each public indirect curve at the corresponding public direct-point starting temperature",
+    "error": "indirect interpolation minus direct measurement in kelvin"
+  },
+  "scope": [
+    "This is an external thermodynamic-processing validation, not a claim that Gd2B2MoO9 and NBCP share a Hamiltonian or package architecture.",
+    "The twelve comparison points were selected by the source authors and are not an independent random test sample.",
+    "No source curve or raw workbook is redistributed by this repository."
+  ]
+}

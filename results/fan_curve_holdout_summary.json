@@ -1,0 +1,124 @@
+{
+  "status": "field-dependent fan holdout; relative subsets are descriptive, not confidence sets",
+  "source": "arXiv:2607.23173v1 Eqs. (6)-(7) and source-vector Figure 7d",
+  "retained_model_count": 69,
+  "holdout_fields_T": [
+    1.45,
+    1.5,
+    1.55,
+    1.6
+  ],
+  "holdout_field_ratios": [
+    0.8787878787878788,
+    0.9090909090909092,
+    0.9393939393939394,
+    0.9696969696969698
+  ],
+  "holdout_digitized_delta_rlu": [
+    0.009,
+    0.0138,
+    0.019,
+    0.0226
+  ],
+  "representative_model": {
+    "sample_id": -1,
+    "j2_microev": 2.8,
+    "ja_microev": 0.0,
+    "jb_microev": 7.9,
+    "delta_c": 0.08,
+    "critical_field_T": 1.8676712357447807,
+    "critical_field_shift_vs_M3_T": 0.0952738089552219,
+    "soft_mode_delta_rlu": 0.024826409699414364,
+    "fan_delta_at_0p999_Hc_rlu": 0.02475,
+    "near_hc_internal_difference_rlu": 7.640969941436274e-05,
+    "holdout_mae_rlu": 0.0046812500000000005,
+    "holdout_rmse_rlu": 0.005901337242523935,
+    "holdout_max_abs_rlu": 0.00975,
+    "holdout_mean_signed_residual_rlu": 0.0046812500000000005,
+    "holdout_prediction_rlu": [
+      0.01875,
+      0.02,
+      0.021375,
+      0.023
+    ],
+    "holdout_residual_rlu": [
+      0.00975,
+      0.006200000000000001,
+      0.002375000000000002,
+      0.00040000000000000105
+    ],
+    "monotone_fan_curve": true
+  },
+  "best_model": {
+    "sample_id": 636,
+    "j2_microev": 0.5067392714321614,
+    "ja_microev": -2.202100068703294,
+    "jb_microev": 5.4184973311144855,
+    "delta_c": 0.13485713455826046,
+    "critical_field_T": 1.8087760301741589,
+    "critical_field_shift_vs_M3_T": 0.03637860338460008,
+    "soft_mode_delta_rlu": 0.024205336294267087,
+    "fan_delta_at_0p999_Hc_rlu": 0.024125,
+    "near_hc_internal_difference_rlu": 8.033629426708669e-05,
+    "holdout_mae_rlu": 0.0042,
+    "holdout_rmse_rlu": 0.005471659940091306,
+    "holdout_max_abs_rlu": 0.00925,
+    "holdout_mean_signed_residual_rlu": 0.0040875,
+    "holdout_prediction_rlu": [
+      0.01825,
+      0.019375,
+      0.02075,
+      0.022375
+    ],
+    "holdout_residual_rlu": [
+      0.00925,
+      0.005575,
+      0.0017500000000000016,
+      -0.0002249999999999995
+    ],
+    "monotone_fan_curve": true
+  },
+  "holdout_mae_range_rlu": [
+    0.0042,
+    0.00530625
+  ],
+  "internal_validation": {
+    "all_69_near_hc_fan_vs_soft_mode_within_0p001_rlu": true,
+    "maximum_near_hc_difference_rlu": 0.00015418884674158959,
+    "all_69_monotone_in_declared_fan_window": true
+  },
+  "relative_to_published_representative": {
+    "representative_holdout_mae_rlu": 0.0046812500000000005,
+    "models_no_worse_count": 23,
+    "models_no_worse_shift_range_T": [
+      0.033403908987329034,
+      0.10730382425956964
+    ],
+    "models_no_worse_90mK_central_both_gates": 40,
+    "models_no_worse_90mK_central_case_count": 92,
+    "models_no_worse_90mK_shape_both_gates": 0,
+    "models_no_worse_90mK_shape_case_count": 92,
+    "models_within_extra_0p002_rlu_count": 69,
+    "models_within_extra_0p002_rlu_shift_range_T": [
+      0.033403908987329034,
+      0.20210652482768032
+    ],
+    "warning": "These are relative performance subsets.  The representative model itself has a documented systematic mismatch and is not an experimental acceptance threshold."
+  },
+  "descriptive_association": {
+    "spearman_holdout_mae_vs_critical_field_shift": 0.9403208649957064,
+    "pvalue_descriptive_only": 4.436128014737351e-33
+  },
+  "major_extension_decision": {
+    "pilot_and_full_evaluation_feasible": true,
+    "can_claim_quantitative_curve_fit": false,
+    "can_claim_multi_point_model_discrimination": true,
+    "next_required_component": "add qz(H) and phase-boundary energies before using this holdout to replace the current 69-model engineering envelope"
+  },
+  "interpretation_limits": [
+    "The source paper reports that the representative mean-field curve evolves more slowly than experiment.",
+    "The digitized points are not a substitute for raw reduced diffraction data.",
+    "The fan ansatz is evaluated only in the source-declared fan window; it does not determine the lower V--fan transition.",
+    "The relative subsets must not be called posterior probabilities or confidence intervals."
+  ]
+}

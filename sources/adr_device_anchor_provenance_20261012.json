@@ -1,0 +1,53 @@
+{
+  "status": "curated primary-source metadata for contextual ADR load anchors",
+  "created_utc": "2026-10-12",
+  "scope": [
+    "These are published system-level examples, not NBCP device assumptions or a statistical distribution.",
+    "Temperatures, architectures, refrigerants, and thermal interfaces differ, so the loads must not be transferred as performance predictions.",
+    "Only steady or experimentally inferred parasitic loads are used as plot anchors; transient regeneration and ramp losses remain unmodelled."
+  ],
+  "anchors": [
+    {
+      "id": "schuessler_2026_compact_cadr",
+      "system": "compact cryogen-free four-stage cADR sample stage",
+      "refrigerant": "CPA in the two lowest stages",
+      "operating_temperature_K": 0.0225,
+      "temperature_range_K": [0.020, 0.025],
+      "parasitic_load_uW": 0.20,
+      "reported_hold_or_observation_s": 36000,
+      "source_kind": "peer-reviewed primary article",
+      "citation": "P. Schuessler et al., Review of Scientific Instruments 97, 025214 (2026)",
+      "doi": "10.1063/5.0302131",
+      "url": "https://pubs.aip.org/aip/rsi/article/97/2/025214/3381412/A-compact-cryogen-free-continuous-adiabatic",
+      "evidence_note": "Single-shot sample stage warmed from 20 to 25 mK over 10 h; the inferred base parasitic load was reported to be of order 0.2 microWatt."
+    },
+    {
+      "id": "tophat_faa_adr",
+      "system": "MSAM/Tophat single-stage FAA ADR",
+      "refrigerant": "FAA",
+      "operating_temperature_K": 0.100,
+      "parasitic_load_uW": 0.97,
+      "reported_hold_or_observation_s": 138000,
+      "reported_cooling_capacity_mJ": 134.0,
+      "refrigerant_mass_g": 113.0,
+      "refrigerant_volume_cm3": 51.0,
+      "source_kind": "official NASA mission technical page",
+      "citation": "NASA GSFC LAMBDA, MSAM/Tophat Adiabatic Demagnetization Refrigerator",
+      "url": "https://lambda.gsfc.nasa.gov/product/suborbit/TOPHAT/topweb.gsfc.nasa.gov/adr.html",
+      "evidence_note": "The page reports 0.97 microWatt quiescent load, 134 mJ capacity and 138 ks hold at 100 mK. The heat-load identity gives 133.86 mJ."
+    },
+    {
+      "id": "bartlett_2015_miniature_adr",
+      "system": "fast-response miniature CPA ADR",
+      "refrigerant": "CPA",
+      "operating_temperature_K": 0.200,
+      "parasitic_load_uW": 13.14,
+      "reported_hold_or_observation_s": 180,
+      "source_kind": "peer-reviewed open-access primary article",
+      "citation": "J. Bartlett, G. Hardy and I. D. Hepburn, Cryogenics 72, 111-121 (2015)",
+      "doi": "10.1016/j.cryogenics.2015.10.004",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1474211/",
+      "evidence_note": "The article reports a 3 min hold at 0.2 K with 13.14 microWatt parasitics."
+    }
+  ]
+}

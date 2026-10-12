@@ -1,0 +1,123 @@
+{
+  "status": "published refrigeration source-data audit",
+  "source": {
+    "doi": "10.1038/s41586-023-06885-w",
+    "workbook": "sources/extended_figure_6.xlsx",
+    "sheet_a_b": "demagnetization curves with a label/caption consistency issue",
+    "sheet_d": "temperature-time traces under the source experiment conditions"
+  },
+  "time_trace_rows_safe_for_comparison": [
+    {
+      "material": "NBCP",
+      "source_curve": "NBCP",
+      "mass_g": 1.65,
+      "volume_cm3": 0.395,
+      "below_1K_observed_span_min": 95.95399,
+      "minimum_temperature_K": 0.0941697551170364,
+      "time_trace_points": 3421
+    },
+    {
+      "material": "FAA",
+      "source_curve": "FAA",
+      "mass_g": 0.7,
+      "volume_cm3": 0.409,
+      "below_1K_observed_span_min": 32.156500000040964,
+      "minimum_temperature_K": 0.112929485971108,
+      "time_trace_points": 656
+    },
+    {
+      "material": "CPA",
+      "source_curve": "CPA",
+      "mass_g": 0.76,
+      "volume_cm3": 0.421,
+      "below_1K_observed_span_min": 24.66499999997907,
+      "minimum_temperature_K": 0.111789358546957,
+      "time_trace_points": 1627
+    }
+  ],
+  "sheet_b_raw_extrema_by_workbook_label_not_used_for_ranking": [
+    {
+      "material": "NBCP",
+      "source_curve": "NBCP 1.65 g",
+      "mass_g": 1.65,
+      "volume_cm3": 0.395,
+      "minimum_temperature_K": 0.357022580163819,
+      "field_drop_at_minimum_T": 3.98453783875,
+      "field_at_minimum_T": 0.015462161249999884,
+      "curve_points": 1339
+    },
+    {
+      "material": "CPA",
+      "source_curve": "CPA 0.76 g",
+      "mass_g": 0.76,
+      "volume_cm3": 0.421,
+      "minimum_temperature_K": 0.117900871974969,
+      "field_drop_at_minimum_T": 3.98661303100586,
+      "field_at_minimum_T": 0.013386968994140158,
+      "curve_points": 162
+    },
+    {
+      "material": "FAA",
+      "source_curve": "FAA 0.7 g",
+      "mass_g": 0.7,
+      "volume_cm3": 0.409,
+      "minimum_temperature_K": 0.123787255719026,
+      "field_drop_at_minimum_T": 4.00000150987998,
+      "field_at_minimum_T": -1.509879980154949e-06,
+      "curve_points": 113
+    }
+  ],
+  "caption_consistency_check": {
+    "article_statement": "NBCP reaches approximately 94 mK at about 1.5 T from B0=4 T, T0=2 K",
+    "curve_closest_to_94mK_at_field_drop_about_2p5T": {
+      "workbook_label": "GGG-2-4",
+      "sampled_field_drop_T": 2.50250380859375,
+      "remaining_field_T_assuming_B0_4T": 1.49749619140625,
+      "temperature_K": 0.094097068227703
+    },
+    "all_sheet_a_curves_at_field_drop_about_2p5T": [
+      {
+        "workbook_label": "GGG-4-4",
+        "sampled_field_drop_T": 2.50545234375,
+        "remaining_field_T_assuming_B0_4T": 1.49454765625,
+        "temperature_K": 0.621707512556517
+      },
+      {
+        "workbook_label": "GGG-3-4",
+        "sampled_field_drop_T": 2.50249697265625,
+        "remaining_field_T_assuming_B0_4T": 1.49750302734375,
+        "temperature_K": 0.245488382557477
+      },
+      {
+        "workbook_label": "GGG-2-4",
+        "sampled_field_drop_T": 2.50250380859375,
+        "remaining_field_T_assuming_B0_4T": 1.49749619140625,
+        "temperature_K": 0.094097068227703
+      },
+      {
+        "workbook_label": "NBCP-4-4",
+        "sampled_field_drop_T": 2.5005,
+        "remaining_field_T_assuming_B0_4T": 1.4994999999999998,
+        "temperature_K": 1.07807
+      },
+      {
+        "workbook_label": "NBCP-3-4",
+        "sampled_field_drop_T": 2.5,
+        "remaining_field_T_assuming_B0_4T": 1.5,
+        "temperature_K": 0.76126453865899
+      },
+      {
+        "workbook_label": "NBCP-2-4",
+        "sampled_field_drop_T": 2.49946582,
+        "remaining_field_T_assuming_B0_4T": 1.5005341799999998,
+        "temperature_K": 0.481948101444572
+      }
+    ],
+    "labels_consistent_with_article_statement": false
+  },
+  "interpretation": [
+    "Sheet-a/b workbook labels do not reproduce the identifiable article benchmark and are not used for a material ranking.",
+    "The below-1 K span is the time between the first and last sampled values below 1 K.",
+    "The comparison establishes material promise but does not determine a robust terminal field, field tolerance, or full-device inventory."
+  ]
+}

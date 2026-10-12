@@ -1,0 +1,94 @@
+{
+  "status": "deterministic expanded Sobol stress design; not a probability distribution",
+  "seed": 261012,
+  "optimizer_multistart": {
+    "starts_per_point": 3,
+    "point_specific_seed": "261012 + sample_id",
+    "additional_seeds": [
+      271,
+      27182
+    ],
+    "selection_rule": "largest critical field (first mode to soften on lowering field)"
+  },
+  "point_count": 256,
+  "bounds": {
+    "j2_microev": [
+      0.0,
+      5.6
+    ],
+    "ja_microev": [
+      -4.2,
+      4.2
+    ],
+    "jb_microev": [
+      1.975,
+      13.825
+    ],
+    "delta_c": [
+      0.02,
+      0.14
+    ]
+  },
+  "original_box": {
+    "j2_microev": [
+      1.4,
+      4.2
+    ],
+    "ja_microev": [
+      -2.8,
+      2.8
+    ],
+    "jb_microev": [
+      3.95,
+      11.85
+    ],
+    "delta_c": [
+      0.04,
+      0.12
+    ]
+  },
+  "constraint_counts": {
+    "delta": 224,
+    "qz": 4,
+    "km": 256,
+    "all": 4
+  },
+  "retained_count": 4,
+  "retained_outside_original_box": 2,
+  "retained_ranges": {
+    "critical_field_shift_vs_M3_T": [
+      0.07259719075801518,
+      0.14757413094718363
+    ],
+    "delta_inplane_rlu": [
+      0.024727791363547837,
+      0.025273769025646976
+    ],
+    "qz_folded_rlu": [
+      0.3239147797741114,
+      0.3368779629100693
+    ],
+    "out_of_plane_bandwidth_microeV": [
+      3.456471139758261,
+      5.725336650876498
+    ],
+    "90mK_delta_B_star_T": [
+      0.062098588822796064,
+      0.14757413094718363
+    ],
+    "90mK_regret_percent": [
+      5.6815980075986765,
+      18.329070325753893
+    ]
+  },
+  "central_shape_threshold_coverage": {
+    "scenario_count": 16,
+    "both_gates_pass_count": 16,
+    "all_pass": true
+  },
+  "interpretation_limits": [
+    "Sobol coverage is space filling but finite and cannot prove that no disconnected admissible region exists.",
+    "Retained fractions are deterministic design coverage, not probabilities.",
+    "The near-saturation wavevector does not validate the full finite-temperature entropy."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "model_count_69": true,
+    "curve_count_69_times_16": true,
+    "each_model_has_16_curve_points": true,
+    "all_curves_monotone": true,
+    "near_hc_internal_max_below_0p001": true,
+    "best_sample_matches_summary": true,
+    "best_mae_matches_summary": true,
+    "relative_subset_count_matches": true,
+    "relative_subset_shift_min_matches": true,
+    "relative_subset_shift_max_matches": true,
+    "spearman_matches": true,
+    "spearman_pvalue_matches": true,
+    "provenance_exists": true
+  },
+  "recomputed": {
+    "model_count": 69,
+    "curve_count": 1104,
+    "best_sample_id": 636,
+    "best_mae_rlu": 0.0042,
+    "relative_subset_count": 23,
+    "relative_subset_shift_range_T": [
+      0.033403908987329034,
+      0.10730382425956964
+    ],
+    "spearman_rho": 0.9403208649957064
+  }
+}

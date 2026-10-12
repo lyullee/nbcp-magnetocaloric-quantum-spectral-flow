@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "verified": {
+    "N18_peak_shift_T": 0.42543126583194724,
+    "N18_peak_heat_ratio": 0.5370380181109364,
+    "N18_over_N12_shift_amplification": 4.254312658319469,
+    "cold_cutoff_max_abs_kB_per_spin": 7.235701388358384e-05,
+    "hot_last_cutoff_change_max_abs_kB_per_spin": 0.004366567715216832
+  }
+}

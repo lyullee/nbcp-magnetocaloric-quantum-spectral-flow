@@ -1,0 +1,53 @@
+{
+  "status": "expanded Sobol models under declared 90 mK shape stress",
+  "model_count": 4,
+  "scenario_count": 1296,
+  "pass_count": 1170,
+  "pass_fraction_descriptive_not_probability": 0.9027777777777778,
+  "central_scenario_count": 16,
+  "central_pass_count": 16,
+  "central_all_pass": true,
+  "by_interlayer_shift": [
+    {
+      "critical_field_shift_vs_M3_T": 0.07259719075801518,
+      "scenario_count": 324,
+      "pass_count": 216,
+      "pass_fraction_descriptive_not_probability": 0.6666666666666666,
+      "minimum_delta_B_star_T": 0.042098588822796046,
+      "minimum_regret_percent": 2.5854622704412233,
+      "all_shape_scenarios_pass": false
+    },
+    {
+      "critical_field_shift_vs_M3_T": 0.09813875098320457,
+      "scenario_count": 324,
+      "pass_count": 306,
+      "pass_fraction_descriptive_not_probability": 0.9444444444444444,
+      "minimum_delta_B_star_T": 0.06394647067270909,
+      "minimum_regret_percent": 4.594825386997309,
+      "all_shape_scenarios_pass": false
+    },
+    {
+      "critical_field_shift_vs_M3_T": 0.13418610968698763,
+      "scenario_count": 324,
+      "pass_count": 324,
+      "pass_fraction_descriptive_not_probability": 1.0,
+      "minimum_delta_B_star_T": 0.09478086085945248,
+      "minimum_regret_percent": 8.591027697324543,
+      "all_shape_scenarios_pass": true
+    },
+    {
+      "critical_field_shift_vs_M3_T": 0.14757413094718363,
+      "scenario_count": 324,
+      "pass_count": 324,
+      "pass_fraction_descriptive_not_probability": 1.0,
+      "minimum_delta_B_star_T": 0.10623278095039579,
+      "minimum_regret_percent": 9.471486309818463,
+      "all_shape_scenarios_pass": true
+    }
+  ],
+  "minimum_shift_with_all_shape_scenarios_passing_T": 0.13418610968698763,
+  "limitations": [
+    "Sobol and deformation fractions are deterministic coverage, not probabilities.",
+    "The transported profile remains a surrogate rather than an M4 finite-temperature solution."
+  ]
+}

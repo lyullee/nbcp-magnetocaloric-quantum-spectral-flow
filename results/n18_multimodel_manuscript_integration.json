@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "source_results": [
+    "results/n18_multimodel_cover_summary.json",
+    "results/n18_multimodel_design_stress_summary.json",
+    "results/n18_multimodel_convergence_protocol_amendment.json"
+  ],
+  "abstract_words": 206,
+  "highlight_character_counts": [
+    65,
+    62,
+    50,
+    50,
+    62
+  ],
+  "reported": {
+    "N18_shift_range_T": [
+      0.2928266385517557,
+      0.42543126583194724
+    ],
+    "major_change_model_count": 4,
+    "scenario_count": 68,
+    "minimax_field_T": 1.489,
+    "minimax_regret_percent": 34.55138474234258,
+    "best_pair_T": [
+      1.292,
+      1.716
+    ],
+    "best_pair_regret_percent": 4.245852921151391
+  },
+  "updated_files": {
+    "manuscript\\Manuscript_draft_20261012.md": "bf6031004c9bbf0a6f894224a5b6c9e315b9f8d0339c63b1f4da87da764bdc11",
+    "manuscript\\Manuscript_Cryogenics_20261012.md": "6428d408bdd2a67f51cc5ec4b4f235b52e810022c901e0a733b31f36223cfc21",
+    "manuscript\\Supplementary_Information_draft_20261012.md": "ab782a95a7575543e01a4e7c6b09da68e060c1c0628e5b19a1ba80fcdd870ac5",
+    "manuscript\\Supplementary_Information_Cryogenics_20261012.md": "3730b17075e7964ca0d3b6ba495405abf6741d76bd9367f62e7814992a50f9d5",
+    "manuscript\\Cryogenics_Cover_Letter_Draft_20261012.md": "7078c8c8d5e259aad764e39b44ce299f468e2e8b41a37be3c19145fb3121b732",
+    "manuscript\\Cryogenics_Highlights_20261012.txt": "18f93831d8a06cbd5d3568495bc89fd4c95bd1c103b875407b7b4527873d9140",
+    "README.md": "f101d2e797318a5bfa3e3c0474b1fbcb9e673a4037939142ef7d7d32d149a462",
+    "REPRODUCE.md": "d11999a9c27e140063b3c40208262f7af9e5a728f88b63f5102bc2aba927828e"
+  }
+}

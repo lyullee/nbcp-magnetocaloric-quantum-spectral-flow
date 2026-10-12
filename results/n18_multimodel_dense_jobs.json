@@ -1,0 +1,32 @@
+[
+  {
+    "model": "M3",
+    "pid": 12508,
+    "stdout": "results\\n18_M3_dense_stdout.log",
+    "stderr": "results\\n18_M3_dense_stderr.log"
+  },
+  {
+    "model": "M4-00",
+    "pid": 22132,
+    "stdout": "results\\n18_M400_dense_stdout.log",
+    "stderr": "results\\n18_M400_dense_stderr.log"
+  },
+  {
+    "model": "M4-02",
+    "pid": 17884,
+    "stdout": "results\\n18_M402_dense_stdout.log",
+    "stderr": "results\\n18_M402_dense_stderr.log"
+  },
+  {
+    "model": "M4-03",
+    "pid": 26512,
+    "stdout": "results\\n18_M403_dense_stdout.log",
+    "stderr": "results\\n18_M403_dense_stderr.log"
+  },
+  {
+    "model": "M4-01",
+    "pid": 10388,
+    "stdout": "results\\n18_M401_dense_stdout.log",
+    "stderr": "results\\n18_M401_dense_stderr.log"
+  }
+]
